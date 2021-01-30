@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "hhargreaves_201103_ecl1040_ps5_detail_26377.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
