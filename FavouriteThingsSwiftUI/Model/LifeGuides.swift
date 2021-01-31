@@ -17,7 +17,11 @@ import Foundation
 struct LifeGuides {
     
     var list: [LifeGuide] = []
-    
+    static var example = LifeGuide(name: "test 1", description: "This is test 1 content", warning: "1 is dangerous", imageName: "system1", subTopics: [
+        
+        LifeGuide(name: "sub 1", description: "This is sub 1 content", warning: "sub 1 is dangerous", imageName: "systemsub1")
+                                                                            
+])
     init() {
         
         list.append(LifeGuide(name: "test 1", description: "This is test 1 content", warning: "1 is dangerous", imageName: "system1", subTopics: [

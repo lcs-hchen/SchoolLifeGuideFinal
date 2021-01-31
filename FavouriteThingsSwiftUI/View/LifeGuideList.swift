@@ -8,7 +8,8 @@
 import SwiftUI
 import UIKit
 
-struct ContentView: View {
+struct LifeGuideList: View {
+    
     let lifeGuide = LifeGuides()
     @State private var searchText: String = ""
     var body: some View {
@@ -17,9 +18,9 @@ struct ContentView: View {
             SearchBar(text: $searchText, placeholderText: "Search")
             List(lifeGuide.list){
        
-                thing in
-                NavigationLink(thing.imageName, destination: ThingDetailView(lifeGuide: thing))
-            }.navigationTitle("Favourite Things")
+                data in
+                NavigationLink(data.name, destination: LifeGuideDetailView(lifeGuide: data))
+            }.navigationTitle("School Life Guide")
         }
 
         
@@ -27,10 +28,10 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LifeGuideList_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
-            ContentView()
+            LifeGuideList()
         }
         
     }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ThingDetailView: View {
+struct LifeGuideDetailView: View {
     
     let lifeGuide: LifeGuide
     var body: some View {
@@ -25,7 +25,7 @@ struct ThingDetailView: View {
                 List(lifeGuide.subTopics){
                 
                     thing in
-                    NavigationLink(thing.imageName, destination: ThingDetailView(lifeGuide: thing))
+                    NavigationLink(thing.imageName, destination: LifeGuideDetailView(lifeGuide: thing))
                 }}
                 
         }.navigationTitle(lifeGuide.name)
@@ -33,3 +33,11 @@ struct ThingDetailView: View {
 }
 
 
+struct LifeGuideDetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationView{
+            LifeGuideDetailView(lifeGuide: LifeGuides.example)
+        }
+        
+    }
+}

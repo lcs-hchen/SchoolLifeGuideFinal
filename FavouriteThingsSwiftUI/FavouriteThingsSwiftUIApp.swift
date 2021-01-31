@@ -13,7 +13,7 @@ struct FavouriteThingsSwiftUIApp: App {
         WindowGroup {
             
             NavigationView{
-                ContentView()
+                LifeGuideList()
             }
             
         }
