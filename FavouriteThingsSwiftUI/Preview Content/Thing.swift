@@ -7,17 +7,14 @@
 
 import Foundation
 
-struct Thing:Identifiable {
-    
+struct LifeGuide: Identifiable {
     
     let id = UUID()
-    let title:String
-    let imageName: String
+    let name: String
     let description: String
+    var warning: String
+    var imageName: String
     
+    var subTopics: [LifeGuide] = []
     
-    // A sub-list of related favourite things
-    // An example of recursion
-    var relatedThings: [Thing] = [] // Empty list by default, and stops the recursion
-    // Not usually permitted unless it is an array
 }

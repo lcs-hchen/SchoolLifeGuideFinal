@@ -14,18 +14,22 @@
 		9C39ED2C25A8EA0100DB7C73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39ED2B25A8EA0100DB7C73 /* ContentView.swift */; };
 		9C39ED2E25A8EA0700DB7C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39ED2D25A8EA0700DB7C73 /* Assets.xcassets */; };
 		9C39ED3125A8EA0700DB7C73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39ED3025A8EA0700DB7C73 /* Preview Assets.xcassets */; };
+		9C905D1F25C624A200D3040E /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C905D1E25C624A200D3040E /* SearchBarView.swift */; };
+		9C905D2225C6296D00D3040E /* SearchBarView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C905D2125C6296D00D3040E /* SearchBarView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C1DC75125ACD14C007D359A /* ThingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingDetailView.swift; sourceTree = "<group>"; };
 		9C1DC75B25ACDF94007D359A /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
 		9C1DC75F25ACE068007D359A /* Things.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Things.swift; sourceTree = "<group>"; };
-		9C39ED2625A8EA0100DB7C73 /* FavouriteThingsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThingsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C39ED2625A8EA0100DB7C73 /* SchoolLifeGuideNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolLifeGuideNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C39ED2925A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsSwiftUIApp.swift; sourceTree = "<group>"; };
 		9C39ED2B25A8EA0100DB7C73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C39ED2D25A8EA0700DB7C73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C39ED3025A8EA0700DB7C73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9C39ED3225A8EA0700DB7C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C905D1E25C624A200D3040E /* SearchBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		9C905D2125C6296D00D3040E /* SearchBarView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +54,7 @@
 		9C39ED2725A8EA0100DB7C73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C39ED2625A8EA0100DB7C73 /* FavouriteThingsSwiftUI.app */,
+				9C39ED2625A8EA0100DB7C73 /* SchoolLifeGuideNew.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +78,8 @@
 				9C1DC75125ACD14C007D359A /* ThingDetailView.swift */,
 				9C1DC75B25ACDF94007D359A /* Thing.swift */,
 				9C1DC75F25ACE068007D359A /* Things.swift */,
+				9C905D1E25C624A200D3040E /* SearchBarView.swift */,
+				9C905D2125C6296D00D3040E /* SearchBarView2.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -81,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C39ED2525A8EA0100DB7C73 /* FavouriteThingsSwiftUI */ = {
+		9C39ED2525A8EA0100DB7C73 /* SchoolLifeGuideNew */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C39ED3525A8EA0700DB7C73 /* Build configuration list for PBXNativeTarget "FavouriteThingsSwiftUI" */;
+			buildConfigurationList = 9C39ED3525A8EA0700DB7C73 /* Build configuration list for PBXNativeTarget "SchoolLifeGuideNew" */;
 			buildPhases = (
 				9C39ED2225A8EA0100DB7C73 /* Sources */,
 				9C39ED2325A8EA0100DB7C73 /* Frameworks */,
@@ -93,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = FavouriteThingsSwiftUI;
+			name = SchoolLifeGuideNew;
 			productName = FavouriteThingsSwiftUI;
-			productReference = 9C39ED2625A8EA0100DB7C73 /* FavouriteThingsSwiftUI.app */;
+			productReference = 9C39ED2625A8EA0100DB7C73 /* SchoolLifeGuideNew.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C39ED2125A8EA0100DB7C73 /* Build configuration list for PBXProject "FavouriteThingsSwiftUI" */;
+			buildConfigurationList = 9C39ED2125A8EA0100DB7C73 /* Build configuration list for PBXProject "SchoolLifeGuideNew" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C39ED2525A8EA0100DB7C73 /* FavouriteThingsSwiftUI */,
+				9C39ED2525A8EA0100DB7C73 /* SchoolLifeGuideNew */,
 			);
 		};
 /* End PBXProject section */
@@ -150,7 +156,9 @@
 				9C39ED2C25A8EA0100DB7C73 /* ContentView.swift in Sources */,
 				9C39ED2A25A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift in Sources */,
 				9C1DC75225ACD14C007D359A /* ThingDetailView.swift in Sources */,
+				9C905D2225C6296D00D3040E /* SearchBarView2.swift in Sources */,
 				9C1DC76025ACE068007D359A /* Things.swift in Sources */,
+				9C905D1F25C624A200D3040E /* SearchBarView.swift in Sources */,
 				9C1DC75C25ACDF94007D359A /* Thing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C39ED2125A8EA0100DB7C73 /* Build configuration list for PBXProject "FavouriteThingsSwiftUI" */ = {
+		9C39ED2125A8EA0100DB7C73 /* Build configuration list for PBXProject "SchoolLifeGuideNew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C39ED3325A8EA0700DB7C73 /* Debug */,
@@ -330,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C39ED3525A8EA0700DB7C73 /* Build configuration list for PBXNativeTarget "FavouriteThingsSwiftUI" */ = {
+		9C39ED3525A8EA0700DB7C73 /* Build configuration list for PBXNativeTarget "SchoolLifeGuideNew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C39ED3625A8EA0700DB7C73 /* Debug */,

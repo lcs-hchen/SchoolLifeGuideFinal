@@ -6,31 +6,22 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
-    let favouriteThings = Things()
-    
+    let lifeGuide = LifeGuides()
+    @State private var searchText: String = ""
     var body: some View {
-        // Iterate over favouriteThings.list and each time it loops the next favourite thing is placed in "things"
-        //
-        List(favouriteThings.list){
-        // This is a loop, iterate from the array
-            // Closures: a block of code
-            // is a function without a name
-            // List View accepts an array and a closure
-            // This is a trailing closure
-            // thing --- a name
-            thing in
-            NavigationLink(thing.imageName, destination: ThingDetailView(thingToShow: thing))
-        }.navigationTitle("Favourite Things")
-//        List{
-//            NavigationLink("Basketball", destination: BasketballView())
-//            NavigationLink("Sushi", destination: SushiView())
-//            NavigationLink("Netflix",destination: NetflixView())
-//
-//
-//        }.navigationTitle("Favourite Things")
-//
+      
+        VStack {
+            SearchBar(text: $searchText, placeholderText: "Search")
+            List(lifeGuide.list){
+       
+                thing in
+                NavigationLink(thing.imageName, destination: ThingDetailView(lifeGuide: thing))
+            }.navigationTitle("Favourite Things")
+        }
+
         
         
     }

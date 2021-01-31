@@ -9,31 +9,27 @@ import SwiftUI
 
 struct ThingDetailView: View {
     
-    let thingToShow: Thing
+    let lifeGuide: LifeGuide
     var body: some View {
         ScrollView{
-            Image(thingToShow.imageName).resizable()
+            Image(lifeGuide.imageName).resizable()
                 .scaledToFit()
                 .padding(.horizontal)
            
             
-            Text(thingToShow.description).padding([.leading, .bottom, .trailing])
+            Text(lifeGuide.description).padding([.leading, .bottom, .trailing])
             
             // If there are any related things, show them
             
-            if thingToShow.relatedThings.count > 0 {
-                List(thingToShow.relatedThings){
+            if lifeGuide.subTopics.count > 0 {
+                List(lifeGuide.subTopics){
                 
                     thing in
-                    NavigationLink(thing.imageName, destination: ThingDetailView(thingToShow: thing))
+                    NavigationLink(thing.imageName, destination: ThingDetailView(lifeGuide: thing))
                 }}
                 
-        }.navigationTitle(thingToShow.title)
+        }.navigationTitle(lifeGuide.name)
     }
 }
 
-//struct ThingDetailView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ThingDetailView()
-//    }
-//}
+
