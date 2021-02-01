@@ -13,6 +13,8 @@ struct Issue: Identifiable {
     var question: String
     var answerText: String
     var systemImageName: String
+    var detailViewTitle: String
+    
     var answerImageName: String?
     
 }

@@ -18,7 +18,7 @@ struct FAQsView: View {
             
             List(questions.list) { question in
                 
-                NavigationLink(destination: FAQsDetailView()) {
+                NavigationLink(destination: FAQsDetailView(question: question)) {
                     
                     Image(systemName: question.systemImageName)
                     Text(question.question)

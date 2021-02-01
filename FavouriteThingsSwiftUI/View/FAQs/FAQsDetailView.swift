@@ -8,13 +8,25 @@
 import SwiftUI
 
 struct FAQsDetailView: View {
+    
+    let question: Issue
+    
     var body: some View {
-        Text("Hello, World!")
+        ScrollView {
+            Text(question.answerText)
+                .padding(.horizontal)
+                .foregroundColor(.green)
+        }.navigationTitle(question.detailViewTitle)
+    
+        
     }
 }
 
 struct FAQsDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FAQsDetailView()
+        NavigationView{
+            FAQsDetailView(question: sampleIssue)
+        }
+       
     }
 }
