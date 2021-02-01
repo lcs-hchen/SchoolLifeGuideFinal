@@ -17,6 +17,7 @@
 		9C905D1F25C624A200D3040E /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C905D1E25C624A200D3040E /* SearchBarView.swift */; };
 		9C905D2225C6296D00D3040E /* SearchBarView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C905D2125C6296D00D3040E /* SearchBarView2.swift */; };
 		9CA7116B25C788350041436C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA7116A25C788350041436C /* Launch Screen.storyboard */; };
+		9CA7116F25C7B1680041436C /* FAQsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7116E25C7B1680041436C /* FAQsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9C905D1E25C624A200D3040E /* SearchBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		9C905D2125C6296D00D3040E /* SearchBarView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView2.swift; sourceTree = "<group>"; };
 		9CA7116A25C788350041436C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9CA7116E25C7B1680041436C /* FAQsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		9C905D2825C75FC300D3040E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9CA7116E25C7B1680041436C /* FAQsView.swift */,
 				9C39ED2B25A8EA0100DB7C73 /* LifeGuideList.swift */,
 				9C1DC75125ACD14C007D359A /* LifeGuideDetailView.swift */,
 				9C905D1E25C624A200D3040E /* SearchBarView.swift */,
@@ -180,6 +183,7 @@
 				9C1DC76025ACE068007D359A /* LifeGuides.swift in Sources */,
 				9C905D1F25C624A200D3040E /* SearchBarView.swift in Sources */,
 				9C1DC75C25ACDF94007D359A /* LifeGuide.swift in Sources */,
+				9CA7116F25C7B1680041436C /* FAQsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

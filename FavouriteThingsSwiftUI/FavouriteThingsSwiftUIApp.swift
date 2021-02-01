@@ -11,10 +11,36 @@ import SwiftUI
 struct FavouriteThingsSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            
-            NavigationView{
-                LifeGuideList()
+            TabView {
+                
+                NavigationView {
+                    FAQsView()
+                }.tabItem {
+                    Image(systemName: "questionmark.circle")
+                    Text("FAQs")
+                }
+                
+                
+                NavigationView {
+                    LifeGuideList()
+                }.tabItem {
+                    
+                    VStack {
+                        Image(systemName: "tortoise.fill")
+                        Text("Content")
+                    }
+                    
+                    
+                }
+                
+                
+                
+                
+                
+                
+                
             }
+            
             
         }
     }
