@@ -1,5 +1,5 @@
 //
-//  FAQsView.swift
+//  FAQsDetailView.swift
 //  SchoolLifeGuideNew
 //
 //  Created by Chen, Sihan on 2021-01-31.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct FAQsView: View {
+struct FAQsDetailView: View {
     var body: some View {
-        Text("FAQ page")
+        Text("Hello, World!")
     }
 }
 
-struct FAQsView_Previews: PreviewProvider {
+struct FAQsDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FAQsView()
+        FAQsDetailView()
     }
 }
