@@ -12,8 +12,8 @@ struct LifeGuide: Identifiable {
     let id = UUID()
     let name: String
     let description: String
-    var warning: String
-    var imageName: String
+    var warning: String?
+    var imageName: String?
     
     var subTopics: [LifeGuide] = []
     

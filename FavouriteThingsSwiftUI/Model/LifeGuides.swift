@@ -8,11 +8,7 @@
 import Foundation
 
 
-// A class does not automatically generate an initializer, a structure does
-// We can do this manually by choosing:
-// Editor > Refactor > Generate Memberwise Initializer
-// use structure unless you have a reason to use a class
-import Foundation
+
 
 struct LifeGuides {
     

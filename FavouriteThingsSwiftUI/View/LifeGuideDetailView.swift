@@ -12,9 +12,12 @@ struct LifeGuideDetailView: View {
     let lifeGuide: LifeGuide
     var body: some View {
         ScrollView{
-            Image(lifeGuide.imageName).resizable()
-                .scaledToFit()
-                .padding(.horizontal)
+            if let imageName = lifeGuide.imageName {
+                Image(imageName).resizable()
+                    .scaledToFit()
+                    .padding(.horizontal)
+            }
+           
            
             
             Text(lifeGuide.description).padding([.leading, .bottom, .trailing])
@@ -25,7 +28,7 @@ struct LifeGuideDetailView: View {
                 List(lifeGuide.subTopics){
                 
                     thing in
-                    NavigationLink(thing.imageName, destination: LifeGuideDetailView(lifeGuide: thing))
+                    NavigationLink(thing.name, destination: LifeGuideDetailView(lifeGuide: thing))
                 }}
                 
         }.navigationTitle(lifeGuide.name)
