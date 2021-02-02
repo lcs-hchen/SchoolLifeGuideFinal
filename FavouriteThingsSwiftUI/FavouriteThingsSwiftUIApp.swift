@@ -12,6 +12,21 @@ struct FavouriteThingsSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             TabView {
+               
+                NavigationView {
+                    HomeView()
+                }.tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Home")
+                }
+                
+                
+                NavigationView {
+                    LibraryView()
+                }.tabItem {
+                    Image(systemName: "folder.fill")
+                    Text("Library")
+                }
                 
                 NavigationView {
                     FAQsView()
@@ -19,6 +34,7 @@ struct FavouriteThingsSwiftUIApp: App {
                     Image(systemName: "questionmark.circle")
                     Text("FAQs")
                 }
+                
                 
                 
                 NavigationView {

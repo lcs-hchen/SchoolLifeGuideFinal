@@ -20,8 +20,10 @@ struct FAQsView: View {
                 
                 NavigationLink(destination: FAQsDetailView(question: question)) {
                     
-                    Image(systemName: question.systemImageName)
-                    Text(question.question)
+                    
+                    Label(question.question, systemImage: question.systemImageName)
+//                    Image(systemName: question.systemImageName)
+//                    Text(question.question)
                     
                 
             }
