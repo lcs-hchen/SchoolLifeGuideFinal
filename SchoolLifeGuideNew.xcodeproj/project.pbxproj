@@ -10,6 +10,7 @@
 		9C1DC75225ACD14C007D359A /* LifeGuideDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75125ACD14C007D359A /* LifeGuideDetailView.swift */; };
 		9C1DC75C25ACDF94007D359A /* LifeGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75B25ACDF94007D359A /* LifeGuide.swift */; };
 		9C1DC76025ACE068007D359A /* LifeGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75F25ACE068007D359A /* LifeGuides.swift */; };
+		9C28FA9F25CB61CB007E82F4 /* Comic Sans MS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C28FA9E25CB61B6007E82F4 /* Comic Sans MS.ttf */; };
 		9C346AA125CA673500F42AEE /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C346AA025CA673500F42AEE /* HexagonParameters.swift */; };
 		9C346AA425CA68C900F42AEE /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C346AA325CA68C900F42AEE /* BadgeBackground.swift */; };
 		9C39ED2A25A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39ED2925A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift */; };
@@ -32,6 +33,7 @@
 		9C1DC75125ACD14C007D359A /* LifeGuideDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuideDetailView.swift; sourceTree = "<group>"; };
 		9C1DC75B25ACDF94007D359A /* LifeGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuide.swift; sourceTree = "<group>"; };
 		9C1DC75F25ACE068007D359A /* LifeGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuides.swift; sourceTree = "<group>"; };
+		9C28FA9E25CB61B6007E82F4 /* Comic Sans MS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comic Sans MS.ttf"; sourceTree = "<group>"; };
 		9C346AA025CA673500F42AEE /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		9C346AA325CA68C900F42AEE /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		9C39ED2625A8EA0100DB7C73 /* SchoolLifeGuideNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolLifeGuideNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +92,7 @@
 				9C39ED2F25A8EA0700DB7C73 /* Preview Content */,
 				9C39ED3225A8EA0700DB7C73 /* Info.plist */,
 				9C39ED2D25A8EA0700DB7C73 /* Assets.xcassets */,
+				9C28FA9E25CB61B6007E82F4 /* Comic Sans MS.ttf */,
 				9C70C99525C8FBF500345ECD /* mod_05_aie_demand-video.mp4 */,
 			);
 			path = FavouriteThingsSwiftUI;
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C70C99625C8FBF500345ECD /* mod_05_aie_demand-video.mp4 in Resources */,
+				9C28FA9F25CB61CB007E82F4 /* Comic Sans MS.ttf in Resources */,
 				9CA7116B25C788350041436C /* Launch Screen.storyboard in Resources */,
 				9C39ED3125A8EA0700DB7C73 /* Preview Assets.xcassets in Resources */,
 				9C39ED2E25A8EA0700DB7C73 /* Assets.xcassets in Resources */,
