@@ -25,7 +25,7 @@ struct LibraryView: View {
                     }
             }
             
-//            VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: "testVideo", withExtension: "mp4")!))
+            VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: "mod_05_aie_demand-video", withExtension: ".mp4")!))
         }
     }
 }
