@@ -10,7 +10,8 @@
 		9C1DC75225ACD14C007D359A /* LifeGuideDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75125ACD14C007D359A /* LifeGuideDetailView.swift */; };
 		9C1DC75C25ACDF94007D359A /* LifeGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75B25ACDF94007D359A /* LifeGuide.swift */; };
 		9C1DC76025ACE068007D359A /* LifeGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75F25ACE068007D359A /* LifeGuides.swift */; };
-		9C346AA125CA673500F42AEE /* HexagonParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C346AA025CA673500F42AEE /* HexagonParameter.swift */; };
+		9C346AA125CA673500F42AEE /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C346AA025CA673500F42AEE /* HexagonParameters.swift */; };
+		9C346AA425CA68C900F42AEE /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C346AA325CA68C900F42AEE /* BadgeBackground.swift */; };
 		9C39ED2A25A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39ED2925A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift */; };
 		9C39ED2C25A8EA0100DB7C73 /* LifeGuideList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39ED2B25A8EA0100DB7C73 /* LifeGuideList.swift */; };
 		9C39ED2E25A8EA0700DB7C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39ED2D25A8EA0700DB7C73 /* Assets.xcassets */; };
@@ -31,7 +32,8 @@
 		9C1DC75125ACD14C007D359A /* LifeGuideDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuideDetailView.swift; sourceTree = "<group>"; };
 		9C1DC75B25ACDF94007D359A /* LifeGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuide.swift; sourceTree = "<group>"; };
 		9C1DC75F25ACE068007D359A /* LifeGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuides.swift; sourceTree = "<group>"; };
-		9C346AA025CA673500F42AEE /* HexagonParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameter.swift; sourceTree = "<group>"; };
+		9C346AA025CA673500F42AEE /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		9C346AA325CA68C900F42AEE /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		9C39ED2625A8EA0100DB7C73 /* SchoolLifeGuideNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolLifeGuideNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C39ED2925A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsSwiftUIApp.swift; sourceTree = "<group>"; };
 		9C39ED2B25A8EA0100DB7C73 /* LifeGuideList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuideList.swift; sourceTree = "<group>"; };
@@ -81,7 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				9C39ED2925A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift */,
-				9C346AA025CA673500F42AEE /* HexagonParameter.swift */,
+				9C346AA025CA673500F42AEE /* HexagonParameters.swift */,
+				9C346AA325CA68C900F42AEE /* BadgeBackground.swift */,
 				9C905D2725C75FBE00D3040E /* Model */,
 				9C905D2825C75FC300D3040E /* View */,
 				9C39ED2F25A8EA0700DB7C73 /* Preview Content */,
@@ -234,7 +237,7 @@
 				9C39ED2A25A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift in Sources */,
 				9C1DC75225ACD14C007D359A /* LifeGuideDetailView.swift in Sources */,
 				9C905D2225C6296D00D3040E /* SearchBarView2.swift in Sources */,
-				9C346AA125CA673500F42AEE /* HexagonParameter.swift in Sources */,
+				9C346AA125CA673500F42AEE /* HexagonParameters.swift in Sources */,
 				9C1DC76025ACE068007D359A /* LifeGuides.swift in Sources */,
 				9C70C98F25C8E66300345ECD /* LibraryView.swift in Sources */,
 				9C905D1F25C624A200D3040E /* SearchBarView.swift in Sources */,
@@ -243,6 +246,7 @@
 				9CA7117325C7B9B50041436C /* Issue.swift in Sources */,
 				9C70C98A25C8A5B100345ECD /* HomeView.swift in Sources */,
 				9CA7117625C7BA750041436C /* Issues.swift in Sources */,
+				9C346AA425CA68C900F42AEE /* BadgeBackground.swift in Sources */,
 				9C526E6025C7BDDA006CB517 /* FAQsDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
