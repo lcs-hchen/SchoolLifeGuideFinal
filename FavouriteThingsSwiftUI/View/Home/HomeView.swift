@@ -13,42 +13,30 @@ struct HomeView: View {
         let text = "You will soon realize that being a member of Lakefield College School is to be a part of a close and caring family. Make the most of your time at the school. Before you know it, you will be graduating and bidding farewell to your Grove."
         ScrollView{
             VStack {
-                ZStack {
-                    BadgeBackground().scaledToFit()
-                    VStack {
-                        Text("A Message To All")
-                            .padding(.top, 130)
-                            .font(Font.custom("Comic Sans MS", size: 33))
-                            .foregroundColor(.white)
-                        Spacer()
-                        Text("A shared belief in the moral strength, character and reliability of each member of our community that results in feelings of mutual confidence and mutual respect.").padding(.bottom,147)
-                            .padding(.horizontal, 47)
-                            .font(Font.custom("Comic Sans MS", size: 15))
-                            .foregroundColor(.white)
-                            .lineLimit(4)
-                            .allowsTightening(true)
-                            
-                    }
-                    
-                        
-                    
-                }
-                ZStack {
-                    BadgeBackground().scaledToFit()
-                    
-                    VStack {
-                        Text("Trust")
-                            .padding(.top, 130)
-                            .font(Font.custom("Comic Sans MS", size: 33))
-                            .foregroundColor(.white)
-                        Spacer()
-                        Text("A shared belief in the moral strength, character and reliability of each member of our community that results in feelings of mutual confidence and mutual respect.").padding(.bottom,147)
-                            .padding(.horizontal, 47)
-                            .font(Font.custom("Comic Sans MS", size: 15))
-                            .foregroundColor(.white)
-                    }
-                    
-                }
+                
+                
+                
+                MessageFunction(firstLineTitle: "Trust", description: "A shared belief in the moral strength, character and reliability of each member of our community that results in feelings of mutual confidence and mutual respect.", titleFontSize: 33, textFontSize: 15)
+                
+                
+                
+                
+//                ZStack {
+//                    BadgeBackground().scaledToFit()
+//
+//                    VStack {
+//                        Text("Trust")
+//                            .padding(.top, 130)
+//                            .font(Font.custom("Comic Sans MS", size: 33))
+//                            .foregroundColor(.white)
+//                        Spacer()
+//                        Text("A shared belief in the moral strength, character and reliability of each member of our community that results in feelings of mutual confidence and mutual respect.").padding(.bottom,147)
+//                            .padding(.horizontal, 47)
+//                            .font(Font.custom("Comic Sans MS", size: 15))
+//                            .foregroundColor(.white)
+//                    }
+//
+//                }
                 
                 ZStack {
                     BadgeBackground().scaledToFit()
