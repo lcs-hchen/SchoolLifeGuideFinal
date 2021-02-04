@@ -36,7 +36,7 @@ struct HomeView: View {
                 
             }
             
-        }.preferredColorScheme(.dark)
+        }.preferredColorScheme(.light)
         
         
     }

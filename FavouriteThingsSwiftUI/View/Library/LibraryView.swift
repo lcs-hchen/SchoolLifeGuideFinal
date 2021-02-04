@@ -14,18 +14,22 @@ struct LibraryView: View {
         
         ScrollView {
             
-            VideoPlayer(player: AVPlayer(url: URL(string: url)!)){
-                VStack {
-                        Text("Watermark")
-                            .font(.caption)
-                            .foregroundColor(.white)
-                            .background(Color.black.opacity(0.7))
-                            .clipShape(Capsule())
-                        Spacer()
-                    }
+            VStack {
+//                VideoPlayer(player: AVPlayer(url: URL(string: url)!)){
+//                    VStack {
+//                            Text("Watermark")
+//                                .font(.caption)
+//                                .foregroundColor(.white)
+//                                .background(Color.black.opacity(0.7))
+//                                .clipShape(Capsule())
+//                            Spacer()
+//                        }
+//                }
+                
+                VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: "mod_05_aie_demand-video", withExtension: "mp4")!))
             }
             
-            VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: "mod_05_aie_demand-video", withExtension: ".mp4")!))
+            
         }
     }
 }
