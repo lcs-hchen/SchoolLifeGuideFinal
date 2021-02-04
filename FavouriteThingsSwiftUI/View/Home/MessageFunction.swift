@@ -16,21 +16,24 @@ struct MessageFunction: View {
     
     var titleFontSize: CGFloat
     var textFontSize: CGFloat
+    var firstTitleTopPadding: CGFloat
+    var descriptionBottomPadding: CGFloat
+    var descriptionHorizontalPadding: CGFloat
     var body: some View {
         
         ZStack {
             BadgeBackground().scaledToFit()
             VStack {
                 Text(firstLineTitle)
-                    .padding(.top, 130)
+                    .padding(.top, firstTitleTopPadding)
                     .font(Font.custom("Comic Sans MS", size: titleFontSize))
                     .foregroundColor(.white)
                 if let secondLine = secondLineTitle {
                     Text(secondLine)
                 }
                 Spacer()
-                Text(description).padding(.bottom,147)
-                    .padding(.horizontal, 47)
+                Text(description).padding(.bottom,descriptionBottomPadding)
+                    .padding(.horizontal, descriptionHorizontalPadding)
                     .font(Font.custom("Comic Sans MS", size: textFontSize))
                     .foregroundColor(.white)
                     
@@ -46,6 +49,6 @@ struct MessageFunction: View {
 
 struct MessageFunction_Previews: PreviewProvider {
     static var previews: some View {
-        MessageFunction(firstLineTitle: "Trust", description: "A shared belief in the moral strength, character and reliability of each member of our community that results in feelings of mutual confidence and mutual respect.", titleFontSize: 33, textFontSize: 15)
+        MessageFunction(firstLineTitle: "Trust", description: "A shared belief in the moral strength, character and reliability of each member of our community that results in feelings of mutual confidence and mutual respect.", titleFontSize: 33, textFontSize: 15, firstTitleTopPadding: 130, descriptionBottomPadding: 147, descriptionHorizontalPadding: 47)
     }
 }
