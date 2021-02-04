@@ -14,7 +14,7 @@
 		9C28FAA225CB87CE007E82F4 /* MessageFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28FAA125CB87CE007E82F4 /* MessageFunction.swift */; };
 		9C346AA125CA673500F42AEE /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C346AA025CA673500F42AEE /* HexagonParameters.swift */; };
 		9C346AA425CA68C900F42AEE /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C346AA325CA68C900F42AEE /* BadgeBackground.swift */; };
-		9C39ED2A25A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39ED2925A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift */; };
+		9C39ED2A25A8EA0100DB7C73 /* SchoolLifeGuideNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39ED2925A8EA0100DB7C73 /* SchoolLifeGuideNew.swift */; };
 		9C39ED2C25A8EA0100DB7C73 /* LifeGuideList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39ED2B25A8EA0100DB7C73 /* LifeGuideList.swift */; };
 		9C39ED2E25A8EA0700DB7C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39ED2D25A8EA0700DB7C73 /* Assets.xcassets */; };
 		9C39ED3125A8EA0700DB7C73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39ED3025A8EA0700DB7C73 /* Preview Assets.xcassets */; };
@@ -39,7 +39,7 @@
 		9C346AA025CA673500F42AEE /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		9C346AA325CA68C900F42AEE /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		9C39ED2625A8EA0100DB7C73 /* SchoolLifeGuideNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolLifeGuideNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C39ED2925A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsSwiftUIApp.swift; sourceTree = "<group>"; };
+		9C39ED2925A8EA0100DB7C73 /* SchoolLifeGuideNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolLifeGuideNew.swift; sourceTree = "<group>"; };
 		9C39ED2B25A8EA0100DB7C73 /* LifeGuideList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuideList.swift; sourceTree = "<group>"; };
 		9C39ED2D25A8EA0700DB7C73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C39ED3025A8EA0700DB7C73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		9C39ED1D25A8EA0100DB7C73 = {
 			isa = PBXGroup;
 			children = (
-				9C39ED2825A8EA0100DB7C73 /* FavouriteThingsSwiftUI */,
+				9C39ED2825A8EA0100DB7C73 /* SchoolLifeGuideNew */,
 				9C39ED2725A8EA0100DB7C73 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,10 +83,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C39ED2825A8EA0100DB7C73 /* FavouriteThingsSwiftUI */ = {
+		9C39ED2825A8EA0100DB7C73 /* SchoolLifeGuideNew */ = {
 			isa = PBXGroup;
 			children = (
-				9C39ED2925A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift */,
+				9C39ED2925A8EA0100DB7C73 /* SchoolLifeGuideNew.swift */,
 				9C346AA025CA673500F42AEE /* HexagonParameters.swift */,
 				9C346AA325CA68C900F42AEE /* BadgeBackground.swift */,
 				9C905D2725C75FBE00D3040E /* Model */,
@@ -97,7 +97,7 @@
 				9C28FA9E25CB61B6007E82F4 /* Comic Sans MS.ttf */,
 				9C70C99525C8FBF500345ECD /* mod_05_aie_demand-video.mp4 */,
 			);
-			path = FavouriteThingsSwiftUI;
+			path = SchoolLifeGuideNew;
 			sourceTree = "<group>";
 		};
 		9C39ED2F25A8EA0700DB7C73 /* Preview Content */ = {
@@ -241,7 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C39ED2C25A8EA0100DB7C73 /* LifeGuideList.swift in Sources */,
-				9C39ED2A25A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift in Sources */,
+				9C39ED2A25A8EA0100DB7C73 /* SchoolLifeGuideNew.swift in Sources */,
 				9C1DC75225ACD14C007D359A /* LifeGuideDetailView.swift in Sources */,
 				9C905D2225C6296D00D3040E /* SearchBarView2.swift in Sources */,
 				9C346AA125CA673500F42AEE /* HexagonParameters.swift in Sources */,
