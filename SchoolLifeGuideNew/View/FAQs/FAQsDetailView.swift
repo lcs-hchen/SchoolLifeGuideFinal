@@ -24,7 +24,8 @@ struct FAQsDetailView: View {
                     .padding(.horizontal)
             }
             
-        }.background(GradientBackground().edgesIgnoringSafeArea(.all))
+        }.background(GradientBackground().ignoresSafeArea())
+        
         .navigationTitle(question.detailViewTitle)
         
         

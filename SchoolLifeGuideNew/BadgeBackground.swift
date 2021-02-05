@@ -59,8 +59,8 @@ struct BadgeBackground: View {
     }
     
     
-    static let gradientStart = Color(red: 43.0 / 255, green: 104.0 / 255, blue: 78.0 / 255)
-    static let gradientEnd = Color(red: 142.0 / 255, green: 176.0 / 255, blue: 172.0 / 255)
+    static let gradientStart = Color(red: 228 / 255, green: 129 / 255, blue: 129 / 255)
+    static let gradientEnd = Color(red: 230 / 255, green: 163 / 255, blue: 163 / 255)
 }
 
 

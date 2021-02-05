@@ -31,6 +31,7 @@ struct MessageFunction: View {
                 if let secondLine = secondLineTitle {
                     Text(secondLine)
                         .font(Font.custom("Comic Sans MS", size: titleFontSize))
+                        .foregroundColor(.white)
                 }
                 Spacer()
                 Text(description).padding(.bottom,descriptionBottomPadding)
