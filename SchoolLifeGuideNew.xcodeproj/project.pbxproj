@@ -14,7 +14,7 @@
 		9C28FAA225CB87CE007E82F4 /* MessageFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28FAA125CB87CE007E82F4 /* MessageFunction.swift */; };
 		9C346AA125CA673500F42AEE /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C346AA025CA673500F42AEE /* HexagonParameters.swift */; };
 		9C346AA425CA68C900F42AEE /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C346AA325CA68C900F42AEE /* BadgeBackground.swift */; };
-		9C39ED2A25A8EA0100DB7C73 /* SchoolLifeGuideNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39ED2925A8EA0100DB7C73 /* SchoolLifeGuideNew.swift */; };
+		9C39ED2A25A8EA0100DB7C73 /* SchoolLifeGuideNewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39ED2925A8EA0100DB7C73 /* SchoolLifeGuideNewApp.swift */; };
 		9C39ED2C25A8EA0100DB7C73 /* LifeGuideList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39ED2B25A8EA0100DB7C73 /* LifeGuideList.swift */; };
 		9C39ED2E25A8EA0700DB7C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39ED2D25A8EA0700DB7C73 /* Assets.xcassets */; };
 		9C39ED3125A8EA0700DB7C73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39ED3025A8EA0700DB7C73 /* Preview Assets.xcassets */; };
@@ -24,6 +24,7 @@
 		9C70C99625C8FBF500345ECD /* mod_05_aie_demand-video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C70C99525C8FBF500345ECD /* mod_05_aie_demand-video.mp4 */; };
 		9C905D1F25C624A200D3040E /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C905D1E25C624A200D3040E /* SearchBarView.swift */; };
 		9C905D2225C6296D00D3040E /* SearchBarView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C905D2125C6296D00D3040E /* SearchBarView2.swift */; };
+		9C93FFE025CC9C1800A6801A /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C93FFDF25CC9C1800A6801A /* GradientBackground.swift */; };
 		9CA7116B25C788350041436C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA7116A25C788350041436C /* Launch Screen.storyboard */; };
 		9CA7116F25C7B1680041436C /* FAQsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7116E25C7B1680041436C /* FAQsView.swift */; };
 		9CA7117325C7B9B50041436C /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7117225C7B9B50041436C /* Issue.swift */; };
@@ -39,7 +40,7 @@
 		9C346AA025CA673500F42AEE /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		9C346AA325CA68C900F42AEE /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		9C39ED2625A8EA0100DB7C73 /* SchoolLifeGuideNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolLifeGuideNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C39ED2925A8EA0100DB7C73 /* SchoolLifeGuideNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolLifeGuideNew.swift; sourceTree = "<group>"; };
+		9C39ED2925A8EA0100DB7C73 /* SchoolLifeGuideNewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolLifeGuideNewApp.swift; sourceTree = "<group>"; };
 		9C39ED2B25A8EA0100DB7C73 /* LifeGuideList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuideList.swift; sourceTree = "<group>"; };
 		9C39ED2D25A8EA0700DB7C73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C39ED3025A8EA0700DB7C73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		9C70C99525C8FBF500345ECD /* mod_05_aie_demand-video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mod_05_aie_demand-video.mp4"; sourceTree = "<group>"; };
 		9C905D1E25C624A200D3040E /* SearchBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		9C905D2125C6296D00D3040E /* SearchBarView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView2.swift; sourceTree = "<group>"; };
+		9C93FFDF25CC9C1800A6801A /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
 		9CA7116A25C788350041436C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		9CA7116E25C7B1680041436C /* FAQsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQsView.swift; sourceTree = "<group>"; };
 		9CA7117225C7B9B50041436C /* Issue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
@@ -86,7 +88,7 @@
 		9C39ED2825A8EA0100DB7C73 /* SchoolLifeGuideNew */ = {
 			isa = PBXGroup;
 			children = (
-				9C39ED2925A8EA0100DB7C73 /* SchoolLifeGuideNew.swift */,
+				9C39ED2925A8EA0100DB7C73 /* SchoolLifeGuideNewApp.swift */,
 				9C346AA025CA673500F42AEE /* HexagonParameters.swift */,
 				9C346AA325CA68C900F42AEE /* BadgeBackground.swift */,
 				9C905D2725C75FBE00D3040E /* Model */,
@@ -144,6 +146,7 @@
 				9CA7117925C7BC450041436C /* FAQs */,
 				9CA7117825C7BC300041436C /* content */,
 				9CA7116A25C788350041436C /* Launch Screen.storyboard */,
+				9C93FFDF25CC9C1800A6801A /* GradientBackground.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,7 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C39ED2C25A8EA0100DB7C73 /* LifeGuideList.swift in Sources */,
-				9C39ED2A25A8EA0100DB7C73 /* SchoolLifeGuideNew.swift in Sources */,
+				9C39ED2A25A8EA0100DB7C73 /* SchoolLifeGuideNewApp.swift in Sources */,
 				9C1DC75225ACD14C007D359A /* LifeGuideDetailView.swift in Sources */,
 				9C905D2225C6296D00D3040E /* SearchBarView2.swift in Sources */,
 				9C346AA125CA673500F42AEE /* HexagonParameters.swift in Sources */,
@@ -253,6 +256,7 @@
 				9CA7117325C7B9B50041436C /* Issue.swift in Sources */,
 				9C28FAA225CB87CE007E82F4 /* MessageFunction.swift in Sources */,
 				9C70C98A25C8A5B100345ECD /* HomeView.swift in Sources */,
+				9C93FFE025CC9C1800A6801A /* GradientBackground.swift in Sources */,
 				9CA7117625C7BA750041436C /* Issues.swift in Sources */,
 				9C346AA425CA68C900F42AEE /* BadgeBackground.swift in Sources */,
 				9C526E6025C7BDDA006CB517 /* FAQsDetailView.swift in Sources */,
@@ -384,10 +388,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FavouriteThingsSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SchoolLifeGuideNew/Preview Content\"";
 				DEVELOPMENT_TEAM = L68HFVA6QB;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FavouriteThingsSwiftUI/Info.plist;
+				INFOPLIST_FILE = SchoolLifeGuideNew/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -406,10 +410,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FavouriteThingsSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SchoolLifeGuideNew/Preview Content\"";
 				DEVELOPMENT_TEAM = L68HFVA6QB;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FavouriteThingsSwiftUI/Info.plist;
+				INFOPLIST_FILE = SchoolLifeGuideNew/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -14,14 +14,28 @@ struct LifeGuideList: View {
     @State private var searchText: String = ""
     var body: some View {
       
-        VStack {
-            SearchBar(text: $searchText, placeholderText: "Search")
-            List(lifeGuide.list){
-       
-                data in
-                NavigationLink(data.name, destination: LifeGuideDetailView(lifeGuide: data))
-            }.navigationTitle("School Life Guide")
-        }
+      
+            
+                VStack{
+                    
+                    SearchBar(text: $searchText, placeholderText: "Search")
+                    
+                   
+                        List(lifeGuide.list){
+                   
+                            data in
+                            
+                            NavigationLink(data.name, destination: LifeGuideDetailView(lifeGuide: data))
+                        
+                      
+                    
+                   
+                    
+                }.navigationTitle("School Life Guide")
+               
+            
+            
+        
 
         
         
@@ -35,4 +49,5 @@ struct LifeGuideList_Previews: PreviewProvider {
         }
         
     }
+}
 }

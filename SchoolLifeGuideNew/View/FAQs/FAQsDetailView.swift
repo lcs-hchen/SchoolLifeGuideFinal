@@ -13,11 +13,20 @@ struct FAQsDetailView: View {
     
     var body: some View {
         ScrollView {
-            Text(question.answerText)
-                .padding(.horizontal)
-                .foregroundColor(.green)
-        }.navigationTitle(question.detailViewTitle)
-    
+            
+            
+               
+            VStack {
+                Text(question.answerText)
+                        .foregroundColor(.red)
+                        .font(.title3)
+                        .bold()
+                    .padding(.horizontal)
+            }
+            
+        }.background(GradientBackground().edgesIgnoringSafeArea(.all))
+        .navigationTitle(question.detailViewTitle)
+        
         
     }
 }

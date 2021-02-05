@@ -11,10 +11,15 @@ import SwiftUI
 struct SchoolLifeGuideNew: App {
     var body: some Scene {
         WindowGroup {
+            
             TabView {
                
                 NavigationView {
-                    HomeView()
+                    
+                    ZStack {
+                        GradientBackground()
+                        HomeView()
+                    }
                 }.tabItem {
                     Image(systemName: "house.fill")
                     Text("Home")
@@ -22,14 +27,25 @@ struct SchoolLifeGuideNew: App {
                 
                 
                 NavigationView {
-                    LibraryView()
+                    
+                    
+                    ZStack {
+                        GradientBackground()
+                        LibraryView()
+                    }
+                    
+                    
                 }.tabItem {
                     Image(systemName: "folder.fill")
                     Text("Library")
                 }
                 
                 NavigationView {
-                    FAQsView()
+                    
+                    ZStack {
+                        GradientBackground()
+                        FAQsView()
+                    }
                 }.tabItem {
                     Image(systemName: "questionmark.circle")
                     Text("FAQs")
@@ -38,7 +54,11 @@ struct SchoolLifeGuideNew: App {
                 
                 
                 NavigationView {
-                    LifeGuideList()
+                    
+                    ZStack {
+                        GradientBackground()
+                        LifeGuideList()
+                    }
                 }.tabItem {
                     
                     VStack {
