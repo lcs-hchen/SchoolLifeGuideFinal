@@ -9,37 +9,40 @@ import SwiftUI
 import UIKit
 
 struct LifeGuideList: View {
-    
     let lifeGuide = LifeGuides()
     @State private var searchText: String = ""
     var body: some View {
       
-      
+        
+        
             
-                VStack{
-                    
-                    SearchBar(text: $searchText, placeholderText: "Search")
-                    
-                    Form {
-                        List(lifeGuide.list){
-                   
-                            data in
-                            
-                            NavigationLink(data.name, destination: LifeGuideDetailView(lifeGuide: data))
+         return  ZStack {
+                    GradientBackground()
+                    VStack{
                         
-                      
-                        }
+                        SearchBar(text: $searchText, placeholderText: "Search")
+                        
+                        Form {
+                            List(lifeGuide.list){
+                       
+                                data in
+                                
+                                NavigationLink(data.name, destination: LifeGuideDetailView(lifeGuide: data))
+                            
+                          
+                            }
+                       
+                        
+                    }.navigationTitle("School Life Guide")
                    
-                    
-                }.navigationTitle("School Life Guide")
-               
+                
+                
             
-            
-        
 
-        
-        
-    }
+            
+            
+            }
+        }
 }
 
 struct LifeGuideList_Previews: PreviewProvider {
