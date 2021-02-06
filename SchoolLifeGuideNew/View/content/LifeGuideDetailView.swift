@@ -54,6 +54,7 @@ struct LifeGuideDetailView: View {
                         List(lifeGuide.subTopics){
                             
                             thing in
+                            // Can add clothes icon here for dress page
                             NavigationLink(thing.name, destination: LifeGuideDetailView(lifeGuide: thing))
                             
                         }
@@ -62,6 +63,7 @@ struct LifeGuideDetailView: View {
                     .font(Font.body.bold())
                     .foregroundColor(.red)
                 }
+                
                 
                 
                 if lifeGuide.name == "Dress" {

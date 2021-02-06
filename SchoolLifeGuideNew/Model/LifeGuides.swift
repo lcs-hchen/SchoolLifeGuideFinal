@@ -32,7 +32,7 @@ struct LifeGuides {
             
         ]))
         
-        list.append(LifeGuide(name: "Dress", description: "Dress\n\nThis dress code outlines the clothing needed at Lakefield College School is for all program activities.\n\nLakefield College School prides itself in a dress code that provides its students with comfortable, flexible clothing in order to embrace our strategic directions of Outdoors Every Day, Authentic Learning, and Community First.\n\nIn keeping with its environmental value, Lakefield seeks corporate partners for dress that manufacture clothing in Canada or that make a strong commitment to sustainability in their business practices, or both. Many of our clothing pieces are manufactured by Top Marks, but students may also purchase pieces of Standard Dress from School Stores and preferred supplier Mountain Equipment Coop. Information about Mountain Equipment Coop’s sustainability policies is available here.\n\nTo further reduce our environmental impact, the school encourages students to donate gently used Standard Dress and Formal Dress items that are no longer needed. The Grove Society operates the Replay Shop located in School Stores, where these gently used items can be purchased at a reduced price. Students may bring donation items to School Stores throughout the school year. All items will be cleaned and sold as they become available. Proceeds from the Replay Shop support projects that directly benefit the students. For further information please contact School Stores.", warning: "2 is dangerous", imageName: "Dress", subTopics: [
+        list.append(LifeGuide(name: "Dress", description: "Dress\n\nThis dress code outlines the clothing needed at Lakefield College School is for all program activities.\n\nLakefield College School prides itself in a dress code that provides its students with comfortable, flexible clothing in order to embrace our strategic directions of Outdoors Every Day, Authentic Learning, and Community First.\n\nIn keeping with its environmental value, Lakefield seeks corporate partners for dress that manufacture clothing in Canada or that make a strong commitment to sustainability in their business practices, or both. Many of our clothing pieces are manufactured by Top Marks, but students may also purchase pieces of Standard Dress from School Stores and preferred supplier Mountain Equipment Coop. Information about Mountain Equipment Coop’s sustainability policies is available here.\n\nTo further reduce our environmental impact, the school encourages students to donate gently used Standard Dress and Formal Dress items that are no longer needed. The Grove Society operates the Replay Shop located in School Stores, where these gently used items can be purchased at a reduced price. Students may bring donation items to School Stores throughout the school year. All items will be cleaned and sold as they become available. Proceeds from the Replay Shop support projects that directly benefit the students. For further information please contact School Stores.", imageName: "Dress", subTopics: [
             
             
             
@@ -93,9 +93,130 @@ On Clean Casual days, students make a donation to a school-selected charity in r
             
         ]))
         
-        list.append(LifeGuide(name: "test 3", description: "This is test 3 content", warning: "3 is dangerous", imageName: "system3"))
+      
+        list.append(LifeGuide(name: "Academic Life", description: "Student Achievement\n\nLakefield College School has high expectations of its students. Homework is assigned daily and is checked in class. Attendance at classes is compulsory for all students in all grades. Students are expected to take responsibility for their academic work and to strive for excellence. Lakefield is committed to providing equal educational opportunities and challenges to all students.\n\nThe school’s commitment to a rigorous academic program is strongly endorsed by LCS graduates, who report themselves to be well prepared for their university studies.", imageName: "Dress", subTopics: [
+    
+    
+                LifeGuide(name: "Excused Absences/Attendance", description: "If a day student is to be away from school for part or all of the day due to illness or a medical appointment, the parent/guardian must telephone the Health and Well-being Centre to report the absence.\n\nIf a day student is to be away from school for part or all of the day due to a reason other than illness, the parent/guardian must telephone the Attendance Administrator at least two days in advance. The Head of House will then initiate the leave process."),
+    
+    
+                LifeGuide(name: "Leaving the School During Program Time", description: """
+                    Lakefield College School discourages students from missing academic, co-curricular and other important program time (intersession days, guest speakers, etc.) However, there may be exceptional circumstances when a student is required to be excused during program time. In order for a student to be granted permission to be excused from school program time, they must follow the process outlined below:
+                    1.Students must ask their Head of House for leave.
+                    2.The Head of House will contact the student’s parent(s) and discourage missing class time. If the leave is necessary, the Head of House will confirm departure and return times with the parents.
+                    3.The Head of House will email the staff member responsible for attendance, the Administrative Assistant to the Assistant Head: School Life and the student’s advisor, with the student’s name and dates of departure and return.
+                    4.Students who miss class are responsible for all of the work they have missed.
+                    5.Parents who are requesting that their child miss more than 3 program days will be contacted by an Assistant Head in order to determine the necessity of the leave.
+                    """),
+
+
+                LifeGuide(name: "Late for Class", description: """
+                    Late for Class
+                    The goal of this policy is to address chronic lateness, and to reinforce with all students the need for punctuality so that all students can benefit from productive use of class time.
+
+                    Definition of “Late for Class”:
+                    A student is considered late if he or she arrives to class after instruction has begun. Attendance will be taken within the first 10 minutes of class. A student who has been marked absent must go to the Attendance Administrator to have the absence changed to a late for class.
+
+                    If a student arrives late to class but before the teacher has taken attendance (i.e. within the first 10 minutes of class) teachers will note the name of any student who arrives late and have a brief discussion with the student at some point during the class about the reason for the late arrival.
+                    If the teacher does not deem the reason legitimate, the teacher will remind the student of expectations about punctuality, and the student will be marked as late in the attendance system.
+                    Students will not be marked as late during the first full week of classes to give new students time to learn the layout of the academic block.
+                    """),
+
+
+                LifeGuide(name: "Accountability for being Late for Class", description: """
+                    •   First Offence: Occurs when a student acquires 5 lates recorded in the attendance system. A notification is sent to the Advisor. When an Advisor receives a notification for the first time, the Advisor will have a conversation with the student and send an email home to the parents (copied to Head of House)
+                    •   Second Offence: Occurs when the student accumulates 5 more lates (10 total) recorded in the attendance system. A second notification is sent to the Advisor. The student meets with the Assistant Head, School Life and is placed on Official Warning Status.
+
+                    The Advisor speaks with the Head of House to see whether there are other concerns and will speak with the student and create a plan to address the issue. An email is sent home to the parents (copied to Head of House). The student is placed in Saturday Study or an equivalent accountability as deemed appropriate by the Advisor.
+                    •   Third Offence: Occurs when the student accumulates another 5 more lates (15 total) recorded in the attendance system. A third notification is sent to the Advisor, Head of House, and the Assistant Head: School Life. Parents are contacted by phone and the student is placed on Directed Probation for Violation of the Academic Attendance Policy. The student is placed in Saturday Study or an equivalent accountability and the action plan is revised to achieve better success.
+                    •   Fourth Offence: Occurs when the student accumulates 5 more lates (20 total) as recorded in the attendance system. A fourth notification is sent to the Advisor, Head of House, and the Assistant Head: School Life. Parents are contacted by the Assistant Head: School Life and the student is placed on General Probation. The student is gated for one week or an equivalent accountability and the action plan is once again revised.
+                    •   Subsequent Offences: A student is liable to be required to reaffirm his/her commitment to the school (suspended) or to leave the school (expelled).
+                    """),
+
+
+                LifeGuide(name: "Academic Absences", description: """
+                    Unexcused Absence from Class Time
+                    Definition of an Unexcused Absence
+                    An unexcused absence is when a student misses a class for no permitted (excused) reason.
+                    Teachers take attendance within the first 10 minutes of every class. Students may only be excused when ill, when involved in a school co-curricular activity or when special permission is granted by his/her Head of House or parent if a Day Student.
+                    A student who arrives to class with only 15 minutes or less left in the class will be held accountable with an unexcused absence.
+                    """),
+
+
+                LifeGuide(name: "Accountability for Unexcused Absences for Class", description: """
+                    The Advisor and student are informed of each unexcused absence as it occurs. The student is given twenty-four hours to contact the Advisor if the unexcused absence is taken in error. If the student fails to make this contact, the unexcused absence will stand.
+                    •
+                    First Offence: The Advisor will review the attendance policy with the student. It is the student’s responsibility to ask the Advisor to resolve any inappropriately determined unexcused absences. Parents are contacted by the Advisor.
+                    •
+                    Second Offence: Student and Advisor are notified, as above. Advisor and student meet with the Assistant Head: School Life. An Official Warning for missing classes is issued. An action plan is agreed upon and implemented. Head of House and Parents are contacted by the Advisor.
+                    •
+                    Third Offence: Student and Advisor are notified, as above. Advisor and student meet with the Assistant Head: School Life. The student is placed on Directed Probation for Violation of the Academic Attendance Policy. Head of House and Parents are contacted by the Advisor.
+                    •
+                    Fourth Offence: Student and Advisor are notified, as above. Advisor and student meet with the Assistant Head: School Life. The student is placed on General Probation. Head of House and Parents are contacted by the Advisor. The student may be sent home to reaffirm his/her commitment to the school (suspended). A revised action plan may be agreed upon and implemented.
+                    •
+                    Subsequent Offences: In consultation with parents, Head of House, Advisor and Assistant Head: School Life and Head of School, a student may be required to leave the school.
+                    """),
+
+                LifeGuide(name: "Unexcused Absence from Co-curriculars", description: """
+                    Coaches, directors and facilitators will take attendance on every student contact day (i.e. practice/rehearsal/ meeting/game/performance). Students are responsible for informing their coaches/Advisor/Head of House when they need to be excused PRIOR to the absence. Students may only be excused when ill, when involved in another school co-curricular activity or when special permission is granted by their Head of House, Advisor, or Coach/Director/Facilitator.
+
+                    Accountability for Unexcused Absences from Co-Curricular Programs
+                    The Student, Advisor and Head of House are informed of each unexcused absence as it occurs.
+
+                    • First Offence: It is the student’s responsibility to resolve any inappropriately determined unexcused absences by responding to the attendance email with an explanation. The Advisor will review the attendance policy with the student if the absence is valid.
+
+                    • Second Offence: Student, Advisor and Head of House are notified, as above. Parents are contacted by the Advisor.
+                    • Third Offence: Student, Advisor and Head of House are notified, as above. The Coach/Director/Facilitator arranges a meeting with Student and Advisor to discuss, agree upon and implement an action plan. Parents are contacted by the Advisor.
+                    • Fourth Offence: Student, Advisor and Head of House are notified, as above. The Advisor arranges a meeting between the student, Advisor with the Director of Arts or Athletics. A revised action plan may be agreed upon and implemented. An Official Warning for missing co-curriculars is issued. Parents are contacted by the Advisor.
+                    • Fifth Offence: Student, Advisor and Head of House are notified, as above. The Advisor arranges a meeting between the student, Advisor and the Assistant Head: School Life. The student is placed on Directed Probation for Persistent Inability to Abide by the Expectations of the School. A revised action plan may be agreed upon and implemented.
+                    """),
+
+
+                LifeGuide(name: "School Closure", description: """
+                    In the unlikely event of a school closure:
+                    • Every effort will be made to continue to offer school services as normally as possible.
+
+                    • LCS will provide students and parents/guardians with timely communication regarding the school’s plans and expectations for continued instruction.
+
+                    • Course work and assignments may be facilitated through technology. In such a case, we will follow our Online Learning Protocol to ensure students are fully supported in their learning.
+
+                    • The normal functioning of co-curricular programs will cease until such time as the school reopened.
+
+                    • Decisions on day-to-day instructional matters will be the responsibility of the Head of School in consultation with the Leadership Team and, in the event of a pandemic, the Health and Well-being Centre.
+
+                    • Decisions to extend the academic year, revise exam schedules or alter the academic schedule will be made by the Head of School in consultation with the Leadership Team and the School Board.
+
+                    • LCS will provide parents with as much lead time as possible, explaining the reasons for the closure and if possible, an estimate of the duration of the closure.
+
+                    Students’ Responsibilities to LCS
+                    If a closure of the school has been announced, students will be expected to do the following:
+
+                    • Remain away from the school during the closure.
+
+                    • Keep up with academic responsibilities as directed by their teachers by following our Online Learning Protocol.
+
+                    • Monitor the LCS website for timely updates.
+
+                    Once a re-opening of the school has been announced, students will be expected to do the following:
+
+                    • Report to class on the identified date and follow the specified day of the cycle as laid out in the school calendar.
+                    """)
+
+    
+    
+    
+
+]))
         
-        list.append(LifeGuide(name: "test 4", description: "This is test 4 content", warning: "4 is dangerous", imageName: "system4"))
+        
+        list.append(LifeGuide(name: "test 4", description: "This is test 4 content", warning: "4 is dangerous", imageName: "system4", subTopics: [
+        
+            LifeGuide(name: "a", description: "b"),
+            LifeGuide(name: "v", description: "x")
+        
+        
+        
+        ]))
         
         list.append(LifeGuide(name: "test 5", description: "This is test 5 content", warning: "5 is dangerous", imageName: "system5"))
         
