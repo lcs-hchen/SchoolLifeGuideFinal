@@ -34,7 +34,7 @@ struct FAQsView: View {
                      
                         ZStack{
                            
-                            Label(question.question, systemImage: question.systemImageName)
+                            Label(question.question, systemImage: question.systemImageName).font(Font.body.bold())
                             
                         }
                         

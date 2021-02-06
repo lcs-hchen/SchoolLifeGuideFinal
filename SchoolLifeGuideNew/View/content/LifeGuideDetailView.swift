@@ -14,59 +14,76 @@ struct LifeGuideDetailView: View {
     var body: some View {
         UITableView.appearance().backgroundColor = .clear
         UITableViewCell.appearance().backgroundColor = .clear
-       return ZStack {
+        return ZStack {
             
             GradientBackground()
             ScrollView{
+                
+                // First 1 contains multiple images
+                if let imageName = lifeGuide.imageName {
+                    Image(imageName).resizable()
+                        .aspectRatio(contentMode: zoomed ? .fill : .fit)
+                        .scaledToFit()
+                        .padding(.horizontal)
                         
-                        // First 1 contains multiple images
-                        if let imageName = lifeGuide.imageName {
-                            Image(imageName).resizable()
-                                .aspectRatio(contentMode: zoomed ? .fill : .fit)
-                                .scaledToFit()
-                                .padding(.horizontal)
-                                
-                                .onTapGesture {
-                                    withAnimation {
-                                        zoomed.toggle()
-                                    }
-                                }
-                                
-                            if imageName == "SchoolDailySchedule" {
-                                Image("SchoolDailySchedule2")
-                                    .resizable()
-                                    .scaledToFit()
-                                    .padding(.horizontal)
+                        .onTapGesture {
+                            withAnimation {
+                                zoomed.toggle()
                             }
-                                
                         }
-                      
-                       
-                        
-                        Text(lifeGuide.description).padding([.leading, .bottom, .trailing])
-                            .fixedSize(horizontal: false, vertical: true)
+                    
+                    if imageName == "SchoolDailySchedule" {
+                        Image("SchoolDailySchedule2")
+                            .resizable()
+                            .scaledToFit()
+                            .padding(.horizontal)
+                    }
+                    
+                }
+                
+                
+                
+                Text(lifeGuide.description).padding([.leading, .bottom, .trailing])
+                    .fixedSize(horizontal: false, vertical: true).foregroundColor(.white)
+                
+                
+                // If there are any related things, show them
+                
+                if lifeGuide.subTopics.count > 0 {
+                    Form {
+                        List(lifeGuide.subTopics){
                             
+                            thing in
+                            NavigationLink(thing.name, destination: LifeGuideDetailView(lifeGuide: thing))
                             
-                        
-                        // If there are any related things, show them
-                       
-                        if lifeGuide.subTopics.count > 0 {
-                            Form {
-                                List(lifeGuide.subTopics){
-                                
-                                    thing in
-                                    NavigationLink(thing.name, destination: LifeGuideDetailView(lifeGuide: thing))
-                            
-                                }
-                        
-                                }
                         }
+                        
+                    }
+                    .font(Font.body.bold())
+                    .foregroundColor(.red)
+                }
+                
+                
+                if lifeGuide.name == "Dress" {
+                    Text("""
+            Community First and Student Voice
+
+            Living and learning through relationships is a cornerstone of our community. Students and staff worked together to create a dress code that minimizes negative interactions, promotes healthy and positive relationships and enables students to feel comfortable and confident in their learning environment. In fact, staff are expected to adhere to the same standard of dress as students. Should a student have questions, concerns or ideas about the school dress code they are encouraged to engage in dialogue with any staff member to have their voice heard.
+            """)
+                        .padding(.horizontal)
+                        .foregroundColor(.white)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                
+                
+                
+                
             }.navigationTitle(lifeGuide.name)
         }
-            }
-        
-        
-        
+    }
+    
+    
+    
     
 }
 

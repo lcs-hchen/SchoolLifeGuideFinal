@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import Combine
 @main
 struct SchoolLifeGuideNew: App {
     var body: some Scene {
@@ -24,6 +24,7 @@ struct SchoolLifeGuideNew: App {
                     Image(systemName: "house.fill")
                     Text("Home")
                 }
+                
                 
                 
                 NavigationView {
