@@ -62,7 +62,9 @@ struct SchoolLifeGuideNew: App {
                 }.tabItem {
                     
                     VStack {
-                        Image(systemName: "tortoise.fill")
+                        Image(systemName: "tortoise.fill").onTapGesture {
+                             LifeGuideList()
+                        }
                         Text("Content")
                     }
                     
