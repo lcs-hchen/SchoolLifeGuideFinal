@@ -18,7 +18,7 @@ struct FAQsDetailView: View {
                
             VStack {
                 Text(question.answerText)
-                        .foregroundColor(.red)
+                        .foregroundColor(.white)
                         .font(.title3)
                         .bold()
                     .padding(.horizontal)

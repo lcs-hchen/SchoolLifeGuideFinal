@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct FAQsView: View {
+    //Change Navigation Bar Text color
     
-   
+    init() {
+                let navBarAppearance = UINavigationBar.appearance()
+                navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+                navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+              }
     
     var body: some View {
         
@@ -42,7 +47,8 @@ struct FAQsView: View {
                 
                 
                 }.foregroundColor(.red)
-            }.navigationTitle("FAQs")
+            }.navigationTitle(Text("FAQs").foregroundColor(.white))
+            
             
             }
         }

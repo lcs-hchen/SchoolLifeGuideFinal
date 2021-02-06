@@ -20,7 +20,7 @@ struct LifeGuideList: View {
                     
                     SearchBar(text: $searchText, placeholderText: "Search")
                     
-                   
+                    Form {
                         List(lifeGuide.list){
                    
                             data in
@@ -28,7 +28,7 @@ struct LifeGuideList: View {
                             NavigationLink(data.name, destination: LifeGuideDetailView(lifeGuide: data))
                         
                       
-                    
+                        }
                    
                     
                 }.navigationTitle("School Life Guide")

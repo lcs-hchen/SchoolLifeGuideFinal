@@ -19,6 +19,7 @@
 		9C39ED2E25A8EA0700DB7C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39ED2D25A8EA0700DB7C73 /* Assets.xcassets */; };
 		9C39ED3125A8EA0700DB7C73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39ED3025A8EA0700DB7C73 /* Preview Assets.xcassets */; };
 		9C526E6025C7BDDA006CB517 /* FAQsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C526E5F25C7BDDA006CB517 /* FAQsDetailView.swift */; };
+		9C5DCCB625CDF7BF00593E05 /* NavigationBarColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DCCB525CDF7BF00593E05 /* NavigationBarColorChange.swift */; };
 		9C70C98A25C8A5B100345ECD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70C98925C8A5B100345ECD /* HomeView.swift */; };
 		9C70C98F25C8E66300345ECD /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70C98E25C8E66300345ECD /* LibraryView.swift */; };
 		9C70C99625C8FBF500345ECD /* mod_05_aie_demand-video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C70C99525C8FBF500345ECD /* mod_05_aie_demand-video.mp4 */; };
@@ -46,6 +47,7 @@
 		9C39ED3025A8EA0700DB7C73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9C39ED3225A8EA0700DB7C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C526E5F25C7BDDA006CB517 /* FAQsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQsDetailView.swift; sourceTree = "<group>"; };
+		9C5DCCB525CDF7BF00593E05 /* NavigationBarColorChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColorChange.swift; sourceTree = "<group>"; };
 		9C70C98925C8A5B100345ECD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9C70C98E25C8E66300345ECD /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		9C70C99525C8FBF500345ECD /* mod_05_aie_demand-video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mod_05_aie_demand-video.mp4"; sourceTree = "<group>"; };
@@ -89,8 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				9C39ED2925A8EA0100DB7C73 /* SchoolLifeGuideNewApp.swift */,
-				9C346AA025CA673500F42AEE /* HexagonParameters.swift */,
-				9C346AA325CA68C900F42AEE /* BadgeBackground.swift */,
 				9C905D2725C75FBE00D3040E /* Model */,
 				9C905D2825C75FC300D3040E /* View */,
 				9C39ED2F25A8EA0700DB7C73 /* Preview Content */,
@@ -134,6 +134,9 @@
 				9C1DC75F25ACE068007D359A /* LifeGuides.swift */,
 				9CA7117225C7B9B50041436C /* Issue.swift */,
 				9CA7117525C7BA750041436C /* Issues.swift */,
+				9C346AA025CA673500F42AEE /* HexagonParameters.swift */,
+				9C346AA325CA68C900F42AEE /* BadgeBackground.swift */,
+				9C5DCCB525CDF7BF00593E05 /* NavigationBarColorChange.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				9C1DC75C25ACDF94007D359A /* LifeGuide.swift in Sources */,
 				9CA7116F25C7B1680041436C /* FAQsView.swift in Sources */,
 				9CA7117325C7B9B50041436C /* Issue.swift in Sources */,
+				9C5DCCB625CDF7BF00593E05 /* NavigationBarColorChange.swift in Sources */,
 				9C28FAA225CB87CE007E82F4 /* MessageFunction.swift in Sources */,
 				9C70C98A25C8A5B100345ECD /* HomeView.swift in Sources */,
 				9C93FFE025CC9C1800A6801A /* GradientBackground.swift in Sources */,

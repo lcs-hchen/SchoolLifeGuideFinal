@@ -10,15 +10,33 @@ import SwiftUI
 struct LifeGuideDetailView: View {
     
     let lifeGuide: LifeGuide
+    @State private var zoomed = false
     var body: some View {
        
                 ScrollView{
+                    
+                    // First 1 contains multiple images
                     if let imageName = lifeGuide.imageName {
                         Image(imageName).resizable()
+                            .aspectRatio(contentMode: zoomed ? .fill : .fit)
                             .scaledToFit()
                             .padding(.horizontal)
+                            
+                            .onTapGesture {
+                                withAnimation {
+                                    zoomed.toggle()
+                                }
+                            }
+                            
+                        if imageName == "SchoolDailySchedule" {
+                            Image("SchoolDailySchedule2")
+                                .resizable()
+                                .scaledToFit()
+                                .padding(.horizontal)
+                        }
+                            
                     }
-                   
+                  
                    
                     
                     Text(lifeGuide.description).padding([.leading, .bottom, .trailing])

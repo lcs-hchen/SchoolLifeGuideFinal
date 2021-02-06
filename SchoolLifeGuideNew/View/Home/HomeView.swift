@@ -11,6 +11,7 @@ struct HomeView: View {
     var body: some View {
         
         let text = "You will soon realize that being a member of Lakefield College School is to be a part of a close and caring family. Make the most of your time at the school. Before you know it, you will be graduating and bidding farewell to your Grove."
+        
         ScrollView{
             VStack {
                 
@@ -24,7 +25,7 @@ struct HomeView: View {
                 
                 MessageFunction(firstLineTitle: "Learning", description: "By engaging in a variety of meaningful learning experiences, LCS encourages curiosity, promotes collaborative problem solving, and instills an enduring passion for life-long learning.", titleFontSize: 30, textFontSize: 15, firstTitleTopPadding: 120, descriptionBottomPadding: 147, descriptionHorizontalPadding: 77)
                 
-                MessageFunction(firstLineTitle: "Citizenship", description: "Through service to others and the development of leadership skills we encourage our students to become thoughtful, constructive and contributing members of the local and global community.", titleFontSize: 30, textFontSize: 15, firstTitleTopPadding: 125, descriptionBottomPadding: 147, descriptionHorizontalPadding: 77)
+                MessageFunction(firstLineTitle: "Citizenship", description: "Through service to others and the development of leadership skills we encourage our students to become thoughtful, constructive and contributing members of the local and global community.", titleFontSize: 30, textFontSize: 15, firstTitleTopPadding: 125, descriptionBottomPadding: 130, descriptionHorizontalPadding: 77)
                 
                 MessageFunction(firstLineTitle: "Environmental", secondLineTitle: "Stewardship", description: "Through our unique campus and programs, our students are inspired to become leaders with a commitment to global environmental stewardship.", titleFontSize: 30, textFontSize: 15, firstTitleTopPadding: 125, descriptionBottomPadding: 130, descriptionHorizontalPadding: 77)
                 
@@ -37,6 +38,7 @@ struct HomeView: View {
             }
             
         }.preferredColorScheme(.light)
+        
         
         
     }
