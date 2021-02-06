@@ -12,7 +12,8 @@ struct LifeGuideDetailView: View {
     let lifeGuide : LifeGuide
     @State private var zoomed = false
     var body: some View {
-        
+        UITableView.appearance().backgroundColor = .clear
+        UITableViewCell.appearance().backgroundColor = .clear
        return ZStack {
             
             GradientBackground()

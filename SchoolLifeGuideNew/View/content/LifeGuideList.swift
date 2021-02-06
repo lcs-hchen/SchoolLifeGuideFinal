@@ -13,7 +13,8 @@ struct LifeGuideList: View {
     @State private var searchText: String = ""
     var body: some View {
       
-        
+        UITableView.appearance().backgroundColor = .clear
+        UITableViewCell.appearance().backgroundColor = .clear
         
             
          return  ZStack {
