@@ -366,7 +366,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         The school will arrange for all necessary bus and train travel plans including all ground transportation to and from the airport. Parents are responsible for air travel arrangements and reservations. Students must complete a travel form (at lcs.on.ca/travelform) and pick up tickets from the Coordinator of International Students and Travel. All ground travel costs are billed to the student’s account. Please plan ahead for additional student expenses.
                         During school breaks, chartered buses deliver students to Toronto and, if numbers warrant, to other cities that have bus terminals. Additional bus and train connections are made from these centres. The cost of LCS arranged buses to the above destinations is dependent on the number of students who take the bus, hence charges may vary. A minimum number of students is necessary to charter a bus. Students must sign up for the buses in order to have seats reserved for them.
                         A 48-hour advance notice cancellation policy (no charge) applies.
-                        """, subTopics: [
+                        """, imageName: "", subTopics: [
                         
                         LifeGuide(name: "Rooms", description: "A student’s room should be neat and presentable at all times. Sunday evenings are reserved for cleaning rooms and preparing for the week ahead. For fire safety and health reasons, all students must follow basic guidelines and expectations to ensure their safety and remain in accordance with fire and safety codes. Residences and rooms are checked regularly by the housekeeping staff, Heads of House, Associate Faculty and the Director of Facilities. Students are asked to take responsibility for their well-being by following the health and safety guidelines listed below."),
                             
@@ -490,6 +490,91 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             """)
                             
                             
+                        
+                        
+                        ]))
+        
+        list.append(LifeGuide(name: "Life “In Community”", description: """
+                        Open House
+                        Open House refers to the time of day when students may visit their friends in residence common rooms and student rooms without having to ask permission. In the spirit of community building, only common rooms are available for open house visitation prior to Thanksgiving. Residences are closed to all visitors outside of Open House hours. During these times students must ask their residential staff on duty for permission to have a friend visit in their residence.
+                        Lakefield College School endeavours to respect the privacy and personal space of all students. Guests are only permitted in the residence outside of Open House hours with the permission of the Head of House or Associate Faculty.
+                        """, imageName: "", subTopics: [
+                        
+                        LifeGuide(name: "Open House Hours:", description: """
+                            MONDAY - THURSDAY
+                            8:45 p.m. - 9:45 p.m.
+                            
+                            SATURDAY
+                            6:45 p.m. - 10:55 p.m.
+                            
+                            SUNDAY
+                            No Open House
+                            
+                            Expectations During Open House Hours
+                            Residences are the boarding students’ home during the school year. Doors must be open to allow a clear line of sight whenever a student is visiting. Appropriate and respectable behaviour is expected at all times to maintain the dignity, health, safety and well-being of all students. Visitors to residences are considered guests and should at all times be accompanied by a host student in the residence. There are no open house hours in the day locker rooms.
+                            NOTE: If a student is in a residence without permission outside of Open House hours they will be held accountable for a Closed House Violation.
+                            A Head of House may close their residence or limit visitation to their common rooms at any time.
+                            """),
+                            
+                            LifeGuide(name: "Affinity Houses", description: """
+                                Day students are full participating members of their assigned residence and as such are granted open access to their residence’s common rooms, bathrooms and any other shared space in their residence without requesting permission between the hours of 8:00 a.m. – 5:30 p.m. Monday to Friday.
+
+                                After 5:30 p.m. on weekdays, 1:00 p.m. on Saturdays and at all times on Sundays, day students must inform their residential staff on duty in order to be in their residence.
+                                """),
+                            
+                            LifeGuide(name: "Weekend Activities", description: """
+                                Spirit Weekends
+                                There are a number of Spirit Weekends throughout the school year when all students are expected to remain on campus and participate in spirit events. Therefore, Saturday evening leave will not be granted on these weekends. Saturday overnight leave may only be granted after the completion of the spirit event.
+
+                                Weekend Programming
+                                Every Friday and Saturday evening the school offers a weekend program. On Quiet Weekends (the few Saturdays throughout the year when there are no classes), excursions and other trips to a variety of locations such as ski trips, shopping or sports trips to Toronto, visits to U.S. cities and Canada’s capital city of Ottawa are often available to students. It is the school’s experience that students prefer to have down time on Sundays to sleep-in, rest and study. On Sundays, optional programs are also offered such as intramural sports, cooking classes, rock climbing, community service, etc.
+                                """),
+                            
+                            
+                            LifeGuide(name: "Use of Personal Electronic Devices (PED) and Evening Routine", description: """
+                                Students who choose to bring Personal Electronic Devices (i.e. smart phones, laptop computers, tablets, bluetooth appliances, etc.) to school do so at their own risk. Students are encouraged to record the serial numbers of the devices and to ensure that their devices are inscribed with their name. Students are expected to use their Personal Electronic Devices respectfully and only at appropriate times during the day and evening.
+                                Students who breach the Responsible Use Agreement will have their PED confiscated for an indefinite period of time as determined by their Head of House. Repeat offences may require a student to attend a meeting of the Standards Committee for Persistent Inability to Abide by the Expectations of the School.
+                                At all times, student use of PEDs is subject to the terms, conditions and accountabilities outlined in the Lakefield College School Responsible Use Agreement, which was signed by the student at registration.
+                                The school understands the fundamental importance of healthy sleep. To encourage healthy sleeping habits, all junior students (Grades 9 and 10) will turn in their technology to the residential staff on duty prior to curfew on Sunday to Friday evenings. Students should be in the habit of handing in fully charged technology devices. Senior students may be required to hand in their technology if they are not able to manage their own healthy sleeping habits. All technology will be returned to the owner before breakfast the following morning.
+                                """),
+                            
+                            LifeGuide(name: "No Tech Zones (Applies to all members of the LCS community)", description: """
+                                Chapel and Dining Hall - No PEDs are permitted to be used or visible in the Chapel and Dining Hall during meal times. Students who contravene this policy will have their device immediately confiscated. It will be given to the respective Head of House who will return it to the student after an educational conversation regarding appropriate use of devices during important community social time.
+                                
+                                PEDs may be confiscated by any staff member at any time for inappropriate use or as an accountability for other inappropriate behaviour.
+                                """),
+                            
+                            LifeGuide(name: "Information Technology Responsible Use Agreement", description: """
+                                Lakefield College School makes its campus-wide network, including its connection to the Internet, available to all students and staff for the express purpose of furthering the educational mission of the school. In order that network users understand how best to abide by this purpose, it is expected that all students, staff and parents read the official Responsible Use Agreement (RUA) online at http://olc.lcs.on.ca/rua/. Use of the network constitutes agreement to the terms of the RUA. Repeated or more serious violations of the RUA may result in more serious accountability, and may necessitate meeting with the Standards Committee to determine appropriate accountability.
+                                In brief, but without limiting the official RUA, the following are expected:
+
+                                •That digital activities that impact members of the LCS community are subject to the RUA.
+                                •That students understand that their digital activities are subject to school policies such as the Harassment Policy and the Academic Honesty Policy.
+                                •That students are bound by the copyright laws of Canada and the Province of Ontario and as such can only store images, music, video and software that they have purchased.
+                                •That software licensed to the school will need to be removed when the student leaves the school.
+                                •That all students are to keep private information (such as phone numbers and addresses) about themselves and other students, private.
+                                •That students will keep their usernames and passwords confidential.
+                                •That students will only use their own credentials when accessing digital resources.
+                                •That students will not seek out or store sexually explicit images.
+                                •That students can’t use school resources or school provided resources for financial gain.
+                                •That laptops need to be secured when not in use.
+                                """),
+                            
+                            LifeGuide(name: "Safety and Security", description: """
+                                Health and Safety: Fire Code Standards
+                                • There must be clear and unobstructed access (both physically and visually) into and out of each dorm room.
+                                • Within each dorm room, there must be a reasonable amount of open and clear space to allow for proper cleaning and easy movement within the room. The floor area should be clear of clutter (clothes, loose extension cords, etc.).
+                                • All electrical appliances and adaptors, including lamps, must be CSA-approved. Halogen lights are not permitted. Light bulbs must comply with the manufacturer’s specifications and must never exceed the recommended wattage. We recommend energy efficient “twisting” bulbs, such as “Panasonic GEN IV Light Capsule”, for safety and energy efficiency.
+                                • Only one extension cord and power bar per electric receptacle is permitted. Multiple extension cord and power cord connections compromise safety and are not permitted.
+                                • Noise cancelling headphones and other noise cancelling devices are not permitted.
+                                • Ceiling coverings/decorations (posters, flags, other fabric hangings) are not permitted. Decorations and coverings must not block the line of sight into a room or to the occupants’ beds in order that a quick visual scan can determine the presence or absence of a student.
+                                """),
+                            
+                            
+                            
+                            LifeGuide(name: "", description: "")
+                            
+                        
                         
                         
                         ]))
