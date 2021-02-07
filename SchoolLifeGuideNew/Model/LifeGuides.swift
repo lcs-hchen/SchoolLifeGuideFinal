@@ -94,7 +94,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
         ]))
         
       
-        list.append(LifeGuide(name: "Academic Life", description: "Student Achievement\n\nLakefield College School has high expectations of its students. Homework is assigned daily and is checked in class. Attendance at classes is compulsory for all students in all grades. Students are expected to take responsibility for their academic work and to strive for excellence. Lakefield is committed to providing equal educational opportunities and challenges to all students.\n\nThe school’s commitment to a rigorous academic program is strongly endorsed by LCS graduates, who report themselves to be well prepared for their university studies.", imageName: "Dress", subTopics: [
+        list.append(LifeGuide(name: "Academic Life", description: "Student Achievement\n\nLakefield College School has high expectations of its students. Homework is assigned daily and is checked in class. Attendance at classes is compulsory for all students in all grades. Students are expected to take responsibility for their academic work and to strive for excellence. Lakefield is committed to providing equal educational opportunities and challenges to all students.\n\nThe school’s commitment to a rigorous academic program is strongly endorsed by LCS graduates, who report themselves to be well prepared for their university studies.", imageName: " ", subTopics: [
     
     
                 LifeGuide(name: "Excused Absences/Attendance", description: "If a day student is to be away from school for part or all of the day due to illness or a medical appointment, the parent/guardian must telephone the Health and Well-being Centre to report the absence.\n\nIf a day student is to be away from school for part or all of the day due to a reason other than illness, the parent/guardian must telephone the Attendance Administrator at least two days in advance. The Head of House will then initiate the leave process."),
@@ -209,17 +209,290 @@ On Clean Casual days, students make a donation to a school-selected charity in r
 ]))
         
         
-        list.append(LifeGuide(name: "test 4", description: "This is test 4 content", warning: "4 is dangerous", imageName: "system4", subTopics: [
+        list.append(LifeGuide(name: "Student Life", description: "This is test 4 content", warning: "4 is dangerous", imageName: "", subTopics: [
         
-            LifeGuide(name: "a", description: "b"),
-            LifeGuide(name: "v", description: "x")
-        
+            LifeGuide(name: "Dining Hall", description: """
+                The Dining Hall may be open for student and staff use during the day and evening.
+                During meal time hours (see below), the Dining Hall is a ‘tech free’ area, which means that smart phones, hand held devices, computers and tablets, etc. are not permitted.
+                All meals are cafeteria style. On Mondays, Wednesdays and Thursdays students are offered one entrée; on the other days, they are offered two. In addition, there is a healthy choices bar, deli bar, soup and a variety of desserts and fruits. A fruit cart is located in the Dining Hall foyer and is always open to students. A vegetarian option is always available.
+                The food service operation is managed by Aramark Campus Services. The Seniors-in-Charge (SICs) of Dining Hall chair a committee of students from all grades. This committee meets with the Dining Hall staff regularly to discuss all aspects of the meals and any concerns that may have been brought to their attention by classmates. Dietary questions or concerns can also be addressed to dietitian@ aramark.ca.
+                Dining Hall meal hours are as follows:
+                MON., TUES., THURS., FRI WED., SAT. SUN.
+                Breakfast: 7:00 a.m. - 8:25 a.m. 8:30 a.m. - 9:25 a.m. 8:00 a.m. - 10:30 a.m.
+                Lunch: 12:30 p.m. - 2:00 p.m. 12:15 p.m. - 1:15 p.m. 11:30 a.m. - 1:00 p.m.
+                Dinner: 5:30 p.m. - 6:45 p.m. 5:30 p.m. - 6:45 p.m. 5:30 p.m. - 6:45 p.m.
+                *Food Service ends at 6:45 p.m. The Dining Hall closes at 7:00 p.m. for cleaning.
+                """),
+            
+            
+            LifeGuide(name: "Off Campus Food Ordering", description: """
+                Lakefield College School generally discourages the ordering of food from off campus venues. However, on occasion students are able to order pizza, etc. after asking and receiving permission and only according to the following schedule:
+                Sunday to Friday
+                • All food orders have to be placed by 8:00 p.m. and only with the permission of residential staff on duty.
+
+                • Food deliveries are not permitted during study time.
+
+                • All food orders have to be delivered by 10:00 p.m.
+
+                • The campus is closed to student deliveries after 10:00 p.m.
+
+                Saturday
+                • All food orders have to be placed before 10:30 p.m. and only with the permission of residential staff on duty.
+
+                • All food orders have to be delivered before 11:00 p.m.
+
+                • The campus is closed to student deliveries after 11:00 p.m.
+                """),
+            
+            LifeGuide(name: "School Stores", description: "School Stores is open from 8:30 a.m. to 4:00 p.m., Monday to Friday with the exception of Wednesday when it closes at 2:00 p.m. School Stores closes for the summer and reopens in late August. All textbooks, school supplies, toiletries, Grove Society items, team uniforms are available at School Stores. All purchases are billed to parents."),
+            
+            LifeGuide(name: "Lockers", description: """
+                Each student at Lakefield College School has the option of using a book locker. The locker is spacious enough for a book bag (including laptop computer) and a winter jacket/coat. Students are asked to use this locker and to keep it secure and locked at all times. Laptops left in the hallways or around the school will be moved to a secure location. Clothing and other items left about the school will be placed in the Lost and Found. It is each student’s responsibility to ensure that their valuables (including laptops) are kept secure and locked at all times.
+                Day students have their own change room which may contain a locker or cubby space. The locker or cubby is for general sportswear, towel and toiletries. For larger sports equipment, such as hockey bags and skis, there is an adjacent storage room for day students to use. This room will be left open during the day, but locked overnight.
+                """),
+            
+            LifeGuide(name: "Lost and Found", description: """
+                The school is not responsible for lost belongings; however, staff are instructed to move all found items to the designated Lost and Found box in the Day Student area. Valuables such as wallets, watches, keys, etc. are taken to Reception or the School Life office. Items not claimed by the year’s end are given to charity, except Formal and Standard Dress items which are donated to the Replay Shop for resale.
+                Because of the residential nature of the school, it is very important to label belongings with the student’s name. When a student notices an item is missing, we ask them to: a) post the details of the lost item on the Edsby ‘Lost and Found’ group; b) check with friends to see if it was borrowed; and c) check the Lost and Found box. If a more thorough search is required, a student should pick up a Missing Item check list form from the Administrative Assistant to School Life. Families are reminded to make sure that their children’s belongings are insured and that they record serial numbers for bicycles, laptops, tablets, etc. The school strongly encourages all students to lock their bicycles at all times. The school will have some “Lost and Found Displays” set up for parents and students on Open House days, such as Fall Fair and Regatta Day. After these display days, the items will be taken to a local charity.
+                """),
+            
+            
+            LifeGuide(name: "Social Activities", description: "Throughout the year, there are many social events which are scheduled into the school’s calendar. There is at least one dance every term, a semi-formal event at Christmas and a formal event in the spring term. There are also events scheduled every weekend. On Friday evenings from 9:00 - 10:00 p.m., there is a community spirit event arranged by the School Life Class. Throughout the year, we enjoy special days such as Ted Pope Day when the entire school goes skiing and Carnival Days when the paper houses compete in spirited challenges. On Fall Fair and Regatta Day, parents and alumni are invited to the school to enjoy a day on campus. On special and very rare occasions, the Head of School may grant the entire school a half-day off or a sleep-in."),
+            
+            LifeGuide(name: "Paper Houses", description: "Every student in the school is assigned to one of four paper houses named after previous school masters: Sheldrake, Mackenzie, Pullen, or Lefevre. Throughout the year, students compete in different games, accumulating points for the house and themselves. Personal points can be gained through sports, community service, activities and academics. Intramural basketball, beach volleyball, baseball and ultimate frisbee are especially popular. At the end of the year, the points are tallied to determine the winning Paper House."),
+            
+            
+            LifeGuide(name: "Vehicles on Campus", description: """
+                Boarding Students
+                Boarding students are not permitted to have vehicles (other than bicycles) on campus. Under this policy vehicles include, but are not limited to; cars, motorcycles, electric bicycles, gas powered bicycles, etc. Unauthorized vehicles will be towed off campus or stored in an onsite facility if possible until they can be returned home. Cars will be taken to a compound in the local area. The cost of the tow and impound will be borne by the parents. For safety reasons, the school strongly discourages boarding students from keeping cars in the Lakefield area.
+                Day Students
+                Day students must register their cars (make and license number) with their Day Head of House. At which point they will be given a parking tag to hang off of their car’s rear-view mirror. For security reasons, this tag must be present and visible at all times. If the tag is not visible, the school reserves the right to tow the vehicle at the owner’s expense. The following guidelines must also be adhered to:
+                • Day students who drive to school must park their cars in the lot by the maintenance buildings.
+
+                • Cars are NOT to be used for any purpose other than coming to school and departing from school at the end of the day. Cars may not be used during the school day unless specific permission is granted by the Head of House each time a student wishes to use their vehicle. Parents must also grant permission each time the student wishes to use their car during the day.
+
+                • Cars may not be driven to any residence on campus or to the waterfront at any time, for any reason.
+
+                • Cars are not to be used to go to school-sanctioned events (including sports) where bus transportation has been organized unless the student is going directly home after the event. In such instances, the student may not transport other students in their car.
+
+                • Day students may only transport other day students in their car who are noted at the bottom of the car policy form (located on the eRegistration system). Boarding students must have permission from their parents and must check with their Head of House each time they are passengers in a vehicle.
+
+                • Students must adhere to the 20 km/h speed limit on campus and must practice safe and responsible driving behaviour at all times.
+
+                • The car policy form must be completed and filed with the assigned Day Head of House
+
+                • Students are to return the parking tag at the end of the school year. Students who lose their parking tag will be charged a replacement fee of $5.00.
+
+                Contravention of the Car Policy
+
+                Day students who contravene the car policy will be held accountable in the following manner:
+                • 1st Offence: 1-week suspension of car privileges (car not permitted on campus for 7 days)
+                • 2nd Offence: 1-month suspension of car privileges (car not permitted on campus for 30 days)
+                • Subsequent Offences: Student will be required to attend a meeting of the Standards Committee for Persistent Inability to Abide by the Expectations of the School. Student will have their car privileges revoked for an indefinite period of time greater than 30 days and will be placed on Directed Probation for Persistent Inability to Abide by the Expectations of the School. Students will be liable for suspension from the school
+
+                Taxis
+                For personal use, taxis must be paid for directly by the student. The high cost of taxis in the Lakefield area usually prompts students to share cabs into Peterborough. For medical appointments, the nursing staff will distribute taxi charging slips. Taxi slips will also be given to students for other school-sanctioned events or co-curricular functions.
+                """)
         
         
         ]))
         
-        list.append(LifeGuide(name: "test 5", description: "This is test 5 content", warning: "5 is dangerous", imageName: "system5"))
         
+        list.append(LifeGuide(name: "Day Student Life", description: """
+                        Affinity Houses
+                        Day students are full participating members of their assigned residence and as such are granted open access to their residence’s common rooms, bathrooms and any other shared space in their residence without requesting permission.
+                        After 5:30 p.m. on weekdays, 1:00 p.m. on Saturdays and at all times on Sundays, day students must inform their residential staff on duty in order to be in their residence.
+                        """, imageName: "system5", subTopics: [
+                        
+                        LifeGuide(name: "Evenings on Campus", description: "Day students are welcome to be on campus in the evenings and weekends, but must observe the schedules and rules of the school and of the residences. If on campus during study, day students must be in the library studying. Day students may be in their House with permission. If it is essential for a day student to participate in group study in a residence, permission must be obtained from both the teacher and the residential staff on duty. Day students must arrange to leave campus by 10:00 p.m. Monday through Saturday and by 8:00 p.m. on Sundays."),
+                            
+                            
+                        
+                        LifeGuide(name: "Overnight Stays on Campus", description: """
+                            Day students are welcome to stay with boarding friends in order to meet early school commitments or as a social opportunity on a Saturday evening. Day students must see their Head of House at least two days prior to the overnight stay. The Head of House will speak with the appropriate Residential Head of House (if the request is for a house other than their own) and with the student’s parent/guardian and must receive permission from both for the overnight stay to be approved.
+                            Longer term stays on campus may be arranged by contacting the Assistant Head: School Life, at least one week in advance of the stay. The Assistant Head: School Life will confirm arrangements with the Business Office and the respective Head of House.
+                            """),
+                            
+                        
+                        LifeGuide(name: "Leaving Campus During the School Day", description: """
+                            All students are expected to be on campus throughout the school day (Weekdays 8:30 a.m. – 5:30 p.m., Saturdays and Wednesdays, 9:30 a.m. – 12:00 p.m.). If a day student needs to leave campus for any reason during the day, he/she must seek the permission of his/her Head of House. Students who violate this standard will be considered Absent Without Leave (AWOL). Please refer to page 26 in this guide for leave details.
+                            Day Students are not required to request permission from their Head of House to depart from campus to go home unless they are planning to return to campus later that same day or evening.
+                            """),
+                            
+                            
+                        
+                        LifeGuide(name: "Chapel for Day Students", description: "The Chapel program is an integral part of the school and is, therefore, mandatory for all students. Graduating seniors may ask the permission of their Head of House for one sleep-in a week from Tuesday to Friday. Students in Grade 11 with Grove Senior Status may receive one sleep-in per month. Permission must be sought at least one day in advance. Although Chapel commences at 8:30 a.m., day students should plan on arriving at the school by 8:20 a.m. to allow time beforehand to store equipment and books."),
+                            
+                        
+                        LifeGuide(name: "Mandatory Special Events", description: "The online planner notes that throughout the year some special events are mandatory for all students and some take place in the evening. As these events are an important part of the school culture and community, day students must attend these events. If in a rare instance their attendance is not possible, the parent/guardian must telephone the Head of House, in advance, regarding the absence."),
+                            
+                        
+                        LifeGuide(name: "Day Student Transportation, Busing and Taxi Service", description: """
+                            The day student bus schedule is created over the summer according to requests received and will be provided at registration in September. Day students and day student parents will be regularly emailed a bus schedule. Since Lakefield College School is unable to provide a bus monitor for the Day Student buses that drive to and from the school each day, we require all students using the Day Student Bus to abide by the following Code of Conduct at all times.
+
+                            • Harassment of other students in any form will not be tolerated.
+
+                            • The bus is simply an extension of the school. Behaviour that would not be tolerated in the classroom or in the halls at LCS is not permitted on the bus.
+
+                            • If, in the opinion of the driver, there is behaviour that distracts the driver from his or her job and compromises the safe operation of the bus, the driver will immediately warn the student(s). The incident will be documented and any similar incidents, whether immediately following the one in question or at any time in the future, with any driver, will seriously jeopardize the student’s bus riding privileges.
+
+                            • Abuse of bus property or the property of other students will not be tolerated.
+
+                            • The bus is considered a “Nut Free Area.” No food items containing nuts or nut products are allowed on the bus.
+
+                            • Garbage should be removed from the bus or deposited in the appropriate receptacle at the front of the bus.
+
+                            • Everyone is to remain seated while the bus is in motion.
+
+                            • Students are to keep their feet out of the aisle. No equipment or personal belongings are to be in the aisle while the bus is in motion.
+
+                            • Potentially dangerous sports equipment, such as skates or skis, must be enclosed in a proper equipment bag.
+
+                            • Priority goes to filling seats with students, to a maximum of two people per seat. If room permits, students will be able to bring large equipment bags which must be placed on seats at the front of the bus.
+
+                            • Personal bags are to remain on the lap of each student or at their feet.
+
+                            • Seating is a “first-come, first-served” system. There is no implicit or explicit seating order or hierarchy on the bus at any time. Students are not expected to move from the seat they occupy.
+                              Students riding the bus to LCS or home from LCS must abide by the Code of Conduct presented here. If a student is unable to control their actions and shows by their actions that they cannot follow this Code of Conduct, they will not be permitted to ride the bus. Depending on the degree of the infraction, a student’s eligibility to use the busing service may be suspended for a brief period of time, or could be removed entirely. Students may also be liable to attend a meeting of the Standards Committee for serious behavioural infractions that occur while using the bus.
+                            """)
+                        
+                        
+                        
+                        
+                        ]))
+        
+        list.append(LifeGuide(name: "Residential Life", description: """
+                        Travelling to and from Lakefield College School
+                        The school will arrange for all necessary bus and train travel plans including all ground transportation to and from the airport. Parents are responsible for air travel arrangements and reservations. Students must complete a travel form (at lcs.on.ca/travelform) and pick up tickets from the Coordinator of International Students and Travel. All ground travel costs are billed to the student’s account. Please plan ahead for additional student expenses.
+                        During school breaks, chartered buses deliver students to Toronto and, if numbers warrant, to other cities that have bus terminals. Additional bus and train connections are made from these centres. The cost of LCS arranged buses to the above destinations is dependent on the number of students who take the bus, hence charges may vary. A minimum number of students is necessary to charter a bus. Students must sign up for the buses in order to have seats reserved for them.
+                        A 48-hour advance notice cancellation policy (no charge) applies.
+                        """, subTopics: [
+                        
+                        LifeGuide(name: "Rooms", description: "A student’s room should be neat and presentable at all times. Sunday evenings are reserved for cleaning rooms and preparing for the week ahead. For fire safety and health reasons, all students must follow basic guidelines and expectations to ensure their safety and remain in accordance with fire and safety codes. Residences and rooms are checked regularly by the housekeeping staff, Heads of House, Associate Faculty and the Director of Facilities. Students are asked to take responsibility for their well-being by following the health and safety guidelines listed below."),
+                            
+                        LifeGuide(name: "Pets", description: "Due to Health and Safety standards, boarding students are not permitted to have any form of pets, including fish, in their rooms."),
+                            
+                        
+                        LifeGuide(name: "Furniture", description: "The arrangement of furniture in all dorm rooms must meet Health and Safety and Fire Code standards (see page 32). Furniture or student belongings must not block the exit or entrance into rooms. It is of critical importance that students are able to exit their rooms quickly and safely in case of an emergency. We strongly discourage students from bringing extra furniture into their dorm rooms. Many of the residence rooms are designed to accommodate only the existing furniture and most rooms are not big enough to safely contain more furniture than is provided by the school."),
+                            
+                        
+                            
+                        LifeGuide(name: "Appliances, Gaming Computers and Other Electronics", description: "Cooking and heating appliances, televisions, DVD players, monitors, gaming systems, which includes but is not limited to gaming computers, monitors, handheld devices, consoles, projectors, kettles and irons are not permitted in residence rooms. All electrical appliances, including fridges, must be CSA- approved (see page 32)."),
+                            
+                            
+                            
+                        LifeGuide(name: "Decoration", description: "Students often wish to decorate their rooms with posters. The subject matter of posters must be tasteful in content and appearance, support the values of the school and uphold basic human dignity and respect. Beer, liquor and wine bottles are not considered suitable decorations in rooms."),
+                            
+                            
+                        LifeGuide(name: "Laundry and Dry-Cleaning Service", description: "Laundry service (through Aramark Campus Services) is provided on-site; the cost is included in the school fees. The laundry is picked up weekly, labelled, washed, dried and folded before being returned within two days. Students are asked to ensure that all their items are labelled. Expensive and special care clothing should be sent to a local dry-cleaning service as Lakefield College School cannot be held responsible for loss or damage. There is a dry-cleaner within walking distance from the campus. Coin-operated washers and dryers are available in the residences and students are able to use the school’s laundromat in the classroom block at no charge."),
+                        
+                        
+                        
+                        LifeGuide(name: "Mail", description: "Boarding student mail is sorted by the school receptionist and delivered to them by their residential staff members. For larger packages, students will receive an email from the school receptionist informing them that they have received a package and it is at reception for retrieval."),
+                            
+                            
+                            
+                        LifeGuide(name: "Student Banking", description: """
+                            Students are encouraged to responsibly handle their own finances and each student should have his or her own bank account in the Village of Lakefield. A weekly allowance of up to $40.00 should be sufficient and students are advised to give large sums of money to their Heads of House for safe keeping. In addition to the banks in the village, the School Stores also has a bank debit machine where students can receive a small amount of cash for a nominal service charge of $1.00. The two local banks are:
+                            The Royal Bank, 705.652.6713
+                            The Canadian Imperial Bank of Commerce, 705.652.3311
+                            """),
+                            
+                            
+                        LifeGuide(name: "In-House Standards and Accountability", description: """
+                            Heads of Houses, Associate Faculty and Senior Students will uphold the school’s standards within the House for the following: dress, lateness for meals, leave, study, Chapel, deportment and room cleanliness.
+                            Faculty, Teachers on Duty (TOD) and graduating seniors are responsible for maintaining acceptable standards of behaviour and dress during the day.
+                            """),
+                            
+                            
+                        LifeGuide(name: "Saturday Study", description: "Students may be placed into Saturday Study (supervised study from 1:00 p.m. to 3:00 p.m.) by a student’s Head of House, Advisor, or the Assistant Head: School Life for academic concerns or behaviours which persistently compromise community standards and expectations, including but not limited to, continued lateness, repeatedly missing Chapel, etc. Students who are gated (see Definitions on page 60) over a weekend are required to serve Saturday Study."),
+                            
+                            
+                            
+                        LifeGuide(name: "Leaving the Campus", description: """
+                            Weekday (Daytime) Leave
+                            All students must be on campus during the school day (8:30 a.m. to 3:30 p.m.). If a student must leave campus during the day, he/she must have permission from his/her Head of House or, in the case of a medical necessity, from the Health and Well-being Centre. Program-related activities such as field trips and sports fixtures are considered school-sanctioned events and students are not required to ask permission from their Head of House to leave campus for such excursions.
+
+                            Leave to the Village of Lakefield
+                            Students may go into the Village of Lakefield at the following times:
+
+                            • Mondays, Tuesdays, Thursdays and Fridays between 3:30 p.m. and 5:30 p.m.
+
+                            • Wednesdays between 1:30 p.m. and 5:30 p.m.
+
+                            Students are required to request permission from their Head of House or Associate Faculty for “Leave to Lakefield.”
+                            
+                            Leave to the Village of Lakefield is restricted to the downtown area of the village. Students who cross the bridge without permission will be considered ‘absent without leave’ (AWOL).
+                            """),
+                            
+                        
+                        LifeGuide(name: "Weekday Dinner Leave", description: """
+                            Graduating students may request one evening dinner leave per week. They must check back in with the Head of House or Associate Faculty in person as soon as they return to campus and not later than 10:00 p.m.
+                            On special (and very rare) occasions, Grade 9 to 11 students may request dinner leave from their Head of House. They must check back in with the Head of House or Associate Faculty in person as soon as they return to campus and not later than 8:00 p.m.
+                            """),
+                            
+                        
+                        LifeGuide(name: "Weekday Overnight Leave", description: "Overnight weekday leave is not permitted unless there are extenuating circumstances and the student will be with his/her parent(s). Such permission must be cleared with the Head of House, in consultation with the Assistant Head: School Life."),
+                            
+                        LifeGuide(name: "Saturday—Daytime Leave to Lakefield & Peterborough", description: """
+                            Saturday mornings are considered academic times and, as such, students are not permitted to have leave until classes end. On Saturday afternoons, students may go to Lakefield or Peterborough between 1:00 - 5:30 p.m. provided that they have no academic, co-curricular commitments and that they are not gated to campus.
+                            Students are required to request permission from their Head of House or Associate Faculty for “Daytime Leave.”
+                            """),
+                            
+                        LifeGuide(name: "Sunday—Daytime Leave to Lakefield & Peterborough", description: """
+                            On Sundays before 1:00 p.m. students wishing to have morning leave to Lakefield and/or Peterborough must first check-in with their Head of House or Associate Faculty for permission. On Sundays after 1:00 p.m. students may go into Lakefield and/or Peterborough provided that they are not gated to campus. Students must return to campus by 5:30 p.m.
+                            Students are required to request permission from their Head of House or Associate Faculty for “Leave to Lakefield.”
+                            """),
+                            
+                        LifeGuide(name: "Saturday—Evening Leave", description: """
+                            Saturday evening leave is granted at the discretion of the Head of House or Associate Faculty on duty. The student must be demonstrating academic and social responsibility to receive permission for leave.
+                            Requests for evening leave must be made in person with the Head of House or Associate Faculty before leaving campus.
+                            Saturday evening leave assumes that a student is leaving campus around the dinner hour (5:00 - 6:00 p.m.).
+                            Students in Grades 9 and 10 may NOT have evening leave until AFTER the Thanksgiving Weekend.
+                            Students must be back on campus and check in with their Head of House or Associate Faculty in the residence by their curfews (see page 9 in this guidebook for curfew times).
+                            """),
+                            
+                        LifeGuide(name: "Saturday Evening—Overnight Leave", description: """
+                            Overnight leave begins at the end of Saturday’s academic and athletic program schedule and may extend until 8:00 p.m. on Sunday. The earliest students are permitted to return to campus is 8:00 a.m. on Sunday morning.
+                            Students must check in directly with the Head of House or Associate Faculty on duty in their residence upon their return. Students who are expecting to return to school on Sunday evening after 8:00 p.m. must have received permission in advance from their Head of House.
+                            If a student wishes to take Saturday overnight leave, the parents of the student must contact the Head of House by 10 pm Thursday night of that same week. If a student is going to be a guest at another student’s home, the host parents must also contact the Head of House by the Thursday night of that same week*. Leave can only be granted if the host parent is available to the student and accepts responsibility for the care of that student.
+                            * A host parent is defined as a responsible adult at least 21 years of age who assumes the care of and responsibility for the student(s) staying in their home.
+                            """),
+                            
+                            
+                        LifeGuide(name: "Weekend Leave", description: """
+                            Lakefield College School discourages students from missing Saturday morning classes and afternoon co-curricular commitments. However, there may be exceptional circumstances when a student requires weekend leave. In order for a student to be granted permission to miss Saturday classes and/or Saturday co-curricular programming, they must follow the process outlined below:
+
+                            1. Students must ask their Head of House for weekend leave before 10:00 p.m. Thursday before the weekend they intend to leave (Associate Faculty are not able to grant permission for weekend leave). The student will do this by email, cc’ing their parents, the intended hosts and their Head of House.
+
+                            2. The Head of House will contact the student’s parents on or before the Friday of the weekend leave and discourage missing class time. If the leave is necessary, the Head of House will confirm departure and return times with the parents.
+
+                            3. The Head of House will put a planned absence into the student’s Edsby attendance record.
+
+                            4. Students who miss class are responsible for any of the work they have missed and are expected to return to campus between 8:00 a.m. and 8:00 p.m. on Sunday.
+                            """),
+                            
+                        
+                        LifeGuide(name: "Special Events Leave", description: "Special Events Leave refers to certain leave opportunities for students who, with Head of House and parental permission, wish to attend a special event that would require them to miss their usual weekday curfew time. Special Events Leaves (limited to three (3) per year) can only be granted by a Head of House in consultation with a student’s parent(s). A student will only be granted permission to remain off campus overnight if safety considerations make this exception necessary."),
+                            
+                        
+                        LifeGuide(name: "Hotel Leave", description: "Students may only stay in a hotel, Airbnb, or other temporary accommodation with their own parent, a host parent (a responsible adult 21 years of age or older, who the school regards as capable of accepting the responsibility of assuming in loco parentis). In these cases, all transfer of care must be approved by the Assistant Head: School Life, the student’s parents and the host parent."),
+                            
+                        LifeGuide(name: "Long Weekend Breaks and School Closing", description: "The school has some long weekend and mid-term breaks within the academic year that require the school and all programming to cease. During these breaks (Thanksgiving, November Mid-term, Christmas, March Mid-Term, May Mid-term) the school closes and dissolves “in loco parentis.” In these instances, the school is not obligated to transfer care to a host parent as students return to the care and responsibility of their own parent/guardian and must find accommodation off campus. The school always provides supervised programming for those who may request to remain in the care of the school. The school will also do its utmost to provide transportation and assist in arranging appropriate accommodations during these breaks should this be requested."),
+                            
+                            
+                        LifeGuide(name: "Travelling to and from Lakefield College School", description: """
+                            The school will arrange for all necessary bus and train travel plans including all ground transportation to and from the airport. Parents are responsible for air travel arrangements and reservations. Students must complete a travel form (at lcs.on.ca/travelform) and pick up tickets from the Coordinator of International Students and Travel. All ground travel costs are billed to the student’s account. Please plan ahead for additional student expenses.
+
+                            During school breaks, chartered buses deliver students to Toronto and, if numbers warrant, to other cities that have bus terminals. Additional bus and train connections are made from these centres. The cost of LCS arranged buses to the above destinations is dependent on the number of students who take the bus, hence charges may vary. A minimum number of students is necessary to charter a bus. Students must sign up for the buses in order to have seats reserved for them.
+
+                            A 48-hour advance notice cancellation policy (no charge) applies.
+                            """)
+                            
+                            
+                        
+                        
+                        ]))
         
         
     }
