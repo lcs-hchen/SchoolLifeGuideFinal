@@ -35,7 +35,8 @@ struct LifeGuideList: View {
                        
                         
                     }.navigationTitle("School Life Guide")
-                   
+                        .font(Font.body.bold())
+                        .foregroundColor(.red)
                 
                 
             

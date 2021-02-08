@@ -93,7 +93,6 @@ On Clean Casual days, students make a donation to a school-selected charity in r
             
         ]))
         
-      
         list.append(LifeGuide(name: "Academic Life", description: "Student Achievement\n\nLakefield College School has high expectations of its students. Homework is assigned daily and is checked in class. Attendance at classes is compulsory for all students in all grades. Students are expected to take responsibility for their academic work and to strive for excellence. Lakefield is committed to providing equal educational opportunities and challenges to all students.\n\nThe school’s commitment to a rigorous academic program is strongly endorsed by LCS graduates, who report themselves to be well prepared for their university studies.", imageName: " ", subTopics: [
     
     
@@ -207,8 +206,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
     
 
 ]))
-        
-        
+    
         list.append(LifeGuide(name: "Student Life", description: "This is test 4 content", warning: "4 is dangerous", imageName: "", subTopics: [
         
             LifeGuide(name: "Dining Hall", description: """
@@ -296,7 +294,6 @@ On Clean Casual days, students make a donation to a school-selected charity in r
         
         
         ]))
-        
         
         list.append(LifeGuide(name: "Day Student Life", description: """
                         Affinity Houses
@@ -558,10 +555,15 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 •That students will not seek out or store sexually explicit images.
                                 •That students can’t use school resources or school provided resources for financial gain.
                                 •That laptops need to be secured when not in use.
-                                """),
+                                """)
                             
-                            LifeGuide(name: "Safety and Security", description: """
-                                Health and Safety: Fire Code Standards
+                        ]))
+        
+        list.append(LifeGuide(name: "Safety and Security", description: "", imageName: "", subTopics: [
+                                
+                                
+                                
+                                LifeGuide(name: "Health and Safety: Fire Code Standards", description: """
                                 • There must be clear and unobstructed access (both physically and visually) into and out of each dorm room.
                                 • Within each dorm room, there must be a reasonable amount of open and clear space to allow for proper cleaning and easy movement within the room. The floor area should be clear of clutter (clothes, loose extension cords, etc.).
                                 • All electrical appliances and adaptors, including lamps, must be CSA-approved. Halogen lights are not permitted. Light bulbs must comply with the manufacturer’s specifications and must never exceed the recommended wattage. We recommend energy efficient “twisting” bulbs, such as “Panasonic GEN IV Light Capsule”, for safety and energy efficiency.
@@ -569,17 +571,917 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 • Noise cancelling headphones and other noise cancelling devices are not permitted.
                                 • Ceiling coverings/decorations (posters, flags, other fabric hangings) are not permitted. Decorations and coverings must not block the line of sight into a room or to the occupants’ beds in order that a quick visual scan can determine the presence or absence of a student.
                                 """),
+            
+                            
+                                LifeGuide(name: "Fire Safety", description: """
+                                    In each house, there is a Fire Plan and approved fire extinguishers. Students are made aware of their house’s emergency meeting area in the case of fire. Students are also made aware of the location of fire extinguishers and emergency procedures. Exits must be kept clear at all times and students should proceed out the exits calmly but quickly. School and House fire alarm drills will take place throughout the school year. Once a residence is evacuated, student and staff attendance will be completed.
+                                    Misuse of fire alarms, detectors and any fire equipment are a very serious offence. Matches, lighters, candles, incense and any open flame are strictly forbidden. Students who intentionally set off the fire alarm may be required to reimburse the school for all expenses incurred from the response of the Fire Department.
+                                    Accountability for Violation of Fire Safety Policies
+                                    Fire extinguishers must not be removed from their location unless it is for use in control of a fire. The use of matches, lighters, candles, incense and any other form of open flame or heating element are strictly forbidden for fire/safety purposes. Behaviour that compromises the safety of a residence and its occupants will be addressed by the Standards Committee.
+                                    Students are not permitted to bring fuel or other incendiary devices to campus. All items that are deemed to be fire hazards will be confiscated.
+                                    Behaviour that compromises the safety of members of the community will be addressed by the Head of School and/or Standards Committee.
+                                    Any situation that causes there to be an “open flame” in or adjacent to any school building is an expellable offence, in accordance with the school’s Zero Tolerance Policy (see Definitions on page 60).
+                                    """),
+            
+                                
+                                LifeGuide(name: "Visitors to Campus", description: """
+                                    Visitors are welcome on campus at specified times throughout the day; however, they must respect the property, standards, values and rules of the school. Students should notify their Head of House before inviting a guest on campus. Parents and family are encouraged to visit whenever possible and must check in with their respective Heads of House or Associate Faculty upon arrival.
+                                    
+                                    A “Visitor Information Form” must be completed for overnight visitors who are not LCS students. This form can be obtained from the office of the Assistant Head: School Life.
+                                    
+                                    Day visitors from outside the LCS community are asked to leave the campus by 6:00 p.m. each evening and should only be in residences with the knowledge and consent of the Head of House or Associate Faculty.
+                                    
+                                    Returning alumni are not permitted to stay overnight in residences.
+                                    
+                                    Strangers on Lakefield College School Campus
+                                    Should a student see anyone on the campus who appears suspicious, please advise a staff member immediately.
+                                    
+                                    Security Guard, Access Cards and Safety Cameras
+                                    A security guard patrols the school grounds in the evenings/overnight and on weekends. During the day (weekdays from 8:30 a.m. - 4:30 p.m. and Saturday from 9:00 a.m. - 12:00 p.m.), visitors are asked to report to the school’s receptionist. After hours and on Sundays, visitors are asked to meet their hosts at the red doors or entrance to their hosts respective residence.
+                                    
+                                    The doors to the academic block and residences are locked at all times. Many of the academic block doors are on a carded access and video safety system. All new staff and students are issued an access card at the beginning of the school year. Students and staff who repeatedly lose their access card may be charged a replacement fee. Cards are not to be shared with others at any time, for any reason.
+                                    
+                                    The school reserves the right to view video footage and access card data in order to investigate concerns of safety and security.
+                                    """),
+            
+                                LifeGuide(name: "Residence Security", description: """
+                                    Important documents such as passports should be left with the Head of House. All valuables including large sums of money should be given to and kept by, the Head of House. Each residence has a storage area for student use during the school year. The school does not offer secure storage during the summer months. Residences are permanently locked by a card access system. The school recommends that students purchase a personal lock box prior to their arrival at the school.
+                                    """),
+            
+            
+                                LifeGuide(name: "Firearms, Weapons and Hunting Equipment", description: """
+                                    Pistols, guns, knives, hunting equipment and other weaponry (or toys as replicas that could be mistaken for weaponry) are NOT permitted on campus. Such equipment is potentially dangerous to both the individual and others in the community. Any equipment found will be confiscated and disposed of by staff. Serious weapon offences will be addressed by the Head of School with the liability of expulsion or through the Standards Committee and may involve the police in accordance with provincial and federal law.
+                                    """),
+            
+                                LifeGuide(name: "Contract/Service Workers in Residences", description: """
+                                    Wherever possible, all contract/service staff will be escorted to residences by an LCS staff person (usually from the Facilities Department). Heads of Houses will be notified, by voice message or email, in advance of any contract workers coming into the residence. The Facilities Department will determine a schedule with outside services that will be communicated to Heads of Houses so that they may plan accordingly with the students in the house.
+                                    """),
+            
+            
+            
+                                LifeGuide(name: "Bicycle Safety", description: "The Lakefield College School campus is located adjacent to a very busy highway. In accordance with the provincial law, all students under the age of 18 are required to wear a bicycle helmet when riding their bicycles on and off campus. The school abides by and upholds all Ministry of Ontario Transportation laws and guidelines."),
+            
+                                LifeGuide(name: "Rollerblade, Longboard and Skateboard Safety", description: "For reasons of safety, rollerblading, longboarding and skateboarding are not permitted on the north roadway (Rashleigh Hill). Students must wear a helmet at all times while rollerblading, skateboarding or longboarding on and off campus. Failure to abide by this school policy or the law will result in the confiscation of the blades or boards, parents will be contacted."),
+            
+            
+                                LifeGuide(name: "Unpiloted Aerial Vehicles (UAVs), Remote Control Vehicles (RCVs)", description: "Vehicles that require combustible fuel are strictly prohibited. UAVs include but are not limited to; Drones, Remote Controlled (RC) planes and helicopters, cars, etc. Due to the potential for loss or damage, the school strongly discourages students from bringing UAVs and RCVs to campus. Should students, with parental permission, wish to bring their vehicle to campus, they must always ask their Head of House for permission to use the vehicle on or off campus. At all times the student must abide by the rules and legislation set forth by Transport Canada and the Province of Ontario (www.tc.gc.ca/eng/civilaviation/drone-safety.html).")
+            
+            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                ]))
+        
+        list.append(LifeGuide(name: "Health and Well-being Services", description: "aaa", imageName: "", subTopics: [
+        
+        
+        
+                    LifeGuide(name: "Prescription Medication Policy", description: """
+                        Prescription medications must be kept in the Health and Well-being Centre and administered and monitored by the school’s physician and nurses. Students in Grade 12, with parent approval, sign a medication contract and are responsible for their own medication. Failure to take the medication as prescribed will result in cancellation of the medication contract. At that point, all medication will be administered through the Health and Well-being Centre. Common sense dictates that some medication (i.e. inhalers for the treatment of asthma, etc.) do not fall into this category.
+                        
+                        These measures have been put in place to ensure that:
+                        
+                        • drugs are kept secure in the interests of the general well-being of all members of the community;
+                        
+                        • the school provides the best possible care in order to foster the well-being of each student taking medication.
+                        
+                        If there are any concerns or questions on this issue, they should be referred to the Health and Well-being Centre. The final decision relating to whether or not a prescription medication is kept, administered and monitored by the Health and Well-being Centre staff will rest with the Director of Health and Well-being.
+                        
+                        The following outlines the procedures to be followed for infractions of this policy:
+                        
+                        • If a student does not report to the Health and Well-being Centre for medication, or refuses to bring prescription medications to the Health and Well-being Centre, the nurse on duty will contact a learning support staff member to request that the student come immediately to the Health and Well-being Centre. Documentation of missed medication will be kept by the Health and Well-being Centre.
+                        
+                        • Should missed medication appear to be a pattern of non-compliant behaviour or abuse of medication, the Director of Health and Well-being will inform the Assistant Heads by email. An Assistant Head will contact the Head of House and the Advisor. The parent(s) of the student will be contacted by the Director of Health and Well-being to explain our policy and concerns. Should the student miss subsequent medications, the school may require him/her to go home on a medical leave of absence as the school can no longer be responsible for the well-being of the student. The Director of Health and Well-being will communicate the above to the parents with copies to the Head of House and the Health and Well-being Centre.
+                        
+                        • If necessary, the Assistant Head: School Life will arrange a meeting with the parents, the student, the Head of House and other relevant staff. Any option or strategy that strays from school policy and is agreeable to all parties must be written and signed by the parents, the student and the school, with copies given to the parents, the student, the Head of House and the Health and Well-being Centre.
+                        
+                        • Subsequent non-compliance or breach of contract will require the student to go home on a medical leave of absence.
+                        """),
+            
+            
+                        LifeGuide(name: "Medical Leave of Absence", description: """
+                            All medical leaves must be approved and arranged through the Director of Health and Well-being and the Head of School or an Assistant Head of School.
+
+                            If a student is unable to participate fully in the school program due to medical (physical or psychological) reasons, the student may be required by the school to take a medical leave of absence. All situations, which are determined by the Health and Well-being Centre to require medical leave of absence, will be communicated to the Director of Health and Well-being. The Director of Health and Well-being will communicate any approved medical leaves via email to the Assistant Heads of the School, the student’s Head of House, the student’s advisor, grade team leader and teachers.
+
+                            Parents and students will be required to sign a contract accepting the conditions of medical leave, as outlined below. The Director of Health and Well-being will maintain communication with the parents and the medical professionals involved with the student’s care regarding the student’s medical concerns.
+
+                            During a medical leave, students will be expected to keep up with only as much school work as they are able to complete. Students will be able to keep track of activities in their classes by using the online learning management tool, Edsby. Students will not be required to complete tests and assignments due during their absence on medical leave.
+
+                            Prior to a student’s return to school, the physician or health care professional caring for the student must complete a medical summary (including ongoing treatment plan and/or restrictions to the student’s physical or cognitive activities as a result of the illness/injury. The physician or health care professional will confer with the Director of Health and Well-being who, in consultation with relevant faculty and the Assistant Heads of School, will determine whether a student is ready to resume full responsibilities.
+
+                            If, in the professional opinion of the medical specialist/family or school physician deems that a student is not capable of writing final exams, that physician will provide written notification to the Director of Health and Well-being, to be forwarded to the Guidance Office. Such notification will be recorded in the student’s Ontario Student Record (OSR) for future reference. In such instances, a student would be required to be at home in the care of his or her parents until the Friday of Closing events. Their final grades would be calculated using their cumulative term mark for the year. Students who are anticipating returning for the next school year will be carefully reviewed in the final staff meeting.
+
+                            In extenuating circumstances and in the absence of the Director of Health and Well-being, the Head of School or Assistant Heads of School may require a student to leave campus for medical or health-related reasons.
+                            """),
+            
+                        LifeGuide(name: "Compassionate Leave of Absence", description: """
+                            Compassionate Leaves of Absence refer to emergency situations when a student is required to go home for personal family emergencies or crises (such as a death of a family member, close friend, critical medical emergencies to families, etc.).
+
+                            All Compassionate Leaves of Absence must be approved and arranged through the Health and Well-being Centre or the Assistant Head: School Life’s office. The Assistant Head: School Life or the Director of Health and Well-being will communicate the details of the compassionate leave to the student’s advisor, teachers, Head of House and others as required.
+
+                            During a compassionate leave, students will be expected to keep up with only as much school work as they are able to complete. Students will be able to keep track of activities in their classes by using Edsby. Students will not be required to complete tests and assignments that are due during their Compassionate Leave of Absence.
+                            """),
+            
+                        LifeGuide(name: "Mental Health Care", description: """
+                            The school has a counsellor and psychiatrist on staff and offers mental health and guidance support in a variety of ways. Small group and facilitated peer support are also available to all students.
+
+                            Social Workers, Counsellors, Doctors and Therapists, are available to the school and appointments are made by referral through the Health and Well-being Centre. The school is also able to assist students who wish to see their own counsellor or therapist through communication technology (Zoom, Skype, Facetime, etc.). In all cases, appointments, private space and travel arrangements can be facilitated through the Health and Well-being Centre.
+                            """),
+            
+            
+                        LifeGuide(name: "Medical Jurisdiction", description: "The resolution of any and all disputes arising between a student, parent and school physician or health care worker are governed by and construed in accordance with the laws of the Province of Ontario and the laws of Canada. The Courts of the Province of Ontario shall have exclusive and preferential jurisdiction to entertain any complaint, demand, claim, proceeding or cause of action, whatsoever arising out of any and all treatment provided by the school’s medical staff, including but not limited to; contracted physicians, staff nurses, counsellors, and psychiatrists, or any other agent, delegate or staff employee involved in the care of the student.")
+        
+        
+        
+        
+        
+        ]))
+        
+        list.append(LifeGuide(name: "Values, Standards and Expectations", description: """
+                        Every student has read and signed the following commitment to Lakefield College School.
+
+                        The Grove Commitment
+                        “Mens Sana In Corpore Sano” — A Sound Mind in a Sound Body
+
+                        Lakefield College School is a community guided by the principles of trust, respect, spirit and participation. In order for the school to achieve its goal of graduating well-rounded young adults, each student must strive to fulfill these fundamental ideals by accepting and exemplifying, in attitude and action, the values of the community.
+
+                        Trust and respect require that each student possesses a caring attitude for fellow students and staff as well as for the school and its traditions. Appreciating the rights and dignity of all of the people who are members of this community is an essential part of the growth of a Lakefield College School student.
+
+                        Students should make every effort to display spirit and pride for the school. This is accomplished by enthusiastically supporting the endeavours of peers and making a personal commitment to the pursuit of excellence. Academic honesty, sportsmanship and adherence to school standards fosters pride in individual and school accomplishments.
+
+                        In order to receive the most from a Lakefield College School education, students must demonstrate a commitment to immerse themselves fully in the community by participating in the myriad of activities offered here. Participation also includes fulfillment of the school motto to promote wellness in each student, in mind, body and spirit.
+
+                        The Grove is and will only be, as strong as the students who make up the community. Therefore, it is essential that each individual student be willing to make the following commitment to the values of Lakefield: I support the principles of trust, respect, spirit and participation. I will do my best to leave Lakefield College School a better place than when I arrived. Acknowledgements: Tim Syrett, Heather Patterson, Andrew Johnston — Class of ’95
+
+
+                        Expectations of a Grove Student
+                        • The school expects its students to uphold its values and expectations, to abide by its behavioural policies and to understand that any conduct bringing disrespect to the school or involving the student with the law, including serious instances occurring out of term time, may cause the student to be liable for school suspension or expulsion.
+
+                        • The school expects parents/guardians to be supportive of the school’s policies and encourages parental involvement at all levels.
+
+                        • Continued refusal to uphold school policies will jeopardize the student’s future at the school.
+                        """, imageName: "", subTopics: [
+                        
+                        
+                                LifeGuide(name: "Student Leadership", description: """
+                                    The Senior Leadership System
+                                    Lakefield College School believes that the complexities of leadership are best learned through experience. A primary goal of the educational experience at LCS is to give each student, in his or her graduating year, the opportunity to exert an influence on the quality of student life at the school.
+
+                                    Each member of the graduating class is given the opportunity to offer leadership to a specific area of School Life. Students are guided by a faculty mentor and reports on their work are included in each of the senior students’ three report cards.
+                                    """),
+                            
+                            
+                                LifeGuide(name: "Grove Senior Status (GSS)", description: """
+                                    Grove Senior Status applies to all students currently in their Grade 11 year at LCS. It provides senior students with an opportunity to experience more senior-type privileges as a result of demonstrated positive behaviours and attitudes. Grove Senior Status privileges are a reinforcement/ acknowledgement of the following values/behaviours/attitudes: self-discipline, self-control, student’s willingness to follow House/LCS routines and expectations and demonstration of good citizenship within the school community.
+
+                                    Grove Senior Status can begin after a sequence of meetings (Grade 11 team meeting and Head of House meeting) have taken place. The process of reviewing Grove Senior Status begins after discussions at parent-teacher interviews and upon a student’s return from Christmas Break. Grove Senior Status for students can be reviewed at any time thereafter and will be included in Grade 11 team meetings when appropriate. The Head of House may grant or revoke GSS at any time based upon the following criteria:
+
+                                    Criteria to Earn Grove Senior Status
+
+                                    • an average of 75% and not in academic difficulty
+
+                                    • regular (and on time) attendance at Chapel, co-curricular activities, breakfast
+
+                                    • on time for study, curfew, bed
+
+                                    • follow house expectations, positive participation in house/LCS program
+
+                                    Grove Senior Status Privileges
+                                    Boarders:
+                                    • use the school library beginning at 8:00 p.m. (Monday-Friday) without a note from their teacher, but with permission from their Head of House or Associate Faculty
+
+                                    • have an extended curfew of 11:30 p.m. on Saturday night
+
+                                    • be entitled to a sleep-in once a month
+
+                                    • assume Senior-In-Charge responsibilities
+
+                                    Day Students:
+                                    • permitted one sleep-in per month
+
+                                    • assume Senior-In-Charge responsibilities
+                                    """),
                             
                             
                             
-                            LifeGuide(name: "", description: "")
+                                LifeGuide(name: "The Standards Committee", description: """
+                                    In order to provide a safe and healthy community and a residential setting that allows students to concentrate effectively on academic, co-curricular and individual pursuits, rules and guidelines must be set for both the individual and common good. The purpose of disciplinary action is to help students become aware of the consequences of their behaviour and to deter them from misbehaviour. Disciplinary action is intended to deal fairly, compassionately and effectively with those violations which do occur, while protecting the welfare of all students and the integrity of the school as a whole.
+
+                                    In serious situations, where the school’s values have been compromised, an Ad-Hoc Standards Committee convenes to review the specific details of the situation and to make recommendations for appropriate accountability. The committee comprises a combination of the following individuals:
+                                    • Seniors-in-Charge of Standards (Chair)
+
+                                    • Assistant Head: School Life
+
+                                    • Co-Head Students
+
+                                    • Seniors-in-Charge of School Life
+
+                                    • Seniors-in-Charge of House (Day or Boarding)
+
+                                    • Grade Representatives
+
+                                    • Staff Head of House
+
+                                    Information is gathered and recommendations are forwarded to the Head of School after discussions have ended. The Standards Committee is committed to due process, consistency and fairness for all students. Students are held accountable for their actions. While it is not always popular to do so, the Senior students must be diligent about maintaining expected standards. Attitudes of the Seniors toward discipline often reflect the effectiveness of the graduating class as a whole in the eyes of the other students and of the staff.
+
+                                    The Standards process is designed to allow the student to gain an awareness of their behaviour and to take responsibility for their actions. For further information on the Standards process, please refer to page 57.
+                                    """),
                             
+                            
+                            
+                            LifeGuide(name: "Persistent Inability to Abide by the Expectations of the School", description: "The school reserves the right to hold a student accountable through the standards process for actions and attitudes that persistently contravene the values of the school. These may include, but are not limited to defiance, deceit, chronic lateness, unexcused absences, disrespect to staff members, etc. The Standards Committee may hold a student accountable by a range of sanctions from on campus discipline to suspension. Subsequent offences of Persistent Inability to Abide by the Expectations of the School may be addressed by the Head of School with a student being liable for expulsion."),
+                            
+                            LifeGuide(name: "Gambling", description: "LCS believes that gambling compromises the high quality of relationships within our community. Therefore, gambling in any form is not permitted by students. Students taking advantage of other students by gambling, or attempting to coerce other students into gambling, will be considered in violation of the school’s harassment policy and subject to any sanctions listed in that policy."),
+                            
+                            
+                            LifeGuide(name: "Closed House Violations", description: """
+                                If a student is in a residence outside of Open House hours or day student locker room at any time without permission, they will be held accountable for a “Closed House Violation” as follows:
+                                • 1st Offence: a student will lose residence visitation or locker room privileges for five (5) days.
+
+                                • Subsequent Offences: a student will lose residence visitation or locker room privileges for a month.
+
+                                Any student who persistently violates Closed House expectations will be required to attend a meeting of the Standards Committee. A Head of House may close their residence or locker room at any time in order to address certain issues in the residence or locker room.
+                                """),
+                            
+                            LifeGuide(name: "Dorm Violations", description: """
+                                All residences are closed to visitors except during specified Open House hours. All visitation must be respectful and appropriate at all times. Inappropriate visitation is termed a “Dorm Violation” and the accountability is as follows:
+                                • 1st Offence: Official Warning, students are Gated* for 1 week. The house where the dorm violation occurred will be closed for two (2) days. Parents are contacted.
+
+                                • 2nd Offence: At the discretion of the Head of House and the Assistant Head: School Life, a Standards Committee meeting may be arranged with a recommendation for the student to go home to reaffirm his/her commitment to the school. The students will be placed on Directed Probation* and will be gated to campus for two weeks. Parents are contacted.
+
+                                •Subsequent Offences: The students will be required to attend a meeting of the Standards Committee for contravention of their Directed Probation status*. Parents are contacted.
+
+                                """),
+                            
+                            LifeGuide(name: "Inappropriate Visitation in Common/Public Areas", description: """
+                                Students are expected to interact with one another in an appropriate and respectful manner at all times. Inappropriate public displays of affection compromise the sense of comfort of others who share the school’s public space.
+                                • 1st Offence: Official Warning. Heads of House informed and parents are contacted.
+
+                                • 2nd Offence: At the discretion of the Head of House and the Assistant Head: School Life, students may be required to attend a meeting of the Standards Committee. Parents are contacted.
+
+                                • Subsequent Offences: The students will be required to attend a meeting of the Standards Committee. Parents are contacted.
+                                """)
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                        
+                        
+                        
+                        
                         
                         
                         
                         ]))
         
+        list.append(LifeGuide(name: "Harassment", description: """
+                        Statement of Commitment
+                        The inherent right of all individuals to be treated with dignity and respect is central to the values and beliefs of Lakefield College School. We are fully committed to respecting and protecting the personal dignity and human rights of our students and employees. Harassment, bullying, and sexual misconduct, in any form or social medium, is against everything for which we stand as an educational institution and it will not be tolerated. Students, employees and volunteers have a right to work, study and live in an atmosphere that is free of any form of harassment, intimidation or assault, and we all share a responsibility for ensuring that a safe, positive and healthy environment exists at all times.
+
+                        Harassment in any form is prohibited at Lakefield College School. In keeping with its values and legal responsibilities, Lakefield College School will treat any complaint of harassment as a serious matter.
+
+                        Further, LCS will provide support to address the needs of staff and students who have experienced harassment or other harmful behaviour.
+
+                        The quality of an individual’s every day environment impacts his or her sense of dignity and self-worth. Harassment poisons the working and learning environment for the whole community and may cause long-lasting effects. It negatively affects morale, motivation and learning. It may result in lowered self-esteem, increased absenteeism and poor school performance.
+
+                        Lakefield College School is committed to providing a living and learning environment that promotes ethical behavior. LCS requires all persons to exercise behaviour that facilitates the creation of a supportive, harassment-free environment that is conducive to the achievement of excellence and the development of one’s potential in mind, body and spirit.
+                        """, imageName: "", subTopics: [
+                        
+                        
+                                LifeGuide(name: "Purpose of the Policy", description: """
+                                    The purpose of this policy is to maintain a living, learning and teaching environment free from acts of harassment, including sexual misconduct. This policy is a clear statement of LCS’s commitment and determination to act promptly against any incident of harassment and to create an environment where such conduct will not be tolerated. The objectives of the policy are:
+                                    • To focus the attention of students, staff, volunteers and parents/guardians on the importance of dealing with harassment promptly and effectively.
+                                    
+                                    • To enhance the knowledge of students, staff, volunteers and parents/guardians with regard to all forms of harassment.
+                                    
+                                    • To articulate formal and informal complaint procedures to students and to provide confidential, impartial and effective procedures to resolve complaints in ways that respect all parties.
+                                    
+                                    • To provide appropriate consequences and responses for the maintenance of a harassment-free living, learning and working environment.
+                                    
+                                    • To define the roles and responsibilities of students and Lakefield College School personnel with regard to harassment.
+                                    """),
+                            
+                            
+                            LifeGuide(name: "What is Harassment?", description: """
+                                Harassment is defined as follows:
+                                Harassment means engaging in a course of vexatious comment or objectionable conduct, including sexual misconduct, that is known or ought reasonably to be known to be unwelcome.
+
+                                Harassment implies systematic persecution by besetting with comments or conduct which are abusive, annoying, demanding, or threatening. Harassment includes words, acts, or gestures of a vexatious or contemptuous nature with regard to a person or group of persons on the basis of any of the following grounds, including but not limited to:
+                                • Academic ability      • Colour                • Gender
+
+                                • Race                  • Religion              • Civil status
+
+                                • Language              • Pregnancy             • Sexual orientation
+
+                                • Age                   • Physical appearance   • Ethnic or national origin
+
+                                • Political convictions • Hazing                • Disability/handicap
+
+                                • Sexual innuendo
+
+                                """),
+                            
+                            LifeGuide(name: "What is Bullying?", description: """
+                                Bullying is defined as aggressive and typically repeated behaviour by a student where,
+
+                                (a) the behaviour is intended by the student to have the effect of, or the student ought to know that the behaviour would be likely to have the effect of, (i) causing harm, fear or distress to another individual, including physical, psychological, social or academic harm, harm to the individual’s reputation or harm to the individual’s property, or (ii) creating a negative environment at a school for another individual, and
+
+                                (b) the behaviour occurs in a context where there is a real or perceived power imbalance between the pupil and the individual based on factors such as size, strength, age, intelligence, peer group power, economic status, social status, religion, ethnic origin, sexual orientation, family circumstances, gender, gender identity, gender expression, race, disability or the receipt of special education.
+
+                                Bullying behaviour can include physical, verbal, electronic (cyber-bullying), written or other means.
+
+                                Cyber-bullying is bullying by electronic means. Bullying by electronic means (commonly known as cyber-bullying), including,
+
+                                (a) creating a web page or a blog in which the creator assumes the identity of another person;
+
+                                (b) impersonating another person as the author of content or messages posted on the internet; and
+
+                                (c) communicating material electronically to more than one individual or posting material on a website that may be accessed by one or more individuals.
+
+                                Aggressive behaviour may be intentional or unintentional, direct or indirect. It can take many forms, including physical, verbal and social. If aggressive behaviour is physical, it may include hitting, pushing, slapping and tripping. If it is verbal, it may include name calling, mocking, insults, threats, and sexist, racist, homophobic, or transphobic comments. If it is social, or relational, aggression, it is more subtle and may involve such behaviours as gossiping, spreading rumours, excluding others from a group, humiliating others with public gestures or graffiti, and shunning or ignoring. Social aggression may also occur through the use of technology (e.g., spreading rumours, images, or hurtful comments through the use of e-mail, cell phones, text messaging, websites, social networking, or other technology).
+                                """),
+                            
+                            
+                            LifeGuide(name: "What is a Poisoned Environment?", description: "The concept of a poisoned environment as a form of harassment, bullying or discrimination is based on the impact of the comments or conduct toward an individual, rather than the number of times the behaviour occurs. A poisoned environment can be created by the comments or actions of any person, regardless of his or her position of authority or status in a given environment. For example, comments or actions made by a staff member, student, or guest speaker in Chapel or Assembly may be included in this category. Examples of events that contribute to a poisoned environment may include, but are not limited to, presentations expressing the belief that women, or people of a different ethnicity or origin, are not suitable to be members of the LCS community, a poster or community-wide email which promotes hatred or contains sexist or racist material, inappropriate “special days” (such as “Slave Days”) or any other events which compromise the dignity and integrity of a person or group of people. Lakefield College School will not support nor permit acts or events which contribute to a poisoned environment."),
+                            
+                            LifeGuide(name: "Sexual Misconduct", description: """
+                                LCS believes in respect for all individuals and is committed to maintaining a safe and healthy living and learning environment. LCS also seeks to foster healthy attitudes and behaviours towards sexuality.
+
+                                Sexual misconduct is a severe violation of the right to be treated with dignity and respect.
+
+                                ‘Sexual misconduct’ is an umbrella term which includes but is not limited to: sexual harassment, stalking, sexual assault and relationship violence (emotional or physical abuse in the context of a relationship).
+
+                                All forms of sexual misconduct are unacceptable.
+                                """),
+                            
+                            LifeGuide(name: "What is Sexual Harassment?", description: """
+                                Sexual harassment includes vexatious comments or conduct based on sex by a person who knows or ought reasonably to know that such behavior is unwelcome.
+
+                                Sexual harassment may be unwanted or uninvited sexual attention. It may involve remarks, gestures or actions of a sexual nature that make a person feel unsafe or uncomfortable. It may create an intimidating, hostile, or offensive learning environment. Sexual harassment is illegal. It may include but is not limited to:
+                                • Unwanted sexual advances which may include leering, intentional touching and/or patting, kissing, or pinching.
+
+                                • Persistent requests for a date, a proposition, or demands for sexual favours.
+
+                                • Inappropriate sexually-oriented remarks or behaviour.
+
+                                • Reprisal or threat of reprisal for the rejection of a sexual advance or a request for sexual favours.
+
+                                • Expressions of bias on the basis of sex or sexual orientation in any form.
+
+                                • Sexually suggestive remarks or innuendoes.
+
+                                • Sexist jokes that are offensive or embarrassing.
+
+                                • Displaying pornographic or other offensive pictures, cartoons or graffiti in the school or on LCS premises, or on clothing.
+
+                                • Letters, phone calls, emails, text messages, or other communications, or visits of a sexually harassing nature.
+
+                                Sexual harassment can occur between individuals of the same or different status, and both women and men and girls and boys, can be the subject of sexual harassment by a member of either gender.
+                                """),
+                            
+                            LifeGuide(name: "What is not Sexual Harassment?", description: """
+                                • An occasional compliment.
+
+                                • A hug between friends.
+
+                                • Mutual flirtation or banter.
+                                """),
+                            
+                            LifeGuide(name: "What is Stalking?", description: """
+                                Stalking is a form of criminal harassment prohibited by the Criminal Code, and involves repeated behaviour that instils fear in the victim or threatens the victim’s safety and mental health. This behaviour may include:
+                                • Non-consensual communications (face to face, phone, text, social media);
+
+                                • Threatening or obscene gestures;
+
+                                • Surveillance or pursuit;
+
+                                • Cyber-stalking.
+                                """),
+                            
+                            LifeGuide(name: "What is Sexual Assault?", description: """
+                                Sexual assault is prohibited by the Criminal Code. Sexual assault is sexual touching of another person with any object or body part that is without consent, or by force.
+                                
+                                Any sexual activity without consent is sexual assault and a criminal offence.
+                                """),
+                            
+                            LifeGuide(name: "What is Consent?", description: """
+                                No person under the age of 16 can legally consent to sexual activity, even if it is voluntary. Such activity is sexual assault.
+
+                                No person under the age of 18 can legally consent to sexual activity with any person in a position of trust or authority, such as a teacher, coach or staff member. Such activity is sexual assault and is a criminal offence. Sexual activity between a student, regardless of age, and any person employed or placed in a position of trust or authority by LCS is strictly prohibited and will be treated by the school as the most serious form of sexual misconduct.
+
+                                Consent to legal sexual activity must be a voluntary agreement that includes an exchange of affirmative words indicating willingness to participate in mutually agreed upon sexual activity.
+
+                                Consent:
+                                • Is not silence or the absence of “no”;
+
+                                • Is never assumed or implied;
+
+                                • Cannot be given by someone who is incapacitated by alcohol, or drugs, or who is unconscious;
+
+                                • Cannot be obtained by someone who abuses a position or trust or authority;
+
+                                • Cannot be obtained through threats, coercion or pressure tactics;
+
+                                • Can be revoked at any time, regardless of what sexual activities have taken place.
+                                """),
+                            
+                            
+                            LifeGuide(name: "Reporting Bullying, Cyberbullying and Harassment", description: """
+                                It is imperative that all instances of Bullying, Cyberbullying and Harassment are reported to an adult immediately. The following process should be followed for bullying, cyberbullying and harassment (for reporting of sexual misconduct, see next section):
+                                • Student reports incident to LCS staff member.
+
+                                • LCS staff member informs the Assistant Head: School Life.
+
+                                • Assistant Head: School Life and Head of House meet with student(s) involved and parents are contacted. Accountability may range from the issuance of an Official Warning to being required to attend a meeting of the Standards Committee.
+
+                                Further serious incidents may result in being required to leave the school (expulsion).
+
+                                Any student who experiences bullying, cyberbullying or harassment may, in consultation with her or his parents(s) choose to report the incident to the police. LCS understands that the victims may wish to control how their experiences will be dealt with by LCS or the police. LCS reserves the right, however, to inform the police, Children’s Aid Society (CAS), or other appropriate legal bodies, of the incident, even without the consent of the student or parents, if the school believes that the safety of any member of the LCS community is at risk. In some instances the school has a legal duty to report incidents to the police or CAS.
+
+                                Serious first offence incidents of bullying, cyberbullying, harassment or assault may result in a student being immediately suspended and/or liable for expulsion from the school.
+                                """),
+                            
+                            LifeGuide(name: "Reporting Sexual Misconduct", description: """
+                                The reporting of sexual misconduct will follow the process above, although the student may wish to inform the Assistant Head: School Life directly. The Assistant Head: School Life will then meet with the student(s) involved and contact the parents.
+
+                                The Assistant Head: School Life will investigate the allegations of sexual misconduct and report to the Head of School.
+
+                                Incidents of sexual misconduct may result in a student being immediately suspended and/or liable for expulsion from the school.
+
+                                Any student who experiences sexual misconduct may, in consultation with her or his parents(s) choose to report the incident to the police. LCS understands that the victims of sexual misconduct may wish to control how their experiences will be dealt with by LCS or the police. LCS reserves the right, however, to inform the police of the incident, even without the consent of the student or parents, if the school believes that the safety of any member of the LCS community is at risk.
+                                """),
+                            
+                            
+                            LifeGuide(name: "Support", description: """
+                                LCS is committed to aiding victims of sexual misconduct with counselling and emotional support through either the Health and Well-being Centre or external sources.
+                                
+                                Students should feel safe sharing their experiences. Students who disclose allegations of sexual misconduct to staff members will be met with compassion and respect. Staff members have a responsibility to listen, without judgment, and to maintain confidentiality, reporting only to the Director of Health and Well-being and/or the Assistant Head, School Life. Staff members must also consult with the Director of Health and Well-being and/or the Assistant Head: School Life in regard to academic accommodation and counselling services.
+                                """),
+                            
+                            LifeGuide(name: "Confidentiality", description: """
+                                When sexual misconduct is disclosed, the confidentiality of all parties must be protected. Victims must know that their right to privacy will be respected. In addition, the rights of the accused person must be protected. The public accusation of sexual misconduct prior to appropriate adjudication is a violation of privacy and of LCS community standards. LCS will not release names of those involved in any incident of sexual misconduct except as required to conduct the investigation or by law.
+
+                                Confidentiality cannot be assured, however, if an individual is at risk of self-harm, or of harming another. In such circumstances, information will only be shared as necessary to prevent harm.
+                                """),
+                            
+                            LifeGuide(name: "What is Parental Harassment", description: """
+                                Parental harassment is harassment by a parent directed toward a staff member. In a school context it is defined as the use by parents of confrontational tactics which attack a teacher or which have the consequences of reducing a teacher’s ability to conduct himself or herself effectively within the school and which harm the teacher’s sense of well-being or professional reputation. The types of behavior which constitute parental harassment include, but are not limited to:
+                                • unwanted comments;
+
+                                • any form of intimidation or aggressive behavior;
+
+                                • verbal or emotional abuse;
+
+                                • vexatious communication or behaviour;
+
+                                • the application of force or physical or sexual unwelcome contact;
+
+                                • “bullying” which is an attempt to undermine an individual through cruel or humiliating behaviour;
+
+                                • “mobbing” which involves a collective effort to psychologically harass a person.
+
+                                """),
+                            
+                            LifeGuide(name: "Reporting Parental Harassment", description: """
+                                A staff member who feels harassed by a parent should document the incident and report it to their direct supervisor or Head of School (or designate).
+
+                                The Head of School (or designate) communicates the school’s concern to the parent and requires them to immediately cease communication between the parent and alleging staff member. If necessary, the Head of School (or designate) will investigate the allegations to determine the severity of the situation and to inform the appropriate consequences.
+
+                                Subsequent incidents may result in the parent’s child being required to leave the school.
+
+                                Serious incidents of parental harassment may result in that parent’s child being immediately required to leave the school.
+                                """)
+                        
+                        
+                        
+                        
+                        ]))
         
+        list.append(LifeGuide(name: "Behavioural Policies—Curfew Violations", description: "content", imageName: "", subTopics: [
+        
+                    LifeGuide(name: "EVENING CURFEWS", description: """
+                        All students are expected to be on time for all curfews. Students who are late for their curfew (either weekday or weekend) will be subject to the following sanctions:
+                        • 5 minutes late = 1-day gating
+
+                        • 6-15 minutes late = 3 days gating
+
+                        • 16-30 minutes late = 1-week gating
+
+                        Beyond 30 minutes late and at the discretion of the Head of House and the Assistant Head: School Life, a Standards Committee meeting may be arranged.
+
+                        * Please refer to page 60 for definitions of these terms.
+
+                        Leaving the Residence Between Curfew and 7:00 a.m.
+
+                        Leaving the residence without permission between curfew and 7:00 a.m. is considered a very serious offence. Such actions compromise the safety of the student and the value of trust upheld by Lakefield College School. Violations of this nature will be dealt with by the Standards Committee.
+
+                        Possible sanctions could range from an extended period of being gated to campus (five (5) or more days) to being sent home to reaffirm one’s commitment to the school. For violations of this nature parents will always be contacted and students involved will be placed on Directed Probation.
+                        """),
+            
+            
+            
+                    LifeGuide(name: "Out of Bounds Areas and Trespassing", description: """
+                        At any time, the school may deem an area out of bounds for health and safety reasons.
+
+                        Should a student trespass onto areas that are deemed out of bounds or private, including but not limited to thosenoted below, they will be held accountable (if not specifically noted in the subsection) by being confined to their residence for a time mutually agreed upon by the Head of House and the Assistant Head:  School Life.
+                        
+                        The Classroom Block
+                        The classroom block is out of bounds after 10:00 p.m. on weekdays (Monday to Friday), after 7:00 p.m. on Saturday and after 8:00 p.m. on Sunday. Students who need to enter this area must have permission and may be accompanied by an LCS staff member.
+
+                        Woods and Waterfront
+                        For health and safety reasons, students are not permitted to go into the woods or to be at the waterfront at and after dusk. At no time are students to be in (swimming) or on the water (including the docks and all watercraft) without the permission of their Head of House and a qualified lifeguard must be present at all times when students are in or on the water.
+
+                        As the waterfront is an important part of much of our school programming, all students are required to complete a swim test in order for the school to discern a student’s swimming ability and level.
+
+                        Ropes Course
+                        The ropes course and climbing tower area is out of bounds at all times to all students unless a qualified staff member is present and has accepted responsibility for the students to be on the course.
+
+                        Village of Lakefield’s Waterfront, Isabel Morris Park, Skateboard Park, Pavilion and Marina
+                        Students are not permitted to go in or on the water at any place in the Village of Lakefield. It is illegal to smoke or vape in public parks. Students who are caught smoking/vaping, loitering or behaving inappropriately in these areas will be banned from visiting these areas for the remainder of the year on their first offence. Students may be required to attend a meeting of the Standards Committee for breaching Out of Bounds/Trespassing standards for subsequent offences.
+
+                        Trespassing on Neighbourhood Property
+                        Out of respect for our neighbours in the Lakefield community, students must not trespass on private property such as Tate Lane, Casement Lane, the woods behind Winfield Shores, or across the highway from the school. Any student trespassing in these or other private properties will receive three days gating. Subsequent offences will result in increased accountability including the possibility of a meeting of the Standards Committee.
+
+                        Trespassing on Staff/Student Property
+                        As stated in The Grove Commitment, trust and respect require that each student possess a caring attitude for fellow students and staff as well as for the school and its traditions.
+
+                        Appreciating the rights and dignity of all of the people who are members of this community is an essential part of the growth of an LCS student.
+
+                        A person’s right to privacy and safe possessions is fundamental to the values of our community. Therefore, students are not to enter the rooms or private spaces of the school, or other students or staff, without permission. Students who enter into another student’s room or any private space, including but not limited to journals, smart phones, diaries, etc. without permission is an invasion of privacy and will be considered to be trespassing.
+
+                        Accountability: After meeting with their Head of House and the Assistant Head: School Life, a student may be required to attend a meeting of the Standards Committee for Trespassing. Accountability may range from being confined to one’s residence or room to being sent home to reaffirm one’s commitment to the school’s values.
+                        """),
+            
+            
+                   
+            
+            
+            
+                    LifeGuide(name: "Theft", description: """
+                        Students are not to take any item, including food or drink, clothing, money, bicycles, etc. without permission from the owner. Students who take something without permission are stealing.
+
+                        Accountability: After meeting with the Head of House and the Assistant Head: School Life, a student may be required to attend a meeting of the Standards Committee for Theft. A student who goes to Standards for Theft will be liable for either suspension or expulsion.
+                        """),
+            
+            
+                    LifeGuide(name: "Possession/Harbouring Stolen Property", description: """
+                        Students are not to be in the possession of stolen property. Students who accept property that was stolen and without obvious permission from the owner of that property will be held accountable for possession/harbouring of stolen property.
+
+                        Accountability: Students who are found to be in possession or harbouring stolen property may be required to attend a meeting of the Standards Committee for Possession of Stolen Property. A student in possession of stolen property will be liable for suspension or expulsion.
+                        """),
+            
+            
+                    LifeGuide(name: "Leave Violations/Absent Without Leave (AWOL)", description: """
+                        Leaving the school’s campus during the school day without permission and leaving the Village of Lakefield without permission compromises a student’s safety and the highly regarded value of trust in our school community. All requests to leave campus to the village of Lakefield and beyond must be made in advance with the Head of House or Associate Faculty. Students who do not follow proper procedures for leave are considered to be ‘absent without leave’ (AWOL).
+
+                        At no time are students permitted to be in the homes of day students or other local residents without the express permission of their Head of House. In every instance, the Head of House will contact students’ parents and the parent of the day student or friend. This permission is granted only under exceptional circumstances. Students who breach this policy will be considered ‘absent without leave’ (AWOL).
+
+                        Depending on the seriousness of the case, accountability may range from being gated to campus (two (2) or more days) by the Head of House, to a meeting of the Standards Committee.
+
+                        More serious incidents and repeat offences will be dealt with through the Standards Committee with the recommendation that the student be sent home to reaffirm his/her commitment to the school. The student(s) will be placed on Directed Probation and parents will be contacted.
+                        """),
+            
+            
+                    LifeGuide(name: "Damage to Property", description: """
+                        The Lakefield College School policy on damage to property is outlined below:
+                        1. Once damage to a residence has occurred, students will report the damage to their Head of House, or the Head of House will discern who damaged the property.
+
+                        2. The students will be charged a fee for damage repair.
+
+                        3. Parents will be contacted and informed of the nature of the damage and explaining that a charge has been applied to their account.
+
+                        4. A subsequent offence may see the charge increase, parents will be contacted outlining the damage and explaining the charge to their account. The student will be issued an Official Warning (at a minimum) Parents will be made aware that, if another incident of damage occurs, students may be requested to attend a meeting of the Standards Committee to be held accountable for their actions.
+
+                        5. If a third incident of damage occurs, the charge may again increase and the students may be required to attend a meeting of the Standards Committee to determine their accountability.
+
+                        6. A phone call will be made to parents explaining the damage, the charge and to inform them if their son/daughter is required to meet with the Standards Committee. Please note that at any time the damage to property is both severe and intentional, students may immediately be requested to attend a meeting of the Standards Committee in order to be held accountable for their actions.
+
+                        Please note that at any time the damage to property is both severe and intentional, students may immediately be requested to attend a meeting of the Standards Committee in order to be held accountable for their actions.
+                        """)
+            
+            
+            
+                
+        
+        
+        
+        
+        ]))
+        
+        list.append(LifeGuide(name: "Substance Use Policy (Tobacco, Vaping, Nicotine Products, Alcohol, Cannabis & Other Drugs)", description: """
+                        Introduction
+                        In order for Lakefield College School to fulfill its mission and to foster an environment that enables its students to develop to their full potential, the school, justifiably, takes an active interest in the overall well-being of its students.
+
+                        Lakefield College School believes that student use of tobacco, tobacco like products, electronic nicotine delivery systems (ENDS) alcohol, cannabis or any other drugs, either on school property or at school events, seriously interferes with the health, academic and co-curricular interests of that student, other students and the community in general.
+
+                        The school acknowledges that the use of these and other drugs is prevalent in today’s society and that students are most likely to experiment with them during their adolescent years, a great deal of which will be spent at school. LCS also recognizes the negative influence of drug and alcohol use on a student’s ability to achieve and to meet the objectives of the school, necessitating the school’s responsibility to provide clear policy statements and strategies for the school community.
+
+                        With the creation of these policies and procedures for dealing with alcohol, tobacco, tobacco-like products, ENDS, cannabis and other drugs, the school wishes to establish and maintain a caring, supportive and disciplined approach, with the understanding that certain offences cannot be tolerated.
+                        """, imageName: "", subTopics: [
+                        
+                        LifeGuide(name: "Response and Support Strategy", description: """
+                            The school is committed to providing regular education and training faculty, Health and Well-being Centre staff, students and parents.
+                            Students and parents will be fully informed at the beginning of the school year of the school’s policy and position on tobacco, tobacco like products, ENDS, alcohol, cannabis and other drugs. In addition, the school will work with our local Public Health Unit and O.P.P. Liaison Officer for support and to ensure the school has accurate up-to-date information. Students will be engaged in a comprehensive health and education program through curriculum and related activities at all levels of the school. The aims of this program are to:
+                            i) increase student awareness;
+
+                            ii) provide students with the tools needed to make educated and informed decisions; and
+
+                            iii) encourage prevention through education.
+                            """),
+                            
+                        LifeGuide(name: "Parley Policy", description: """
+                            One of the school’s primary responsibilities is to foster a community that allows for open and honest communication between all of its members. In order to do this the school embraces a “Parley Policy” which allows students to come forward voluntarily or to report their concern for another student who may need help. When a Parley is requested a student can rightly assume that no disciplinary measures will be invoked. The school, through the Health and Well-being Centre and other counselling support as required, will provide non-judgmental and unbiased support to the student in need. The Health and Well-being Centre staff will initiate an individualized support plan of action focusing specifically on the student’s immediate and long-term health needs. Services may include counselling within the school or referral to appropriate outside services. Intervention and counselling procedures may include the following:
+                            i) intervention support strategies at the school level and local community level;
+
+                            ii) short term counselling procedures; and
+
+                            iii) referral procedures.
+                            """),
+                            
+                        LifeGuide(name: "How to Request a Parley", description: """
+                            A student requests a Parley with a trusted adult staff member. The adult staff member is required to inform one of the following staff members; Assistant Head: School Life, or any Health and Well-being Centre staff, who will arrange to meet with the student and ensure that a supportive care plan is created.
+                            All staff members who have engaged in a Parley are required to inform at least one of the supportive care team in order to ensure the student has the appropriate care and support to best address the issue of concern.
+                            """),
+                            
+                            
+                        LifeGuide(name: "Disciplinary Action", description: """
+                            In order to provide a safe and healthy residential setting that allows students to concentrate effectively on academic, co-curricular and individual pursuits, rules and guidelines must be set for both the individual and common good. In the absence of a Parley the purpose of disciplinary action is to deter students from unsafe behaviour and to deal effectively and fairly with those violations which do occur, protecting the welfare of the student as much as possible and the integrity of the school community.
+
+                            Students who are caught contravening the substance use policy will be offered support in addition to being held accountable in accordance with the policies cited below.
+
+                            Continued refusal to uphold school policies on substance use will jeopardize the student’s future at the school.
+                            """),
+                            
+                            
+                        LifeGuide(name: "Nicotine, Tobacco Products and Electronic Nicotine Delivery Systems (ENDS, i.e. Vaporizers, E-cigarettes, etc.)", description: """
+                            In the Province of Ontario, it is illegal for anyone under the age of 19 to purchase tobacco or nicotine-based products and for anyone under the age of 16 to use tobacco or nicotine-based products (chewing & cigarettes).
+                            The school strives to establish a tobacco/smoke-free environment and promotes wellness (physical, mental and social) by encouraging students to make healthy choices for themselves now and throughout their lives.
+                            The possession and use of any tobacco or tobacco-like products (including cigarettes, chewing tobacco, snuff, flakes, ENDS, vaporizers and e-cigarettes*) by a student while on school property or while under the care of the school is strictly prohibited. School property includes the woods, fields, waterfront and all properties owned by the school.
+                            * Electronic Nicotine Delivery Systems (ENDS) which include but are not limited to e-cigarettes and vaporizers, are illegal for minors under the age of 19 to possess and to use in the province of Ontario. Students in possession of these products will have them confiscated, parents will be contacted and protocols in accordance with the school’s Substance Use Policy will be followed. The school reserves the right to contact the local Tobacco Enforcement Officials for support and/or to levy fines and/or other charges at any time.
+                            """),
+                            
+                            LifeGuide(name: "Accountability for On-Campus Possession/Use", description: """
+                                A student may not be in possession of, smoke or use tobacco or ENDS products while on school property.
+                                • 1st Offence: Official Warning Status for Contravention of the School’s Substance Use Policy; meeting with Assistant Head: School Life, parents are contacted, nicotine cessation program strongly recommended, gated to campus for three (3) days.
+
+                                • 2nd Offence: Directed Probation Status for Contravention of the School’s Substance Use Policy; parents are contacted, student is sent home to reaffirm commitment to school for three (3) days, nicotine cessation program is required.
+
+                                • Subsequent Offences: General Probation Status: Students are liable for expulsion if there is a risk to the community by the student’s actions; parents are contacted and informed that, although the student may not be expelled, they may not be invited back to LCS the following September due to persistent inability to abide by the values of the school.
+                                """),
+                            
+                            LifeGuide(name: "Accountability for Off-Campus Possession/Use — Not of Age", description: """
+                                A student who is caught in the possession of, illegally smoking or using tobacco or ENDS products off-campus and while under the care of the school will be held to the following accountability:
+                                • 1st Offence: Warning Status for Contravention of the School’s Substance Use Policy; meeting with the Assistant Head: School Life, parents are contacted, tobacco cessation program strongly recommended, gated to campus for three (3) days.
+
+                                • 2nd Offence: Directed Probation Status for Contravention of the School’s Substance Use Policy; parents are contacted; student is sent home to reaffirm commitment to school for three (3) days, tobacco cessation program is required.
+
+                                • Subsequent Offences: General Probation Status: Meeting with the Assistant Head: School Life; parents are contacted and informed that the student may not be invited back to LCS the following September due to persistent inability to abide by the values of the school.
+                                """),
+                            
+                            LifeGuide(name: "Accountability for Off-Campus Use — Legal Age", description: """
+                                Although strongly discouraged, a student who is of legal age may exercise their legal right to use tobacco or ENDS products discreetly off-campus, and only in legally approved areas. This means that a student is not to smoke while wearing school dress and/or when in proximity to, or visible to, staff or younger students. If a student of legal age is caught smoking or using tobacco or ENDS products, the student’s Head of House will contact their parents to inform them of our health concerns. A nicotine cessation program will be strongly recommended.
+                                A student who is of legal age and is seen smoking/vaping or is with a junior student will be gated to campus for a minimum of three (3) days.
+                                """),
+                            
+                            LifeGuide(name: "Accountability for Distribution of Tobacco or ENDS Products to Underage Students", description: """
+                                Students may not supply tobacco or ENDS products to any student who is not of legal age.
+                                • 1st Offence: Warning Status for Contravention of the School’s Substance Use Policy; meeting with the Assistant Head: School Life, parents are contacted; nicotine cessation program highly recommended, gated to campus for three (3) days.
+
+                                • 2nd Offence: Directed Probation Status for Contravention of the School’s Substance Use Policy; parents are contacted, students are sent home to reaffirm commitment to school for three (3) days, nicotine cessation program is required.
+
+                                • Subsequent Offences: General Probation Status: Meeting with the Assistant Head: School Life; parents are contacted and informed that the student may not be invited back to LCS the following September due to persistent inability to abide by the values of the school.
+
+                                Further offences may result in the student being required to leave the school (expelled).
+
+                                Please note that the goal of this policy and accountability system is to keep younger students from being exposed and potentially addicted to nicotine products. It is also intended to enable nicotine- addicted students to overcome the addiction.
+                                """),
+                            
+                            
+                            LifeGuide(name: "Accountability for Smoking Adjacent to or In a Building", description: "This is a serious offence due to the obvious fire hazards and the increased risks to the safety and well-being of others. This is a Zero Tolerance Policy (see Definitions on page 60). Students will be expelled for smoking adjacent to (within 9 metres radius of a building in accordance with the Smoke-Free Ontario Act) or in a building."),
+                            
+                            LifeGuide(name: "Alcohol", description: """
+                                In Ontario, it is illegal for anyone under 19 years of age to purchase, possess, or use alcohol, except in a private residence and only if the alcohol has been provided by that youth’s parents. This permits parents to serve alcohol to their own children only. The abuse of alcohol, whether on one occasion, or consistently, constitutes a threat to the user, as well as those around him/her.
+
+                                Policy Statement
+                                The use, possession, or being under the influence of alcohol by a student while on school property and at events sanctioned by the school is prohibited. This includes all times when a student is under the care of the school acting “in loco parentis*,” including field trips, athletic trips, dances, school- sponsored activities, or leaves.
+
+                                Students who are 19 years of age may, while on leave, exercise their legal right to drink in legally approved areas. However, they are to drink responsibly, are not to drink with students who are under-age and are not to return to the school under the influence of alcohol.
+
+                                *In loco parentis: With the exception of school holidays (including long weekends) and authorized overnight leaves, students are considered to be under the care and authority of the school.
+                                """),
+                            
+                            LifeGuide(name: "Accountability for Off Campus Possession/Use", description: """
+                                Meeting with the Standards Committee who will determine the following:
+                                • 1st Offence: “On-campus” discipline, loss of privileges and Directed Probation Status. Parents will be contacted.
+
+                                • 2nd Offence: Suspension; a student is required to go home and reaffirm his/her commitment to the school, loss of privileges and General Probation Status. Students may also be required to seek counselling from a professional in the field of alcohol/substance use/abuse. Parents will be contacted.
+
+                                • 3rd Offence: The student is liable for expulsion from the school.
+                                """),
+                            
+                            LifeGuide(name: "Accountability for Possession/Use of Alcohol on School Property", description: "This offence is considered to be very serious. Violators will be required to attend a meeting of the Standards Committee and will be required to go home to reaffirm their commitment to the school (suspended). Subsequent offences may require a student to leave the school (expelled). Such actions allow for increased accessibility and applies peer pressure upon others to experiment with alcohol."),
+                            
+                            LifeGuide(name: "Accountability for Distribution of Alcohol to Other Students", description: "This offence is considered to be very serious. Violators will be liable for either suspension or expulsion."),
+                            
+                            LifeGuide(name: "Illegal Use of Medication (including over the counter, non-controlled substances)", description: "The non-medical use of these drugs is considered a serious health hazard and is proven to be a gateway to (harder) drug use later in students’ lives, for this reason such use is strictly forbidden and the school takes this behaviour very seriously. Students who contravene this policy will be required to attend a meeting of the standards committee and will be liable for suspension from the school. Students who traffick over the counter non-controlled substances may be liable for expulsion from the school."),
+                            
+                            LifeGuide(name: "Cannabis", description: """
+                                In Ontario, it is illegal for any person under 19 years of age to purchase, possess, or use cannabis. Persons of 19 years of age or older are not permitted to use cannabis in any public place.
+
+                                Policy Statement
+                                The use, possession, or being under the influence of cannabis by a student while on school property and at events sanctioned by the school is prohibited. This includes all times when a student is under the care of the school acting “in loco parentis*,” including field trips, athletic trips, dances, school- sponsored activities, or leaves.
+
+                                Students who are 19 years of age may, while on leave, exercise their legal right to use cannabis in legally approved private places. However, they must be responsible, are not to use cannabis with students who are under- age and are not to return to the school under the influence of cannabis.
+
+                                * In loco parentis: With the exception of school holidays (including long weekends) and authorized overnight leaves, students are considered to be under the care and authority of the school.
+                                """),
+                            
+                            LifeGuide(name: "Accountability for On-Campus Possession/Use", description: """
+                                Meeting with the Standards Committee
+                                • 1st Offence: The student will be required to participate in an education/ counselling program. Random drug testing (urine screening) at parental expense will also be required.* Parents will be contacted. The student will be required to go home to reaffirm their commitment to the school (suspended) for a period of time as discerned by the Standards Committee. Loss of privileges and another house accountability may be required. The student will be placed on General Probation Status for Contravention of the School’s Substance Use Policy.
+
+                                • Subsequent Offences: The student will be required to leave the school (expelled).
+                                """),
+                            
+                            LifeGuide(name: "Accountability for Off Campus Possession/Use", description: """
+                                Meeting with the Standards Committee who will determine the following:
+                                • 1st Offence: “On-campus” discipline, loss of privileges and Directed Probation Status. Parents will be contacted. A supportive care plan which includes counselling will be recommended.
+
+                                • 2nd Offence: The student will be required to participate in an education/ counselling program. Random drug testing (urine screening) at parental expense will also be required. * Parents will be contacted. The student will be required to go home to reaffirm their commitment to the school (suspended) for a period of time as discerned by the Standards Committee. Loss of privileges and another house accountability may be required. The student will move to General Probation Status for Contravention of the School’s Substance Use Policy.
+
+                                • 3rd Offence: The student will be required to leave the school (expelled).
+                                * Non-compliance to the supportive care plan, including required counselling or a positive urinalysis for THC or other drugs will result in the student being required to leave the school (expelled).
+                                """),
+                            
+                            LifeGuide(name: "Accountability for Distribution of Cannabis to Other Students", description: "This offence is considered to be very serious and is a Zero Tolerance Policy (see page 60). Violators who traffick cannabis to other students will be required to leave the school (expelled)."),
+                            
+                            
+                            LifeGuide(name: "Other Illegal Drugs", description: """
+                                The non-medical use of narcotics and other drugs is illegal in Canada. Simple possession or use of illegal drugs is a serious criminal offence. In addition, anyone who gives or sells drugs may be guilty of the more serious offence of “trafficking.”
+
+                                Accountability for Possession/Consumption of Illegal Drugs on School Property:
+                                The school maintains a Zero Tolerance Policy (see Definitions on page 60) in relation to the use of illegal drugs. This offence is considered to be very serious because such actions allow for increased accessibility to drugs and pressure to experiment with drugs. Violators will be expelled from the school.
+                                """),
+                            
+                            LifeGuide(name: "Trafficking and Distribution of Illegal Drugs", description: """
+                                Trafficking in narcotics includes any sharing or distribution of drugs to LCS students (by LCS day or boarding students whether at or returning to the campus). Trafficking in or providing illegal drugs to any LCS student will result in immediate expulsion from the school (see “Zero Tolerance Policy” in Definitions on page 60) and may involve the criminal law process.
+
+                                Lakefield College School prides itself on being a community built on trust, mutual respect and honesty. The foundation of this unique community is seriously jeopardized by actions such as trafficking or using drugs as they breach the school’s fundamental values.
+                                """),
+                            
+                            LifeGuide(name: "Searches", description: """
+                                Lakefield College School reserves the right to search any locker, room, car, or other personal belonging. In such instances, the school will endeavour, whenever possible, to have the student present during any search. Searches will always be conducted by a staff member and one other witness.
+
+                                Canine units of the local O.P.P. or Peterborough City Police may be randomly used throughout the year, whenever requested by the school.
+                                """),
+                            
+                            LifeGuide(name: "Prescription Drugs", description: "The sharing or unauthorized use of prescription drugs is strictly prohibited and illegal in the province of Ontario. Anyone found unlawfully using or distributing prescription drugs will be held accountable in accordance with the same policy as “other illegal drug” use and distribution.’"),
+                            
+                            LifeGuide(name: "Drug Testing", description: "The school reserves the right to test any student for drugs who has previously been involved with illegal substances. Should the school determine that drug testing is required, any such testing will be random and will be processed through the Health and Well-being Centre. Parents will be responsible for any additional charges and both the student in question and the parents will be informed of all results."),
+                            
+                            LifeGuide(name: "Incidents with the Law", description: "Students who at any time during their enrollment at Lakefield College School, become involved in a serious instance with the law, or, at the discretion of the Head of School are seen to pose a potential risk in terms of health, safety and harassment, will be liable for school suspension or expulsion.")
+                        
+                        ]))
+        
+        list.append(LifeGuide(name: "The Standards Committee", description: """
+                        Prior to meeting the student, the student’s Head of House will have reported the infraction/ violation to the Assistant Head: School Life. The student meets with, or provides a report to, the Assistant Head: School Life in order for the school to receive more information and to prepare the student for the potential meeting of a Standards Committee. The Assistant Head: School Life may call an “advisory” meeting of a variety of staff and students to help in a discussion on whether or not a standards meeting is required.
+                        At any time throughout the process the student may request the support of the Health and Well-being Centre, or counselling staff.
+                        """, imageName: "", subTopics: [
+                        
+                        LifeGuide(name: "The Standards Committee Process", description: """
+                            The following steps outline the Standards Committee process at Lakefield College School:
+                            1. The student meets with the Assistant Head: School Life (in the presence of at least one other staff member or student) in order to learn about the process and to further clarify the situation. The Assistant Head: School Life will be entitled to ask questions of the student.
+                            At this point in the process it is important to understand that the degree of honesty and forthrightness shown by the student(s) is taken into consideration in determining the accountability. The student may be held accountable for any deceit or dishonesty throughout the process.
+                            2. During the meeting, the student may ask any question of the Assistant Head: School Life; this may help to clarify the student’s understanding of the severity of the situation. The meeting is intended to be a dialogue.
+                            3. The student will be invited to refer to the School Life Guide in order to discern the potential accountability for his/her actions. At this point the student will be asked if he/she has any questions, concerns, or needs.
+                            4. Prior to the adjournment of the meeting, the student will be reminded that he/she may seek support from the Health and Well-being Centre or counselling staff at any time.
+                            5. The Assistant Head: School Life may convene a pre-standards inquiry with the, Co-Head Students and the Seniors-in-Charge of Standards.
+
+                            Please note:
+                            • In the event that a Standards Committee meeting is not necessary, accountability will be administered at the discretion of the Head of House and the Assistant Head: School Life;
+
+                            • Expellable offences are dealt with by the Assistant Head: School Life, the Head of School, the student and his/her parents. The Standards Committee is not involved in deciding whether or not a student should be expelled from the school.
+
+                            • In the event that a police investigation is required, the school will refrain from any internal investigation until such time as the police investigation is completed.
+
+                            6. If a Standards meeting is required:
+                            a. The Head of House will inform the student involved and will confirm the date, time and location of the Standards meeting,
+
+                            b. The parents will be notified informing them of the violation and the date, time and location of the Standards meeting. Parents are welcome to be present on campus to support their son/daughter through the experience.
+
+                            At all times throughout the Standards process the integrity and well-being of the student is taken into consideration. The student is invited and able to request counselling support at any time throughout the process. The school believes that a meeting of the Standards Committee is intended for the safety of each student and their education on core values. The school requests that each student be held accountable for his/her own actions in a manner which upholds the values of trust and respect for the community in which he/she lives and learns.
+
+                            """),
+                            
+                            LifeGuide(name: "The Standards Committee Meeting", description: """
+                                As noted above, parents will be notified informing them of the violation and the date, time and location of the Standards meeting. The parents are welcome to be present on campus to support their son/daughter through the experience. After which, the following protocol will be followed:
+                                1. The Standards Committee will meet with each student (if more than one) to hear his or her account of the situation, and to confirm or clarify any details regarding the incident in question;
+
+                                2. The student will then be excused and the Standards Committee will deliberate and make recommendations for accountability and any other appropriate follow-through;
+
+                                3. The degree of honesty and forthrightness of the student will be taken into consideration in determining the action to be taken;
+
+                                4. All recommendations from the Standards Committee will be made to the Assistant Head: School Life. The Assistant Head: School Life may confer with the Head of School, who has the final decision in the discipline of any student at the school;
+
+                                5. The student will be informed of their accountability and any other sanctions by the Assistant Head: School Life;
+
+                                6. The Assistant Head: School Life will inform the parents, verbally and/or in writing, of the accountability and educational and support measures to be taken for the student(s) involved in the Standards Meeting;
+
+                                7. For boarding students, the Head of House will notify the Associate Faculty and Advisor of the decision and may hold a house meeting to inform and support students;
+
+                                8. The Seniors-in-Charge of Standards or the Assistant Head: School Life may inform the school community of the incident and the accountability in a brief statement in Chapel;
+
+                                9. All disciplinary action will be recorded in the student’s personal file and kept in the Head of School’s office. Expulsions are required to be recorded in the student’s Ontario Student Record (OSR) and may influence admission to university.
+                                """),
+                            
+                            
+                            LifeGuide(name: "Required to Leave the School (Expulsion)", description: "If a student has been asked to leave the school, they are not permitted to attend or participate in any school sanctioned events for the duration of the school year. School-sanctioned events include all dances (including Formal), community events sponsored by LCS, Regatta Day, Closing Ceremonies and the Closing Reception. If a student chooses to attend any of these functions, the school reserves the right to notify the police of the trespassing and withhold the student’s exams, report cards and transcript."),
+                            
+                            
+                            
+                        
+                        
+                        ]))
+        
+        list.append(LifeGuide(name: "Definitions of Terms, Policies and Additional Information", description: "add later", imageName: "", subTopics: [
+        
+            LifeGuide(name: "AWOL", description: "Absent without leave – a student who leaves campus without permission."),
+            
+            LifeGuide(name: "Dawn to Dusk (7:30 a.m. to 7:00 p.m.)", description: "Confined to campus for the day, 7:30 a.m. breakfast sign-in, wearing classroom dress, not permitted to return to residence until end of school day, confined to room at 7:00 p.m., no visitor privileges. If on a Saturday, sign in to the dining hall at 9:00 a.m., Saturday Study and confined to residence for the remainder of the day. If on a Sunday, sign in to the dining hall at 10:30 a.m. and confined to residence for the remainder of the day."),
+            
+            LifeGuide(name: "Education/Counselling", description: "A student may be referred to a counsellor. The counsellor will interview a student, provide accurate and up-to-date education, counsel as necessary and determine if additional support i.e. longer-term therapy, is recommended. The counsellor will act as an information resource on substance use/abuse, assist in the implementation of the preventive education program, provide support to any student and particularly to students identified “at risk”, and liaise with community agencies."),
+            
+            LifeGuide(name: "Gating", description: "Confined to campus, confined to room at 7:00 p.m., no visitation privileges. Smartphones, PEDs, etc. may be confiscated where and when appropriate as discerned by residential staff. If a student is gated on a weekend, they are required to serve Saturday Study."),
+            
+            
+            LifeGuide(name: "Host Parent", description: "A responsible adult at least 21 years of age who assumes the care of and responsibility for the student(s) staying in their home."),
+            
+            LifeGuide(name: "In loco parentis", description: "With the exception of school holidays (including long weekends and breaks when the school dissolves in loco parentis) and parent authorized overnight leaves, the students are considered to be under the care and authority of the school. A student is considered in loco parentis when they are in the care of the school; on school trips and school contracted transportation."),
+            
+            LifeGuide(name: "Off-Campus", description: "A student is considered off campus when they are on leave to the Village of Lakefield or Peterborough while the school is still in loco parentis."),
+            
+            LifeGuide(name: "On-Campus", description: "A student is considered ‘on campus’ at all times when they are physically on school property, on a school sanctioned and supervised trip and when using school contracted transportation."),
+            
+            LifeGuide(name: "On-Campus Discipline", description: """
+                This may include Gatings (see definition below), regular check- ins with the Head of House, 7:30 a.m. breakfast sign-in and 7:00 p.m. confinement to the house for a specified amount of time and/or other accountability as discerned by residential staff.
+                • 7:30 a.m.: Breakfast sign-in, wearing classroom dress, not permitted to return to residence.
+
+                • 7:00 p.m.: In residence at 7:00 p.m. for the duration of the evening, confined to room, no visitor privileges.
+                """),
+            
+            LifeGuide(name: "Official Warning", description: """
+                A student may be issued an ‘official warning’ for behaviour that contravenes the school’s values, standards and expectations but are not deemed severe enough to require a meeting of the Standards Committee.
+
+                a. A student who contravenes the official warning status will be required to attend a meeting of the Standards Committee.
+
+                b. A student who receives more than two (2) Official Warnings will be placed on Directed Probation for Persistent Inability to Abide by the Expectations of the School.
+                """),
+            
+            
+            LifeGuide(name: "Parley", description: "A conversation that discloses a potential breach of school standards with the understanding that there will not be any disciplinary action taken. A parley can be requested by a student who wishes to have a supportive conversation for themselves or a friend who may be in need of help. A parley will be granted to any student who has not yet been caught contravening a school policy and most commonly refers to those instances which involve the use of tobacco, tobacco like products, ENDS, alcohol, cannabis or other drugs. In all instances when a parley is requested, confidentiality will be upheld and sanctuary from discipline will be invoked. A supportive care plan will be created and required to be followed. If the terms of a parley are breached the student will be held accountable through the school’s standards process."),
+            
+            
+            LifeGuide(name: "Probations", description: """
+                Directed Probation*: A student is on probation or warning status for a specific behaviour or offence. Should a student on Directed Probation be involved in a similar offence he/she will be placed on General Probation.
+                a. A student with more than two (2) Directed Probations is automatically placed on General Probation
+
+                b. A student who receives two (2) Directed Probations is sent home to reaffirm his/her commitment to the school.
+
+                General Probation: A student on General Probation is liable for expulsion should he/she be involved in any incident that would necessitate a Standards Committee meeting. This is considered Final Warning Status.
+
+                Any student placed on General Probation during the school year will be reviewed by the faculty at the June promotion meeting in order to discern whether or not the student should be invited to return. The Head of School will notify the parents on or before June 30 to confirm the student’s enrollment status for the next school year.
+                a. A student with more than two (2) Directed Probations is automatically placed on General Probation and is sent home to reaffirm his/her commitment to the school.
+
+                b. Directed or General Probation status is in effect for the school year and may be carried over into the first term of the following year or for the remainder of the student’s LCS career.
+
+                A Directed or General Probation may be applied to any behaviour that contravenes the standards or values of the LCS community.
+
+                NB: Warning and Probationary statuses which are issued in the spring term will carry-over into the next school year. If no subsequent infractions occur, the probationary status will be removed at the end of the calendar year, December 31.
+                """),
+            
+            LifeGuide(name: "Reaffirmation of Commitment (Suspension)", description: "A student is required to go home to reaffirm his/ her commitment to the values of the school. While at home, a student should revisit their understanding of the Grove Commitment and discern whether or not they can abide by the values, standards and expectations of the school community. The length of time the student is at home is established at the discretion of the Standards Committee. Normally, periods of reaffirmation range from three (3) to five (5) school days."),
+            
+            
+            LifeGuide(name: "Sign-Ins", description: "Sign a note on Head of House’s office door on the hour every hour."),
+            
+            LifeGuide(name: "Standards Committee", description: "The Standards Committee is comprised of any member of the following: Assistant Head: School Life, Head of House, Co-Head Students, Grade Representatives, Student Head of House, Student’s Advisor, Seniors-In-Charge of Standards and Seniors-In-Charge of School Life. The Committee meets to act upon serious breaches of school standards and expectations."),
+            
+            LifeGuide(name: "Zero Tolerance Policy", description: "Zero Tolerance Policy (in relation to smoking in or adjacent to a residence or building, creating an open flame in or adjacent (in accordance with Smoke-Free Ontario Act, within 9 metre radius) to a residence or building and the trafficking of illegal drugs): Zero Tolerance is a policy that requires a student’s immediate expulsion from the school.")
+        
+        
+        
+        
+        ]))
     }
 }
 
