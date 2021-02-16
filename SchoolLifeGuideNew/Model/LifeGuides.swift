@@ -559,7 +559,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             
                         ]))
         
-        list.append(LifeGuide(name: "Safety and Security", description: "aaaaaa", imageName: " ", subTopics: [
+        list.append(LifeGuide(name: "Safety and Security", description: "", imageName: "Safety", subTopics: [
                                 
                                 
                                 
