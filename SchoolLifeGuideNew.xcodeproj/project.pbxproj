@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C044B3D25D5E783000793EC /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C044B3C25D5E783000793EC /* VideoView.swift */; };
 		9C1DC75225ACD14C007D359A /* LifeGuideDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75125ACD14C007D359A /* LifeGuideDetailView.swift */; };
 		9C1DC75C25ACDF94007D359A /* LifeGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75B25ACDF94007D359A /* LifeGuide.swift */; };
 		9C1DC76025ACE068007D359A /* LifeGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75F25ACE068007D359A /* LifeGuides.swift */; };
@@ -30,9 +31,12 @@
 		9CA7116F25C7B1680041436C /* FAQsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7116E25C7B1680041436C /* FAQsView.swift */; };
 		9CA7117325C7B9B50041436C /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7117225C7B9B50041436C /* Issue.swift */; };
 		9CA7117625C7BA750041436C /* Issues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7117525C7BA750041436C /* Issues.swift */; };
+		9CF65F6025DB4C9E0049D188 /* SearchBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF65F5F25DB4C9E0049D188 /* SearchBarDetailView.swift */; };
+		9CF65F6425DB6F5E0049D188 /* FullList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF65F6325DB6F5E0049D188 /* FullList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C044B3C25D5E783000793EC /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		9C1DC75125ACD14C007D359A /* LifeGuideDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuideDetailView.swift; sourceTree = "<group>"; };
 		9C1DC75B25ACDF94007D359A /* LifeGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuide.swift; sourceTree = "<group>"; };
 		9C1DC75F25ACE068007D359A /* LifeGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuides.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 		9CA7116E25C7B1680041436C /* FAQsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQsView.swift; sourceTree = "<group>"; };
 		9CA7117225C7B9B50041436C /* Issue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
 		9CA7117525C7BA750041436C /* Issues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Issues.swift; sourceTree = "<group>"; };
+		9CF65F5F25DB4C9E0049D188 /* SearchBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarDetailView.swift; sourceTree = "<group>"; };
+		9CF65F6325DB6F5E0049D188 /* FullList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				9C70C98E25C8E66300345ECD /* LibraryView.swift */,
+				9C044B3C25D5E783000793EC /* VideoView.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -160,6 +167,8 @@
 				9C39ED2B25A8EA0100DB7C73 /* LifeGuideList.swift */,
 				9C1DC75125ACD14C007D359A /* LifeGuideDetailView.swift */,
 				9C905D1E25C624A200D3040E /* SearchBarView.swift */,
+				9CF65F5F25DB4C9E0049D188 /* SearchBarDetailView.swift */,
+				9CF65F6325DB6F5E0049D188 /* FullList.swift */,
 				9C905D2125C6296D00D3040E /* SearchBarView2.swift */,
 			);
 			path = content;
@@ -248,6 +257,7 @@
 			files = (
 				9C39ED2C25A8EA0100DB7C73 /* LifeGuideList.swift in Sources */,
 				9C39ED2A25A8EA0100DB7C73 /* SchoolLifeGuideNewApp.swift in Sources */,
+				9CF65F6425DB6F5E0049D188 /* FullList.swift in Sources */,
 				9C1DC75225ACD14C007D359A /* LifeGuideDetailView.swift in Sources */,
 				9C905D2225C6296D00D3040E /* SearchBarView2.swift in Sources */,
 				9C346AA125CA673500F42AEE /* HexagonParameters.swift in Sources */,
@@ -257,7 +267,9 @@
 				9C1DC75C25ACDF94007D359A /* LifeGuide.swift in Sources */,
 				9CA7116F25C7B1680041436C /* FAQsView.swift in Sources */,
 				9CA7117325C7B9B50041436C /* Issue.swift in Sources */,
+				9C044B3D25D5E783000793EC /* VideoView.swift in Sources */,
 				9C5DCCB625CDF7BF00593E05 /* NavigationBarColorChange.swift in Sources */,
+				9CF65F6025DB4C9E0049D188 /* SearchBarDetailView.swift in Sources */,
 				9C28FAA225CB87CE007E82F4 /* MessageFunction.swift in Sources */,
 				9C70C98A25C8A5B100345ECD /* HomeView.swift in Sources */,
 				9C93FFE025CC9C1800A6801A /* GradientBackground.swift in Sources */,

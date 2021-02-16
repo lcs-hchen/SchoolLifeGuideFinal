@@ -559,16 +559,21 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             
                         ]))
         
-        list.append(LifeGuide(name: "Safety and Security", description: "", imageName: "", subTopics: [
+        list.append(LifeGuide(name: "Safety and Security", description: "aaaaaa", imageName: " ", subTopics: [
                                 
                                 
                                 
                                 LifeGuide(name: "Health and Safety: Fire Code Standards", description: """
                                 • There must be clear and unobstructed access (both physically and visually) into and out of each dorm room.
+
                                 • Within each dorm room, there must be a reasonable amount of open and clear space to allow for proper cleaning and easy movement within the room. The floor area should be clear of clutter (clothes, loose extension cords, etc.).
+
                                 • All electrical appliances and adaptors, including lamps, must be CSA-approved. Halogen lights are not permitted. Light bulbs must comply with the manufacturer’s specifications and must never exceed the recommended wattage. We recommend energy efficient “twisting” bulbs, such as “Panasonic GEN IV Light Capsule”, for safety and energy efficiency.
+
                                 • Only one extension cord and power bar per electric receptacle is permitted. Multiple extension cord and power cord connections compromise safety and are not permitted.
+
                                 • Noise cancelling headphones and other noise cancelling devices are not permitted.
+
                                 • Ceiling coverings/decorations (posters, flags, other fabric hangings) are not permitted. Decorations and coverings must not block the line of sight into a room or to the occupants’ beds in order that a quick visual scan can determine the presence or absence of a student.
                                 """),
             
@@ -625,13 +630,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
             
             
                                 LifeGuide(name: "Unpiloted Aerial Vehicles (UAVs), Remote Control Vehicles (RCVs)", description: "Vehicles that require combustible fuel are strictly prohibited. UAVs include but are not limited to; Drones, Remote Controlled (RC) planes and helicopters, cars, etc. Due to the potential for loss or damage, the school strongly discourages students from bringing UAVs and RCVs to campus. Should students, with parental permission, wish to bring their vehicle to campus, they must always ask their Head of House for permission to use the vehicle on or off campus. At all times the student must abide by the rules and legislation set forth by Transport Canada and the Province of Ontario (www.tc.gc.ca/eng/civilaviation/drone-safety.html).")
-            
-            
-                                
-                                
-                                
-                                
-                                
+   
                                 
                                 
                                 

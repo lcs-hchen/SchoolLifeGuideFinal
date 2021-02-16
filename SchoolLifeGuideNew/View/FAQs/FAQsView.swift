@@ -46,8 +46,9 @@ struct FAQsView: View {
                     }
                 
                 
-                }.foregroundColor(.red)
-            }.navigationTitle(Text("FAQs").foregroundColor(.white))
+                }.foregroundColor(.green)
+            }.navigationTitle(Text("FAQs"))
+            
             
             
             }

@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    
+   
     var body: some View {
-        
-        let text = "You will soon realize that being a member of Lakefield College School is to be a part of a close and caring family. Make the most of your time at the school. Before you know it, you will be graduating and bidding farewell to your Grove."
+//
+//        let text = "You will soon realize that being a member of Lakefield College School is to be a part of a close and caring family. Make the most of your time at the school. Before you know it, you will be graduating and bidding farewell to your Grove."
         
         ScrollView{
             VStack {
@@ -33,15 +36,35 @@ struct HomeView: View {
                 
                 MessageFunction(firstLineTitle: "Education of the", secondLineTitle: "Whole Person", description: "A commitment to the broad development of the intellectual, social, emotional, spiritual, and physical qualities needed to lead a fulfilling life.", titleFontSize: 30, textFontSize: 15, firstTitleTopPadding: 125, descriptionBottomPadding: 130, descriptionHorizontalPadding: 77)
                 
-                
-                
+                Divider()
+                HStack {
+                    Image("LCSCampus").scaledToFill()
+                    
+                    VStack {
+                        
+                        Text("The Rev’d")
+                            .foregroundColor(.white)
+                        Text("John G. Runza, BA (Hons), M.Div").font(.system(size: 23)).bold()
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(.white)
+                        Text("Assistant Head, Safety").foregroundColor(.secondary)
+                            .font(.system(size: 20))
+                            .multilineTextAlignment(.center)
+                        Text("Email: jrunza@lcs.on.ca")
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(.white)
+                        
+                    }
+                }
             }
             
         }.preferredColorScheme(.light)
+        .navigationTitle("Core Values")
         
         
         
     }
+    
 }
 
 struct HomeView_Previews: PreviewProvider {

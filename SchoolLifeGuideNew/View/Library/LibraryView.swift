@@ -12,7 +12,7 @@ struct LibraryView: View {
         let url = "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-avi-file.avi"
         
         
-        ScrollView {
+        // List + Button + video view for destination
             
             VStack {
 //                VideoPlayer(player: AVPlayer(url: URL(string: url)!)){
@@ -30,7 +30,7 @@ struct LibraryView: View {
             }
             
             
-        }
+        
     }
 }
 

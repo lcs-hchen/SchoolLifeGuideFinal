@@ -9,6 +9,7 @@ import SwiftUI
 import Combine
 @main
 struct SchoolLifeGuideNew: App {
+    
     var body: some Scene {
         WindowGroup {
             
@@ -58,13 +59,13 @@ struct SchoolLifeGuideNew: App {
                     
                     ZStack {
                         GradientBackground()
-                        LifeGuideList()
+                        SearchBarDetailView()
                     }
                 }.tabItem {
                     
                     VStack {
                         Image(systemName: "tortoise.fill").onTapGesture {
-                             LifeGuideList()
+                             SearchBarDetailView()
                         }
                         Text("Content")
                     }

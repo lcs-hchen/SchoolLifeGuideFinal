@@ -10,7 +10,11 @@ import UIKit
 
 struct LifeGuideList: View {
     let lifeGuide = LifeGuides()
+    
     @State private var searchText: String = ""
+    
+    @State var isEditing = false
+    
     var body: some View {
       
         UITableView.appearance().backgroundColor = .clear
@@ -21,7 +25,29 @@ struct LifeGuideList: View {
                     GradientBackground()
                     VStack{
                         
-                        SearchBar(text: $searchText, placeholderText: "Search")
+                        SearchBarView(text: $searchText)
+                        
+//                        HStack {
+//
+//                            SearchBar(text: $searchText, placeholderText: "Search").onTapGesture {
+//                                self.isEditing = true
+//                            }
+//
+//                            if isEditing == true {
+//                                Button("Cancel", action: {
+//                                    self.searchText = ""
+//                                    self.isEditing = false
+//
+//                                    UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+//
+//                            })
+//
+//
+//                        }
+//
+//
+//                            }
+                        
                         
                         Form {
                             List(lifeGuide.list){
@@ -47,6 +73,12 @@ struct LifeGuideList: View {
         }
 }
 
+    
+    
+    
+    
+    
+    
 struct LifeGuideList_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{

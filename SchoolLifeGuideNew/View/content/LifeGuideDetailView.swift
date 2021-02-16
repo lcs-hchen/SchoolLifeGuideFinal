@@ -14,9 +14,9 @@ struct LifeGuideDetailView: View {
     var body: some View {
         UITableView.appearance().backgroundColor = .clear
         UITableViewCell.appearance().backgroundColor = .clear
-        return ZStack {
+        return
             
-            GradientBackground()
+            
             ScrollView{
                 
                 // First 1 contains multiple images
@@ -62,6 +62,8 @@ struct LifeGuideDetailView: View {
                     }
                     .font(Font.body.bold())
                     .foregroundColor(.red)
+                    .frame(width: 430, height: CGFloat(lifeGuide.subTopics.count * 53))
+                    
                 }
                 
                 
@@ -81,7 +83,10 @@ struct LifeGuideDetailView: View {
                 
                 
             }.navigationTitle(lifeGuide.name)
-        }
+            .background(GradientBackground())
+            
+            
+        
     }
     
     
