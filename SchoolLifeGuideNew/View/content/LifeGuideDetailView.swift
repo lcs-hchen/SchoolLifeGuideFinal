@@ -17,7 +17,7 @@ struct LifeGuideDetailView: View {
         ZStack {
             GradientBackground()
             VStack {
-                
+                Divider()
                 ScrollView{
                     
                     // First 1 contains multiple images
@@ -56,7 +56,16 @@ struct LifeGuideDetailView: View {
                                 
                                 thing in
                                 // Can add clothes icon here for dress page
-                                NavigationLink(thing.name, destination: LifeGuideDetailView(lifeGuide: thing))
+                                NavigationLink(destination: LifeGuideDetailView(lifeGuide: thing)) {
+                                    
+                                    HStack {
+                                        if let imageName = thing.imageName {
+                                            Image(systemName: imageName)
+                                        }
+                                        
+                                        Text(thing.name)
+                                    }
+                                }
                                 
                             }
                             
