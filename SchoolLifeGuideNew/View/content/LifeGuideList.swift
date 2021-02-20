@@ -15,13 +15,22 @@ struct LifeGuideList: View {
     
     @State var isEditing = false
     
+    @State private var tableView: UITableView?
+        private func deselectRows() {
+            if let tableView = tableView, let selectedRow = tableView.indexPathForSelectedRow {
+                tableView.deselectRow(at: selectedRow, animated: true)
+            }
+        }
+        
     var body: some View {
       
         UITableView.appearance().backgroundColor = .clear
         UITableViewCell.appearance().backgroundColor = .clear
         
             
-         return  ZStack {
+         return
+            NavigationView {
+                ZStack {
                     GradientBackground()
                     VStack{
                         
@@ -49,13 +58,18 @@ struct LifeGuideList: View {
 //                            }
                         
                         
+                       
                         Form {
                             List(lifeGuide.list){
                        
                                 data in
                                 
-                                NavigationLink(data.name, destination: LifeGuideDetailView(lifeGuide: data))
-                            
+                                NavigationLink(destination: LifeGuideDetailView(lifeGuide: data)) {
+                                    Text(data.name)
+                                }.onAppear {
+                                    deselectRows()
+                                 }
+                                
                           
                             }
                        
@@ -72,6 +86,8 @@ struct LifeGuideList: View {
             }
         }
 }
+        
+    }
 
     
     
