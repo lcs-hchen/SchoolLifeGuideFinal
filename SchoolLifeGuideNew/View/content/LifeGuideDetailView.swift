@@ -71,7 +71,7 @@ struct LifeGuideDetailView: View {
                             
                         }
                         .font(Font.body.bold())
-                        .foregroundColor(.green)
+                        .foregroundColor(Color(red: 43.0 / 255, green: 104.0 / 255, blue: 78.0 / 255))
                         .frame(width: 430, height: CGFloat(lifeGuide.subTopics.count * 53))
                         
                     }

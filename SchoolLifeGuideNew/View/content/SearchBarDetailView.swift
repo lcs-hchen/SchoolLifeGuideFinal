@@ -89,7 +89,7 @@ struct SearchBarDetailView: View {
                     }
                 }.navigationTitle("School Life Guide")
                 .font(Font.body.bold())
-                .foregroundColor(.green)
+                .foregroundColor(Color(red: 43.0 / 255, green: 104.0 / 255, blue: 78.0 / 255))
             
             
         }

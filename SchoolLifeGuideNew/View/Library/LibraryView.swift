@@ -8,13 +8,16 @@
 import SwiftUI
 import AVKit
 struct LibraryView: View {
+  
+    
+    var urlList = Videos()
     var body: some View {
-        let url = "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-avi-file.avi"
-        
+        UITableView.appearance().backgroundColor = .clear
+        UITableViewCell.appearance().backgroundColor = .clear
         
         // List + Button + video view for destination
             
-            VStack {
+           
 //                VideoPlayer(player: AVPlayer(url: URL(string: url)!)){
 //                    VStack {
 //                            Text("Watermark")
@@ -25,9 +28,35 @@ struct LibraryView: View {
 //                            Spacer()
 //                        }
 //                }
+      return  ZStack {
+            GradientBackground()
+            List(urlList.list) { Video in
                 
-                VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: "mod_05_aie_demand-video", withExtension: "mp4")!))
-            }
+               
+                NavigationLink(destination: VideoView(video: Video)) {
+                    
+                    ZStack {
+                        Image("Safety")
+                        Text("testName")
+                    }
+                }
+                        
+                    
+                
+               
+               
+                        
+                        
+                    
+        
+                
+                
+                
+            }.navigationTitle("Video Library")
+        }
+       
+                
+            
             
             
         

@@ -46,7 +46,7 @@ struct FAQsView: View {
                     }
                 
                 
-                }.foregroundColor(.green)
+                }.foregroundColor(Color(red: 43.0 / 255, green: 104.0 / 255, blue: 78.0 / 255))
             }.navigationTitle(Text("FAQs"))
             
             

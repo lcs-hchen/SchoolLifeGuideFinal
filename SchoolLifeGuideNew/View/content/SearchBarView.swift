@@ -13,18 +13,19 @@ struct SearchBarView: View {
     @State var isEditing = false
     @State var placeholderText = "Search..."
     
+    
     var body: some View {
         
         HStack {
             TextField(placeholderText, text: $text)
                 .padding(7)
-                
                 .padding(.horizontal, 25)
-                .frame(width: 390, height: 40)
                 .background(Color(.systemGray6))
+                .cornerRadius(8)
                 .onTapGesture {
                     self.isEditing = true
             }
+
                 .cornerRadius(10)
                 .overlay(
                     HStack {
@@ -33,21 +34,24 @@ struct SearchBarView: View {
                             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                             .padding(.leading, 8)
                         
-                        if isEditing == true {
-                            Button("Cancel", action: {
-                                self.text = ""
-                                self.isEditing = false
-                                UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
-                            })
-                            .padding(.trailing, 10)
-                            .transition(.move(edge: .bottom))
-                            .animation(.default)
-                        }
+                        
                         
                     }
+                    
                 
                 )
-           
+            if isEditing == true {
+                Button("Cancel", action: {
+                    self.text = ""
+                    self.isEditing = false
+                    UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+                })
+                .padding(.trailing, 20)
+                .padding(.bottom, -2)
+                .transition(.move(edge: .trailing))
+                .animation(.default)
+            }
+            
         }
         
         
