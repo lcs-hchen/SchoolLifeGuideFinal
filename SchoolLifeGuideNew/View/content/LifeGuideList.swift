@@ -15,27 +15,20 @@ struct LifeGuideList: View {
     
     @State var isEditing = false
     
-    @State private var tableView: UITableView?
-        private func deselectRows() {
-            if let tableView = tableView, let selectedRow = tableView.indexPathForSelectedRow {
-                tableView.deselectRow(at: selectedRow, animated: true)
-            }
-        }
-        
+    
     var body: some View {
-      
+        
         UITableView.appearance().backgroundColor = .clear
         UITableViewCell.appearance().backgroundColor = .clear
         
-            
-         return
+        
+        return
             NavigationView {
-                ZStack {
-                    GradientBackground()
-                    VStack{
-                        
-                        SearchBarView(text: $searchText)
-                        
+                VStack{
+                    
+                    SearchBarView(text: $searchText)
+                        .padding(.horizontal, 20)
+                    
 //                        HStack {
 //
 //                            SearchBar(text: $searchText, placeholderText: "Search").onTapGesture {
@@ -56,51 +49,49 @@ struct LifeGuideList: View {
 //
 //
 //                            }
-                        
-                        
-                       
-                        Form {
-                            List(lifeGuide.list){
-                       
-                                data in
-                                
-                                NavigationLink(destination: LifeGuideDetailView(lifeGuide: data)) {
-                                    Text(data.name)
-                                }.onAppear {
-                                    deselectRows()
-                                 }
-                                
-                          
+                    
+                    
+                    
+                    Form {
+                        List(lifeGuide.list){
+                            
+                            data in
+                            
+                            NavigationLink(destination: LifeGuideDetailView(lifeGuide: data)) {
+                                Text(data.name)
                             }
-                       
-                        
-                    }.navigationTitle("School Life Guide")
+                            
+                            
+                        }.navigationTitle("School Life Guide")
                         .font(Font.body.bold())
-                        .foregroundColor(.red)
-                
-                
-            
-
-            
-            
+                        .foregroundColor(Color(red: 43.0 / 255, green: 104.0 / 255, blue: 78.0 / 255))
+                        
+                        
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                }
+                .background(GradientBackground())
             }
-        }
-}
         
     }
-
     
     
     
     
     
     
-struct LifeGuideList_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView{
-            LifeGuideList()
+    
+    struct LifeGuideList_Previews: PreviewProvider {
+        static var previews: some View {
+            NavigationView{
+                LifeGuideList()
+            }
+            
         }
-        
     }
-}
 }

@@ -52,7 +52,7 @@ struct SearchBarView: View {
                 .animation(.default)
             }
             
-        }
+        }.padding(.horizontal, 20)
         
         
         

@@ -9,11 +9,11 @@ import SwiftUI
 import Combine
 @main
 struct SchoolLifeGuideNew: App {
-    
+   
     var body: some Scene {
         WindowGroup {
             
-            TabView {
+            TabView() {
                
                 NavigationView {
                     
@@ -64,9 +64,7 @@ struct SchoolLifeGuideNew: App {
                 }.tabItem {
                     
                     VStack {
-                        Image(systemName: "tortoise.fill").onTapGesture {
-                             SearchBarDetailView()
-                        }
+                        Image(systemName: "tortoise.fill")
                         Text("Content")
                     }
                     
@@ -79,9 +77,12 @@ struct SchoolLifeGuideNew: App {
                 
                 
                 
+            }.onTapGesture(count: 2) {
+                // Double Click code goes here
             }
             
             
         }
     }
 }
+
