@@ -19,12 +19,22 @@ struct LifeGuide: Identifiable {
     
     func findNavigationTitle() -> String {
         if name == "Standard Headwear and Scarves" {
-           return "Headwear"
-        } else {
+            return "Headwear"
+        } else if name == "Jewellery, Piercings and Tattoos" {
+            return "Accessories"
+        } else if name == "Dress Accountability Process" {
+            return "Dress Accountability"
+        }
+        
+        
+        
+        
+        else {
             return name
         }
+        
+        
+        
     }
-    
-   
-}
 
+}

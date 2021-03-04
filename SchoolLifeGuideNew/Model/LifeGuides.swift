@@ -54,7 +54,7 @@ struct LifeGuides {
             
             LifeGuide(name: "Clean Casuals", description: "Students may change into Clean Casuals after classes end each day. Clean Casuals may be worn to meals, in the library and during spares.\n\nClean casual clothing must also be clean and in good repair.\n\nAll students are expected to be dressed in an appropriate manner at all times. Clothing that contravenes the school’s standards and values will have to be changed and may be confiscated depending upon the severity of the offence. Examples of inappropriate clothing would include but are not limited to clothing with racist, profane, homophobic or hate speech messages, or clothing that promotes alcohol or drug consumption.\n\nCrop-tops, halter-tops, bathing suits and tank tops are not acceptable as Clean Casual dress. Bathing suits may only be worn at the waterfront. Out of respect for all members of our community, clothing that looks like underwear must not be visible. Midriffs must not be showing.\n\nWhen in Clean Casual dress, hats, toques and hoods are not to be worn in indoor classrooms or the Dining Hall."),
             
-            LifeGuide(name: "Dining Hall", description: "For safety and hygienic reasons, the following standards must be followed for dress in the Dining Hall:\n•\nFootwear must be worn. No cleats allowed.\n•\nA student must change after a sports practice before they enter\n•\nArmpits must be covered (no tank tops)"),
+            LifeGuide(name: "Dining Hall", description: "For safety and hygienic reasons, the following standards must be followed for dress in the Dining Hall:\n\n• Footwear must be worn. No cleats allowed.\n\n• A student must change after a sports practice before they enter\n\n• Armpits must be covered (no tank tops)"),
             
             LifeGuide(name: "Clean Casual days", description: """
 Students will be permitted to wear any Lakefield College School branded spirit wear (house clothing, LCS athletic wear) on Wednesdays.
@@ -64,8 +64,11 @@ On Clean Casual days, students make a donation to a school-selected charity in r
             
             LifeGuide(name: "Jewellery, Piercings and Tattoos", description: """
                 Jewellery, piercings and tattoos are expected to align with the standards and values of our school community.
+
                 Students may be asked to remove or cover any piece that contravenes the school’s values.
+
                 Jewellery should be tasteful and moderate and appropriate for the learning activities of the day.
+
                 For safety and hygienic reasons, students are not permitted to have any piercing or tattoo work done while they are in the care of the school. If a student wishes to have a tattoo or piercing, they must have this work done over a break that is longer than seven days in order to ensure parental awareness, appropriate hygienic care and healing of the wound. A student who receives a piercing while under the care of the school will be asked to remove it immediately and parents will be contacted. Any piercing that is a continuous wound (i.e. tongue, nipple, etc.) are not permitted.
                 """),
             
@@ -76,15 +79,16 @@ On Clean Casual days, students make a donation to a school-selected charity in r
             
             LifeGuide(name: "Dress Accountability Process", description: """
                 A student who appears in chapel or class inappropriately dressed will be immediately asked to step out of chapel or class to correct the issue. Students who are unable to immediately do so will meet with the Assistant Head: School Life, to discuss the issue with the student according to the following protocol.
-                Accountability for Inappropriate Dress
-                •
-                1st offence: Meeting with Assistant Head: School Life—warning issued, Head of House contacted to follow up with student and parents.
-                •
-                2nd offence: Student will be required to meet with the Assistant Head: School Life every morning before Chapel, properly wearing Formal Dress for one week. Parents contacted.
-                •
-                Subsequent offences: Meeting with the Assistant Head: School Life and Head of House to discuss the student’s persistent inability to abide by the expectations of the school. Official Warning Status will be issued, at a minimum.
-                •
-                Any further offences will require a meeting of the Standards Committee for persistent inability to abide by the expectations of the school.
+
+                Accountability for Inappropriate Dress:
+
+                • 1st offence: Meeting with Assistant Head: School Life—warning issued, Head of House contacted to follow up with student and parents.
+
+                • 2nd offence: Student will be required to meet with the Assistant Head: School Life every morning before Chapel, properly wearing Formal Dress for one week. Parents contacted.
+
+                • Subsequent offences: Meeting with the Assistant Head: School Life and Head of House to discuss the student’s persistent inability to abide by the expectations of the school. Official Warning Status will be issued, at a minimum.
+
+                • Any further offences will require a meeting of the Standards Committee for persistent inability to abide by the expectations of the school.
                 """)
             
             
