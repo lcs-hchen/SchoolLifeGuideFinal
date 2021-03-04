@@ -151,8 +151,8 @@
 				9C1DC75B25ACDF94007D359A /* LifeGuide.swift */,
 				9C1DC75F25ACE068007D359A /* LifeGuides.swift */,
 				9CA7117225C7B9B50041436C /* Issue.swift */,
-				9CA7117525C7BA750041436C /* Issues.swift */,
 				9C346AA025CA673500F42AEE /* HexagonParameters.swift */,
+				9CA7117525C7BA750041436C /* Issues.swift */,
 				9C346AA325CA68C900F42AEE /* BadgeBackground.swift */,
 				9C5DCCB525CDF7BF00593E05 /* NavigationBarColorChange.swift */,
 			);

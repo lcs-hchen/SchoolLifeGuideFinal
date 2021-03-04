@@ -237,16 +237,29 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                 All meals are cafeteria style. On Mondays, Wednesdays and Thursdays students are offered one entrée; on the other days, they are offered two. In addition, there is a healthy choices bar, deli bar, soup and a variety of desserts and fruits. A fruit cart is located in the Dining Hall foyer and is always open to students. A vegetarian option is always available.
                 The food service operation is managed by Aramark Campus Services. The Seniors-in-Charge (SICs) of Dining Hall chair a committee of students from all grades. This committee meets with the Dining Hall staff regularly to discuss all aspects of the meals and any concerns that may have been brought to their attention by classmates. Dietary questions or concerns can also be addressed to dietitian@ aramark.ca.
                 Dining Hall meal hours are as follows:
-                MON., TUES., THURS., FRI WED., SAT. SUN.
-                Breakfast: 7:00 a.m. - 8:25 a.m. 8:30 a.m. - 9:25 a.m. 8:00 a.m. - 10:30 a.m.
-                Lunch: 12:30 p.m. - 2:00 p.m. 12:15 p.m. - 1:15 p.m. 11:30 a.m. - 1:00 p.m.
-                Dinner: 5:30 p.m. - 6:45 p.m. 5:30 p.m. - 6:45 p.m. 5:30 p.m. - 6:45 p.m.
+
+                                    MON., TUES., THURS., FRI
+                Breakfast:   7:00 a.m. - 8:25 a.m.
+                Lunch:        12:30 p.m. - 2:00 p.m.
+                Dinner:       5:30 p.m. - 6:45 p.m.
+
+                                    WED., SAT.
+                Breakfast:   8:30 a.m. - 9:25 a.m.
+                Lunch:        12:15 p.m. - 1:15 p.m.
+                Dinner:       5:30 p.m. - 6:45 p.m.
+
+                                    SUN.
+                Breakfast:   8:00 a.m. - 10:30 a.m.
+                Lunch:        11:30 a.m. - 1:00 p.m.
+                Dinner:       5:30 p.m. - 6:45 p.m.
+
                 *Food Service ends at 6:45 p.m. The Dining Hall closes at 7:00 p.m. for cleaning.
                 """),
             
             
             LifeGuide(name: "Off Campus Food Ordering", description: """
                 Lakefield College School generally discourages the ordering of food from off campus venues. However, on occasion students are able to order pizza, etc. after asking and receiving permission and only according to the following schedule:
+
                 Sunday to Friday
                 • All food orders have to be placed by 8:00 p.m. and only with the permission of residential staff on duty.
 
@@ -268,11 +281,13 @@ On Clean Casual days, students make a donation to a school-selected charity in r
             
             LifeGuide(name: "Lockers", description: """
                 Each student at Lakefield College School has the option of using a book locker. The locker is spacious enough for a book bag (including laptop computer) and a winter jacket/coat. Students are asked to use this locker and to keep it secure and locked at all times. Laptops left in the hallways or around the school will be moved to a secure location. Clothing and other items left about the school will be placed in the Lost and Found. It is each student’s responsibility to ensure that their valuables (including laptops) are kept secure and locked at all times.
+
                 Day students have their own change room which may contain a locker or cubby space. The locker or cubby is for general sportswear, towel and toiletries. For larger sports equipment, such as hockey bags and skis, there is an adjacent storage room for day students to use. This room will be left open during the day, but locked overnight.
                 """),
             
             LifeGuide(name: "Lost and Found", description: """
                 The school is not responsible for lost belongings; however, staff are instructed to move all found items to the designated Lost and Found box in the Day Student area. Valuables such as wallets, watches, keys, etc. are taken to Reception or the School Life office. Items not claimed by the year’s end are given to charity, except Formal and Standard Dress items which are donated to the Replay Shop for resale.
+
                 Because of the residential nature of the school, it is very important to label belongings with the student’s name. When a student notices an item is missing, we ask them to: a) post the details of the lost item on the Edsby ‘Lost and Found’ group; b) check with friends to see if it was borrowed; and c) check the Lost and Found box. If a more thorough search is required, a student should pick up a Missing Item check list form from the Administrative Assistant to School Life. Families are reminded to make sure that their children’s belongings are insured and that they record serial numbers for bicycles, laptops, tablets, etc. The school strongly encourages all students to lock their bicycles at all times. The school will have some “Lost and Found Displays” set up for parents and students on Open House days, such as Fall Fair and Regatta Day. After these display days, the items will be taken to a local charity.
                 """),
             
@@ -285,8 +300,10 @@ On Clean Casual days, students make a donation to a school-selected charity in r
             LifeGuide(name: "Vehicles on Campus", description: """
                 Boarding Students
                 Boarding students are not permitted to have vehicles (other than bicycles) on campus. Under this policy vehicles include, but are not limited to; cars, motorcycles, electric bicycles, gas powered bicycles, etc. Unauthorized vehicles will be towed off campus or stored in an onsite facility if possible until they can be returned home. Cars will be taken to a compound in the local area. The cost of the tow and impound will be borne by the parents. For safety reasons, the school strongly discourages boarding students from keeping cars in the Lakefield area.
+
                 Day Students
                 Day students must register their cars (make and license number) with their Day Head of House. At which point they will be given a parking tag to hang off of their car’s rear-view mirror. For security reasons, this tag must be present and visible at all times. If the tag is not visible, the school reserves the right to tow the vehicle at the owner’s expense. The following guidelines must also be adhered to:
+
                 • Day students who drive to school must park their cars in the lot by the maintenance buildings.
 
                 • Cars are NOT to be used for any purpose other than coming to school and departing from school at the end of the day. Cars may not be used during the school day unless specific permission is granted by the Head of House each time a student wishes to use their vehicle. Parents must also grant permission each time the student wishes to use their car during the day.
@@ -307,7 +324,9 @@ On Clean Casual days, students make a donation to a school-selected charity in r
 
                 Day students who contravene the car policy will be held accountable in the following manner:
                 • 1st Offence: 1-week suspension of car privileges (car not permitted on campus for 7 days)
+
                 • 2nd Offence: 1-month suspension of car privileges (car not permitted on campus for 30 days)
+
                 • Subsequent Offences: Student will be required to attend a meeting of the Standards Committee for Persistent Inability to Abide by the Expectations of the School. Student will have their car privileges revoked for an indefinite period of time greater than 30 days and will be placed on Directed Probation for Persistent Inability to Abide by the Expectations of the School. Students will be liable for suspension from the school
 
                 Taxis

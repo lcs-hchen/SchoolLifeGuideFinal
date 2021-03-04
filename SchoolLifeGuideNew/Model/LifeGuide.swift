@@ -38,6 +38,8 @@ struct LifeGuide: Identifiable {
             return "Absence Accountability"
         case "Unexcused Absence from Co-curriculars":
             return "Co-curricular Absences"
+        case "Off Campus Food Ordering":
+            return "Food Ordering"
         default:
             return name
         }
