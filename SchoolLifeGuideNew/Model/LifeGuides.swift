@@ -18,6 +18,9 @@ struct LifeGuides {
         LifeGuide(name: "sub 1", description: "This is sub 1 content", warning: "sub 1 is dangerous", imageName: "SchoolDailySchedule")
         
     ])
+    
+   
+    
     init() {
         
         list.append(LifeGuide(name: "The School Program", description: "Daily Schedule", warning: "1 is dangerous", imageName: "system1", subTopics: [

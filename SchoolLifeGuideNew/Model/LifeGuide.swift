@@ -10,13 +10,21 @@ import Foundation
 struct LifeGuide: Identifiable {
     
     let id = UUID()
-    let name: String
+    var name: String
     let description: String
     var warning: String?
     var imageName: String?
     
     var subTopics: [LifeGuide] = []
     
+    func findNavigationTitle() -> String {
+        if name == "Standard Headwear and Scarves" {
+           return "Headwear"
+        } else {
+            return name
+        }
+    }
     
+   
 }
 

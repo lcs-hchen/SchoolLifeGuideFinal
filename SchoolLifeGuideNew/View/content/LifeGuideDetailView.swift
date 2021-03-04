@@ -11,9 +11,10 @@ struct LifeGuideDetailView: View {
     
     let lifeGuide : LifeGuide
     @State private var zoomed = false
+    
+    
     var body: some View {
-
-        
+       
         ZStack {
             GradientBackground()
             VStack {
@@ -92,7 +93,7 @@ struct LifeGuideDetailView: View {
                     
                     
                     
-                }.navigationTitle(lifeGuide.name)
+                }.navigationTitle(lifeGuide.findNavigationTitle())
                 
             }
         }
