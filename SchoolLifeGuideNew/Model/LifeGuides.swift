@@ -108,16 +108,21 @@ On Clean Casual days, students make a donation to a school-selected charity in r
     
                 LifeGuide(name: "Leaving the School During Program Time", description: """
                     Lakefield College School discourages students from missing academic, co-curricular and other important program time (intersession days, guest speakers, etc.) However, there may be exceptional circumstances when a student is required to be excused during program time. In order for a student to be granted permission to be excused from school program time, they must follow the process outlined below:
-                    1.Students must ask their Head of House for leave.
-                    2.The Head of House will contact the student’s parent(s) and discourage missing class time. If the leave is necessary, the Head of House will confirm departure and return times with the parents.
-                    3.The Head of House will email the staff member responsible for attendance, the Administrative Assistant to the Assistant Head: School Life and the student’s advisor, with the student’s name and dates of departure and return.
-                    4.Students who miss class are responsible for all of the work they have missed.
-                    5.Parents who are requesting that their child miss more than 3 program days will be contacted by an Assistant Head in order to determine the necessity of the leave.
+
+                    1. Students must ask their Head of House for leave.
+
+                    2. The Head of House will contact the student’s parent(s) and discourage missing class time. If the leave is necessary, the Head of House will confirm departure and return times with the parents.
+
+                    3. The Head of House will email the staff member responsible for attendance, the Administrative Assistant to the Assistant Head: School Life and the student’s advisor, with the student’s name and dates of departure and return.
+
+                    4. Students who miss class are responsible for all of the work they have missed.
+
+                    5. Parents who are requesting that their child miss more than 3 program days will be contacted by an Assistant Head in order to determine the necessity of the leave.
                     """),
 
 
                 LifeGuide(name: "Late for Class", description: """
-                    Late for Class
+                    Late for Class:
                     The goal of this policy is to address chronic lateness, and to reinforce with all students the need for punctuality so that all students can benefit from productive use of class time.
 
                     Definition of “Late for Class”:
@@ -130,37 +135,44 @@ On Clean Casual days, students make a donation to a school-selected charity in r
 
 
                 LifeGuide(name: "Accountability for being Late for Class", description: """
-                    •   First Offence: Occurs when a student acquires 5 lates recorded in the attendance system. A notification is sent to the Advisor. When an Advisor receives a notification for the first time, the Advisor will have a conversation with the student and send an email home to the parents (copied to Head of House)
-                    •   Second Offence: Occurs when the student accumulates 5 more lates (10 total) recorded in the attendance system. A second notification is sent to the Advisor. The student meets with the Assistant Head, School Life and is placed on Official Warning Status.
+                    • First Offence: Occurs when a student acquires 5 lates recorded in the attendance system. A notification is sent to the Advisor. When an Advisor receives a notification for the first time, the Advisor will have a conversation with the student and send an email home to the parents (copied to Head of House)
+
+                    • Second Offence: Occurs when the student accumulates 5 more lates (10 total) recorded in the attendance system. A second notification is sent to the Advisor. The student meets with the Assistant Head, School Life and is placed on Official Warning Status.
 
                     The Advisor speaks with the Head of House to see whether there are other concerns and will speak with the student and create a plan to address the issue. An email is sent home to the parents (copied to Head of House). The student is placed in Saturday Study or an equivalent accountability as deemed appropriate by the Advisor.
-                    •   Third Offence: Occurs when the student accumulates another 5 more lates (15 total) recorded in the attendance system. A third notification is sent to the Advisor, Head of House, and the Assistant Head: School Life. Parents are contacted by phone and the student is placed on Directed Probation for Violation of the Academic Attendance Policy. The student is placed in Saturday Study or an equivalent accountability and the action plan is revised to achieve better success.
-                    •   Fourth Offence: Occurs when the student accumulates 5 more lates (20 total) as recorded in the attendance system. A fourth notification is sent to the Advisor, Head of House, and the Assistant Head: School Life. Parents are contacted by the Assistant Head: School Life and the student is placed on General Probation. The student is gated for one week or an equivalent accountability and the action plan is once again revised.
-                    •   Subsequent Offences: A student is liable to be required to reaffirm his/her commitment to the school (suspended) or to leave the school (expelled).
+
+                    • Third Offence: Occurs when the student accumulates another 5 more lates (15 total) recorded in the attendance system. A third notification is sent to the Advisor, Head of House, and the Assistant Head: School Life. Parents are contacted by phone and the student is placed on Directed Probation for Violation of the Academic Attendance Policy. The student is placed in Saturday Study or an equivalent accountability and the action plan is revised to achieve better success.
+
+                    • Fourth Offence: Occurs when the student accumulates 5 more lates (20 total) as recorded in the attendance system. A fourth notification is sent to the Advisor, Head of House, and the Assistant Head: School Life. Parents are contacted by the Assistant Head: School Life and the student is placed on General Probation. The student is gated for one week or an equivalent accountability and the action plan is once again revised.
+
+                    • Subsequent Offences: A student is liable to be required to reaffirm his/her commitment to the school (suspended) or to leave the school (expelled).
                     """),
 
 
                 LifeGuide(name: "Academic Absences", description: """
                     Unexcused Absence from Class Time
-                    Definition of an Unexcused Absence
+
+                    Definition of an Unexcused Absence:
                     An unexcused absence is when a student misses a class for no permitted (excused) reason.
+
                     Teachers take attendance within the first 10 minutes of every class. Students may only be excused when ill, when involved in a school co-curricular activity or when special permission is granted by his/her Head of House or parent if a Day Student.
+
                     A student who arrives to class with only 15 minutes or less left in the class will be held accountable with an unexcused absence.
                     """),
 
 
                 LifeGuide(name: "Accountability for Unexcused Absences for Class", description: """
                     The Advisor and student are informed of each unexcused absence as it occurs. The student is given twenty-four hours to contact the Advisor if the unexcused absence is taken in error. If the student fails to make this contact, the unexcused absence will stand.
-                    •
-                    First Offence: The Advisor will review the attendance policy with the student. It is the student’s responsibility to ask the Advisor to resolve any inappropriately determined unexcused absences. Parents are contacted by the Advisor.
-                    •
-                    Second Offence: Student and Advisor are notified, as above. Advisor and student meet with the Assistant Head: School Life. An Official Warning for missing classes is issued. An action plan is agreed upon and implemented. Head of House and Parents are contacted by the Advisor.
-                    •
-                    Third Offence: Student and Advisor are notified, as above. Advisor and student meet with the Assistant Head: School Life. The student is placed on Directed Probation for Violation of the Academic Attendance Policy. Head of House and Parents are contacted by the Advisor.
-                    •
-                    Fourth Offence: Student and Advisor are notified, as above. Advisor and student meet with the Assistant Head: School Life. The student is placed on General Probation. Head of House and Parents are contacted by the Advisor. The student may be sent home to reaffirm his/her commitment to the school (suspended). A revised action plan may be agreed upon and implemented.
-                    •
-                    Subsequent Offences: In consultation with parents, Head of House, Advisor and Assistant Head: School Life and Head of School, a student may be required to leave the school.
+
+                    • First Offence: The Advisor will review the attendance policy with the student. It is the student’s responsibility to ask the Advisor to resolve any inappropriately determined unexcused absences. Parents are contacted by the Advisor.
+
+                    • Second Offence: Student and Advisor are notified, as above. Advisor and student meet with the Assistant Head: School Life. An Official Warning for missing classes is issued. An action plan is agreed upon and implemented. Head of House and Parents are contacted by the Advisor.
+
+                    • Third Offence: Student and Advisor are notified, as above. Advisor and student meet with the Assistant Head: School Life. The student is placed on Directed Probation for Violation of the Academic Attendance Policy. Head of House and Parents are contacted by the Advisor.
+
+                    • Fourth Offence: Student and Advisor are notified, as above. Advisor and student meet with the Assistant Head: School Life. The student is placed on General Probation. Head of House and Parents are contacted by the Advisor. The student may be sent home to reaffirm his/her commitment to the school (suspended). A revised action plan may be agreed upon and implemented.
+
+                    • Subsequent Offences: In consultation with parents, Head of House, Advisor and Assistant Head: School Life and Head of School, a student may be required to leave the school.
                     """),
 
                 LifeGuide(name: "Unexcused Absence from Co-curriculars", description: """
@@ -172,8 +184,11 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                     • First Offence: It is the student’s responsibility to resolve any inappropriately determined unexcused absences by responding to the attendance email with an explanation. The Advisor will review the attendance policy with the student if the absence is valid.
 
                     • Second Offence: Student, Advisor and Head of House are notified, as above. Parents are contacted by the Advisor.
+
                     • Third Offence: Student, Advisor and Head of House are notified, as above. The Coach/Director/Facilitator arranges a meeting with Student and Advisor to discuss, agree upon and implement an action plan. Parents are contacted by the Advisor.
+
                     • Fourth Offence: Student, Advisor and Head of House are notified, as above. The Advisor arranges a meeting between the student, Advisor with the Director of Arts or Athletics. A revised action plan may be agreed upon and implemented. An Official Warning for missing co-curriculars is issued. Parents are contacted by the Advisor.
+
                     • Fifth Offence: Student, Advisor and Head of House are notified, as above. The Advisor arranges a meeting between the student, Advisor and the Assistant Head: School Life. The student is placed on Directed Probation for Persistent Inability to Abide by the Expectations of the School. A revised action plan may be agreed upon and implemented.
                     """),
 

@@ -18,20 +18,33 @@ struct LifeGuide: Identifiable {
     var subTopics: [LifeGuide] = []
     
     func findNavigationTitle() -> String {
-        if name == "Standard Headwear and Scarves" {
+        
+        
+        
+        switch name {
+        case "Standard Headwear and Scarves":
             return "Headwear"
-        } else if name == "Jewellery, Piercings and Tattoos" {
+        case "Jewellery, Piercings and Tattoos":
             return "Accessories"
-        } else if name == "Dress Accountability Process" {
+        case "Dress Accountability Process":
             return "Dress Accountability"
-        }
-        
-        
-        
-        
-        else {
+        case "Excused Absences/Attendance":
+            return "Excused Absences"
+        case "Leaving the School During Program Time":
+            return "Leaving the School"
+        case "Accountability for being Late for Class":
+            return "Late Accountability"
+        case "Accountability for Unexcused Absences for Class":
+            return "Absence Accountability"
+        case "Unexcused Absence from Co-curriculars":
+            return "Co-curricular Absences"
+        default:
             return name
         }
+        
+        
+        
+        
         
         
         
