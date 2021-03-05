@@ -1280,6 +1280,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         
                         LifeGuide(name: "Response and Support Strategy", description: """
                             The school is committed to providing regular education and training faculty, Health and Well-being Centre staff, students and parents.
+
                             Students and parents will be fully informed at the beginning of the school year of the school’s policy and position on tobacco, tobacco like products, ENDS, alcohol, cannabis and other drugs. In addition, the school will work with our local Public Health Unit and O.P.P. Liaison Officer for support and to ensure the school has accurate up-to-date information. Students will be engaged in a comprehensive health and education program through curriculum and related activities at all levels of the school. The aims of this program are to:
                             i) increase student awareness;
 
@@ -1299,6 +1300,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             
                         LifeGuide(name: "How to Request a Parley", description: """
                             A student requests a Parley with a trusted adult staff member. The adult staff member is required to inform one of the following staff members; Assistant Head: School Life, or any Health and Well-being Centre staff, who will arrange to meet with the student and ensure that a supportive care plan is created.
+
                             All staff members who have engaged in a Parley are required to inform at least one of the supportive care team in order to ensure the student has the appropriate care and support to best address the issue of concern.
                             """),
                             
@@ -1319,7 +1321,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             * Electronic Nicotine Delivery Systems (ENDS) which include but are not limited to e-cigarettes and vaporizers, are illegal for minors under the age of 19 to possess and to use in the province of Ontario. Students in possession of these products will have them confiscated, parents will be contacted and protocols in accordance with the school’s Substance Use Policy will be followed. The school reserves the right to contact the local Tobacco Enforcement Officials for support and/or to levy fines and/or other charges at any time.
                             """),
                             
-                            LifeGuide(name: "Accountability for On-Campus Possession/Use", description: """
+                            LifeGuide(name: "Accountability for On-Campus Possession/Use (Nicotine, Tobacco)", description: """
                                 A student may not be in possession of, smoke or use tobacco or ENDS products while on school property.
                                 • 1st Offence: Official Warning Status for Contravention of the School’s Substance Use Policy; meeting with Assistant Head: School Life, parents are contacted, nicotine cessation program strongly recommended, gated to campus for three (3) days.
 
@@ -1328,8 +1330,9 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 • Subsequent Offences: General Probation Status: Students are liable for expulsion if there is a risk to the community by the student’s actions; parents are contacted and informed that, although the student may not be expelled, they may not be invited back to LCS the following September due to persistent inability to abide by the values of the school.
                                 """),
                             
-                            LifeGuide(name: "Accountability for Off-Campus Possession/Use — Not of Age", description: """
+                            LifeGuide(name: "Accountability for Off-Campus Possession/Use — Not of Age (Nicotine, Tobacco)", description: """
                                 A student who is caught in the possession of, illegally smoking or using tobacco or ENDS products off-campus and while under the care of the school will be held to the following accountability:
+
                                 • 1st Offence: Warning Status for Contravention of the School’s Substance Use Policy; meeting with the Assistant Head: School Life, parents are contacted, tobacco cessation program strongly recommended, gated to campus for three (3) days.
 
                                 • 2nd Offence: Directed Probation Status for Contravention of the School’s Substance Use Policy; parents are contacted; student is sent home to reaffirm commitment to school for three (3) days, tobacco cessation program is required.
@@ -1337,7 +1340,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 • Subsequent Offences: General Probation Status: Meeting with the Assistant Head: School Life; parents are contacted and informed that the student may not be invited back to LCS the following September due to persistent inability to abide by the values of the school.
                                 """),
                             
-                            LifeGuide(name: "Accountability for Off-Campus Use — Legal Age", description: """
+                            LifeGuide(name: "Accountability for Off-Campus Use — Legal Age (Nicotine, Tobacco)", description: """
                                 Although strongly discouraged, a student who is of legal age may exercise their legal right to use tobacco or ENDS products discreetly off-campus, and only in legally approved areas. This means that a student is not to smoke while wearing school dress and/or when in proximity to, or visible to, staff or younger students. If a student of legal age is caught smoking or using tobacco or ENDS products, the student’s Head of House will contact their parents to inform them of our health concerns. A nicotine cessation program will be strongly recommended.
                                 A student who is of legal age and is seen smoking/vaping or is with a junior student will be gated to campus for a minimum of three (3) days.
                                 """),
@@ -1369,7 +1372,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 *In loco parentis: With the exception of school holidays (including long weekends) and authorized overnight leaves, students are considered to be under the care and authority of the school.
                                 """),
                             
-                            LifeGuide(name: "Accountability for Off Campus Possession/Use", description: """
+                            LifeGuide(name: "Accountability for Off Campus Possession/Use (Alcohol)", description: """
                                 Meeting with the Standards Committee who will determine the following:
                                 • 1st Offence: “On-campus” discipline, loss of privileges and Directed Probation Status. Parents will be contacted.
 
@@ -1395,14 +1398,14 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 * In loco parentis: With the exception of school holidays (including long weekends) and authorized overnight leaves, students are considered to be under the care and authority of the school.
                                 """),
                             
-                            LifeGuide(name: "Accountability for On-Campus Possession/Use", description: """
+                            LifeGuide(name: "Accountability for On-Campus Possession/Use (Cannabis)", description: """
                                 Meeting with the Standards Committee
                                 • 1st Offence: The student will be required to participate in an education/ counselling program. Random drug testing (urine screening) at parental expense will also be required.* Parents will be contacted. The student will be required to go home to reaffirm their commitment to the school (suspended) for a period of time as discerned by the Standards Committee. Loss of privileges and another house accountability may be required. The student will be placed on General Probation Status for Contravention of the School’s Substance Use Policy.
 
                                 • Subsequent Offences: The student will be required to leave the school (expelled).
                                 """),
                             
-                            LifeGuide(name: "Accountability for Off Campus Possession/Use", description: """
+                            LifeGuide(name: "Accountability for Off Campus Possession/Use (Cannabis)", description: """
                                 Meeting with the Standards Committee who will determine the following:
                                 • 1st Offence: “On-campus” discipline, loss of privileges and Directed Probation Status. Parents will be contacted. A supportive care plan which includes counselling will be recommended.
 

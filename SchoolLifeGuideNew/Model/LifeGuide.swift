@@ -121,6 +121,38 @@ struct LifeGuide: Identifiable {
             return "Harbouring"
         case "Leave Violations/Absent Without Leave (AWOL)":
             return "AWOL"
+        case "Substance Use Policy (Tobacco, Vaping, Nicotine Products, Alcohol, Cannabis & Other Drugs)":
+            return "Substance Use Policy"
+        case "Response and Support Strategy":
+            return "Support Strategy"
+        case "Nicotine, Tobacco Products and Electronic Nicotine Delivery Systems (ENDS, i.e. Vaporizers, E-cigarettes, etc.)":
+            return "Smoking Products"
+        case "Accountability for On-Campus Possession/Use (Nicotine, Tobacco)":
+            return "Accountability"
+        case "Accountability for Off-Campus Possession/Use — Not of Age (Nicotine, Tobacco)":
+            return "Accountability"
+        case "Accountability for Off-Campus Use — Legal Age (Nicotine, Tobacco)":
+            return "Accountability"
+        case "Accountability for Distribution of Tobacco or ENDS Products to Underage Students":
+            return "Accountability"
+        case "Accountability for Smoking Adjacent to or In a Building":
+            return "Accountability"
+        case "Accountability for Off Campus Possession/Use (Alcohol)":
+            return "Accountability"
+        case "Accountability for Possession/Use of Alcohol on School Property":
+            return "Accountability"
+        case "Accountability for Distribution of Alcohol to Other Students":
+            return "Accounrability"
+        case "Illegal Use of Medication (including over the counter, non-controlled substances)":
+            return "Illegal Medication Use"
+        case "Accountability for On-Campus Possession/Use (Cannabis)":
+            return "Accountability"
+        case "Accountability for Off Campus Possession/Use (Cannabis)":
+            return "Accountability"
+        case "Accountability for Distribution of Cannabis to Other Students":
+            return "Accountability"
+        case "Trafficking and Distribution of Illegal Drugs":
+            return "Trafficking"
         default:
             return name
         }
