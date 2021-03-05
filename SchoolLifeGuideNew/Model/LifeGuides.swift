@@ -1359,7 +1359,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 """),
                             
                             
-                            LifeGuide(name: "Accountability for Smoking Adjacent to or In a Building", description: "This is a serious offence due to the obvious fire hazards and the increased risks to the safety and well-being of others. This is a Zero Tolerance Policy (see Definitions on page 60). Students will be expelled for smoking adjacent to (within 9 metres radius of a building in accordance with the Smoke-Free Ontario Act) or in a building."),
+                            LifeGuide(name: "Accountability for Smoking Adjacent to or In a Building", description: "This is a serious offence due to the obvious fire hazards and the increased risks to the safety and well-being of others. This is a Zero Tolerance Policy (see Definitions on page 60). Students will be expelled for smoking adjacent to (within 9 metres radius of a building in accordance with the Smoke-Free Ontario Act) or in a building.") ,
                             
                             LifeGuide(name: "Alcohol", description: """
                                 In Ontario, it is illegal for anyone under 19 years of age to purchase, possess, or use alcohol, except in a private residence and only if the alcohol has been provided by that youth’s parents. This permits parents to serve alcohol to their own children only. The abuse of alcohol, whether on one occasion, or consistently, constitutes a threat to the user, as well as those around him/her.
@@ -1526,6 +1526,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
             
             LifeGuide(name: "On-Campus Discipline", description: """
                 This may include Gatings (see definition below), regular check- ins with the Head of House, 7:30 a.m. breakfast sign-in and 7:00 p.m. confinement to the house for a specified amount of time and/or other accountability as discerned by residential staff.
+
                 • 7:30 a.m.: Breakfast sign-in, wearing classroom dress, not permitted to return to residence.
 
                 • 7:00 p.m.: In residence at 7:00 p.m. for the duration of the evening, confined to room, no visitor privileges.
@@ -1545,6 +1546,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
             
             LifeGuide(name: "Probations", description: """
                 Directed Probation*: A student is on probation or warning status for a specific behaviour or offence. Should a student on Directed Probation be involved in a similar offence he/she will be placed on General Probation.
+
                 a. A student with more than two (2) Directed Probations is automatically placed on General Probation
 
                 b. A student who receives two (2) Directed Probations is sent home to reaffirm his/her commitment to the school.

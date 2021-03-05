@@ -153,6 +153,18 @@ struct LifeGuide: Identifiable {
             return "Accountability"
         case "Trafficking and Distribution of Illegal Drugs":
             return "Trafficking"
+        case "The Standards Committee Process":
+            return "Process"
+        case "The Standards Committee Meeting":
+            return "Meeting"
+        case "Required to Leave the School (Expulsion)":
+            return "Expulsion"
+        case "Definitions of Terms, Policies and Additional Information":
+            return "Glossary"
+        case "Dawn to Dusk (7:30 a.m. to 7:00 p.m.)":
+            return "Dawn to Dusk"
+        case "Reaffirmation of Commitment (Suspension)":
+            return "Suspension"
         default:
             return name
         }
