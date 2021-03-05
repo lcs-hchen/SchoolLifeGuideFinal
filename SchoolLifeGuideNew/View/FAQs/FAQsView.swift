@@ -16,6 +16,8 @@ struct FAQsView: View {
                 navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
               }
     
+    @State private var showingAssessmentView = false
+    
     var body: some View {
         
         let questions = Issues()
@@ -51,8 +53,29 @@ struct FAQsView: View {
             
             
             
+        }.toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                
+                Button(action: {
+                    print("pressed")
+                    showingAssessmentView = true
+                }, label: {
+                    Text("My Status")
+                        .foregroundColor(.white)
+                        .font(Font.system(size: 30))
+                }).foregroundColor(.white)
+                
+                
+                
+//                Button("My Status") {
+//                    print("pressed")
+//                }.font(Font.system(size: 40))
+//                .foregroundColor(.white)
             }
+        }.sheet(isPresented: $showingAssessmentView) {
+            
         }
+    }
        
                 
         

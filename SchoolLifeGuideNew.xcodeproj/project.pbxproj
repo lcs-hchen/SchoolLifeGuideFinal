@@ -19,6 +19,9 @@
 		9C39ED2C25A8EA0100DB7C73 /* LifeGuideList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39ED2B25A8EA0100DB7C73 /* LifeGuideList.swift */; };
 		9C39ED2E25A8EA0700DB7C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39ED2D25A8EA0700DB7C73 /* Assets.xcassets */; };
 		9C39ED3125A8EA0700DB7C73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39ED3025A8EA0700DB7C73 /* Preview Assets.xcassets */; };
+		9C3C0A0925F2BB0200ED8A6F /* AssessmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C0A0825F2BB0200ED8A6F /* AssessmentView.swift */; };
+		9C3C0A0C25F2BD5500ED8A6F /* Severity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C0A0B25F2BD5500ED8A6F /* Severity.swift */; };
+		9C3C0A1325F2BFC400ED8A6F /* timesOfViolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C0A1225F2BFC400ED8A6F /* timesOfViolation.swift */; };
 		9C4D7D5125DCAB28001A2E83 /* VideoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4D7D5025DCAB28001A2E83 /* VideoList.swift */; };
 		9C526E6025C7BDDA006CB517 /* FAQsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C526E5F25C7BDDA006CB517 /* FAQsDetailView.swift */; };
 		9C5DCCB625CDF7BF00593E05 /* NavigationBarColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DCCB525CDF7BF00593E05 /* NavigationBarColorChange.swift */; };
@@ -54,6 +57,9 @@
 		9C39ED2D25A8EA0700DB7C73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C39ED3025A8EA0700DB7C73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9C39ED3225A8EA0700DB7C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3C0A0825F2BB0200ED8A6F /* AssessmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentView.swift; sourceTree = "<group>"; };
+		9C3C0A0B25F2BD5500ED8A6F /* Severity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Severity.swift; sourceTree = "<group>"; };
+		9C3C0A1225F2BFC400ED8A6F /* timesOfViolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timesOfViolation.swift; sourceTree = "<group>"; };
 		9C4D7D5025DCAB28001A2E83 /* VideoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoList.swift; sourceTree = "<group>"; };
 		9C526E5F25C7BDDA006CB517 /* FAQsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQsDetailView.swift; sourceTree = "<group>"; };
 		9C5DCCB525CDF7BF00593E05 /* NavigationBarColorChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColorChange.swift; sourceTree = "<group>"; };
@@ -155,6 +161,8 @@
 				9CA7117525C7BA750041436C /* Issues.swift */,
 				9C346AA325CA68C900F42AEE /* BadgeBackground.swift */,
 				9C5DCCB525CDF7BF00593E05 /* NavigationBarColorChange.swift */,
+				9C3C0A0B25F2BD5500ED8A6F /* Severity.swift */,
+				9C3C0A1225F2BFC400ED8A6F /* timesOfViolation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -191,6 +199,7 @@
 			children = (
 				9CA7116E25C7B1680041436C /* FAQsView.swift */,
 				9C526E5F25C7BDDA006CB517 /* FAQsDetailView.swift */,
+				9C3C0A0825F2BB0200ED8A6F /* AssessmentView.swift */,
 			);
 			path = FAQs;
 			sourceTree = "<group>";
@@ -271,6 +280,7 @@
 				9C39ED2C25A8EA0100DB7C73 /* LifeGuideList.swift in Sources */,
 				9C39ED2A25A8EA0100DB7C73 /* SchoolLifeGuideNewApp.swift in Sources */,
 				9CF65F6425DB6F5E0049D188 /* FullList.swift in Sources */,
+				9C3C0A0925F2BB0200ED8A6F /* AssessmentView.swift in Sources */,
 				9C1DC75225ACD14C007D359A /* LifeGuideDetailView.swift in Sources */,
 				9C905D2225C6296D00D3040E /* SearchBarView2.swift in Sources */,
 				9C346AA125CA673500F42AEE /* HexagonParameters.swift in Sources */,
@@ -280,7 +290,9 @@
 				9C4D7D5125DCAB28001A2E83 /* VideoList.swift in Sources */,
 				9C1DC75C25ACDF94007D359A /* LifeGuide.swift in Sources */,
 				9CA7116F25C7B1680041436C /* FAQsView.swift in Sources */,
+				9C3C0A1325F2BFC400ED8A6F /* timesOfViolation.swift in Sources */,
 				9CA7117325C7B9B50041436C /* Issue.swift in Sources */,
+				9C3C0A0C25F2BD5500ED8A6F /* Severity.swift in Sources */,
 				9C044B3D25D5E783000793EC /* VideoView.swift in Sources */,
 				9C8BE7B925E19D3100ADD980 /* CancelHighlight.swift in Sources */,
 				9CBB67F625DF690F007F4504 /* Videos.swift in Sources */,
