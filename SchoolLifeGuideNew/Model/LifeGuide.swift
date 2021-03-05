@@ -68,7 +68,13 @@ struct LifeGuide: Identifiable {
             return "Long Weekends"
         case "Travelling to and from Lakefield College School":
             return "Travelling to/from LCS"
-        
+        case "Use of Personal Electronic Devices (PED) and Evening Routine":
+            // better name?
+            return "Electronics Routine"
+        case "No Tech Zones (Applies to all members of the LCS community)":
+            return "No Tech Zones"
+        case "Information Technology Responsible Use Agreement":
+            return "IT Responsible Use"
         default:
             return name
         }

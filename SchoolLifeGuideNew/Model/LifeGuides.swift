@@ -551,12 +551,13 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         ]))
         
         list.append(LifeGuide(name: "Life “In Community”", description: """
-                        Open House
+                        Open House:
                         Open House refers to the time of day when students may visit their friends in residence common rooms and student rooms without having to ask permission. In the spirit of community building, only common rooms are available for open house visitation prior to Thanksgiving. Residences are closed to all visitors outside of Open House hours. During these times students must ask their residential staff on duty for permission to have a friend visit in their residence.
+
                         Lakefield College School endeavours to respect the privacy and personal space of all students. Guests are only permitted in the residence outside of Open House hours with the permission of the Head of House or Associate Faculty.
                         """, imageName: "", subTopics: [
                         
-                        LifeGuide(name: "Open House Hours:", description: """
+                        LifeGuide(name: "Open House Hours", description: """
                             MONDAY - THURSDAY
                             8:45 p.m. - 9:45 p.m.
                             
@@ -566,9 +567,11 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             SUNDAY
                             No Open House
                             
-                            Expectations During Open House Hours
+                            Expectations During Open House Hours:
                             Residences are the boarding students’ home during the school year. Doors must be open to allow a clear line of sight whenever a student is visiting. Appropriate and respectable behaviour is expected at all times to maintain the dignity, health, safety and well-being of all students. Visitors to residences are considered guests and should at all times be accompanied by a host student in the residence. There are no open house hours in the day locker rooms.
+
                             NOTE: If a student is in a residence without permission outside of Open House hours they will be held accountable for a Closed House Violation.
+
                             A Head of House may close their residence or limit visitation to their common rooms at any time.
                             """),
                             
@@ -589,8 +592,11 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             
                             LifeGuide(name: "Use of Personal Electronic Devices (PED) and Evening Routine", description: """
                                 Students who choose to bring Personal Electronic Devices (i.e. smart phones, laptop computers, tablets, bluetooth appliances, etc.) to school do so at their own risk. Students are encouraged to record the serial numbers of the devices and to ensure that their devices are inscribed with their name. Students are expected to use their Personal Electronic Devices respectfully and only at appropriate times during the day and evening.
+
                                 Students who breach the Responsible Use Agreement will have their PED confiscated for an indefinite period of time as determined by their Head of House. Repeat offences may require a student to attend a meeting of the Standards Committee for Persistent Inability to Abide by the Expectations of the School.
+
                                 At all times, student use of PEDs is subject to the terms, conditions and accountabilities outlined in the Lakefield College School Responsible Use Agreement, which was signed by the student at registration.
+
                                 The school understands the fundamental importance of healthy sleep. To encourage healthy sleeping habits, all junior students (Grades 9 and 10) will turn in their technology to the residential staff on duty prior to curfew on Sunday to Friday evenings. Students should be in the habit of handing in fully charged technology devices. Senior students may be required to hand in their technology if they are not able to manage their own healthy sleeping habits. All technology will be returned to the owner before breakfast the following morning.
                                 """),
                             
@@ -602,18 +608,28 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             
                             LifeGuide(name: "Information Technology Responsible Use Agreement", description: """
                                 Lakefield College School makes its campus-wide network, including its connection to the Internet, available to all students and staff for the express purpose of furthering the educational mission of the school. In order that network users understand how best to abide by this purpose, it is expected that all students, staff and parents read the official Responsible Use Agreement (RUA) online at http://olc.lcs.on.ca/rua/. Use of the network constitutes agreement to the terms of the RUA. Repeated or more serious violations of the RUA may result in more serious accountability, and may necessitate meeting with the Standards Committee to determine appropriate accountability.
+
                                 In brief, but without limiting the official RUA, the following are expected:
 
-                                •That digital activities that impact members of the LCS community are subject to the RUA.
-                                •That students understand that their digital activities are subject to school policies such as the Harassment Policy and the Academic Honesty Policy.
-                                •That students are bound by the copyright laws of Canada and the Province of Ontario and as such can only store images, music, video and software that they have purchased.
-                                •That software licensed to the school will need to be removed when the student leaves the school.
-                                •That all students are to keep private information (such as phone numbers and addresses) about themselves and other students, private.
-                                •That students will keep their usernames and passwords confidential.
-                                •That students will only use their own credentials when accessing digital resources.
-                                •That students will not seek out or store sexually explicit images.
-                                •That students can’t use school resources or school provided resources for financial gain.
-                                •That laptops need to be secured when not in use.
+                                • That digital activities that impact members of the LCS community are subject to the RUA.
+
+                                • That students understand that their digital activities are subject to school policies such as the Harassment Policy and the Academic Honesty Policy.
+
+                                • That students are bound by the copyright laws of Canada and the Province of Ontario and as such can only store images, music, video and software that they have purchased.
+
+                                • That software licensed to the school will need to be removed when the student leaves the school.
+
+                                • That all students are to keep private information (such as phone numbers and addresses) about themselves and other students, private.
+
+                                • That students will keep their usernames and passwords confidential.
+
+                                • That students will only use their own credentials when accessing digital resources.
+
+                                • That students will not seek out or store sexually explicit images.
+
+                                • That students can’t use school resources or school provided resources for financial gain.
+
+                                • That laptops need to be secured when not in use.
                                 """)
                             
                         ]))
