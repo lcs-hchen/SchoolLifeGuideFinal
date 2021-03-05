@@ -403,8 +403,11 @@ On Clean Casual days, students make a donation to a school-selected charity in r
         
         list.append(LifeGuide(name: "Residential Life", description: """
                         Travelling to and from Lakefield College School
+
                         The school will arrange for all necessary bus and train travel plans including all ground transportation to and from the airport. Parents are responsible for air travel arrangements and reservations. Students must complete a travel form (at lcs.on.ca/travelform) and pick up tickets from the Coordinator of International Students and Travel. All ground travel costs are billed to the student’s account. Please plan ahead for additional student expenses.
+
                         During school breaks, chartered buses deliver students to Toronto and, if numbers warrant, to other cities that have bus terminals. Additional bus and train connections are made from these centres. The cost of LCS arranged buses to the above destinations is dependent on the number of students who take the bus, hence charges may vary. A minimum number of students is necessary to charter a bus. Students must sign up for the buses in order to have seats reserved for them.
+
                         A 48-hour advance notice cancellation policy (no charge) applies.
                         """, imageName: "LowerCampusPhoto", subTopics: [
                         
@@ -434,13 +437,16 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             
                         LifeGuide(name: "Student Banking", description: """
                             Students are encouraged to responsibly handle their own finances and each student should have his or her own bank account in the Village of Lakefield. A weekly allowance of up to $40.00 should be sufficient and students are advised to give large sums of money to their Heads of House for safe keeping. In addition to the banks in the village, the School Stores also has a bank debit machine where students can receive a small amount of cash for a nominal service charge of $1.00. The two local banks are:
+
                             The Royal Bank, 705.652.6713
+
                             The Canadian Imperial Bank of Commerce, 705.652.3311
                             """, imageName: "dollarsign.circle.fill"),
                             
                             
                         LifeGuide(name: "In-House Standards and Accountability", description: """
                             Heads of Houses, Associate Faculty and Senior Students will uphold the school’s standards within the House for the following: dress, lateness for meals, leave, study, Chapel, deportment and room cleanliness.
+
                             Faculty, Teachers on Duty (TOD) and graduating seniors are responsible for maintaining acceptable standards of behaviour and dress during the day.
                             """, imageName: "exclamationmark.triangle.fill"),
                             
@@ -468,6 +474,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         
                         LifeGuide(name: "Weekday Dinner Leave", description: """
                             Graduating students may request one evening dinner leave per week. They must check back in with the Head of House or Associate Faculty in person as soon as they return to campus and not later than 10:00 p.m.
+
                             On special (and very rare) occasions, Grade 9 to 11 students may request dinner leave from their Head of House. They must check back in with the Head of House or Associate Faculty in person as soon as they return to campus and not later than 8:00 p.m.
                             """,imageName: "tray.full.fill"),
                             
@@ -476,26 +483,35 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             
                         LifeGuide(name: "Saturday—Daytime Leave to Lakefield & Peterborough", description: """
                             Saturday mornings are considered academic times and, as such, students are not permitted to have leave until classes end. On Saturday afternoons, students may go to Lakefield or Peterborough between 1:00 - 5:30 p.m. provided that they have no academic, co-curricular commitments and that they are not gated to campus.
+
                             Students are required to request permission from their Head of House or Associate Faculty for “Daytime Leave.”
                             """, imageName: "car.fill"),
                             
                         LifeGuide(name: "Sunday—Daytime Leave to Lakefield & Peterborough", description: """
                             On Sundays before 1:00 p.m. students wishing to have morning leave to Lakefield and/or Peterborough must first check-in with their Head of House or Associate Faculty for permission. On Sundays after 1:00 p.m. students may go into Lakefield and/or Peterborough provided that they are not gated to campus. Students must return to campus by 5:30 p.m.
+
                             Students are required to request permission from their Head of House or Associate Faculty for “Leave to Lakefield.”
                             """, imageName: "car.fill"),
                             
                         LifeGuide(name: "Saturday—Evening Leave", description: """
                             Saturday evening leave is granted at the discretion of the Head of House or Associate Faculty on duty. The student must be demonstrating academic and social responsibility to receive permission for leave.
+
                             Requests for evening leave must be made in person with the Head of House or Associate Faculty before leaving campus.
+
                             Saturday evening leave assumes that a student is leaving campus around the dinner hour (5:00 - 6:00 p.m.).
+
                             Students in Grades 9 and 10 may NOT have evening leave until AFTER the Thanksgiving Weekend.
+
                             Students must be back on campus and check in with their Head of House or Associate Faculty in the residence by their curfews (see page 9 in this guidebook for curfew times).
                             """, imageName: "moon.stars.fill"),
                             
                         LifeGuide(name: "Saturday Evening—Overnight Leave", description: """
                             Overnight leave begins at the end of Saturday’s academic and athletic program schedule and may extend until 8:00 p.m. on Sunday. The earliest students are permitted to return to campus is 8:00 a.m. on Sunday morning.
+
                             Students must check in directly with the Head of House or Associate Faculty on duty in their residence upon their return. Students who are expecting to return to school on Sunday evening after 8:00 p.m. must have received permission in advance from their Head of House.
+
                             If a student wishes to take Saturday overnight leave, the parents of the student must contact the Head of House by 10 pm Thursday night of that same week. If a student is going to be a guest at another student’s home, the host parents must also contact the Head of House by the Thursday night of that same week*. Leave can only be granted if the host parent is available to the student and accepts responsibility for the care of that student.
+
                             * A host parent is defined as a responsible adult at least 21 years of age who assumes the care of and responsibility for the student(s) staying in their home.
                             """, imageName: "moon.zzz.fill"),
                             

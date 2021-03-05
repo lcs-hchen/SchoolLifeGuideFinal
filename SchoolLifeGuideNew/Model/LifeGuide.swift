@@ -48,6 +48,27 @@ struct LifeGuide: Identifiable {
             return "Mandatory Events"
         case "Day Student Transportation, Busing and Taxi Service":
             return "Day Student Bus"
+        case "Appliances, Gaming Computers and Other Electronics":
+            return "Electronics"
+        case "Laundry and Dry-Cleaning Service":
+            return "Laundry"
+        case "In-House Standards and Accountability":
+            return "In-House Standards"
+        case "Weekday Overnight Leave":
+            return "Weekday Overnight"
+        case "Saturday—Daytime Leave to Lakefield & Peterborough":
+            return "Day Leave (Saturday)"
+        case "Sunday—Daytime Leave to Lakefield & Peterborough":
+            return "Day Leave (Sunday)"
+        case "Saturday—Evening Leave":
+            return "Evening Leave (Sat.)"
+        case "Saturday Evening—Overnight Leave":
+            return "Overnight Leave (Sat.)"
+        case "Long Weekend Breaks and School Closing":
+            return "Long Weekends"
+        case "Travelling to and from Lakefield College School":
+            return "Travelling to/from LCS"
+        
         default:
             return name
         }
