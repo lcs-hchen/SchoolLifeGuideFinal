@@ -655,11 +655,16 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             
                                 LifeGuide(name: "Fire Safety", description: """
                                     In each house, there is a Fire Plan and approved fire extinguishers. Students are made aware of their house’s emergency meeting area in the case of fire. Students are also made aware of the location of fire extinguishers and emergency procedures. Exits must be kept clear at all times and students should proceed out the exits calmly but quickly. School and House fire alarm drills will take place throughout the school year. Once a residence is evacuated, student and staff attendance will be completed.
+
                                     Misuse of fire alarms, detectors and any fire equipment are a very serious offence. Matches, lighters, candles, incense and any open flame are strictly forbidden. Students who intentionally set off the fire alarm may be required to reimburse the school for all expenses incurred from the response of the Fire Department.
+
                                     Accountability for Violation of Fire Safety Policies
                                     Fire extinguishers must not be removed from their location unless it is for use in control of a fire. The use of matches, lighters, candles, incense and any other form of open flame or heating element are strictly forbidden for fire/safety purposes. Behaviour that compromises the safety of a residence and its occupants will be addressed by the Standards Committee.
+
                                     Students are not permitted to bring fuel or other incendiary devices to campus. All items that are deemed to be fire hazards will be confiscated.
+
                                     Behaviour that compromises the safety of members of the community will be addressed by the Head of School and/or Standards Committee.
+
                                     Any situation that causes there to be an “open flame” in or adjacent to any school building is an expellable offence, in accordance with the school’s Zero Tolerance Policy (see Definitions on page 60).
                                     """),
             

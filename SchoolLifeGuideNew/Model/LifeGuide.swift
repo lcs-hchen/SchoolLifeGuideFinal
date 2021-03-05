@@ -75,6 +75,18 @@ struct LifeGuide: Identifiable {
             return "No Tech Zones"
         case "Information Technology Responsible Use Agreement":
             return "IT Responsible Use"
+        case "Health and Safety: Fire Code Standards":
+            return "Fire Code Standards"
+        case "Firearms, Weapons and Hunting Equipment":
+            return "Weaponry"
+        case "Contract/Service Workers in Residences":
+            return "Workers in Residences"
+        case "Rollerblade, Longboard and Skateboard Safety":
+            return "Blades and Boards"
+        case "Unpiloted Aerial Vehicles (UAVs), Remote Control Vehicles (RCVs)":
+            return "UAVs and RCVs"
+        case  "Health and Well-being Services":
+            return "Health and Well-being"
         default:
             return name
         }
