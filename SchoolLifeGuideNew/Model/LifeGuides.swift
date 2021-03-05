@@ -890,6 +890,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             
                             LifeGuide(name: "Dorm Violations", description: """
                                 All residences are closed to visitors except during specified Open House hours. All visitation must be respectful and appropriate at all times. Inappropriate visitation is termed a “Dorm Violation” and the accountability is as follows:
+
                                 • 1st Offence: Official Warning, students are Gated* for 1 week. The house where the dorm violation occurred will be closed for two (2) days. Parents are contacted.
 
                                 • 2nd Offence: At the discretion of the Head of House and the Assistant Head: School Life, a Standards Committee meeting may be arranged with a recommendation for the student to go home to reaffirm his/her commitment to the school. The students will be placed on Directed Probation* and will be gated to campus for two weeks. Parents are contacted.
@@ -900,6 +901,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             
                             LifeGuide(name: "Inappropriate Visitation in Common/Public Areas", description: """
                                 Students are expected to interact with one another in an appropriate and respectful manner at all times. Inappropriate public displays of affection compromise the sense of comfort of others who share the school’s public space.
+
                                 • 1st Offence: Official Warning. Heads of House informed and parents are contacted.
 
                                 • 2nd Offence: At the discretion of the Head of House and the Assistant Head: School Life, students may be required to attend a meeting of the Standards Committee. Parents are contacted.
@@ -939,6 +941,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         
                                 LifeGuide(name: "Purpose of the Policy", description: """
                                     The purpose of this policy is to maintain a living, learning and teaching environment free from acts of harassment, including sexual misconduct. This policy is a clear statement of LCS’s commitment and determination to act promptly against any incident of harassment and to create an environment where such conduct will not be tolerated. The objectives of the policy are:
+
                                     • To focus the attention of students, staff, volunteers and parents/guardians on the importance of dealing with harassment promptly and effectively.
                                     
                                     • To enhance the knowledge of students, staff, volunteers and parents/guardians with regard to all forms of harassment.
@@ -956,16 +959,22 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 Harassment means engaging in a course of vexatious comment or objectionable conduct, including sexual misconduct, that is known or ought reasonably to be known to be unwelcome.
 
                                 Harassment implies systematic persecution by besetting with comments or conduct which are abusive, annoying, demanding, or threatening. Harassment includes words, acts, or gestures of a vexatious or contemptuous nature with regard to a person or group of persons on the basis of any of the following grounds, including but not limited to:
-                                • Academic ability      • Colour                • Gender
 
-                                • Race                  • Religion              • Civil status
-
-                                • Language              • Pregnancy             • Sexual orientation
-
-                                • Age                   • Physical appearance   • Ethnic or national origin
-
-                                • Political convictions • Hazing                • Disability/handicap
-
+                                • Academic ability
+                                • Colour
+                                • Gender
+                                • Race
+                                • Religion
+                                • Civil status
+                                • Language
+                                • Pregnancy
+                                • Sexual orientation
+                                • Age
+                                • Physical appearance
+                                • Ethnic or national origin
+                                • Political convictions
+                                • Hazing
+                                • Disability/handicap
                                 • Sexual innuendo
 
                                 """),
@@ -1038,6 +1047,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             
                             LifeGuide(name: "What is Stalking?", description: """
                                 Stalking is a form of criminal harassment prohibited by the Criminal Code, and involves repeated behaviour that instils fear in the victim or threatens the victim’s safety and mental health. This behaviour may include:
+
                                 • Non-consensual communications (face to face, phone, text, social media);
 
                                 • Threatening or obscene gestures;
@@ -1113,7 +1123,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 Confidentiality cannot be assured, however, if an individual is at risk of self-harm, or of harming another. In such circumstances, information will only be shared as necessary to prevent harm.
                                 """),
                             
-                            LifeGuide(name: "What is Parental Harassment", description: """
+                            LifeGuide(name: "What is Parental Harassment?", description: """
                                 Parental harassment is harassment by a parent directed toward a staff member. In a school context it is defined as the use by parents of confrontational tactics which attack a teacher or which have the consequences of reducing a teacher’s ability to conduct himself or herself effectively within the school and which harm the teacher’s sense of well-being or professional reputation. The types of behavior which constitute parental harassment include, but are not limited to:
                                 • unwanted comments;
 

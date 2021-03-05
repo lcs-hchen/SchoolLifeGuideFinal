@@ -87,6 +87,34 @@ struct LifeGuide: Identifiable {
             return "UAVs and RCVs"
         case  "Health and Well-being Services":
             return "Health and Well-being"
+        case "Prescription Medication Policy":
+            return "Prescription Policy"
+        case "Medical Leave of Absence":
+            return "Medical Leave"
+        case "Compassionate Leave of Absence":
+            return "Compassionate Leave"
+        case "Grove Senior Status (GSS)":
+            return "Grove Senior Status"
+        case "The Standards Committee":
+            return "Standards Committee"
+        case "Persistent Inability to Abide by the Expectations of the School":
+            return "Persistent Misbehaviours"
+        case "Closed House Violations":
+            return "Closed House"
+        case "Inappropriate Visitation in Common/Public Areas":
+            return "Inappropriate Visitation"
+        case "What is Sexual Harassment?":
+            return "Sexual Harassment"
+        case "What is not Sexual Harassment?":
+            return "Not Sexual Harassment"
+        case "Reporting Bullying, Cyberbullying and Harassment":
+            return "Reporting Harassment"
+        case "Reporting Sexual Misconduct":
+            return "Sexual Misconduct"
+        case "What is Parental Harassment?":
+            return "Parental Harassment"
+        case "Reporting Parental Harassment":
+            return "Parental Harassment"
         default:
             return name
         }
