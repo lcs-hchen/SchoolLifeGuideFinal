@@ -338,6 +338,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
         
         list.append(LifeGuide(name: "Day Student Life", description: """
                         Affinity Houses
+
                         Day students are full participating members of their assigned residence and as such are granted open access to their residence’s common rooms, bathrooms and any other shared space in their residence without requesting permission.
                         After 5:30 p.m. on weekdays, 1:00 p.m. on Saturdays and at all times on Sundays, day students must inform their residential staff on duty in order to be in their residence.
                         """, imageName: "system5", subTopics: [
@@ -348,6 +349,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         
                         LifeGuide(name: "Overnight Stays on Campus", description: """
                             Day students are welcome to stay with boarding friends in order to meet early school commitments or as a social opportunity on a Saturday evening. Day students must see their Head of House at least two days prior to the overnight stay. The Head of House will speak with the appropriate Residential Head of House (if the request is for a house other than their own) and with the student’s parent/guardian and must receive permission from both for the overnight stay to be approved.
+
                             Longer term stays on campus may be arranged by contacting the Assistant Head: School Life, at least one week in advance of the stay. The Assistant Head: School Life will confirm arrangements with the Business Office and the respective Head of House.
                             """),
                             

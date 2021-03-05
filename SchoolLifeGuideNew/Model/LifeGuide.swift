@@ -40,6 +40,14 @@ struct LifeGuide: Identifiable {
             return "Co-curricular Absences"
         case "Off Campus Food Ordering":
             return "Food Ordering"
+        case "Overnight Stays on Campus":
+            return "Campus Overnight"
+        case "Leaving Campus During the School Day":
+            return "Leave During Day"
+        case "Mandatory Special Events":
+            return "Mandatory Events"
+        case "Day Student Transportation, Busing and Taxi Service":
+            return "Day Student Bus"
         default:
             return name
         }
