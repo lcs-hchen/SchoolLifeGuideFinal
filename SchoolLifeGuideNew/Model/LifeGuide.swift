@@ -115,6 +115,12 @@ struct LifeGuide: Identifiable {
             return "Parental Harassment"
         case "Reporting Parental Harassment":
             return "Parental Harassment"
+        case "Out of Bounds Areas and Trespassing":
+            return "Out of Bounds Areas"
+        case "Possession/Harbouring Stolen Property":
+            return "Harbouring"
+        case "Leave Violations/Absent Without Leave (AWOL)":
+            return "AWOL"
         default:
             return name
         }
