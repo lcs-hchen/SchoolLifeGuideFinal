@@ -73,7 +73,7 @@ struct FAQsView: View {
 //                .foregroundColor(.white)
             }
         }.sheet(isPresented: $showingAssessmentView) {
-            
+            AssessmentView(showing: $showingAssessmentView)
         }
     }
        

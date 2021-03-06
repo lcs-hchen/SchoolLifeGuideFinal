@@ -9,9 +9,9 @@ import Foundation
 
 
 enum Severity: String {
-    case Expellable = "Expellable"
-    case GeneralProbation = "GP"
-    case DirectProbation = ""
-    case Warning2 = "Warning #2"
+    case Low = "Low"
+    case Medium = "Medium"
+    case High = "High"
+    case veryHigh = "Very High"
     
 }
