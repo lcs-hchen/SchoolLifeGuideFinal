@@ -30,6 +30,7 @@ struct AssessmentView: View {
     
     
     @Binding var showing: Bool
+    @State var showReference: Bool = false
     var body: some View {
         NavigationView {
             VStack {
@@ -47,7 +48,7 @@ struct AssessmentView: View {
                         }
                         
                         Section {
-                            TextField("Description", text: $viewModel.description)
+                            Label("Severity", systemImage: "circle.fill")
                             
                             Picker("Severity", selection:$viewModel.severity) {
                                 Text(Severity.Low.rawValue)
@@ -66,11 +67,15 @@ struct AssessmentView: View {
                             
                             Slider(value: $viewModel.complianceLevel, in: 0...100, step: 1).accentColor(viewModel.getColor())
                             
-                            Text("Current Value is \(viewModel.complianceLevel)")
+                            Text("Current Value is \(Int(viewModel.complianceLevel))")
                                 
                             
                             
                         }
+                        
+                        NavigationLink("Reference Level List" , destination: ReferenceView() )
+                        
+                        NavigationLink("Credit", destination: CreditView())
                     }
                     
                     
