@@ -31,52 +31,67 @@ struct AssessmentView: View {
     
     @Binding var showing: Bool
     @State var showReference: Bool = false
+    @State private var showAlert = false
     var body: some View {
         NavigationView {
             VStack {
                 Form {
                     
-                    Group {
-                        Section {
-                            TextField("Description", text: $viewModel.description)
-                            
-                            Picker("Violation Times", selection: $viewModel.violationTimes) {
-                                Text(TimesOfViolation.First.rawValue).tag(TimesOfViolation.First)
-                                Text(TimesOfViolation.Second.rawValue).tag(TimesOfViolation.Second)
-                                Text(TimesOfViolation.ThirdTimeOrMore.rawValue).tag(TimesOfViolation.ThirdTimeOrMore)
-                            }.pickerStyle(SegmentedPickerStyle())
-                        }
-                        
-                        Section {
-                            Label("Severity", systemImage: "circle.fill")
-                            
-                            Picker("Severity", selection:$viewModel.severity) {
-                                Text(Severity.Low.rawValue)
-                                    .tag(Severity.Low)
-                                Text(Severity.Medium.rawValue)
-                                    .tag(Severity.Medium)
-                                Text(Severity.High.rawValue)
-                                    .tag(Severity.High)
-                                Text(Severity.veryHigh.rawValue)
-                                    .tag(Severity.veryHigh)
-                            }.pickerStyle(SegmentedPickerStyle())
-                        }
-                        
-                        Section {
-                            
-                            
-                            Slider(value: $viewModel.complianceLevel, in: 0...100, step: 1).accentColor(viewModel.getColor())
-                            
-                            Text("Current Value is \(Int(viewModel.complianceLevel))")
+                     
+                        Group {
+                            Section {
+                                TextField("Description", text: $viewModel.description)
                                 
+                                Picker("Violation Times", selection: $viewModel.violationTimes) {
+                                    Text(TimesOfViolation.First.rawValue).tag(TimesOfViolation.First)
+                                    Text(TimesOfViolation.Second.rawValue).tag(TimesOfViolation.Second)
+                                    Text(TimesOfViolation.ThirdTimeOrMore.rawValue).tag(TimesOfViolation.ThirdTimeOrMore)
+                                }.pickerStyle(SegmentedPickerStyle())
+                            }
+                            
+                            Section {
+                                Label("Severity", systemImage: "circle.fill").foregroundColor(.red)
+                                
+                                Picker("Severity", selection:$viewModel.severity) {
+                                    Text(Severity.Low.rawValue)
+                                        .tag(Severity.Low)
+                                    Text(Severity.Medium.rawValue)
+                                        .tag(Severity.Medium)
+                                    Text(Severity.High.rawValue)
+                                        .tag(Severity.High)
+                                    Text(Severity.veryHigh.rawValue)
+                                        .tag(Severity.veryHigh)
+                                }.pickerStyle(SegmentedPickerStyle())
+                            }
+                            
+                            Section {
+                                
+                                
+                                Slider(value: $viewModel.complianceLevel, in: 0...100, step: 1).accentColor(viewModel.getColor())
+                                
+                                Text("Current Value is \(Int(viewModel.complianceLevel))")
+                                    
+                                
+                                
+                            }
+                            
+                            Section {
+                                NavigationLink("Reference Level List" , destination: ReferenceView() )
+                                
+                                NavigationLink("Credit", destination: CreditView())
+                            }
+                            
+                            
                             
                             
                         }
-                        
-                        NavigationLink("Reference Level List" , destination: ReferenceView() )
-                        
-                        NavigationLink("Credit", destination: CreditView())
+                    
+                    Button("Get Result") {
+                        showAlert = true
+                    }.alert(isPresented: $showAlert) {
+                        Alert(title: Text("Accountability"), message: Text("Test - Test2"), dismissButton: .default(Text("cancel")))
                     }
+                    
                     
                     
                 }
@@ -84,7 +99,7 @@ struct AssessmentView: View {
                
             }.navigationTitle("My Status")
             .background(GradientBackground())
-        }.environmentObject(viewModel)
+        }
     }
 }
 
