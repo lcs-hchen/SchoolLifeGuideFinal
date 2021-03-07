@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+
 class AssessmentViewModel: ObservableObject {
     @Published var description: String = ""
     @Published var complianceLevel: Double = 0

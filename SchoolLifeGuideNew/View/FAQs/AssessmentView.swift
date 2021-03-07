@@ -25,13 +25,15 @@ struct AssessmentView: View {
 //
 //    @State private var complianceLevel: Double = 0
 //    @State private var myColor = Color(red: 255, green: 0, blue: 0)
-    
-    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+//
+//    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     
     @Binding var showing: Bool
     @State var showReference: Bool = false
     @State private var showAlert = false
+    @ObservedObject var store: Offences
+    @State private var showingHistoryView = false
     var body: some View {
         NavigationView {
             VStack {
@@ -88,8 +90,12 @@ struct AssessmentView: View {
                     
                     Button("Get Result") {
                         showAlert = true
+                        store.offences.append(Offence(areaOfViolation: viewModel.description, timesOfViolation: viewModel.violationTimes, severity: viewModel.severity, levelOfCompliance: viewModel.complianceLevel))
+                        
                     }.alert(isPresented: $showAlert) {
                         Alert(title: Text("Accountability"), message: Text("Test - Test2"), dismissButton: .default(Text("cancel")))
+                        
+                       
                     }
                     
                     
@@ -99,12 +105,21 @@ struct AssessmentView: View {
                
             }.navigationTitle("My Status")
             .background(GradientBackground())
+            .toolbar {
+                
+                ToolbarItem(placement: .primaryAction) {
+                    NavigationLink("History", destination: HistoryView(store: store))
+                }
+                    
+                
+            }
         }
     }
 }
 
+
 struct AssessmentView_Previews: PreviewProvider {
     static var previews: some View {
-        AssessmentView(showing: .constant(true))
+        AssessmentView(showing: .constant(true), store: testStore)
     }
 }

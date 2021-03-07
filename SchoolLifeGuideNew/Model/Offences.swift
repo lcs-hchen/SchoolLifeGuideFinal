@@ -9,9 +9,13 @@ import Foundation
 
 
 // If Operating JSON files, code goes here
-struct Offences {
+class Offences: ObservableObject {
     
-    var offences: [Offence] = []
+   @Published var offences: [Offence] = []
     
-    
+    init(offences:[Offence]) {
+        self.offences = offences
+    }
 }
+
+let testStore = Offences(offences: testOffence)

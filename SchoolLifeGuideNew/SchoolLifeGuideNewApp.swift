@@ -9,7 +9,8 @@ import SwiftUI
 import Combine
 @main
 struct SchoolLifeGuideNew: App {
-   
+    @StateObject private var store = Offences(offences: testOffence)
+    
     var body: some Scene {
         WindowGroup {
             
@@ -46,7 +47,7 @@ struct SchoolLifeGuideNew: App {
                     
                     ZStack {
                         GradientBackground()
-                        FAQsView()
+                        FAQsView(store: store)
                     }
                 }.tabItem {
                     Image(systemName: "questionmark.circle")

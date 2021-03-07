@@ -7,10 +7,18 @@
 
 import Foundation
 
-struct Offence {
+struct Offence: Identifiable {
+    var id = UUID()
     var areaOfViolation: String
-    var timesOfViolation: Int
-    var severity: String
-    var levelOfCompliance: Int
+    var timesOfViolation: TimesOfViolation
+    var severity: Severity
+    var levelOfCompliance: Double
     
 }
+
+let testOffence = [
+    Offence(areaOfViolation: "testtest", timesOfViolation: TimesOfViolation.First, severity: Severity.High, levelOfCompliance: 90),
+    Offence(areaOfViolation: "testtest", timesOfViolation: TimesOfViolation.First, severity: Severity.High, levelOfCompliance: 90),
+    Offence(areaOfViolation: "testtest", timesOfViolation: TimesOfViolation.First, severity: Severity.High, levelOfCompliance: 90)
+
+]

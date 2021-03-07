@@ -10,18 +10,14 @@ import SwiftUI
 struct FAQsView: View {
     //Change Navigation Bar Text color
     
-    init() {
-                let navBarAppearance = UINavigationBar.appearance()
-                navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-                navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
-              }
+   
     
     @State private var showingAssessmentView = false
-    
+    @ObservedObject var store: Offences
     var body: some View {
         
         let questions = Issues()
-        
+         
         UITableView.appearance().backgroundColor = .clear
         UITableViewCell.appearance().backgroundColor = .clear
         
@@ -73,7 +69,7 @@ struct FAQsView: View {
 //                .foregroundColor(.white)
             }
         }.sheet(isPresented: $showingAssessmentView) {
-            AssessmentView(showing: $showingAssessmentView)
+            AssessmentView(showing: $showingAssessmentView, store: store)
         }
     }
        
@@ -99,7 +95,7 @@ struct FAQsView: View {
 struct FAQsView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
-            FAQsView()
+            FAQsView(store: testStore)
         }
         
     }
