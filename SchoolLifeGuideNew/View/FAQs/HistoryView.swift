@@ -17,6 +17,8 @@ struct HistoryView: View {
                 List(store.offences) { offence in
                     
                     HStack {
+                        Text(offence.timesOfViolation.rawValue + " time")
+                        
                         Text(offence.areaOfViolation)
                         Text(String(offence.levelOfCompliance))
                     }

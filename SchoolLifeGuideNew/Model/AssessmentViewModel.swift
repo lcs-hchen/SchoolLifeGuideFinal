@@ -28,5 +28,18 @@ class AssessmentViewModel: ObservableObject {
            }
        }
     
+    func getIconColor() -> Color {
+        switch severity {
+        case .Low:
+            return Color.green
+        case .Medium:
+            return Color.yellow
+        case .High:
+            return Color.orange
+        case .veryHigh:
+            return Color.red
+        
+        }
+    }
     
 }

@@ -47,12 +47,12 @@ struct AssessmentView: View {
                                 Picker("Violation Times", selection: $viewModel.violationTimes) {
                                     Text(TimesOfViolation.First.rawValue).tag(TimesOfViolation.First)
                                     Text(TimesOfViolation.Second.rawValue).tag(TimesOfViolation.Second)
-                                    Text(TimesOfViolation.ThirdTimeOrMore.rawValue).tag(TimesOfViolation.ThirdTimeOrMore)
+                                    Text(TimesOfViolation.Third.rawValue).tag(TimesOfViolation.Third)
                                 }.pickerStyle(SegmentedPickerStyle())
                             }
                             
                             Section {
-                                Label("Severity", systemImage: "circle.fill").foregroundColor(.red)
+                                Label("Severity", systemImage: "circle.fill").foregroundColor(viewModel.getIconColor())
                                 
                                 Picker("Severity", selection:$viewModel.severity) {
                                     Text(Severity.Low.rawValue)
@@ -106,9 +106,20 @@ struct AssessmentView: View {
             }.navigationTitle("My Status")
             .background(GradientBackground())
             .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button("Cancel") {
+                        showing = false
+                    }
+                    
+                }
                 
                 ToolbarItem(placement: .primaryAction) {
-                    NavigationLink("History", destination: HistoryView(store: store))
+                    NavigationLink(destination: HistoryView(store: store)) {
+                        HStack {
+                            Image(systemName: "clock.fill")
+                            Text("History")
+                        }
+                    }
                 }
                     
                 

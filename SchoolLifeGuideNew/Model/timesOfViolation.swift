@@ -10,5 +10,5 @@ import Foundation
 enum TimesOfViolation: String {
     case First = "First"
     case Second = "Second"
-    case ThirdTimeOrMore = "3+ times"
+    case Third = "Third"
 }
