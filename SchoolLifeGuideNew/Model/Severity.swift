@@ -8,7 +8,7 @@
 import Foundation
 
 
-enum Severity: String {
+enum Severity: String, Decodable {
     case Low = "Low"
     case Medium = "Medium"
     case High = "High"

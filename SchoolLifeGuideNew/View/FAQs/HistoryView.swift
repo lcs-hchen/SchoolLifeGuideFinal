@@ -24,10 +24,21 @@ struct HistoryView: View {
                     }
                     
                 }
+                
+                Button("Delete All Searches") {
+                    if !store.offences.isEmpty {
+                        store.offences = []
+                    }
+                    
+                }
             }.navigationTitle("My Search History")
             .background(GradientBackground())
         
+        
     }
+    
+    
+    
 }
 
 struct HistoryView_Previews: PreviewProvider {

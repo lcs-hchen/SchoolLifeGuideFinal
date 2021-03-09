@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum TimesOfViolation: String {
+enum TimesOfViolation: String, Decodable {
     case First = "First"
     case Second = "Second"
     case Third = "Third"

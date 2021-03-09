@@ -108,7 +108,7 @@ struct AssessmentView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button("Cancel") {
-                        showing = false
+                        saveTask()
                     }
                     
                 }
@@ -126,6 +126,17 @@ struct AssessmentView: View {
             }
         }
     }
+    
+    func saveTask() {
+        
+        // Add the task to the list of tasks
+        store.offences.append(Offence(areaOfViolation: viewModel.description, timesOfViolation: viewModel.violationTimes, severity: viewModel.severity, levelOfCompliance: viewModel.complianceLevel))
+        
+        // Dismiss this view
+        showing = false
+
+    }
+    
 }
 
 

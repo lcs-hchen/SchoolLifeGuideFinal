@@ -70,6 +70,16 @@ struct FAQsView: View {
             }
         }.sheet(isPresented: $showingAssessmentView) {
             AssessmentView(showing: $showingAssessmentView, store: store)
+        }.onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
+            
+            // Save the list of tasks
+            let encoder = JSONEncoder()
+            if let encoded = try? encoder.encode(store.offences) {
+                print("Saving tasks list now, app has been backgrounded or quit...")
+                // Actually save the tasks to UserDefaults
+                UserDefaults.standard.setValue(encoded, forKey: "offences")
+            }
+
         }
     }
        
