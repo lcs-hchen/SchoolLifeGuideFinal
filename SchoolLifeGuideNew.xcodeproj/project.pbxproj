@@ -202,9 +202,9 @@
 				9C39ED2B25A8EA0100DB7C73 /* LifeGuideList.swift */,
 				9C1DC75125ACD14C007D359A /* LifeGuideDetailView.swift */,
 				9C905D1E25C624A200D3040E /* SearchBarView.swift */,
+				9C905D2125C6296D00D3040E /* SearchBarView2.swift */,
 				9CF65F5F25DB4C9E0049D188 /* SearchBarDetailView.swift */,
 				9CF65F6325DB6F5E0049D188 /* FullList.swift */,
-				9C905D2125C6296D00D3040E /* SearchBarView2.swift */,
 			);
 			path = content;
 			sourceTree = "<group>";

@@ -165,6 +165,8 @@ struct LifeGuide: Identifiable {
             return "Dawn to Dusk"
         case "Reaffirmation of Commitment (Suspension)":
             return "Suspension"
+        case "Behavioural Policies—Curfew Violations":
+            return "Behavioural Policies"
         default:
             return name
         }

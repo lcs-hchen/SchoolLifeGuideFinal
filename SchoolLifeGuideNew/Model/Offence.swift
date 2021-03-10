@@ -7,7 +7,20 @@
 
 import Foundation
 
-class Offence: Identifiable, Codable {
+class Offence: Identifiable, Codable, Hashable {
+    static func == (lhs: Offence, rhs: Offence) -> Bool {
+        return lhs.id == rhs.id
+       
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+        hasher.combine(areaOfViolation)
+        hasher.combine(timesOfViolation)
+        hasher.combine(severity)
+        hasher.combine(levelOfCompliance)
+    }
+    
     // Identify what properties should be read to and written from JSON
     enum TaskCodingKeys: CodingKey {
         case areaOfViolation

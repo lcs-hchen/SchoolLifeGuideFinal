@@ -23,7 +23,7 @@ struct LifeGuides {
     
     init() {
         
-        list.append(LifeGuide(name: "The School Program", description: "Daily Schedule", warning: "1 is dangerous", imageName: "system1", subTopics: [
+        list.append(LifeGuide(name: "The School Program", description: "Daily Schedule", warning: "1 is dangerous", imageName: "SchoolProgramIcon", subTopics: [
             
             LifeGuide(name: "Daily Schedule", description: "* Breakfast — Students must sign in before the following times (no entry into the Dining Hall after 8:25 a.m.):\n\nMonday, Tuesday, Thursday, Friday:\n     Grades 9 and 10 — before 8:00 a.m.\n     Grade 11 — before 8:10 a.m. \n     Grade 12 — before 8:20 a.m.\n\nWednesdays & Saturdays:\n     Grades 9 and 10 — before 9:10 a.m.\n     Grades 11 and 12 — before 9:30 a.m.\n\n**Grade 12 students may study in their residence or in the library with permission. All students must obtain permission from their respective residential staff on duty in order to study in another residence. If on campus during study, day students must remain in the library. Day students may study in a residence only if permission has been granted by the residential staff on duty in that residence. Friday Study ends at 9:00 p.m. Day students should be off campus by 8:00 p.m. on Sundays.\n\n† The Classroom block is cleared and becomes out of bounds on 9:45 p.m. on weekdays, 7:00 p.m. on Saturday evenings and 8:00 p.m. Sunday evenings.\n\n†† Grade 12 students who have had leave and returned to campus prior to 12:00 a.m. must check in with their residential staff on duty immediately upon their return to campus.", warning: "sub 1 is dangerous", imageName: "SchoolDailySchedule"),
             
@@ -341,7 +341,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
 
                         Day students are full participating members of their assigned residence and as such are granted open access to their residence’s common rooms, bathrooms and any other shared space in their residence without requesting permission.
                         After 5:30 p.m. on weekdays, 1:00 p.m. on Saturdays and at all times on Sundays, day students must inform their residential staff on duty in order to be in their residence.
-                        """, imageName: "system5", subTopics: [
+                        """, imageName: "CampusAerialView", subTopics: [
                         
                         LifeGuide(name: "Evenings on Campus", description: "Day students are welcome to be on campus in the evenings and weekends, but must observe the schedules and rules of the school and of the residences. If on campus during study, day students must be in the library studying. Day students may be in their House with permission. If it is essential for a day student to participate in group study in a residence, permission must be obtained from both the teacher and the residential staff on duty. Day students must arrange to leave campus by 10:00 p.m. Monday through Saturday and by 8:00 p.m. on Sundays."),
                             
@@ -555,7 +555,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         Open House refers to the time of day when students may visit their friends in residence common rooms and student rooms without having to ask permission. In the spirit of community building, only common rooms are available for open house visitation prior to Thanksgiving. Residences are closed to all visitors outside of Open House hours. During these times students must ask their residential staff on duty for permission to have a friend visit in their residence.
 
                         Lakefield College School endeavours to respect the privacy and personal space of all students. Guests are only permitted in the residence outside of Open House hours with the permission of the Head of House or Associate Faculty.
-                        """, imageName: "", subTopics: [
+                        """, imageName: "CampusAerialView2", subTopics: [
                         
                         LifeGuide(name: "Open House Hours", description: """
                             MONDAY - THURSDAY
@@ -936,7 +936,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         The quality of an individual’s every day environment impacts his or her sense of dignity and self-worth. Harassment poisons the working and learning environment for the whole community and may cause long-lasting effects. It negatively affects morale, motivation and learning. It may result in lowered self-esteem, increased absenteeism and poor school performance.
 
                         Lakefield College School is committed to providing a living and learning environment that promotes ethical behavior. LCS requires all persons to exercise behaviour that facilitates the creation of a supportive, harassment-free environment that is conducive to the achievement of excellence and the development of one’s potential in mind, body and spirit.
-                        """, imageName: "", subTopics: [
+                        """, imageName: "HarassmentIcon", subTopics: [
                         
                         
                                 LifeGuide(name: "Purpose of the Policy", description: """
@@ -977,7 +977,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 • Disability/handicap
                                 • Sexual innuendo
 
-                                """),
+                                """, imageName: "Harassment"),
                             
                             LifeGuide(name: "What is Bullying?", description: """
                                 Bullying is defined as aggressive and typically repeated behaviour by a student where,
@@ -997,10 +997,10 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 (c) communicating material electronically to more than one individual or posting material on a website that may be accessed by one or more individuals.
 
                                 Aggressive behaviour may be intentional or unintentional, direct or indirect. It can take many forms, including physical, verbal and social. If aggressive behaviour is physical, it may include hitting, pushing, slapping and tripping. If it is verbal, it may include name calling, mocking, insults, threats, and sexist, racist, homophobic, or transphobic comments. If it is social, or relational, aggression, it is more subtle and may involve such behaviours as gossiping, spreading rumours, excluding others from a group, humiliating others with public gestures or graffiti, and shunning or ignoring. Social aggression may also occur through the use of technology (e.g., spreading rumours, images, or hurtful comments through the use of e-mail, cell phones, text messaging, websites, social networking, or other technology).
-                                """),
+                                """, imageName: "Bullying"),
                             
                             
-                            LifeGuide(name: "What is a Poisoned Environment?", description: "The concept of a poisoned environment as a form of harassment, bullying or discrimination is based on the impact of the comments or conduct toward an individual, rather than the number of times the behaviour occurs. A poisoned environment can be created by the comments or actions of any person, regardless of his or her position of authority or status in a given environment. For example, comments or actions made by a staff member, student, or guest speaker in Chapel or Assembly may be included in this category. Examples of events that contribute to a poisoned environment may include, but are not limited to, presentations expressing the belief that women, or people of a different ethnicity or origin, are not suitable to be members of the LCS community, a poster or community-wide email which promotes hatred or contains sexist or racist material, inappropriate “special days” (such as “Slave Days”) or any other events which compromise the dignity and integrity of a person or group of people. Lakefield College School will not support nor permit acts or events which contribute to a poisoned environment."),
+                            LifeGuide(name: "What is a Poisoned Environment?", description: "The concept of a poisoned environment as a form of harassment, bullying or discrimination is based on the impact of the comments or conduct toward an individual, rather than the number of times the behaviour occurs. A poisoned environment can be created by the comments or actions of any person, regardless of his or her position of authority or status in a given environment. For example, comments or actions made by a staff member, student, or guest speaker in Chapel or Assembly may be included in this category. Examples of events that contribute to a poisoned environment may include, but are not limited to, presentations expressing the belief that women, or people of a different ethnicity or origin, are not suitable to be members of the LCS community, a poster or community-wide email which promotes hatred or contains sexist or racist material, inappropriate “special days” (such as “Slave Days”) or any other events which compromise the dignity and integrity of a person or group of people. Lakefield College School will not support nor permit acts or events which contribute to a poisoned environment.", imageName: "PoisonedEnvironment"),
                             
                             LifeGuide(name: "Sexual Misconduct", description: """
                                 LCS believes in respect for all individuals and is committed to maintaining a safe and healthy living and learning environment. LCS also seeks to foster healthy attitudes and behaviours towards sexuality.
@@ -1010,7 +1010,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 ‘Sexual misconduct’ is an umbrella term which includes but is not limited to: sexual harassment, stalking, sexual assault and relationship violence (emotional or physical abuse in the context of a relationship).
 
                                 All forms of sexual misconduct are unacceptable.
-                                """),
+                                """, imageName: "SexualMisconduct"),
                             
                             LifeGuide(name: "What is Sexual Harassment?", description: """
                                 Sexual harassment includes vexatious comments or conduct based on sex by a person who knows or ought reasonably to know that such behavior is unwelcome.
@@ -1035,7 +1035,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 • Letters, phone calls, emails, text messages, or other communications, or visits of a sexually harassing nature.
 
                                 Sexual harassment can occur between individuals of the same or different status, and both women and men and girls and boys, can be the subject of sexual harassment by a member of either gender.
-                                """),
+                                """, imageName: "SexualMisconduct"),
                             
                             LifeGuide(name: "What is not Sexual Harassment?", description: """
                                 • An occasional compliment.
@@ -1055,13 +1055,13 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 • Surveillance or pursuit;
 
                                 • Cyber-stalking.
-                                """),
+                                """, imageName: "Stalking"),
                             
                             LifeGuide(name: "What is Sexual Assault?", description: """
                                 Sexual assault is prohibited by the Criminal Code. Sexual assault is sexual touching of another person with any object or body part that is without consent, or by force.
                                 
                                 Any sexual activity without consent is sexual assault and a criminal offence.
-                                """),
+                                """, imageName: "SexualAssault"),
                             
                             LifeGuide(name: "What is Consent?", description: """
                                 No person under the age of 16 can legally consent to sexual activity, even if it is voluntary. Such activity is sexual assault.
@@ -1082,7 +1082,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 • Cannot be obtained through threats, coercion or pressure tactics;
 
                                 • Can be revoked at any time, regardless of what sexual activities have taken place.
-                                """),
+                                """, imageName: "Consent"),
                             
                             
                             LifeGuide(name: "Reporting Bullying, Cyberbullying and Harassment", description: """
@@ -1098,7 +1098,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 Any student who experiences bullying, cyberbullying or harassment may, in consultation with her or his parents(s) choose to report the incident to the police. LCS understands that the victims may wish to control how their experiences will be dealt with by LCS or the police. LCS reserves the right, however, to inform the police, Children’s Aid Society (CAS), or other appropriate legal bodies, of the incident, even without the consent of the student or parents, if the school believes that the safety of any member of the LCS community is at risk. In some instances the school has a legal duty to report incidents to the police or CAS.
 
                                 Serious first offence incidents of bullying, cyberbullying, harassment or assault may result in a student being immediately suspended and/or liable for expulsion from the school.
-                                """),
+                                """, imageName: "IncidentReporting"),
                             
                             LifeGuide(name: "Reporting Sexual Misconduct", description: """
                                 The reporting of sexual misconduct will follow the process above, although the student may wish to inform the Assistant Head: School Life directly. The Assistant Head: School Life will then meet with the student(s) involved and contact the parents.
@@ -1108,14 +1108,14 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 Incidents of sexual misconduct may result in a student being immediately suspended and/or liable for expulsion from the school.
 
                                 Any student who experiences sexual misconduct may, in consultation with her or his parents(s) choose to report the incident to the police. LCS understands that the victims of sexual misconduct may wish to control how their experiences will be dealt with by LCS or the police. LCS reserves the right, however, to inform the police of the incident, even without the consent of the student or parents, if the school believes that the safety of any member of the LCS community is at risk.
-                                """),
+                                """, imageName: "IncidentReporting"),
                             
                             
                             LifeGuide(name: "Support", description: """
                                 LCS is committed to aiding victims of sexual misconduct with counselling and emotional support through either the Health and Well-being Centre or external sources.
                                 
                                 Students should feel safe sharing their experiences. Students who disclose allegations of sexual misconduct to staff members will be met with compassion and respect. Staff members have a responsibility to listen, without judgment, and to maintain confidentiality, reporting only to the Director of Health and Well-being and/or the Assistant Head, School Life. Staff members must also consult with the Director of Health and Well-being and/or the Assistant Head: School Life in regard to academic accommodation and counselling services.
-                                """),
+                                """,imageName: "Support"),
                             
                             LifeGuide(name: "Confidentiality", description: """
                                 When sexual misconduct is disclosed, the confidentiality of all parties must be protected. Victims must know that their right to privacy will be respected. In addition, the rights of the accused person must be protected. The public accusation of sexual misconduct prior to appropriate adjudication is a violation of privacy and of LCS community standards. LCS will not release names of those involved in any incident of sexual misconduct except as required to conduct the investigation or by law.
@@ -1156,7 +1156,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         
                         ]))
         
-        list.append(LifeGuide(name: "Behavioural Policies—Curfew Violations", description: "content", imageName: "", subTopics: [
+        list.append(LifeGuide(name: "Behavioural Policies—Curfew Violations", description: "content", imageName: "CurfewIcon", subTopics: [
         
                     LifeGuide(name: "EVENING CURFEWS", description: """
                         All students are expected to be on time for all curfews. Students who are late for their curfew (either weekday or weekend) will be subject to the following sanctions:
@@ -1175,7 +1175,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         Leaving the residence without permission between curfew and 7:00 a.m. is considered a very serious offence. Such actions compromise the safety of the student and the value of trust upheld by Lakefield College School. Violations of this nature will be dealt with by the Standards Committee.
 
                         Possible sanctions could range from an extended period of being gated to campus (five (5) or more days) to being sent home to reaffirm one’s commitment to the school. For violations of this nature parents will always be contacted and students involved will be placed on Directed Probation.
-                        """),
+                        """, imageName: "CurfewIcon"),
             
             
             
@@ -1209,7 +1209,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         A person’s right to privacy and safe possessions is fundamental to the values of our community. Therefore, students are not to enter the rooms or private spaces of the school, or other students or staff, without permission. Students who enter into another student’s room or any private space, including but not limited to journals, smart phones, diaries, etc. without permission is an invasion of privacy and will be considered to be trespassing.
 
                         Accountability: After meeting with their Head of House and the Assistant Head: School Life, a student may be required to attend a meeting of the Standards Committee for Trespassing. Accountability may range from being confined to one’s residence or room to being sent home to reaffirm one’s commitment to the school’s values.
-                        """),
+                        """, imageName: "Trepassing"),
             
             
                    
@@ -1220,14 +1220,14 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         Students are not to take any item, including food or drink, clothing, money, bicycles, etc. without permission from the owner. Students who take something without permission are stealing.
 
                         Accountability: After meeting with the Head of House and the Assistant Head: School Life, a student may be required to attend a meeting of the Standards Committee for Theft. A student who goes to Standards for Theft will be liable for either suspension or expulsion.
-                        """),
+                        """, imageName: "NoStealingIcon"),
             
             
                     LifeGuide(name: "Possession/Harbouring Stolen Property", description: """
                         Students are not to be in the possession of stolen property. Students who accept property that was stolen and without obvious permission from the owner of that property will be held accountable for possession/harbouring of stolen property.
 
                         Accountability: Students who are found to be in possession or harbouring stolen property may be required to attend a meeting of the Standards Committee for Possession of Stolen Property. A student in possession of stolen property will be liable for suspension or expulsion.
-                        """),
+                        """, imageName: "NoStealingIcon"),
             
             
                     LifeGuide(name: "Leave Violations/Absent Without Leave (AWOL)", description: """
@@ -1238,7 +1238,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         Depending on the seriousness of the case, accountability may range from being gated to campus (two (2) or more days) by the Head of House, to a meeting of the Standards Committee.
 
                         More serious incidents and repeat offences will be dealt with through the Standards Committee with the recommendation that the student be sent home to reaffirm his/her commitment to the school. The student(s) will be placed on Directed Probation and parents will be contacted.
-                        """),
+                        """, imageName: "AWOL"),
             
             
                     LifeGuide(name: "Damage to Property", description: """
@@ -1256,7 +1256,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         6. A phone call will be made to parents explaining the damage, the charge and to inform them if their son/daughter is required to meet with the Standards Committee. Please note that at any time the damage to property is both severe and intentional, students may immediately be requested to attend a meeting of the Standards Committee in order to be held accountable for their actions.
 
                         Please note that at any time the damage to property is both severe and intentional, students may immediately be requested to attend a meeting of the Standards Committee in order to be held accountable for their actions.
-                        """)
+                        """, imageName: "DamagedProperty")
             
             
             
@@ -1396,14 +1396,14 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 Students who are 19 years of age may, while on leave, exercise their legal right to use cannabis in legally approved private places. However, they must be responsible, are not to use cannabis with students who are under- age and are not to return to the school under the influence of cannabis.
 
                                 * In loco parentis: With the exception of school holidays (including long weekends) and authorized overnight leaves, students are considered to be under the care and authority of the school.
-                                """),
+                                """, imageName: "NoCannabisIcon"),
                             
                             LifeGuide(name: "Accountability for On-Campus Possession/Use (Cannabis)", description: """
                                 Meeting with the Standards Committee
                                 • 1st Offence: The student will be required to participate in an education/ counselling program. Random drug testing (urine screening) at parental expense will also be required.* Parents will be contacted. The student will be required to go home to reaffirm their commitment to the school (suspended) for a period of time as discerned by the Standards Committee. Loss of privileges and another house accountability may be required. The student will be placed on General Probation Status for Contravention of the School’s Substance Use Policy.
 
                                 • Subsequent Offences: The student will be required to leave the school (expelled).
-                                """),
+                                """, imageName: "NoCannabisIcon"),
                             
                             LifeGuide(name: "Accountability for Off Campus Possession/Use (Cannabis)", description: """
                                 Meeting with the Standards Committee who will determine the following:
@@ -1413,9 +1413,9 @@ On Clean Casual days, students make a donation to a school-selected charity in r
 
                                 • 3rd Offence: The student will be required to leave the school (expelled).
                                 * Non-compliance to the supportive care plan, including required counselling or a positive urinalysis for THC or other drugs will result in the student being required to leave the school (expelled).
-                                """),
+                                """, imageName: "NoCannabisIcon"),
                             
-                            LifeGuide(name: "Accountability for Distribution of Cannabis to Other Students", description: "This offence is considered to be very serious and is a Zero Tolerance Policy (see page 60). Violators who traffick cannabis to other students will be required to leave the school (expelled)."),
+                            LifeGuide(name: "Accountability for Distribution of Cannabis to Other Students", description: "This offence is considered to be very serious and is a Zero Tolerance Policy (see page 60). Violators who traffick cannabis to other students will be required to leave the school (expelled).", imageName: "NoTrafficking"),
                             
                             
                             LifeGuide(name: "Other Illegal Drugs", description: """
@@ -1435,13 +1435,13 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 Lakefield College School reserves the right to search any locker, room, car, or other personal belonging. In such instances, the school will endeavour, whenever possible, to have the student present during any search. Searches will always be conducted by a staff member and one other witness.
 
                                 Canine units of the local O.P.P. or Peterborough City Police may be randomly used throughout the year, whenever requested by the school.
-                                """),
+                                """, imageName: "SearchHouseIcon"),
                             
-                            LifeGuide(name: "Prescription Drugs", description: "The sharing or unauthorized use of prescription drugs is strictly prohibited and illegal in the province of Ontario. Anyone found unlawfully using or distributing prescription drugs will be held accountable in accordance with the same policy as “other illegal drug” use and distribution.’"),
+                            LifeGuide(name: "Prescription Drugs", description: "The sharing or unauthorized use of prescription drugs is strictly prohibited and illegal in the province of Ontario. Anyone found unlawfully using or distributing prescription drugs will be held accountable in accordance with the same policy as “other illegal drug” use and distribution.’", imageName: "PrescriptionDrugs"),
                             
-                            LifeGuide(name: "Drug Testing", description: "The school reserves the right to test any student for drugs who has previously been involved with illegal substances. Should the school determine that drug testing is required, any such testing will be random and will be processed through the Health and Well-being Centre. Parents will be responsible for any additional charges and both the student in question and the parents will be informed of all results."),
+                            LifeGuide(name: "Drug Testing", description: "The school reserves the right to test any student for drugs who has previously been involved with illegal substances. Should the school determine that drug testing is required, any such testing will be random and will be processed through the Health and Well-being Centre. Parents will be responsible for any additional charges and both the student in question and the parents will be informed of all results.", imageName: "DrugTesting"),
                             
-                            LifeGuide(name: "Incidents with the Law", description: "Students who at any time during their enrollment at Lakefield College School, become involved in a serious instance with the law, or, at the discretion of the Head of School are seen to pose a potential risk in terms of health, safety and harassment, will be liable for school suspension or expulsion.")
+                            LifeGuide(name: "Incidents with the Law", description: "Students who at any time during their enrollment at Lakefield College School, become involved in a serious instance with the law, or, at the discretion of the Head of School are seen to pose a potential risk in terms of health, safety and harassment, will be liable for school suspension or expulsion.", imageName: "LawIcon")
                         
                         ]))
         
@@ -1505,9 +1505,9 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         
                         ]))
         
-        list.append(LifeGuide(name: "Definitions of Terms, Policies and Additional Information", description: "add later", imageName: "", subTopics: [
+        list.append(LifeGuide(name: "Definitions of Terms, Policies and Additional Information", description: "", imageName: "SearchingIcon", subTopics: [
         
-            LifeGuide(name: "AWOL", description: "Absent without leave – a student who leaves campus without permission."),
+            LifeGuide(name: "AWOL", description: "Absent without leave – a student who leaves campus without permission.", imageName: "AWOL"),
             
             LifeGuide(name: "Dawn to Dusk (7:30 a.m. to 7:00 p.m.)", description: "Confined to campus for the day, 7:30 a.m. breakfast sign-in, wearing classroom dress, not permitted to return to residence until end of school day, confined to room at 7:00 p.m., no visitor privileges. If on a Saturday, sign in to the dining hall at 9:00 a.m., Saturday Study and confined to residence for the remainder of the day. If on a Sunday, sign in to the dining hall at 10:30 a.m. and confined to residence for the remainder of the day."),
             
