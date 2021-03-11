@@ -10,23 +10,23 @@ import SwiftUI
 
 
 struct AssessmentView: View {
-  
+    
     
     @ObservedObject var viewModel = AssessmentViewModel()
-  
     
-  
     
-//    @State private var description = ""
-//    @State private var violationTimes = TimesOfViolation.First
-//    @State private var severity = Severity.Low
-
-//
-//
-//    @State private var complianceLevel: Double = 0
-//    @State private var myColor = Color(red: 255, green: 0, blue: 0)
-//
-//    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    
+    
+    //    @State private var description = ""
+    //    @State private var violationTimes = TimesOfViolation.First
+    //    @State private var severity = Severity.Low
+    
+    //
+    //
+    //    @State private var complianceLevel: Double = 0
+    //    @State private var myColor = Color(red: 255, green: 0, blue: 0)
+    //
+    //    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     
     @Binding var showing: Bool
@@ -39,54 +39,54 @@ struct AssessmentView: View {
             VStack {
                 Form {
                     
-                     
-                        Group {
-                            Section {
-                                TextField("Description", text: $viewModel.description)
-                                
-                                Picker("Violation Times", selection: $viewModel.violationTimes) {
-                                    Text(TimesOfViolation.First.rawValue).tag(TimesOfViolation.First)
-                                    Text(TimesOfViolation.Second.rawValue).tag(TimesOfViolation.Second)
-                                    Text(TimesOfViolation.Third.rawValue).tag(TimesOfViolation.Third)
-                                }.pickerStyle(SegmentedPickerStyle())
-                            }
+                    
+                    Group {
+                        Section {
+                            TextField("Description", text: $viewModel.description)
                             
-                            Section {
-                                Label("Severity", systemImage: "circle.fill").foregroundColor(viewModel.getIconColor())
-                                
-                                Picker("Severity", selection:$viewModel.severity) {
-                                    Text(Severity.Low.rawValue)
-                                        .tag(Severity.Low)
-                                    Text(Severity.Medium.rawValue)
-                                        .tag(Severity.Medium)
-                                    Text(Severity.High.rawValue)
-                                        .tag(Severity.High)
-                                    Text(Severity.veryHigh.rawValue)
-                                        .tag(Severity.veryHigh)
-                                }.pickerStyle(SegmentedPickerStyle())
-                            }
+                            Picker("Violation Times", selection: $viewModel.violationTimes) {
+                                Text(TimesOfViolation.First.rawValue).tag(TimesOfViolation.First)
+                                Text(TimesOfViolation.Second.rawValue).tag(TimesOfViolation.Second)
+                                Text(TimesOfViolation.Third.rawValue).tag(TimesOfViolation.Third)
+                            }.pickerStyle(SegmentedPickerStyle())
+                        }
+                        
+                        Section {
+                            Label("Severity", systemImage: "circle.fill").foregroundColor(viewModel.getIconColor())
                             
-                            Section {
-                                
-                                
-                                Slider(value: $viewModel.complianceLevel, in: 0...100, step: 1).accentColor(viewModel.getColor())
-                                
-                                Text("Current Value is \(Int(viewModel.complianceLevel))")
-                                    
-                                
-                                
-                            }
+                            Picker("Severity", selection:$viewModel.severity) {
+                                Text(Severity.Low.rawValue)
+                                    .tag(Severity.Low)
+                                Text(Severity.Medium.rawValue)
+                                    .tag(Severity.Medium)
+                                Text(Severity.High.rawValue)
+                                    .tag(Severity.High)
+                                Text(Severity.veryHigh.rawValue)
+                                    .tag(Severity.veryHigh)
+                            }.pickerStyle(SegmentedPickerStyle())
+                        }
+                        
+                        Section {
                             
-                            Section {
-                                NavigationLink("Reference Level List" , destination: ReferenceView() )
-                                
-                                NavigationLink("Credit", destination: CreditView())
-                            }
                             
+                            Slider(value: $viewModel.complianceLevel, in: 0...100, step: 1).accentColor(viewModel.getColor())
+                            
+                            Text("Current Value is \(Int(viewModel.complianceLevel))")
                             
                             
                             
                         }
+                        
+                        Section {
+                            NavigationLink("Reference Level List" , destination: ReferenceView() )
+                            
+                            NavigationLink("Credit", destination: CreditView())
+                        }
+                        
+                        
+                        
+                        
+                    }
                     
                     Button("Get Result") {
                         showAlert = true
@@ -95,33 +95,43 @@ struct AssessmentView: View {
                     }.alert(isPresented: $showAlert) {
                         Alert(title: Text("Accountability"), message: Text("Test - Test2"), dismissButton: .default(Text("cancel")))
                         
-                       
+                        
                     }
                     
                     
                     
                 }
                 
-               
+                
             }.navigationTitle("My Status")
             .background(GradientBackground())
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
-                    Button("Cancel") {
+                    
+                    Text("Cancel").foregroundColor(.white).onTapGesture {
                         saveTask()
                     }
+                    //                    Button("Cancel") {
+                    //                        saveTask()
+                    //                    }.foregroundColor(.white)
                     
                 }
                 
                 ToolbarItem(placement: .primaryAction) {
                     NavigationLink(destination: HistoryView(store: store)) {
+                        
+                        
+                        
+                        
                         HStack {
+
+
                             Image(systemName: "clock.fill")
                             Text("History")
-                        }
+                        }.foregroundColor(.white)
                     }
                 }
-                    
+                
                 
             }
         }
@@ -134,11 +144,20 @@ struct AssessmentView: View {
         
         // Dismiss this view
         showing = false
-
+        
     }
     
 }
 
+
+struct ColorStyle: ButtonStyle {
+    func makeBody(configuration: Self.Configuration) -> some View {
+        configuration.label
+            .padding(12)
+            .foregroundColor(.white)
+            .cornerRadius(8)
+    }
+}
 
 struct AssessmentView_Previews: PreviewProvider {
     static var previews: some View {

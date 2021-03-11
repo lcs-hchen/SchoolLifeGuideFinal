@@ -52,15 +52,27 @@ struct FAQsView: View {
         }.toolbar {
             ToolbarItem(placement: .primaryAction) {
                 
-                Button(action: {
-                    print("pressed")
-                    showingAssessmentView = true
-                }, label: {
-                    Text("My Status")
-                        .foregroundColor(.white)
-                        .font(Font.system(size: 30))
-                }).foregroundColor(.white)
+                Text("My Status")
+                    .foregroundColor(.white)
+                    .onTapGesture {
+                        print("pressed")
+                        showingAssessmentView = true
+                    }
                 
+                
+                
+                
+                
+                
+//                Button(action: {
+//                    print("pressed")
+//                    showingAssessmentView = true
+//                }, label: {
+//                    Text("My Status")
+//                        .foregroundColor(.white)
+//                        .font(Font.system(size: 30))
+//                }).foregroundColor(.white)
+//
                 
                 
 //                Button("My Status") {

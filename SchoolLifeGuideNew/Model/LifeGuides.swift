@@ -1319,7 +1319,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             The school strives to establish a tobacco/smoke-free environment and promotes wellness (physical, mental and social) by encouraging students to make healthy choices for themselves now and throughout their lives.
                             The possession and use of any tobacco or tobacco-like products (including cigarettes, chewing tobacco, snuff, flakes, ENDS, vaporizers and e-cigarettes*) by a student while on school property or while under the care of the school is strictly prohibited. School property includes the woods, fields, waterfront and all properties owned by the school.
                             * Electronic Nicotine Delivery Systems (ENDS) which include but are not limited to e-cigarettes and vaporizers, are illegal for minors under the age of 19 to possess and to use in the province of Ontario. Students in possession of these products will have them confiscated, parents will be contacted and protocols in accordance with the school’s Substance Use Policy will be followed. The school reserves the right to contact the local Tobacco Enforcement Officials for support and/or to levy fines and/or other charges at any time.
-                            """),
+                            """, imageName: "NoSmoking"),
                             
                             LifeGuide(name: "Accountability for On-Campus Possession/Use (Nicotine, Tobacco)", description: """
                                 A student may not be in possession of, smoke or use tobacco or ENDS products while on school property.
@@ -1328,7 +1328,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 • 2nd Offence: Directed Probation Status for Contravention of the School’s Substance Use Policy; parents are contacted, student is sent home to reaffirm commitment to school for three (3) days, nicotine cessation program is required.
 
                                 • Subsequent Offences: General Probation Status: Students are liable for expulsion if there is a risk to the community by the student’s actions; parents are contacted and informed that, although the student may not be expelled, they may not be invited back to LCS the following September due to persistent inability to abide by the values of the school.
-                                """),
+                                """, imageName: "NoSmoking"),
                             
                             LifeGuide(name: "Accountability for Off-Campus Possession/Use — Not of Age (Nicotine, Tobacco)", description: """
                                 A student who is caught in the possession of, illegally smoking or using tobacco or ENDS products off-campus and while under the care of the school will be held to the following accountability:
@@ -1338,12 +1338,12 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 • 2nd Offence: Directed Probation Status for Contravention of the School’s Substance Use Policy; parents are contacted; student is sent home to reaffirm commitment to school for three (3) days, tobacco cessation program is required.
 
                                 • Subsequent Offences: General Probation Status: Meeting with the Assistant Head: School Life; parents are contacted and informed that the student may not be invited back to LCS the following September due to persistent inability to abide by the values of the school.
-                                """),
+                                """, imageName: "NoSmoking"),
                             
                             LifeGuide(name: "Accountability for Off-Campus Use — Legal Age (Nicotine, Tobacco)", description: """
                                 Although strongly discouraged, a student who is of legal age may exercise their legal right to use tobacco or ENDS products discreetly off-campus, and only in legally approved areas. This means that a student is not to smoke while wearing school dress and/or when in proximity to, or visible to, staff or younger students. If a student of legal age is caught smoking or using tobacco or ENDS products, the student’s Head of House will contact their parents to inform them of our health concerns. A nicotine cessation program will be strongly recommended.
                                 A student who is of legal age and is seen smoking/vaping or is with a junior student will be gated to campus for a minimum of three (3) days.
-                                """),
+                                """, imageName: "NoSmoking"),
                             
                             LifeGuide(name: "Accountability for Distribution of Tobacco or ENDS Products to Underage Students", description: """
                                 Students may not supply tobacco or ENDS products to any student who is not of legal age.
@@ -1356,10 +1356,10 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 Further offences may result in the student being required to leave the school (expelled).
 
                                 Please note that the goal of this policy and accountability system is to keep younger students from being exposed and potentially addicted to nicotine products. It is also intended to enable nicotine- addicted students to overcome the addiction.
-                                """),
+                                """, imageName: "NoSmoking"),
                             
                             
-                            LifeGuide(name: "Accountability for Smoking Adjacent to or In a Building", description: "This is a serious offence due to the obvious fire hazards and the increased risks to the safety and well-being of others. This is a Zero Tolerance Policy (see Definitions on page 60). Students will be expelled for smoking adjacent to (within 9 metres radius of a building in accordance with the Smoke-Free Ontario Act) or in a building.") ,
+                            LifeGuide(name: "Accountability for Smoking Adjacent to or In a Building", description: "This is a serious offence due to the obvious fire hazards and the increased risks to the safety and well-being of others. This is a Zero Tolerance Policy (see Definitions on page 60). Students will be expelled for smoking adjacent to (within 9 metres radius of a building in accordance with the Smoke-Free Ontario Act) or in a building.", imageName: "NoSmoking") ,
                             
                             LifeGuide(name: "Alcohol", description: """
                                 In Ontario, it is illegal for anyone under 19 years of age to purchase, possess, or use alcohol, except in a private residence and only if the alcohol has been provided by that youth’s parents. This permits parents to serve alcohol to their own children only. The abuse of alcohol, whether on one occasion, or consistently, constitutes a threat to the user, as well as those around him/her.
@@ -1370,7 +1370,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 Students who are 19 years of age may, while on leave, exercise their legal right to drink in legally approved areas. However, they are to drink responsibly, are not to drink with students who are under-age and are not to return to the school under the influence of alcohol.
 
                                 *In loco parentis: With the exception of school holidays (including long weekends) and authorized overnight leaves, students are considered to be under the care and authority of the school.
-                                """),
+                                """, imageName: "NoAlcoholIcon"),
                             
                             LifeGuide(name: "Accountability for Off Campus Possession/Use (Alcohol)", description: """
                                 Meeting with the Standards Committee who will determine the following:
@@ -1379,13 +1379,13 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 • 2nd Offence: Suspension; a student is required to go home and reaffirm his/her commitment to the school, loss of privileges and General Probation Status. Students may also be required to seek counselling from a professional in the field of alcohol/substance use/abuse. Parents will be contacted.
 
                                 • 3rd Offence: The student is liable for expulsion from the school.
-                                """),
+                                """, imageName: "NoAlcoholIcon"),
                             
-                            LifeGuide(name: "Accountability for Possession/Use of Alcohol on School Property", description: "This offence is considered to be very serious. Violators will be required to attend a meeting of the Standards Committee and will be required to go home to reaffirm their commitment to the school (suspended). Subsequent offences may require a student to leave the school (expelled). Such actions allow for increased accessibility and applies peer pressure upon others to experiment with alcohol."),
+                            LifeGuide(name: "Accountability for Possession/Use of Alcohol on School Property", description: "This offence is considered to be very serious. Violators will be required to attend a meeting of the Standards Committee and will be required to go home to reaffirm their commitment to the school (suspended). Subsequent offences may require a student to leave the school (expelled). Such actions allow for increased accessibility and applies peer pressure upon others to experiment with alcohol.", imageName: "NoAlcoholIcon"),
                             
-                            LifeGuide(name: "Accountability for Distribution of Alcohol to Other Students", description: "This offence is considered to be very serious. Violators will be liable for either suspension or expulsion."),
+                            LifeGuide(name: "Accountability for Distribution of Alcohol to Other Students", description: "This offence is considered to be very serious. Violators will be liable for either suspension or expulsion.", imageName: "NoAlcoholIcon"),
                             
-                            LifeGuide(name: "Illegal Use of Medication (including over the counter, non-controlled substances)", description: "The non-medical use of these drugs is considered a serious health hazard and is proven to be a gateway to (harder) drug use later in students’ lives, for this reason such use is strictly forbidden and the school takes this behaviour very seriously. Students who contravene this policy will be required to attend a meeting of the standards committee and will be liable for suspension from the school. Students who traffick over the counter non-controlled substances may be liable for expulsion from the school."),
+                            LifeGuide(name: "Illegal Use of Medication (including over the counter, non-controlled substances)", description: "The non-medical use of these drugs is considered a serious health hazard and is proven to be a gateway to (harder) drug use later in students’ lives, for this reason such use is strictly forbidden and the school takes this behaviour very seriously. Students who contravene this policy will be required to attend a meeting of the standards committee and will be liable for suspension from the school. Students who traffick over the counter non-controlled substances may be liable for expulsion from the school.", imageName: "MedicationUse"),
                             
                             LifeGuide(name: "Cannabis", description: """
                                 In Ontario, it is illegal for any person under 19 years of age to purchase, possess, or use cannabis. Persons of 19 years of age or older are not permitted to use cannabis in any public place.
@@ -1423,13 +1423,13 @@ On Clean Casual days, students make a donation to a school-selected charity in r
 
                                 Accountability for Possession/Consumption of Illegal Drugs on School Property:
                                 The school maintains a Zero Tolerance Policy (see Definitions on page 60) in relation to the use of illegal drugs. This offence is considered to be very serious because such actions allow for increased accessibility to drugs and pressure to experiment with drugs. Violators will be expelled from the school.
-                                """),
+                                """, imageName: "OtherIllegalDrugs"),
                             
                             LifeGuide(name: "Trafficking and Distribution of Illegal Drugs", description: """
                                 Trafficking in narcotics includes any sharing or distribution of drugs to LCS students (by LCS day or boarding students whether at or returning to the campus). Trafficking in or providing illegal drugs to any LCS student will result in immediate expulsion from the school (see “Zero Tolerance Policy” in Definitions on page 60) and may involve the criminal law process.
 
                                 Lakefield College School prides itself on being a community built on trust, mutual respect and honesty. The foundation of this unique community is seriously jeopardized by actions such as trafficking or using drugs as they breach the school’s fundamental values.
-                                """),
+                                """, imageName: "NoTrafficking"),
                             
                             LifeGuide(name: "Searches", description: """
                                 Lakefield College School reserves the right to search any locker, room, car, or other personal belonging. In such instances, the school will endeavour, whenever possible, to have the student present during any search. Searches will always be conducted by a staff member and one other witness.
@@ -1570,7 +1570,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
             
             LifeGuide(name: "Standards Committee", description: "The Standards Committee is comprised of any member of the following: Assistant Head: School Life, Head of House, Co-Head Students, Grade Representatives, Student Head of House, Student’s Advisor, Seniors-In-Charge of Standards and Seniors-In-Charge of School Life. The Committee meets to act upon serious breaches of school standards and expectations."),
             
-            LifeGuide(name: "Zero Tolerance Policy", description: "Zero Tolerance Policy (in relation to smoking in or adjacent to a residence or building, creating an open flame in or adjacent (in accordance with Smoke-Free Ontario Act, within 9 metre radius) to a residence or building and the trafficking of illegal drugs): Zero Tolerance is a policy that requires a student’s immediate expulsion from the school.")
+            LifeGuide(name: "Zero Tolerance Policy", description: "Zero Tolerance Policy (in relation to smoking in or adjacent to a residence or building, creating an open flame in or adjacent (in accordance with Smoke-Free Ontario Act, within 9 metre radius) to a residence or building and the trafficking of illegal drugs): Zero Tolerance is a policy that requires a student’s immediate expulsion from the school.", imageName: "ZeroTolerance")
         
         
         
