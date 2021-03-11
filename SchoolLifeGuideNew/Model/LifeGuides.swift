@@ -100,7 +100,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
             
         ]))
         
-        list.append(LifeGuide(name: "Academic Life", description: "Student Achievement\n\nLakefield College School has high expectations of its students. Homework is assigned daily and is checked in class. Attendance at classes is compulsory for all students in all grades. Students are expected to take responsibility for their academic work and to strive for excellence. Lakefield is committed to providing equal educational opportunities and challenges to all students.\n\nThe school’s commitment to a rigorous academic program is strongly endorsed by LCS graduates, who report themselves to be well prepared for their university studies.", imageName: " ", subTopics: [
+        list.append(LifeGuide(name: "Academic Life", description: "Student Achievement\n\nLakefield College School has high expectations of its students. Homework is assigned daily and is checked in class. Attendance at classes is compulsory for all students in all grades. Students are expected to take responsibility for their academic work and to strive for excellence. Lakefield is committed to providing equal educational opportunities and challenges to all students.\n\nThe school’s commitment to a rigorous academic program is strongly endorsed by LCS graduates, who report themselves to be well prepared for their university studies.", imageName: "LCSIcon", subTopics: [
     
     
                 LifeGuide(name: "Excused Absences/Attendance", description: "If a day student is to be away from school for part or all of the day due to illness or a medical appointment, the parent/guardian must telephone the Health and Well-being Centre to report the absence.\n\nIf a day student is to be away from school for part or all of the day due to a reason other than illness, the parent/guardian must telephone the Attendance Administrator at least two days in advance. The Head of House will then initiate the leave process."),
@@ -229,7 +229,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
 
 ]))
     
-        list.append(LifeGuide(name: "Student Life", description: "This is test 4 content", warning: "4 is dangerous", imageName: "", subTopics: [
+        list.append(LifeGuide(name: "Student Life", description: "This is test 4 content", warning: "4 is dangerous", imageName: "LakefieldSigil", subTopics: [
         
             LifeGuide(name: "Dining Hall", description: """
                 The Dining Hall may be open for student and staff use during the day and evening.

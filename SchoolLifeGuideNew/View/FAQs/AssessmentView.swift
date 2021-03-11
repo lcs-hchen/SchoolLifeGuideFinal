@@ -42,6 +42,7 @@ struct AssessmentView: View {
                     
                     Group {
                         Section {
+                            
                             TextField("Description", text: $viewModel.description)
                             
                             Picker("Violation Times", selection: $viewModel.violationTimes) {
@@ -164,3 +165,5 @@ struct AssessmentView_Previews: PreviewProvider {
         AssessmentView(showing: .constant(true), store: testStore)
     }
 }
+
+var accountabilityText = ""
