@@ -12,7 +12,7 @@ class AssessmentViewModel: ObservableObject {
     @Published var description: String = ""
     @Published var complianceLevel: Double = 0
         
-    
+    @Published var offenceType = OffenceType.InappropriateDress
     
 //    @Published var myColor: Color = Color(red: 255, green: 0, blue: 0)
     
