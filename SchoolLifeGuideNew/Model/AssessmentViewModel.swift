@@ -15,7 +15,7 @@ class AssessmentViewModel: ObservableObject {
     @Published var offenceType = OffenceType.InappropriateDress
     
 //    @Published var myColor: Color = Color(red: 255, green: 0, blue: 0)
-    
+    @Published var textToPresent: String = "aa"
     @Published var violationTimes = TimesOfViolation.First
     @Published var severity = Severity.Low
     
@@ -43,13 +43,37 @@ class AssessmentViewModel: ObservableObject {
     }
     
     func getAlertMessage() -> String {
+        var returnMessage = ""
         if theChosenOffence == .InappropriateDress {
-            if violationTimes == .First {
-                return "Runza Meeting + Official Warning"
+            
+            switch violationTimes {
+            case .Third:
+                print(3)
+                returnMessage = "Official Warning As Minimum"
+            case .Second:
+                print(2)
+                returnMessage = "Daily Meeting w/ Runza in #1s"
+                break
+            case .First:
+                print(1)
+                returnMessage = "Runza Meeting (Warning)"
+            
+           
             }
+//            if violationTimes == .First {
+//                print("0")
+//                returnMessage = "Runza Meeting (Warning)"
+//            } else if violationTimes == .Second {
+//                print("1")
+//                returnMessage = "Daily Meeting w/ Runza in #1s"
+//
+//            } else {
+//                print("2")
+//                returnMessage = "Official Warning As Minimum"
+//            }
         }
-        
-        return "test"
+        print(4)
+        return returnMessage
     }
     
 }

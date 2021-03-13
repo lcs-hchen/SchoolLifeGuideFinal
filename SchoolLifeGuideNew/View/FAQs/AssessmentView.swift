@@ -15,6 +15,7 @@ struct AssessmentView: View {
     @ObservedObject var viewModel = AssessmentViewModel()
     
     
+   
     
     
     //    @State private var description = ""
@@ -74,7 +75,7 @@ struct AssessmentView: View {
 //                                Text(OffenceType.PersistentFailExpectations.rawValue).tag(OffenceType.PersistentFailExpectations)
                                 
 //                            }.pickerStyle(WheelPickerStyle())
-                            WheelPickerView(theChosenOffence: $viewModel.theChosenOffence)
+                            WheelPickerView(viewModel: viewModel)
                             Picker("Violation Times", selection: $viewModel.violationTimes) {
                                 Text(TimesOfViolation.First.rawValue).tag(TimesOfViolation.First)
                                 Text(TimesOfViolation.Second.rawValue).tag(TimesOfViolation.Second)
@@ -120,15 +121,16 @@ struct AssessmentView: View {
                     }
                     
                     Button("Get Result") {
+                       accountabilityText = viewModel.getAlertMessage()
                         showAlert = true
                         store.offences.append(Offence(areaOfViolation: viewModel.description, timesOfViolation: viewModel.violationTimes, severity: viewModel.severity, levelOfCompliance: viewModel.complianceLevel))
                         
                     }.alert(isPresented: $showAlert) {
-                        Alert(title: Text("Accountability"), message: Text("Test - Test2"), dismissButton: .default(Text("cancel")))
-                        
-                        
-                    }
+                        Alert(title: Text("Accountability"), message:   Text(accountabilityText), dismissButton: .default(Text("cancel")))
                     
+                    
+                    
+                }
                     
                     
                 }
@@ -178,6 +180,7 @@ struct AssessmentView: View {
         
     }
     
+  
 }
 
 

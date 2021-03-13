@@ -11,7 +11,7 @@ struct WheelPickerView: View {
     // Since the number of items exceeds system limit, it is better
     @State private var incident: [OffenceType] = getIncidents()
     @State private var choice1 = 0
-    @Binding var theChosenOffence: OffenceType
+    @ObservedObject var viewModel: AssessmentViewModel
     
     var body: some View {
         // get thechosenOffence from property and set its value to chosenOffence
@@ -25,7 +25,7 @@ struct WheelPickerView: View {
        
     
       
-        Picker(selection: $theChosenOffence, label: Text("Offence").foregroundColor(.blue)) {
+        Picker(selection: $viewModel.theChosenOffence, label: Text("Offence").foregroundColor(.blue)) {
                 ForEach(self.incident.indices) { index in
                     Text(self.incident[index].rawValue).tag(incident[index])
                     }
