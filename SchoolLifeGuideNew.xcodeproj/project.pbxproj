@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C01CCDA25F9D36600E1FE7F /* OffenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C01CCD925F9D36600E1FE7F /* OffenceType.swift */; };
+		9C01CCDE25FA86A700E1FE7F /* TestView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C01CCDD25FA86A700E1FE7F /* TestView1.swift */; };
 		9C044B3D25D5E783000793EC /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C044B3C25D5E783000793EC /* VideoView.swift */; };
 		9C1DC75225ACD14C007D359A /* LifeGuideDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75125ACD14C007D359A /* LifeGuideDetailView.swift */; };
 		9C1DC75C25ACDF94007D359A /* LifeGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75B25ACDF94007D359A /* LifeGuide.swift */; };
@@ -51,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		9C01CCD925F9D36600E1FE7F /* OffenceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffenceType.swift; sourceTree = "<group>"; };
+		9C01CCDD25FA86A700E1FE7F /* TestView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView1.swift; sourceTree = "<group>"; };
 		9C044B3C25D5E783000793EC /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		9C1DC75125ACD14C007D359A /* LifeGuideDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuideDetailView.swift; sourceTree = "<group>"; };
 		9C1DC75B25ACDF94007D359A /* LifeGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuide.swift; sourceTree = "<group>"; };
@@ -105,6 +107,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C01CCDC25FA866800E1FE7F /* TestViews */ = {
+			isa = PBXGroup;
+			children = (
+				9C01CCDD25FA86A700E1FE7F /* TestView1.swift */,
+			);
+			path = TestViews;
+			sourceTree = "<group>";
+		};
 		9C39ED1D25A8EA0100DB7C73 = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +198,7 @@
 		9C905D2825C75FC300D3040E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9C01CCDC25FA866800E1FE7F /* TestViews */,
 				9C70C98D25C8E64100345ECD /* Library */,
 				9C70C98825C8A59E00345ECD /* Home */,
 				9CA7117925C7BC450041436C /* FAQs */,
@@ -330,6 +341,7 @@
 				9C93FFE025CC9C1800A6801A /* GradientBackground.swift in Sources */,
 				9CA7117625C7BA750041436C /* Issues.swift in Sources */,
 				9C346AA425CA68C900F42AEE /* BadgeBackground.swift in Sources */,
+				9C01CCDE25FA86A700E1FE7F /* TestView1.swift in Sources */,
 				9C3C0A1825F313DB00ED8A6F /* Offence.swift in Sources */,
 				9C526E6025C7BDDA006CB517 /* FAQsDetailView.swift in Sources */,
 			);

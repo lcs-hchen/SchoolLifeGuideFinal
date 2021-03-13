@@ -45,16 +45,16 @@ struct AssessmentView: View {
                             
                             TextField("Description", text: $viewModel.description)
                             
-                            Picker("Offence Type", selection: $viewModel.offenceType) {
-                                Text(OffenceType.InappropriateDress.rawValue).tag(OffenceType.InappropriateDress)
-                                Text(OffenceType.LateForClass.rawValue).tag(OffenceType.LateForClass)
-                                Text(OffenceType.UnexcusedAbsencesForClass.rawValue).tag(OffenceType.UnexcusedAbsencesForClass)
-                                Text(OffenceType.UnexcusedAbsencesForCoCurriculars.rawValue).tag(OffenceType.UnexcusedAbsencesForCoCurriculars)
-                                Text(OffenceType.ViolationOfRUA.rawValue).tag(OffenceType.ViolationOfRUA)
-                                Text(OffenceType.ViolationOfFirePolicies.rawValue).tag(OffenceType.ViolationOfFirePolicies)
-                                Text(OffenceType.DormViolations.rawValue).tag(OffenceType.DormViolations)
-                                Text(OffenceType.Trepassing.rawValue).tag(OffenceType.Trepassing)
-                                Text(OffenceType.Theft.rawValue).tag(OffenceType.Theft)
+//                            Picker("Offence Type", selection: $viewModel.offenceType) {
+//                                Text(OffenceType.InappropriateDress.rawValue).tag(OffenceType.InappropriateDress)
+//                                Text(OffenceType.LateForClass.rawValue).tag(OffenceType.LateForClass)
+//                                Text(OffenceType.UnexcusedAbsencesForClass.rawValue).tag(OffenceType.UnexcusedAbsencesForClass)
+//                                Text(OffenceType.UnexcusedAbsencesForCoCurriculars.rawValue).tag(OffenceType.UnexcusedAbsencesForCoCurriculars)
+//                                Text(OffenceType.ViolationOfRUA.rawValue).tag(OffenceType.ViolationOfRUA)
+//                                Text(OffenceType.ViolationOfFirePolicies.rawValue).tag(OffenceType.ViolationOfFirePolicies)
+//                                Text(OffenceType.DormViolations.rawValue).tag(OffenceType.DormViolations)
+//                                Text(OffenceType.Trepassing.rawValue).tag(OffenceType.Trepassing)
+//                                Text(OffenceType.Theft.rawValue).tag(OffenceType.Theft)
 //                                Text(OffenceType.HaveStolenProperty.rawValue).tag(OffenceType.HaveStolenProperty)
 //                                Text(OffenceType.AWOL.rawValue).tag(OffenceType.AWOL)
 //                                Text(OffenceType.DamagedProperty.rawValue).tag(OffenceType.DamagedProperty)
@@ -73,7 +73,8 @@ struct AssessmentView: View {
 //                                Text(OffenceType.OtherIllegalDrugs.rawValue).tag(OffenceType.OtherIllegalDrugs)
 //                                Text(OffenceType.PersistentFailExpectations.rawValue).tag(OffenceType.PersistentFailExpectations)
                                 
-                            }.pickerStyle(WheelPickerStyle())
+//                            }.pickerStyle(WheelPickerStyle())
+                            WheelPickerView(theChosenOffence: $viewModel.theChosenOffence)
                             Picker("Violation Times", selection: $viewModel.violationTimes) {
                                 Text(TimesOfViolation.First.rawValue).tag(TimesOfViolation.First)
                                 Text(TimesOfViolation.Second.rawValue).tag(TimesOfViolation.Second)

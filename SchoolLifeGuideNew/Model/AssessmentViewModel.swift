@@ -11,7 +11,7 @@ import SwiftUI
 class AssessmentViewModel: ObservableObject {
     @Published var description: String = ""
     @Published var complianceLevel: Double = 0
-        
+    @Published var theChosenOffence: OffenceType = OffenceType.InappropriateDress
     @Published var offenceType = OffenceType.InappropriateDress
     
 //    @Published var myColor: Color = Color(red: 255, green: 0, blue: 0)
@@ -40,6 +40,16 @@ class AssessmentViewModel: ObservableObject {
             return Color.red
         
         }
+    }
+    
+    func getAlertMessage() -> String {
+        if theChosenOffence == .InappropriateDress {
+            if violationTimes == .First {
+                return "Runza Meeting + Official Warning"
+            }
+        }
+        
+        return "test"
     }
     
 }

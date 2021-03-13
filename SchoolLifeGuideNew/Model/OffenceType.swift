@@ -6,7 +6,7 @@
 //
 
 import Foundation
-enum OffenceType: String {
+enum OffenceType: String, CaseIterable {
     case InappropriateDress = "Inappropriate Dress"
     case LateForClass = "Late For Class"
     case UnexcusedAbsencesForClass = "Unexcused Absences For Class"
@@ -35,4 +35,12 @@ enum OffenceType: String {
     case OtherIllegalDrugs = "Other Illegal Drugs"
     case PersistentFailExpectations = "Inability to Abide by the Expectations of the School"
     
+}
+
+var incident: [OffenceType] = []
+func getIncidents() -> [OffenceType] {
+    for a in OffenceType.allCases {
+        incident.append(a)
+    }
+    return incident
 }
