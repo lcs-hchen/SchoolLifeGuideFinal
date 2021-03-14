@@ -23,17 +23,16 @@ struct WheelPickerView: View {
 //                })
         
        
-    
+
       
         Picker(selection: $viewModel.theChosenOffence, label: Text("Offence").foregroundColor(.blue)) {
                 ForEach(self.incident.indices) { index in
                     Text(self.incident[index].rawValue).tag(incident[index])
                     }
-            }
-
         }
-    
-    
+
+       
+    }
     }
 //struct TestView1_Previews: PreviewProvider {
 //    static var previews: some View {

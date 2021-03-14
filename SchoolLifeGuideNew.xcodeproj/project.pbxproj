@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C01CCDA25F9D36600E1FE7F /* OffenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C01CCD925F9D36600E1FE7F /* OffenceType.swift */; };
-		9C01CCDE25FA86A700E1FE7F /* TestView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C01CCDD25FA86A700E1FE7F /* TestView1.swift */; };
+		9C01CCDE25FA86A700E1FE7F /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C01CCDD25FA86A700E1FE7F /* PickerView.swift */; };
 		9C044B3D25D5E783000793EC /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C044B3C25D5E783000793EC /* VideoView.swift */; };
 		9C1DC75225ACD14C007D359A /* LifeGuideDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75125ACD14C007D359A /* LifeGuideDetailView.swift */; };
 		9C1DC75C25ACDF94007D359A /* LifeGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75B25ACDF94007D359A /* LifeGuide.swift */; };
@@ -52,7 +52,7 @@
 
 /* Begin PBXFileReference section */
 		9C01CCD925F9D36600E1FE7F /* OffenceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffenceType.swift; sourceTree = "<group>"; };
-		9C01CCDD25FA86A700E1FE7F /* TestView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView1.swift; sourceTree = "<group>"; };
+		9C01CCDD25FA86A700E1FE7F /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		9C044B3C25D5E783000793EC /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		9C1DC75125ACD14C007D359A /* LifeGuideDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuideDetailView.swift; sourceTree = "<group>"; };
 		9C1DC75B25ACDF94007D359A /* LifeGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuide.swift; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		9C01CCDC25FA866800E1FE7F /* TestViews */ = {
 			isa = PBXGroup;
 			children = (
-				9C01CCDD25FA86A700E1FE7F /* TestView1.swift */,
+				9C01CCDD25FA86A700E1FE7F /* PickerView.swift */,
 			);
 			path = TestViews;
 			sourceTree = "<group>";
@@ -179,7 +179,6 @@
 			isa = PBXGroup;
 			children = (
 				9C1DC75B25ACDF94007D359A /* LifeGuide.swift */,
-				9C1DC75F25ACE068007D359A /* LifeGuides.swift */,
 				9CA7117225C7B9B50041436C /* Issue.swift */,
 				9C346AA025CA673500F42AEE /* HexagonParameters.swift */,
 				9CA7117525C7BA750041436C /* Issues.swift */,
@@ -188,6 +187,7 @@
 				9C3C0A0B25F2BD5500ED8A6F /* Severity.swift */,
 				9C01CCD925F9D36600E1FE7F /* OffenceType.swift */,
 				9C3C0A1225F2BFC400ED8A6F /* timesOfViolation.swift */,
+				9C1DC75F25ACE068007D359A /* LifeGuides.swift */,
 				9C3C0A1725F313DB00ED8A6F /* Offence.swift */,
 				9C3C0A1A25F328D900ED8A6F /* Offences.swift */,
 				9C3C0A1D25F4650300ED8A6F /* AssessmentViewModel.swift */,
@@ -341,7 +341,7 @@
 				9C93FFE025CC9C1800A6801A /* GradientBackground.swift in Sources */,
 				9CA7117625C7BA750041436C /* Issues.swift in Sources */,
 				9C346AA425CA68C900F42AEE /* BadgeBackground.swift in Sources */,
-				9C01CCDE25FA86A700E1FE7F /* TestView1.swift in Sources */,
+				9C01CCDE25FA86A700E1FE7F /* PickerView.swift in Sources */,
 				9C3C0A1825F313DB00ED8A6F /* Offence.swift in Sources */,
 				9C526E6025C7BDDA006CB517 /* FAQsDetailView.swift in Sources */,
 			);

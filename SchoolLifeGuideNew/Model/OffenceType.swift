@@ -14,7 +14,8 @@ enum OffenceType: String, CaseIterable {
     case ViolationOfRUA = "IT Responsible Use Agreement Violation"
     case ViolationOfFirePolicies = "Violation of Fire Safety Policies"
     case DormViolations = "Dorm Violation"
-    case Trepassing = "Trepassing"
+    case TrepassingNeighbourHood = "Trepassing Neighbourhood"
+    case TrepassingStudentStaffProperties = "Trespassing on Staff/Student Property"
     case Theft = "Theft"
     case HaveStolenProperty = "Possession/Harbouring Stolen Property"
     case AWOL = "AWOL"
@@ -33,6 +34,7 @@ enum OffenceType: String, CaseIterable {
     case OffCampusDrugUse = "Off Campus Possession/Use (Cannabis)"
     case TraffickingCannabis = "Distribution of Cannabis to Other Students"
     case OtherIllegalDrugs = "Other Illegal Drugs"
+    case CarPolicyViolation = "Contravention of the Car Policy"
     case PersistentFailExpectations = "Inability to Abide by the Expectations of the School"
     
 }
