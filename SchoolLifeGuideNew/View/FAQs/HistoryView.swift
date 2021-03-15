@@ -11,6 +11,7 @@ struct HistoryView: View {
     
     var store: Offences
     @State var delete: [Offence] = []
+    @Binding var showing: Bool
     var body: some View {
         
         Form {
@@ -64,7 +65,7 @@ struct HistoryView: View {
 
 struct HistoryView_Previews: PreviewProvider {
     static var previews: some View {
-        HistoryView(store: testStore)
+        HistoryView(store: testStore, showing: .constant(true))
     }
 }
 
