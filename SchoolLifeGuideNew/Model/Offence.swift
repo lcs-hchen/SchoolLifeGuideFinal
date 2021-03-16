@@ -35,6 +35,7 @@ class Offence: Identifiable, Codable, Hashable {
     var severity: Severity
     var levelOfCompliance: Double
     
+    
     internal init(id: UUID = UUID(), areaOfViolation: String, timesOfViolation: TimesOfViolation, severity: Severity, levelOfCompliance: Double) {
         self.id = id
         self.areaOfViolation = areaOfViolation

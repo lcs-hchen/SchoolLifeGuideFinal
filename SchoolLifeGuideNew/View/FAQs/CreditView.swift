@@ -9,7 +9,16 @@ import SwiftUI
 
 struct CreditView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            GradientBackground().edgesIgnoringSafeArea(.all)
+            VStack {
+                Image("Bullying")
+                Text("Special thanks to Jonty Harris for coming up with the idea of the assessment system.").foregroundColor(.white)
+            }
+            
+               
+        }
+        
     }
 }
 

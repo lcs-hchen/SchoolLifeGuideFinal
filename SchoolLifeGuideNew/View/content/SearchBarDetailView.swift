@@ -102,5 +102,23 @@ struct SearchBarDetailView: View {
 struct SearchBarDetailView_Previews: PreviewProvider {
     static var previews: some View {
         SearchBarDetailView()
+        
     }
 }
+
+func filter(searchText: String, list lifeGuides: [LifeGuide]) -> [LifeGuide] {
+    var lifeGuidesToPresent: [LifeGuide] = []
+    if searchText.isEmpty {
+        return lifeGuides
+    }
+    
+    for lifeGuide in lifeGuides {
+        if lifeGuide.name.contains(searchText) || lifeGuide.description.contains(searchText) {
+            lifeGuidesToPresent.append(lifeGuide)
+        }
+    }
+    print(lifeGuidesToPresent)
+    return lifeGuidesToPresent
+}
+
+
