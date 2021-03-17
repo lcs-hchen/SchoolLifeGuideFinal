@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct LifeGuide: Identifiable {
+struct LifeGuide: Identifiable, Comparable {
     
     let id = UUID()
     var name: String
@@ -16,6 +16,10 @@ struct LifeGuide: Identifiable {
     var imageName: String?
     
     var subTopics: [LifeGuide] = []
+    
+    static func <(lhs: LifeGuide, rhs: LifeGuide) -> Bool {
+           return lhs.name < rhs.name
+       }
     
     func findNavigationTitle() -> String {
         
