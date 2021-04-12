@@ -10,14 +10,11 @@ import Combine
 @main
 struct SchoolLifeGuideNew: App {
     @StateObject private var store = Offences(offences: testOffence)
-    
     var body: some Scene {
         WindowGroup {
-            
             TabView() {
-               
+                
                 NavigationView {
-                    
                     ZStack {
                         GradientBackground()
                         HomeView()
@@ -27,24 +24,17 @@ struct SchoolLifeGuideNew: App {
                     Text("Home")
                 }
                 
-                
-                
                 NavigationView {
-                    
-                    
                     ZStack {
                         GradientBackground()
                         LibraryView()
                     }
-                    
-                    
                 }.tabItem {
                     Image(systemName: "folder.fill")
                     Text("Library")
                 }
                 
                 NavigationView {
-                    
                     ZStack {
                         GradientBackground()
                         FAQsView(store: store)
@@ -54,16 +44,12 @@ struct SchoolLifeGuideNew: App {
                     Text("FAQs")
                 }
                 
-                
-                
                 NavigationView {
-                    
                     ZStack {
                         GradientBackground()
                         SearchBarDetailView()
                     }
                 }.tabItem {
-                    
                     VStack {
                         Image(systemName: "tortoise.fill")
                         Text("Content")
@@ -71,12 +57,6 @@ struct SchoolLifeGuideNew: App {
                     
                     
                 }
-                
-                
-                
-                
-                
-                
                 
             }.onTapGesture(count: 2) {
                 // Double Click code goes here
