@@ -17,31 +17,31 @@ class Offence: Identifiable, Codable, Hashable {
         hasher.combine(id)
         hasher.combine(areaOfViolation)
         hasher.combine(timesOfViolation)
-        hasher.combine(severity)
         hasher.combine(levelOfCompliance)
+        hasher.combine(offenceType)
     }
     
     // Identify what properties should be read to and written from JSON
     enum TaskCodingKeys: CodingKey {
         case areaOfViolation
         case timesOfViolation
-        case severity
         case levelOfCompliance
+        case offenceType
     }
     
     var id = UUID()
     var areaOfViolation: String
+    var offenceType: OffenceType
     var timesOfViolation: TimesOfViolation
-    var severity: Severity
     var levelOfCompliance: Double
     
     
-    internal init(id: UUID = UUID(), areaOfViolation: String, timesOfViolation: TimesOfViolation, severity: Severity, levelOfCompliance: Double) {
+    internal init(id: UUID = UUID(), areaOfViolation: String, offenceType: OffenceType, timesOfViolation: TimesOfViolation, levelOfCompliance: Double) {
         self.id = id
         self.areaOfViolation = areaOfViolation
         self.timesOfViolation = timesOfViolation
-        self.severity = severity
         self.levelOfCompliance = levelOfCompliance
+        self.offenceType = offenceType
     }
     
     required init(from decoder: Decoder) throws {
@@ -49,12 +49,12 @@ class Offence: Identifiable, Codable, Hashable {
         
         // Decode "description" property into an instance of the String type
         self.areaOfViolation = try container.decode(String.self, forKey: .areaOfViolation)
-        // Decode "priority" property into an instance of the TaskPriority type
+        // Decode "TimesOfViolation" property into an instance of the TimesOfViolation type
         self.timesOfViolation = try container.decode(TimesOfViolation.self, forKey: .timesOfViolation)
-        // Decode "completed" property into an instance of the Bool type
-        self.severity = try container.decode(Severity.self, forKey: .severity)
-        //
+        // Decode "levelOfCompliance" property into an instance of the Double type
         self.levelOfCompliance = try container.decode(Double.self, forKey: .levelOfCompliance)
+        // Decode "offenceType" property into an instance of OffenceType type
+        self.offenceType = try container.decode(OffenceType.self, forKey: .offenceType)
     }
     
     func encode(to encoder: Encoder) throws {
@@ -64,16 +64,13 @@ class Offence: Identifiable, Codable, Hashable {
         // Everything is encoded into String types
         try container.encode(areaOfViolation, forKey: .areaOfViolation)
         try container.encode(timesOfViolation.rawValue, forKey: .timesOfViolation)
-        try container.encode(severity.rawValue, forKey: .severity)
         try container.encode(levelOfCompliance, forKey: .levelOfCompliance)
+        try container.encode(offenceType.rawValue, forKey: .offenceType)
         
     }
     
 }
 
-let testOffence = [
-    Offence(areaOfViolation: "testtest", timesOfViolation: TimesOfViolation.First, severity: Severity.High, levelOfCompliance: 90),
-    Offence(areaOfViolation: "testtest", timesOfViolation: TimesOfViolation.First, severity: Severity.High, levelOfCompliance: 90),
-    Offence(areaOfViolation: "testtest", timesOfViolation: TimesOfViolation.First, severity: Severity.High, levelOfCompliance: 90)
+let testOffence: [Offence] = []
 
-]
+

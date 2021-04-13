@@ -6,7 +6,7 @@
 //
 
 import Foundation
-enum OffenceType: String, CaseIterable {
+enum OffenceType: String, CaseIterable, Decodable {
     case InappropriateDress = "Inappropriate Dress"
     case LateForClass = "Late For Class"
     case UnexcusedAbsencesForClass = "Unexcused Absences For Class"

@@ -17,7 +17,7 @@ class AssessmentViewModel: ObservableObject {
 //    @Published var myColor: Color = Color(red: 255, green: 0, blue: 0)
     @Published var textToPresent: String = "aa"
     @Published var violationTimes = TimesOfViolation.First
-    @Published var severity = Severity.Low
+
     
     func getColor() -> Color { // This function just returns a color to where it is called
            switch complianceLevel {
@@ -28,19 +28,7 @@ class AssessmentViewModel: ObservableObject {
            }
        }
     
-    func getIconColor() -> Color {
-        switch severity {
-        case .Low:
-            return Color.green
-        case .Medium:
-            return Color.yellow
-        case .High:
-            return Color.orange
-        case .veryHigh:
-            return Color.red
-        
-        }
-    }
+    
     
     func getAlertMessage() -> String {
         var returnMessage = ""
