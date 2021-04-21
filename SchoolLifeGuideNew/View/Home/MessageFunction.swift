@@ -28,10 +28,14 @@ struct MessageFunction: View {
                     .padding(.top, firstTitleTopPadding)
                     .font(Font.custom("Comic Sans MS", size: titleFontSize))
                     .foregroundColor(.white)
+                    .lineLimit(nil)
+                    .allowsTightening(true)
                 if let secondLine = secondLineTitle {
                     Text(secondLine)
                         .font(Font.custom("Comic Sans MS", size: titleFontSize))
                         .foregroundColor(.white)
+                        .lineLimit(nil)
+                        .allowsTightening(true)
                 }
                 Spacer()
                 Text(description).padding(.bottom,descriptionBottomPadding)
@@ -40,7 +44,7 @@ struct MessageFunction: View {
                     .foregroundColor(.white)
                     
                     .allowsTightening(true)
-                    
+                    .lineLimit(nil)
             }
             
                 

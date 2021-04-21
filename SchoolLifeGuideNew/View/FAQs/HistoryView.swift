@@ -27,7 +27,7 @@ struct HistoryView: View {
                                         Text(String(store.offences.firstIndex(of: offence)!+1)+".")
                                         Spacer()
                                     }
-                                    Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\n\n\nStudent is very forthright about their actions.\n\n\n\n\(accountabilityText)")
+                                    Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is very forthright about their actions.\n\n\(accountabilityText)")
                                 }
                             } else if offence.levelOfCompliance <= 66 {
                                 HStack {
@@ -35,7 +35,7 @@ struct HistoryView: View {
                                         Text(String(store.offences.firstIndex(of: offence)!+1)+".")
                                         Spacer()
                                     }
-                                    Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is willing to cooperate to a degree.\n\n\(accountabilityText)")
+                                    Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is willing to cooperate to a degree.\n\(accountabilityText)")
                                 }
                                
                             } else if offence.levelOfCompliance <= 101 {

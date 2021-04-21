@@ -102,7 +102,7 @@ struct LifeGuide: Identifiable, Comparable {
         case "The Standards Committee":
             return "Standards Committee"
         case "Persistent Inability to Abide by the Expectations of the School":
-            return "Persistent Misbehaviours"
+            return "Persistent Misbehavior"
         case "Closed House Violations":
             return "Closed House"
         case "Inappropriate Visitation in Common/Public Areas":
@@ -171,6 +171,8 @@ struct LifeGuide: Identifiable, Comparable {
             return "Suspension"
         case "Behavioural Policies—Curfew Violations":
             return "Behavioural Policies"
+        case "Values, Standards and Expectations":
+            return "Values"
         default:
             return name
         }

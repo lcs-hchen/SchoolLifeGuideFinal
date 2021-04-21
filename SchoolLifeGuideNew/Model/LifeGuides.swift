@@ -288,7 +288,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
             LifeGuide(name: "Lost and Found", description: """
                 The school is not responsible for lost belongings; however, staff are instructed to move all found items to the designated Lost and Found box in the Day Student area. Valuables such as wallets, watches, keys, etc. are taken to Reception or the School Life office. Items not claimed by the year’s end are given to charity, except Formal and Standard Dress items which are donated to the Replay Shop for resale.
 
-                Because of the residential nature of the school, it is very important to label belongings with the student’s name. When a student notices an item is missing, we ask them to: a) post the details of the lost item on the Edsby ‘Lost and Found’ group; b) check with friends to see if it was borrowed; and c) check the Lost and Found box. If a more thorough search is required, a student should pick up a Missing Item check list form from the Administrative Assistant to School Life. Families are reminded to make sure that their children’s belongings are insured and that they record serial numbers for bicycles, laptops, tablets, etc. The school strongly encourages all students to lock their bicycles at all times. The school will have some “Lost and Found Displays” set up for parents and students on Open House days, such as Fall Fair and Regatta Day. After these display days, the items will be taken to a local charity.
+                Because of the residential nature of the school, it is very important to label belongings with the student’s name. When a student notices an item is missing, we ask them to: \na) post the details of the lost item on the Edsby ‘Lost and Found’ group \nb) check with friends to see if it was borrowed \nc) check the Lost and Found box. \nIf a more thorough search is required, a student should pick up a Missing Item check list form from the Administrative Assistant to School Life. Families are reminded to make sure that their children’s belongings are insured and that they record serial numbers for bicycles, laptops, tablets, etc. The school strongly encourages all students to lock their bicycles at all times. The school will have some “Lost and Found Displays” set up for parents and students on Open House days, such as Fall Fair and Regatta Day. After these display days, the items will be taken to a local charity.
                 """),
             
             
@@ -630,7 +630,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 • That students can’t use school resources or school provided resources for financial gain.
 
                                 • That laptops need to be secured when not in use.
-                                """)
+                                """, imageName: "Responsibility")
                             
                         ]))
         
@@ -650,7 +650,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 • Noise cancelling headphones and other noise cancelling devices are not permitted.
 
                                 • Ceiling coverings/decorations (posters, flags, other fabric hangings) are not permitted. Decorations and coverings must not block the line of sight into a room or to the occupants’ beds in order that a quick visual scan can determine the presence or absence of a student.
-                                """),
+                                """, imageName: "Fire"),
             
                             
                                 LifeGuide(name: "Fire Safety", description: """
@@ -666,7 +666,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                     Behaviour that compromises the safety of members of the community will be addressed by the Head of School and/or Standards Committee.
 
                                     Any situation that causes there to be an “open flame” in or adjacent to any school building is an expellable offence, in accordance with the school’s Zero Tolerance Policy (see Definitions on page 60).
-                                    """),
+                                    """, imageName: "Fire"),
             
                                 
                                 LifeGuide(name: "Visitors to Campus", description: """
@@ -687,36 +687,36 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                     The doors to the academic block and residences are locked at all times. Many of the academic block doors are on a carded access and video safety system. All new staff and students are issued an access card at the beginning of the school year. Students and staff who repeatedly lose their access card may be charged a replacement fee. Cards are not to be shared with others at any time, for any reason.
                                     
                                     The school reserves the right to view video footage and access card data in order to investigate concerns of safety and security.
-                                    """),
+                                    """, imageName: "Visitors"),
             
                                 LifeGuide(name: "Residence Security", description: """
                                     Important documents such as passports should be left with the Head of House. All valuables including large sums of money should be given to and kept by, the Head of House. Each residence has a storage area for student use during the school year. The school does not offer secure storage during the summer months. Residences are permanently locked by a card access system. The school recommends that students purchase a personal lock box prior to their arrival at the school.
-                                    """),
+                                    """, imageName: "Security"),
             
             
                                 LifeGuide(name: "Firearms, Weapons and Hunting Equipment", description: """
                                     Pistols, guns, knives, hunting equipment and other weaponry (or toys as replicas that could be mistaken for weaponry) are NOT permitted on campus. Such equipment is potentially dangerous to both the individual and others in the community. Any equipment found will be confiscated and disposed of by staff. Serious weapon offences will be addressed by the Head of School with the liability of expulsion or through the Standards Committee and may involve the police in accordance with provincial and federal law.
-                                    """),
+                                    """, imageName: "Weapons"),
             
                                 LifeGuide(name: "Contract/Service Workers in Residences", description: """
                                     Wherever possible, all contract/service staff will be escorted to residences by an LCS staff person (usually from the Facilities Department). Heads of Houses will be notified, by voice message or email, in advance of any contract workers coming into the residence. The Facilities Department will determine a schedule with outside services that will be communicated to Heads of Houses so that they may plan accordingly with the students in the house.
-                                    """),
+                                    """, imageName: "ServiceWorker"),
             
             
             
-                                LifeGuide(name: "Bicycle Safety", description: "The Lakefield College School campus is located adjacent to a very busy highway. In accordance with the provincial law, all students under the age of 18 are required to wear a bicycle helmet when riding their bicycles on and off campus. The school abides by and upholds all Ministry of Ontario Transportation laws and guidelines."),
+                                LifeGuide(name: "Bicycle Safety", description: "The Lakefield College School campus is located adjacent to a very busy highway. In accordance with the provincial law, all students under the age of 18 are required to wear a bicycle helmet when riding their bicycles on and off campus. The school abides by and upholds all Ministry of Ontario Transportation laws and guidelines.", imageName: "Bicycle"),
             
-                                LifeGuide(name: "Rollerblade, Longboard and Skateboard Safety", description: "For reasons of safety, rollerblading, longboarding and skateboarding are not permitted on the north roadway (Rashleigh Hill). Students must wear a helmet at all times while rollerblading, skateboarding or longboarding on and off campus. Failure to abide by this school policy or the law will result in the confiscation of the blades or boards, parents will be contacted."),
+                                LifeGuide(name: "Rollerblade, Longboard and Skateboard Safety", description: "For reasons of safety, rollerblading, longboarding and skateboarding are not permitted on the north roadway (Rashleigh Hill). Students must wear a helmet at all times while rollerblading, skateboarding or longboarding on and off campus. Failure to abide by this school policy or the law will result in the confiscation of the blades or boards, parents will be contacted.", imageName: "RollerBlade"),
             
             
-                                LifeGuide(name: "Unpiloted Aerial Vehicles (UAVs), Remote Control Vehicles (RCVs)", description: "Vehicles that require combustible fuel are strictly prohibited. UAVs include but are not limited to; Drones, Remote Controlled (RC) planes and helicopters, cars, etc. Due to the potential for loss or damage, the school strongly discourages students from bringing UAVs and RCVs to campus. Should students, with parental permission, wish to bring their vehicle to campus, they must always ask their Head of House for permission to use the vehicle on or off campus. At all times the student must abide by the rules and legislation set forth by Transport Canada and the Province of Ontario (www.tc.gc.ca/eng/civilaviation/drone-safety.html).")
+                                LifeGuide(name: "Unpiloted Aerial Vehicles (UAVs), Remote Control Vehicles (RCVs)", description: "Vehicles that require combustible fuel are strictly prohibited. UAVs include but are not limited to; Drones, Remote Controlled (RC) planes and helicopters, cars, etc. Due to the potential for loss or damage, the school strongly discourages students from bringing UAVs and RCVs to campus. Should students, with parental permission, wish to bring their vehicle to campus, they must always ask their Head of House for permission to use the vehicle on or off campus. At all times the student must abide by the rules and legislation set forth by Transport Canada and the Province of Ontario (www.tc.gc.ca/eng/civilaviation/drone-safety.html).", imageName: "UAV")
    
                                 
                                 
                                 
                                 ]))
         
-        list.append(LifeGuide(name: "Health and Well-being Services", description: "aaa", imageName: "", subTopics: [
+        list.append(LifeGuide(name: "Health and Well-being Services", description: "aaa", imageName: "Health", subTopics: [
         
         
         
@@ -740,7 +740,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         • If necessary, the Assistant Head: School Life will arrange a meeting with the parents, the student, the Head of House and other relevant staff. Any option or strategy that strays from school policy and is agreeable to all parties must be written and signed by the parents, the student and the school, with copies given to the parents, the student, the Head of House and the Health and Well-being Centre.
                         
                         • Subsequent non-compliance or breach of contract will require the student to go home on a medical leave of absence.
-                        """),
+                        """, imageName: "MedicationUse"),
             
             
                         LifeGuide(name: "Medical Leave of Absence", description: """
@@ -757,7 +757,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             If, in the professional opinion of the medical specialist/family or school physician deems that a student is not capable of writing final exams, that physician will provide written notification to the Director of Health and Well-being, to be forwarded to the Guidance Office. Such notification will be recorded in the student’s Ontario Student Record (OSR) for future reference. In such instances, a student would be required to be at home in the care of his or her parents until the Friday of Closing events. Their final grades would be calculated using their cumulative term mark for the year. Students who are anticipating returning for the next school year will be carefully reviewed in the final staff meeting.
 
                             In extenuating circumstances and in the absence of the Director of Health and Well-being, the Head of School or Assistant Heads of School may require a student to leave campus for medical or health-related reasons.
-                            """),
+                            """, imageName: "MedicalLeave"),
             
                         LifeGuide(name: "Compassionate Leave of Absence", description: """
                             Compassionate Leaves of Absence refer to emergency situations when a student is required to go home for personal family emergencies or crises (such as a death of a family member, close friend, critical medical emergencies to families, etc.).
@@ -765,16 +765,16 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             All Compassionate Leaves of Absence must be approved and arranged through the Health and Well-being Centre or the Assistant Head: School Life’s office. The Assistant Head: School Life or the Director of Health and Well-being will communicate the details of the compassionate leave to the student’s advisor, teachers, Head of House and others as required.
 
                             During a compassionate leave, students will be expected to keep up with only as much school work as they are able to complete. Students will be able to keep track of activities in their classes by using Edsby. Students will not be required to complete tests and assignments that are due during their Compassionate Leave of Absence.
-                            """),
+                            """, imageName: "CompassionateLeave"),
             
                         LifeGuide(name: "Mental Health Care", description: """
                             The school has a counsellor and psychiatrist on staff and offers mental health and guidance support in a variety of ways. Small group and facilitated peer support are also available to all students.
 
                             Social Workers, Counsellors, Doctors and Therapists, are available to the school and appointments are made by referral through the Health and Well-being Centre. The school is also able to assist students who wish to see their own counsellor or therapist through communication technology (Zoom, Skype, Facetime, etc.). In all cases, appointments, private space and travel arrangements can be facilitated through the Health and Well-being Centre.
-                            """),
+                            """, imageName: "MentalHealth"),
             
             
-                        LifeGuide(name: "Medical Jurisdiction", description: "The resolution of any and all disputes arising between a student, parent and school physician or health care worker are governed by and construed in accordance with the laws of the Province of Ontario and the laws of Canada. The Courts of the Province of Ontario shall have exclusive and preferential jurisdiction to entertain any complaint, demand, claim, proceeding or cause of action, whatsoever arising out of any and all treatment provided by the school’s medical staff, including but not limited to; contracted physicians, staff nurses, counsellors, and psychiatrists, or any other agent, delegate or staff employee involved in the care of the student.")
+                        LifeGuide(name: "Medical Jurisdiction", description: "The resolution of any and all disputes arising between a student, parent and school physician or health care worker are governed by and construed in accordance with the laws of the Province of Ontario and the laws of Canada. The Courts of the Province of Ontario shall have exclusive and preferential jurisdiction to entertain any complaint, demand, claim, proceeding or cause of action, whatsoever arising out of any and all treatment provided by the school’s medical staff, including but not limited to; contracted physicians, staff nurses, counsellors, and psychiatrists, or any other agent, delegate or staff employee involved in the care of the student.", imageName: "Jurisdiction")
         
         
         
@@ -805,7 +805,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         • The school expects parents/guardians to be supportive of the school’s policies and encourages parental involvement at all levels.
 
                         • Continued refusal to uphold school policies will jeopardize the student’s future at the school.
-                        """, imageName: "", subTopics: [
+                        """, imageName: "Values", subTopics: [
                         
                         
                                 LifeGuide(name: "Student Leadership", description: """
@@ -813,7 +813,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                     Lakefield College School believes that the complexities of leadership are best learned through experience. A primary goal of the educational experience at LCS is to give each student, in his or her graduating year, the opportunity to exert an influence on the quality of student life at the school.
 
                                     Each member of the graduating class is given the opportunity to offer leadership to a specific area of School Life. Students are guided by a faculty mentor and reports on their work are included in each of the senior students’ three report cards.
-                                    """),
+                                    """, imageName: "Leadership"),
                             
                             
                                 LifeGuide(name: "Grove Senior Status (GSS)", description: """
@@ -845,7 +845,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                     • permitted one sleep-in per month
 
                                     • assume Senior-In-Charge responsibilities
-                                    """),
+                                    """, imageName: "Senior"),
                             
                             
                             
@@ -870,13 +870,13 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                     Information is gathered and recommendations are forwarded to the Head of School after discussions have ended. The Standards Committee is committed to due process, consistency and fairness for all students. Students are held accountable for their actions. While it is not always popular to do so, the Senior students must be diligent about maintaining expected standards. Attitudes of the Seniors toward discipline often reflect the effectiveness of the graduating class as a whole in the eyes of the other students and of the staff.
 
                                     The Standards process is designed to allow the student to gain an awareness of their behaviour and to take responsibility for their actions. For further information on the Standards process, please refer to page 57.
-                                    """),
+                                    """, imageName: "Committee"),
                             
                             
                             
-                            LifeGuide(name: "Persistent Inability to Abide by the Expectations of the School", description: "The school reserves the right to hold a student accountable through the standards process for actions and attitudes that persistently contravene the values of the school. These may include, but are not limited to defiance, deceit, chronic lateness, unexcused absences, disrespect to staff members, etc. The Standards Committee may hold a student accountable by a range of sanctions from on campus discipline to suspension. Subsequent offences of Persistent Inability to Abide by the Expectations of the School may be addressed by the Head of School with a student being liable for expulsion."),
+                            LifeGuide(name: "Persistent Inability to Abide by the Expectations of the School", description: "The school reserves the right to hold a student accountable through the standards process for actions and attitudes that persistently contravene the values of the school. These may include, but are not limited to defiance, deceit, chronic lateness, unexcused absences, disrespect to staff members, etc. The Standards Committee may hold a student accountable by a range of sanctions from on campus discipline to suspension. Subsequent offences of Persistent Inability to Abide by the Expectations of the School may be addressed by the Head of School with a student being liable for expulsion.", imageName: "PersistentMisbehaviour"),
                             
-                            LifeGuide(name: "Gambling", description: "LCS believes that gambling compromises the high quality of relationships within our community. Therefore, gambling in any form is not permitted by students. Students taking advantage of other students by gambling, or attempting to coerce other students into gambling, will be considered in violation of the school’s harassment policy and subject to any sanctions listed in that policy."),
+                            LifeGuide(name: "Gambling", description: "LCS believes that gambling compromises the high quality of relationships within our community. Therefore, gambling in any form is not permitted by students. Students taking advantage of other students by gambling, or attempting to coerce other students into gambling, will be considered in violation of the school’s harassment policy and subject to any sanctions listed in that policy.", imageName: "NoGambling"),
                             
                             
                             LifeGuide(name: "Closed House Violations", description: """
@@ -886,7 +886,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 • Subsequent Offences: a student will lose residence visitation or locker room privileges for a month.
 
                                 Any student who persistently violates Closed House expectations will be required to attend a meeting of the Standards Committee. A Head of House may close their residence or locker room at any time in order to address certain issues in the residence or locker room.
-                                """),
+                                """, imageName: "ClosedHouse"),
                             
                             LifeGuide(name: "Dorm Violations", description: """
                                 All residences are closed to visitors except during specified Open House hours. All visitation must be respectful and appropriate at all times. Inappropriate visitation is termed a “Dorm Violation” and the accountability is as follows:
@@ -897,7 +897,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
 
                                 •Subsequent Offences: The students will be required to attend a meeting of the Standards Committee for contravention of their Directed Probation status*. Parents are contacted.
 
-                                """),
+                                """, imageName: ""),
                             
                             LifeGuide(name: "Inappropriate Visitation in Common/Public Areas", description: """
                                 Students are expected to interact with one another in an appropriate and respectful manner at all times. Inappropriate public displays of affection compromise the sense of comfort of others who share the school’s public space.
@@ -1121,7 +1121,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 When sexual misconduct is disclosed, the confidentiality of all parties must be protected. Victims must know that their right to privacy will be respected. In addition, the rights of the accused person must be protected. The public accusation of sexual misconduct prior to appropriate adjudication is a violation of privacy and of LCS community standards. LCS will not release names of those involved in any incident of sexual misconduct except as required to conduct the investigation or by law.
 
                                 Confidentiality cannot be assured, however, if an individual is at risk of self-harm, or of harming another. In such circumstances, information will only be shared as necessary to prevent harm.
-                                """),
+                                """, imageName: "Confidentiality"),
                             
                             LifeGuide(name: "What is Parental Harassment?", description: """
                                 Parental harassment is harassment by a parent directed toward a staff member. In a school context it is defined as the use by parents of confrontational tactics which attack a teacher or which have the consequences of reducing a teacher’s ability to conduct himself or herself effectively within the school and which harm the teacher’s sense of well-being or professional reputation. The types of behavior which constitute parental harassment include, but are not limited to:
@@ -1149,7 +1149,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 Subsequent incidents may result in the parent’s child being required to leave the school.
 
                                 Serious incidents of parental harassment may result in that parent’s child being immediately required to leave the school.
-                                """)
+                                """, imageName: "IncidentReporting")
                         
                         
                         
@@ -1448,7 +1448,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
         list.append(LifeGuide(name: "The Standards Committee", description: """
                         Prior to meeting the student, the student’s Head of House will have reported the infraction/ violation to the Assistant Head: School Life. The student meets with, or provides a report to, the Assistant Head: School Life in order for the school to receive more information and to prepare the student for the potential meeting of a Standards Committee. The Assistant Head: School Life may call an “advisory” meeting of a variety of staff and students to help in a discussion on whether or not a standards meeting is required.
                         At any time throughout the process the student may request the support of the Health and Well-being Centre, or counselling staff.
-                        """, imageName: "", subTopics: [
+                        """, imageName: "Committee", subTopics: [
                         
                         LifeGuide(name: "The Standards Committee Process", description: """
                             The following steps outline the Standards Committee process at Lakefield College School:
@@ -1494,7 +1494,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 8. The Seniors-in-Charge of Standards or the Assistant Head: School Life may inform the school community of the incident and the accountability in a brief statement in Chapel;
 
                                 9. All disciplinary action will be recorded in the student’s personal file and kept in the Head of School’s office. Expulsions are required to be recorded in the student’s Ontario Student Record (OSR) and may influence admission to university.
-                                """),
+                                """, imageName: "Committee"),
                             
                             
                             LifeGuide(name: "Required to Leave the School (Expulsion)", description: "If a student has been asked to leave the school, they are not permitted to attend or participate in any school sanctioned events for the duration of the school year. School-sanctioned events include all dances (including Formal), community events sponsored by LCS, Regatta Day, Closing Ceremonies and the Closing Reception. If a student chooses to attend any of these functions, the school reserves the right to notify the police of the trespassing and withhold the student’s exams, report cards and transcript."),
@@ -1509,20 +1509,20 @@ On Clean Casual days, students make a donation to a school-selected charity in r
         
             LifeGuide(name: "AWOL", description: "Absent without leave – a student who leaves campus without permission.", imageName: "AWOL"),
             
-            LifeGuide(name: "Dawn to Dusk (7:30 a.m. to 7:00 p.m.)", description: "Confined to campus for the day, 7:30 a.m. breakfast sign-in, wearing classroom dress, not permitted to return to residence until end of school day, confined to room at 7:00 p.m., no visitor privileges. If on a Saturday, sign in to the dining hall at 9:00 a.m., Saturday Study and confined to residence for the remainder of the day. If on a Sunday, sign in to the dining hall at 10:30 a.m. and confined to residence for the remainder of the day."),
+            LifeGuide(name: "Dawn to Dusk (7:30 a.m. to 7:00 p.m.)", description: "Confined to campus for the day, 7:30 a.m. breakfast sign-in, wearing classroom dress, not permitted to return to residence until end of school day, confined to room at 7:00 p.m., no visitor privileges. If on a Saturday, sign in to the dining hall at 9:00 a.m., Saturday Study and confined to residence for the remainder of the day. If on a Sunday, sign in to the dining hall at 10:30 a.m. and confined to residence for the remainder of the day.", imageName: "DawnToDusk"),
             
-            LifeGuide(name: "Education/Counselling", description: "A student may be referred to a counsellor. The counsellor will interview a student, provide accurate and up-to-date education, counsel as necessary and determine if additional support i.e. longer-term therapy, is recommended. The counsellor will act as an information resource on substance use/abuse, assist in the implementation of the preventive education program, provide support to any student and particularly to students identified “at risk”, and liaise with community agencies."),
+            LifeGuide(name: "Education/Counselling", description: "A student may be referred to a counsellor. The counsellor will interview a student, provide accurate and up-to-date education, counsel as necessary and determine if additional support i.e. longer-term therapy, is recommended. The counsellor will act as an information resource on substance use/abuse, assist in the implementation of the preventive education program, provide support to any student and particularly to students identified “at risk”, and liaise with community agencies.", imageName: "Counselling"),
             
-            LifeGuide(name: "Gating", description: "Confined to campus, confined to room at 7:00 p.m., no visitation privileges. Smartphones, PEDs, etc. may be confiscated where and when appropriate as discerned by residential staff. If a student is gated on a weekend, they are required to serve Saturday Study."),
+            LifeGuide(name: "Gating", description: "Confined to campus, confined to room at 7:00 p.m., no visitation privileges. Smartphones, PEDs, etc. may be confiscated where and when appropriate as discerned by residential staff. If a student is gated on a weekend, they are required to serve Saturday Study.", imageName: "Gating"),
             
             
-            LifeGuide(name: "Host Parent", description: "A responsible adult at least 21 years of age who assumes the care of and responsibility for the student(s) staying in their home."),
+            LifeGuide(name: "Host Parent", description: "A responsible adult at least 21 years of age who assumes the care of and responsibility for the student(s) staying in their home.", imageName: "HostParent"),
             
-            LifeGuide(name: "In loco parentis", description: "With the exception of school holidays (including long weekends and breaks when the school dissolves in loco parentis) and parent authorized overnight leaves, the students are considered to be under the care and authority of the school. A student is considered in loco parentis when they are in the care of the school; on school trips and school contracted transportation."),
+            LifeGuide(name: "In loco parentis", description: "With the exception of school holidays (including long weekends and breaks when the school dissolves in loco parentis) and parent authorized overnight leaves, the students are considered to be under the care and authority of the school. A student is considered in loco parentis when they are in the care of the school; on school trips and school contracted transportation.", imageName: "InLocoParentis"),
             
-            LifeGuide(name: "Off-Campus", description: "A student is considered off campus when they are on leave to the Village of Lakefield or Peterborough while the school is still in loco parentis."),
+            LifeGuide(name: "Off-Campus", description: "A student is considered off campus when they are on leave to the Village of Lakefield or Peterborough while the school is still in loco parentis.", imageName: "Off-Campus"),
             
-            LifeGuide(name: "On-Campus", description: "A student is considered ‘on campus’ at all times when they are physically on school property, on a school sanctioned and supervised trip and when using school contracted transportation."),
+            LifeGuide(name: "On-Campus", description: "A student is considered ‘on campus’ at all times when they are physically on school property, on a school sanctioned and supervised trip and when using school contracted transportation.", imageName: "On-Campus"),
             
             LifeGuide(name: "On-Campus Discipline", description: """
                 This may include Gatings (see definition below), regular check- ins with the Head of House, 7:30 a.m. breakfast sign-in and 7:00 p.m. confinement to the house for a specified amount of time and/or other accountability as discerned by residential staff.
@@ -1530,7 +1530,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                 • 7:30 a.m.: Breakfast sign-in, wearing classroom dress, not permitted to return to residence.
 
                 • 7:00 p.m.: In residence at 7:00 p.m. for the duration of the evening, confined to room, no visitor privileges.
-                """),
+                """, imageName: "Gating"),
             
             LifeGuide(name: "Official Warning", description: """
                 A student may be issued an ‘official warning’ for behaviour that contravenes the school’s values, standards and expectations but are not deemed severe enough to require a meeting of the Standards Committee.
@@ -1538,10 +1538,10 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                 a. A student who contravenes the official warning status will be required to attend a meeting of the Standards Committee.
 
                 b. A student who receives more than two (2) Official Warnings will be placed on Directed Probation for Persistent Inability to Abide by the Expectations of the School.
-                """),
+                """, warning: "Warning"),
             
             
-            LifeGuide(name: "Parley", description: "A conversation that discloses a potential breach of school standards with the understanding that there will not be any disciplinary action taken. A parley can be requested by a student who wishes to have a supportive conversation for themselves or a friend who may be in need of help. A parley will be granted to any student who has not yet been caught contravening a school policy and most commonly refers to those instances which involve the use of tobacco, tobacco like products, ENDS, alcohol, cannabis or other drugs. In all instances when a parley is requested, confidentiality will be upheld and sanctuary from discipline will be invoked. A supportive care plan will be created and required to be followed. If the terms of a parley are breached the student will be held accountable through the school’s standards process."),
+            LifeGuide(name: "Parley", description: "A conversation that discloses a potential breach of school standards with the understanding that there will not be any disciplinary action taken. A parley can be requested by a student who wishes to have a supportive conversation for themselves or a friend who may be in need of help. A parley will be granted to any student who has not yet been caught contravening a school policy and most commonly refers to those instances which involve the use of tobacco, tobacco like products, ENDS, alcohol, cannabis or other drugs. In all instances when a parley is requested, confidentiality will be upheld and sanctuary from discipline will be invoked. A supportive care plan will be created and required to be followed. If the terms of a parley are breached the student will be held accountable through the school’s standards process.", imageName: "Parley"),
             
             
             LifeGuide(name: "Probations", description: """
@@ -1561,14 +1561,14 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                 A Directed or General Probation may be applied to any behaviour that contravenes the standards or values of the LCS community.
 
                 NB: Warning and Probationary statuses which are issued in the spring term will carry-over into the next school year. If no subsequent infractions occur, the probationary status will be removed at the end of the calendar year, December 31.
-                """),
+                """, imageName: "Probation"),
             
-            LifeGuide(name: "Reaffirmation of Commitment (Suspension)", description: "A student is required to go home to reaffirm his/ her commitment to the values of the school. While at home, a student should revisit their understanding of the Grove Commitment and discern whether or not they can abide by the values, standards and expectations of the school community. The length of time the student is at home is established at the discretion of the Standards Committee. Normally, periods of reaffirmation range from three (3) to five (5) school days."),
+            LifeGuide(name: "Reaffirmation of Commitment (Suspension)", description: "A student is required to go home to reaffirm his/ her commitment to the values of the school. While at home, a student should revisit their understanding of the Grove Commitment and discern whether or not they can abide by the values, standards and expectations of the school community. The length of time the student is at home is established at the discretion of the Standards Committee. Normally, periods of reaffirmation range from three (3) to five (5) school days.", imageName: "Commitment"),
             
             
-            LifeGuide(name: "Sign-Ins", description: "Sign a note on Head of House’s office door on the hour every hour."),
+            LifeGuide(name: "Sign-Ins", description: "Sign a note on Head of House’s office door on the hour every hour.", imageName: "SignIn"),
             
-            LifeGuide(name: "Standards Committee", description: "The Standards Committee is comprised of any member of the following: Assistant Head: School Life, Head of House, Co-Head Students, Grade Representatives, Student Head of House, Student’s Advisor, Seniors-In-Charge of Standards and Seniors-In-Charge of School Life. The Committee meets to act upon serious breaches of school standards and expectations."),
+            LifeGuide(name: "Standards Committee", description: "The Standards Committee is comprised of any member of the following: Assistant Head: School Life, Head of House, Co-Head Students, Grade Representatives, Student Head of House, Student’s Advisor, Seniors-In-Charge of Standards and Seniors-In-Charge of School Life. The Committee meets to act upon serious breaches of school standards and expectations.", imageName: "Committee"),
             
             LifeGuide(name: "Zero Tolerance Policy", description: "Zero Tolerance Policy (in relation to smoking in or adjacent to a residence or building, creating an open flame in or adjacent (in accordance with Smoke-Free Ontario Act, within 9 metre radius) to a residence or building and the trafficking of illegal drugs): Zero Tolerance is a policy that requires a student’s immediate expulsion from the school.", imageName: "ZeroTolerance")
         

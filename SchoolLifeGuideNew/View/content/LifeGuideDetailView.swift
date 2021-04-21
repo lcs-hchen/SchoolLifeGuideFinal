@@ -47,6 +47,7 @@ struct LifeGuideDetailView: View {
                     
                     Text(lifeGuide.description).padding([.leading, .bottom, .trailing])
                         .fixedSize(horizontal: false, vertical: true).foregroundColor(.white)
+                        .lineSpacing(12.0)
                     
                     
                     // If there are any related things, show them
