@@ -55,7 +55,7 @@ struct AssessmentView: View {
                     Button("Get Result") {
                         accountabilityText = viewModel.getAlertMessage()
                         showAlert = true
-                        store.offences.append(Offence(areaOfViolation: viewModel.description, offenceType: viewModel.offenceType, timesOfViolation: viewModel.violationTimes, levelOfCompliance: viewModel.complianceLevel))
+                        store.offences.append(Offence(areaOfViolation: viewModel.description, offenceType: viewModel.theChosenOffence, timesOfViolation: viewModel.violationTimes, levelOfCompliance: viewModel.complianceLevel))
                         
                     }.alert(isPresented: $showAlert) {
                         Alert(title: Text("Accountability"), message:   Text(accountabilityText), dismissButton: .default(Text("Cancel")))

@@ -61,7 +61,7 @@ struct LifeGuideDetailView: View {
                                 NavigationLink(destination: LifeGuideDetailView(lifeGuide: thing)) {
                                     
                                     HStack {
-                                        if let imageName = thing.imageName {
+                                        if let imageName = thing.systemImageName {
                                             Image(systemName: imageName)
                                         }
                                         
@@ -89,6 +89,7 @@ struct LifeGuideDetailView: View {
                             .padding(.horizontal)
                             .foregroundColor(.white)
                             .fixedSize(horizontal: false, vertical: true)
+                            .lineSpacing(12.0)
                     }
                     
                     

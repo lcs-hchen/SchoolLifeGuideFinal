@@ -13,9 +13,9 @@ import Foundation
 struct LifeGuides {
     
     var list: [LifeGuide] = []
-    static var example = LifeGuide(name: "test 1", description: "This is test 1 content", warning: "1 is dangerous", imageName: "system1", subTopics: [
+    static var example = LifeGuide(name: "test 1", description: "", imageName: "system1", subTopics: [
         
-        LifeGuide(name: "sub 1", description: "This is sub 1 content", warning: "sub 1 is dangerous", imageName: "SchoolDailySchedule")
+        LifeGuide(name: "sub 1", description: "This is sub 1 content", imageName: "SchoolDailySchedule")
         
     ])
     
@@ -23,9 +23,9 @@ struct LifeGuides {
     
     init() {
         
-        list.append(LifeGuide(name: "The School Program", description: "Daily Schedule", warning: "1 is dangerous", imageName: "SchoolProgramIcon", subTopics: [
+        list.append(LifeGuide(name: "The School Program", description: "Daily Schedule", imageName: "SchoolProgramIcon", subTopics: [
             
-            LifeGuide(name: "Daily Schedule", description: "* Breakfast — Students must sign in before the following times (no entry into the Dining Hall after 8:25 a.m.):\n\nMonday, Tuesday, Thursday, Friday:\n     Grades 9 and 10 — before 8:00 a.m.\n     Grade 11 — before 8:10 a.m. \n     Grade 12 — before 8:20 a.m.\n\nWednesdays & Saturdays:\n     Grades 9 and 10 — before 9:10 a.m.\n     Grades 11 and 12 — before 9:30 a.m.\n\n**Grade 12 students may study in their residence or in the library with permission. All students must obtain permission from their respective residential staff on duty in order to study in another residence. If on campus during study, day students must remain in the library. Day students may study in a residence only if permission has been granted by the residential staff on duty in that residence. Friday Study ends at 9:00 p.m. Day students should be off campus by 8:00 p.m. on Sundays.\n\n† The Classroom block is cleared and becomes out of bounds on 9:45 p.m. on weekdays, 7:00 p.m. on Saturday evenings and 8:00 p.m. Sunday evenings.\n\n†† Grade 12 students who have had leave and returned to campus prior to 12:00 a.m. must check in with their residential staff on duty immediately upon their return to campus.", warning: "sub 1 is dangerous", imageName: "SchoolDailySchedule"),
+            LifeGuide(name: "Daily Schedule", description: "* Breakfast — Students must sign in before the following times (no entry into the Dining Hall after 8:25 a.m.):\n\nMonday, Tuesday, Thursday, Friday:\n     Grades 9 and 10 — before 8:00 a.m.\n     Grade 11 — before 8:10 a.m. \n     Grade 12 — before 8:20 a.m.\n\nWednesdays & Saturdays:\n     Grades 9 and 10 — before 9:10 a.m.\n     Grades 11 and 12 — before 9:30 a.m.\n\n**Grade 12 students may study in their residence or in the library with permission. All students must obtain permission from their respective residential staff on duty in order to study in another residence. If on campus during study, day students must remain in the library. Day students may study in a residence only if permission has been granted by the residential staff on duty in that residence. Friday Study ends at 9:00 p.m. Day students should be off campus by 8:00 p.m. on Sundays.\n\n† The Classroom block is cleared and becomes out of bounds on 9:45 p.m. on weekdays, 7:00 p.m. on Saturday evenings and 8:00 p.m. Sunday evenings.\n\n†† Grade 12 students who have had leave and returned to campus prior to 12:00 a.m. must check in with their residential staff on duty immediately upon their return to campus.", imageName: "SchoolDailySchedule"),
             
             
             LifeGuide(name: "Chapel", description: "The Chapel is a very special part of The Grove. The Chapel program is led by the Seniors-in-Charge of Chapel and the Director of Spiritual Wellness and Diversity. Chapel attendance is mandatory for all students. Graduating students may be granted one sleep-in per week, if they have a spare and at the discretion of their Head of House. There are several special Chapels for all students to celebrate certain occasions. Students should feel free to ask the Director of Spiritual Wellness and Diversity to help arrange for their participation in other worship settings of their choice in the local area.\nThe school maintains its Anglican affiliation and celebrates certain Christian festivals during the school year. These festivals are presided over by the Anglican school priest.", imageName: "Chapel"),
@@ -229,13 +229,13 @@ On Clean Casual days, students make a donation to a school-selected charity in r
 
 ]))
     
-        list.append(LifeGuide(name: "Student Life", description: "This is test 4 content", warning: "4 is dangerous", imageName: "LakefieldSigil", subTopics: [
+        list.append(LifeGuide(name: "Student Life", description: "", imageName: "LakefieldSigil", subTopics: [
         
             LifeGuide(name: "Dining Hall", description: """
                 The Dining Hall may be open for student and staff use during the day and evening.
                 During meal time hours (see below), the Dining Hall is a ‘tech free’ area, which means that smart phones, hand held devices, computers and tablets, etc. are not permitted.
                 All meals are cafeteria style. On Mondays, Wednesdays and Thursdays students are offered one entrée; on the other days, they are offered two. In addition, there is a healthy choices bar, deli bar, soup and a variety of desserts and fruits. A fruit cart is located in the Dining Hall foyer and is always open to students. A vegetarian option is always available.
-                The food service operation is managed by Aramark Campus Services. The Seniors-in-Charge (SICs) of Dining Hall chair a committee of students from all grades. This committee meets with the Dining Hall staff regularly to discuss all aspects of the meals and any concerns that may have been brought to their attention by classmates. Dietary questions or concerns can also be addressed to dietitian@ aramark.ca.
+                The food service operation is managed by Aramark Campus Services. The Seniors-in-Charge (SICs) of Dining Hall chair a committee of students from all grades. This committee meets with the Dining Hall staff regularly to discuss all aspects of the meals and any concerns that may have been brought to their attention by classmates. Dietary questiorens or concerns can also be addressed to dietitian@ aramark.ca.
                 Dining Hall meal hours are as follows:
 
                                     MON., TUES., THURS., FRI
@@ -411,27 +411,27 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         A 48-hour advance notice cancellation policy (no charge) applies.
                         """, imageName: "LowerCampusPhoto", subTopics: [
                         
-                        LifeGuide(name: "Rooms", description: "A student’s room should be neat and presentable at all times. Sunday evenings are reserved for cleaning rooms and preparing for the week ahead. For fire safety and health reasons, all students must follow basic guidelines and expectations to ensure their safety and remain in accordance with fire and safety codes. Residences and rooms are checked regularly by the housekeeping staff, Heads of House, Associate Faculty and the Director of Facilities. Students are asked to take responsibility for their well-being by following the health and safety guidelines listed below.", imageName: "house.fill"),
+                        LifeGuide(name: "Rooms", description: "A student’s room should be neat and presentable at all times. Sunday evenings are reserved for cleaning rooms and preparing for the week ahead. For fire safety and health reasons, all students must follow basic guidelines and expectations to ensure their safety and remain in accordance with fire and safety codes. Residences and rooms are checked regularly by the housekeeping staff, Heads of House, Associate Faculty and the Director of Facilities. Students are asked to take responsibility for their well-being by following the health and safety guidelines listed below.", systemImageName: "house.fill"),
                             
-                        LifeGuide(name: "Pets", description: "Due to Health and Safety standards, boarding students are not permitted to have any form of pets, including fish, in their rooms.", imageName: "tortoise.fill"),
-                            
-                        
-                        LifeGuide(name: "Furniture", description: "The arrangement of furniture in all dorm rooms must meet Health and Safety and Fire Code standards (see page 32). Furniture or student belongings must not block the exit or entrance into rooms. It is of critical importance that students are able to exit their rooms quickly and safely in case of an emergency. We strongly discourage students from bringing extra furniture into their dorm rooms. Many of the residence rooms are designed to accommodate only the existing furniture and most rooms are not big enough to safely contain more furniture than is provided by the school.", imageName: "bed.double.fill"),
+                        LifeGuide(name: "Pets", description: "Due to Health and Safety standards, boarding students are not permitted to have any form of pets, including fish, in their rooms.", systemImageName: "tortoise.fill"),
                             
                         
+                        LifeGuide(name: "Furniture", description: "The arrangement of furniture in all dorm rooms must meet Health and Safety and Fire Code standards (see page 32). Furniture or student belongings must not block the exit or entrance into rooms. It is of critical importance that students are able to exit their rooms quickly and safely in case of an emergency. We strongly discourage students from bringing extra furniture into their dorm rooms. Many of the residence rooms are designed to accommodate only the existing furniture and most rooms are not big enough to safely contain more furniture than is provided by the school.", systemImageName: "bed.double.fill"),
                             
-                        LifeGuide(name: "Appliances, Gaming Computers and Other Electronics", description: "Cooking and heating appliances, televisions, DVD players, monitors, gaming systems, which includes but is not limited to gaming computers, monitors, handheld devices, consoles, projectors, kettles and irons are not permitted in residence rooms. All electrical appliances, including fridges, must be CSA- approved (see page 32).", imageName: "gamecontroller.fill"),
+                        
+                            
+                        LifeGuide(name: "Appliances, Gaming Computers and Other Electronics", description: "Cooking and heating appliances, televisions, DVD players, monitors, gaming systems, which includes but is not limited to gaming computers, monitors, handheld devices, consoles, projectors, kettles and irons are not permitted in residence rooms. All electrical appliances, including fridges, must be CSA- approved (see page 32).", systemImageName: "gamecontroller.fill"),
                             
                             
                             
-                        LifeGuide(name: "Decoration", description: "Students often wish to decorate their rooms with posters. The subject matter of posters must be tasteful in content and appearance, support the values of the school and uphold basic human dignity and respect. Beer, liquor and wine bottles are not considered suitable decorations in rooms.", imageName: "paintbrush.fill"),
+                        LifeGuide(name: "Decoration", description: "Students often wish to decorate their rooms with posters. The subject matter of posters must be tasteful in content and appearance, support the values of the school and uphold basic human dignity and respect. Beer, liquor and wine bottles are not considered suitable decorations in rooms.", systemImageName: "paintbrush.fill"),
                             
                             
-                        LifeGuide(name: "Laundry and Dry-Cleaning Service", description: "Laundry service (through Aramark Campus Services) is provided on-site; the cost is included in the school fees. The laundry is picked up weekly, labelled, washed, dried and folded before being returned within two days. Students are asked to ensure that all their items are labelled. Expensive and special care clothing should be sent to a local dry-cleaning service as Lakefield College School cannot be held responsible for loss or damage. There is a dry-cleaner within walking distance from the campus. Coin-operated washers and dryers are available in the residences and students are able to use the school’s laundromat in the classroom block at no charge.", imageName: "macwindow"),
+                        LifeGuide(name: "Laundry and Dry-Cleaning Service", description: "Laundry service (through Aramark Campus Services) is provided on-site; the cost is included in the school fees. The laundry is picked up weekly, labelled, washed, dried and folded before being returned within two days. Students are asked to ensure that all their items are labelled. Expensive and special care clothing should be sent to a local dry-cleaning service as Lakefield College School cannot be held responsible for loss or damage. There is a dry-cleaner within walking distance from the campus. Coin-operated washers and dryers are available in the residences and students are able to use the school’s laundromat in the classroom block at no charge.", systemImageName: "macwindow"),
                         
                         
                         
-                        LifeGuide(name: "Mail", description: "Boarding student mail is sorted by the school receptionist and delivered to them by their residential staff members. For larger packages, students will receive an email from the school receptionist informing them that they have received a package and it is at reception for retrieval.", imageName: "envelope.fill"),
+                        LifeGuide(name: "Mail", description: "Boarding student mail is sorted by the school receptionist and delivered to them by their residential staff members. For larger packages, students will receive an email from the school receptionist informing them that they have received a package and it is at reception for retrieval.", systemImageName: "envelope.fill"),
                             
                             
                             
@@ -441,17 +441,17 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             The Royal Bank, 705.652.6713
 
                             The Canadian Imperial Bank of Commerce, 705.652.3311
-                            """, imageName: "dollarsign.circle.fill"),
+                            """, systemImageName: "dollarsign.circle.fill"),
                             
                             
                         LifeGuide(name: "In-House Standards and Accountability", description: """
                             Heads of Houses, Associate Faculty and Senior Students will uphold the school’s standards within the House for the following: dress, lateness for meals, leave, study, Chapel, deportment and room cleanliness.
 
                             Faculty, Teachers on Duty (TOD) and graduating seniors are responsible for maintaining acceptable standards of behaviour and dress during the day.
-                            """, imageName: "exclamationmark.triangle.fill"),
+                            """, systemImageName: "exclamationmark.triangle.fill"),
                             
                             
-                        LifeGuide(name: "Saturday Study", description: "Students may be placed into Saturday Study (supervised study from 1:00 p.m. to 3:00 p.m.) by a student’s Head of House, Advisor, or the Assistant Head: School Life for academic concerns or behaviours which persistently compromise community standards and expectations, including but not limited to, continued lateness, repeatedly missing Chapel, etc. Students who are gated (see Definitions on page 60) over a weekend are required to serve Saturday Study.", imageName: "studentdesk"),
+                        LifeGuide(name: "Saturday Study", description: "Students may be placed into Saturday Study (supervised study from 1:00 p.m. to 3:00 p.m.) by a student’s Head of House, Advisor, or the Assistant Head: School Life for academic concerns or behaviours which persistently compromise community standards and expectations, including but not limited to, continued lateness, repeatedly missing Chapel, etc. Students who are gated (see Definitions on page 60) over a weekend are required to serve Saturday Study.", systemImageName: "studentdesk"),
                             
                             
                             
@@ -469,29 +469,29 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             Students are required to request permission from their Head of House or Associate Faculty for “Leave to Lakefield.”
                             
                             Leave to the Village of Lakefield is restricted to the downtown area of the village. Students who cross the bridge without permission will be considered ‘absent without leave’ (AWOL).
-                            """, imageName: "location.circle"),
+                            """, systemImageName: "location.circle"),
                             
                         
                         LifeGuide(name: "Weekday Dinner Leave", description: """
                             Graduating students may request one evening dinner leave per week. They must check back in with the Head of House or Associate Faculty in person as soon as they return to campus and not later than 10:00 p.m.
 
                             On special (and very rare) occasions, Grade 9 to 11 students may request dinner leave from their Head of House. They must check back in with the Head of House or Associate Faculty in person as soon as they return to campus and not later than 8:00 p.m.
-                            """,imageName: "tray.full.fill"),
+                            """,systemImageName: "tray.full.fill"),
                             
                         
-                        LifeGuide(name: "Weekday Overnight Leave", description: "Overnight weekday leave is not permitted unless there are extenuating circumstances and the student will be with his/her parent(s). Such permission must be cleared with the Head of House, in consultation with the Assistant Head: School Life.", imageName: "moon.zzz.fill"),
+                        LifeGuide(name: "Weekday Overnight Leave", description: "Overnight weekday leave is not permitted unless there are extenuating circumstances and the student will be with his/her parent(s). Such permission must be cleared with the Head of House, in consultation with the Assistant Head: School Life.", systemImageName: "moon.zzz.fill"),
                             
                         LifeGuide(name: "Saturday—Daytime Leave to Lakefield & Peterborough", description: """
                             Saturday mornings are considered academic times and, as such, students are not permitted to have leave until classes end. On Saturday afternoons, students may go to Lakefield or Peterborough between 1:00 - 5:30 p.m. provided that they have no academic, co-curricular commitments and that they are not gated to campus.
 
                             Students are required to request permission from their Head of House or Associate Faculty for “Daytime Leave.”
-                            """, imageName: "car.fill"),
+                            """, systemImageName: "car.fill"),
                             
                         LifeGuide(name: "Sunday—Daytime Leave to Lakefield & Peterborough", description: """
                             On Sundays before 1:00 p.m. students wishing to have morning leave to Lakefield and/or Peterborough must first check-in with their Head of House or Associate Faculty for permission. On Sundays after 1:00 p.m. students may go into Lakefield and/or Peterborough provided that they are not gated to campus. Students must return to campus by 5:30 p.m.
 
                             Students are required to request permission from their Head of House or Associate Faculty for “Leave to Lakefield.”
-                            """, imageName: "car.fill"),
+                            """, systemImageName: "car.fill"),
                             
                         LifeGuide(name: "Saturday—Evening Leave", description: """
                             Saturday evening leave is granted at the discretion of the Head of House or Associate Faculty on duty. The student must be demonstrating academic and social responsibility to receive permission for leave.
@@ -503,7 +503,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             Students in Grades 9 and 10 may NOT have evening leave until AFTER the Thanksgiving Weekend.
 
                             Students must be back on campus and check in with their Head of House or Associate Faculty in the residence by their curfews (see page 9 in this guidebook for curfew times).
-                            """, imageName: "moon.stars.fill"),
+                            """, systemImageName: "moon.stars.fill"),
                             
                         LifeGuide(name: "Saturday Evening—Overnight Leave", description: """
                             Overnight leave begins at the end of Saturday’s academic and athletic program schedule and may extend until 8:00 p.m. on Sunday. The earliest students are permitted to return to campus is 8:00 a.m. on Sunday morning.
@@ -513,7 +513,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             If a student wishes to take Saturday overnight leave, the parents of the student must contact the Head of House by 10 pm Thursday night of that same week. If a student is going to be a guest at another student’s home, the host parents must also contact the Head of House by the Thursday night of that same week*. Leave can only be granted if the host parent is available to the student and accepts responsibility for the care of that student.
 
                             * A host parent is defined as a responsible adult at least 21 years of age who assumes the care of and responsibility for the student(s) staying in their home.
-                            """, imageName: "moon.zzz.fill"),
+                            """, systemImageName: "moon.zzz.fill"),
                             
                             
                         LifeGuide(name: "Weekend Leave", description: """
@@ -526,15 +526,15 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             3. The Head of House will put a planned absence into the student’s Edsby attendance record.
 
                             4. Students who miss class are responsible for any of the work they have missed and are expected to return to campus between 8:00 a.m. and 8:00 p.m. on Sunday.
-                            """, imageName: "calendar.circle"),
+                            """, systemImageName: "calendar.circle"),
                             
                         
-                        LifeGuide(name: "Special Events Leave", description: "Special Events Leave refers to certain leave opportunities for students who, with Head of House and parental permission, wish to attend a special event that would require them to miss their usual weekday curfew time. Special Events Leaves (limited to three (3) per year) can only be granted by a Head of House in consultation with a student’s parent(s). A student will only be granted permission to remain off campus overnight if safety considerations make this exception necessary.", imageName: "calendar"),
+                        LifeGuide(name: "Special Events Leave", description: "Special Events Leave refers to certain leave opportunities for students who, with Head of House and parental permission, wish to attend a special event that would require them to miss their usual weekday curfew time. Special Events Leaves (limited to three (3) per year) can only be granted by a Head of House in consultation with a student’s parent(s). A student will only be granted permission to remain off campus overnight if safety considerations make this exception necessary.", systemImageName: "calendar"),
                             
                         
-                        LifeGuide(name: "Hotel Leave", description: "Students may only stay in a hotel, Airbnb, or other temporary accommodation with their own parent, a host parent (a responsible adult 21 years of age or older, who the school regards as capable of accepting the responsibility of assuming in loco parentis). In these cases, all transfer of care must be approved by the Assistant Head: School Life, the student’s parents and the host parent.",imageName: "house.fill"),
+                        LifeGuide(name: "Hotel Leave", description: "Students may only stay in a hotel, Airbnb, or other temporary accommodation with their own parent, a host parent (a responsible adult 21 years of age or older, who the school regards as capable of accepting the responsibility of assuming in loco parentis). In these cases, all transfer of care must be approved by the Assistant Head: School Life, the student’s parents and the host parent.", systemImageName: "house.fill"),
                             
-                        LifeGuide(name: "Long Weekend Breaks and School Closing", description: "The school has some long weekend and mid-term breaks within the academic year that require the school and all programming to cease. During these breaks (Thanksgiving, November Mid-term, Christmas, March Mid-Term, May Mid-term) the school closes and dissolves “in loco parentis.” In these instances, the school is not obligated to transfer care to a host parent as students return to the care and responsibility of their own parent/guardian and must find accommodation off campus. The school always provides supervised programming for those who may request to remain in the care of the school. The school will also do its utmost to provide transportation and assist in arranging appropriate accommodations during these breaks should this be requested.", imageName: "tv.fill"),
+                        LifeGuide(name: "Long Weekend Breaks and School Closing", description: "The school has some long weekend and mid-term breaks within the academic year that require the school and all programming to cease. During these breaks (Thanksgiving, November Mid-term, Christmas, March Mid-Term, May Mid-term) the school closes and dissolves “in loco parentis.” In these instances, the school is not obligated to transfer care to a host parent as students return to the care and responsibility of their own parent/guardian and must find accommodation off campus. The school always provides supervised programming for those who may request to remain in the care of the school. The school will also do its utmost to provide transportation and assist in arranging appropriate accommodations during these breaks should this be requested.", systemImageName: "tv.fill"),
                             
                             
                         LifeGuide(name: "Travelling to and from Lakefield College School", description: """
@@ -543,7 +543,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             During school breaks, chartered buses deliver students to Toronto and, if numbers warrant, to other cities that have bus terminals. Additional bus and train connections are made from these centres. The cost of LCS arranged buses to the above destinations is dependent on the number of students who take the bus, hence charges may vary. A minimum number of students is necessary to charter a bus. Students must sign up for the buses in order to have seats reserved for them.
 
                             A 48-hour advance notice cancellation policy (no charge) applies.
-                            """, imageName: "airplane")
+                            """, systemImageName: "airplane")
                             
                             
                         
@@ -604,7 +604,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 Chapel and Dining Hall - No PEDs are permitted to be used or visible in the Chapel and Dining Hall during meal times. Students who contravene this policy will have their device immediately confiscated. It will be given to the respective Head of House who will return it to the student after an educational conversation regarding appropriate use of devices during important community social time.
                                 
                                 PEDs may be confiscated by any staff member at any time for inappropriate use or as an accountability for other inappropriate behaviour.
-                                """),
+                                """, imageName: "NoTechZone"),
                             
                             LifeGuide(name: "Information Technology Responsible Use Agreement", description: """
                                 Lakefield College School makes its campus-wide network, including its connection to the Internet, available to all students and staff for the express purpose of furthering the educational mission of the school. In order that network users understand how best to abide by this purpose, it is expected that all students, staff and parents read the official Responsible Use Agreement (RUA) online at http://olc.lcs.on.ca/rua/. Use of the network constitutes agreement to the terms of the RUA. Repeated or more serious violations of the RUA may result in more serious accountability, and may necessitate meeting with the Standards Committee to determine appropriate accountability.
@@ -716,7 +716,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 
                                 ]))
         
-        list.append(LifeGuide(name: "Health and Well-being Services", description: "aaa", imageName: "Health", subTopics: [
+        list.append(LifeGuide(name: "Health and Well-being Services", description: "", imageName: "Health", subTopics: [
         
         
         
@@ -897,7 +897,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
 
                                 •Subsequent Offences: The students will be required to attend a meeting of the Standards Committee for contravention of their Directed Probation status*. Parents are contacted.
 
-                                """, imageName: ""),
+                                """, imageName: "ClosedHouse"),
                             
                             LifeGuide(name: "Inappropriate Visitation in Common/Public Areas", description: """
                                 Students are expected to interact with one another in an appropriate and respectful manner at all times. Inappropriate public displays of affection compromise the sense of comfort of others who share the school’s public space.
@@ -907,7 +907,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                 • 2nd Offence: At the discretion of the Head of House and the Assistant Head: School Life, students may be required to attend a meeting of the Standards Committee. Parents are contacted.
 
                                 • Subsequent Offences: The students will be required to attend a meeting of the Standards Committee. Parents are contacted.
-                                """)
+                                """, imageName: "NoPDA")
                             
                             
                             
@@ -951,7 +951,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                                     • To provide appropriate consequences and responses for the maintenance of a harassment-free living, learning and working environment.
                                     
                                     • To define the roles and responsibilities of students and Lakefield College School personnel with regard to harassment.
-                                    """),
+                                    """, imageName: "Policy"),
                             
                             
                             LifeGuide(name: "What is Harassment?", description: """
@@ -1139,7 +1139,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
 
                                 • “mobbing” which involves a collective effort to psychologically harass a person.
 
-                                """),
+                                """, imageName: "ParentalHarassment"),
                             
                             LifeGuide(name: "Reporting Parental Harassment", description: """
                                 A staff member who feels harassed by a parent should document the incident and report it to their direct supervisor or Head of School (or designate).
@@ -1156,7 +1156,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                         
                         ]))
         
-        list.append(LifeGuide(name: "Behavioural Policies—Curfew Violations", description: "content", imageName: "CurfewIcon", subTopics: [
+        list.append(LifeGuide(name: "Behavioural Policies—Curfew Violations", description: "", imageName: "CurfewIcon", subTopics: [
         
                     LifeGuide(name: "EVENING CURFEWS", description: """
                         All students are expected to be on time for all curfews. Students who are late for their curfew (either weekday or weekend) will be subject to the following sanctions:
@@ -1287,7 +1287,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             ii) provide students with the tools needed to make educated and informed decisions; and
 
                             iii) encourage prevention through education.
-                            """),
+                            """, imageName: "Support"),
                             
                         LifeGuide(name: "Parley Policy", description: """
                             One of the school’s primary responsibilities is to foster a community that allows for open and honest communication between all of its members. In order to do this the school embraces a “Parley Policy” which allows students to come forward voluntarily or to report their concern for another student who may need help. When a Parley is requested a student can rightly assume that no disciplinary measures will be invoked. The school, through the Health and Well-being Centre and other counselling support as required, will provide non-judgmental and unbiased support to the student in need. The Health and Well-being Centre staff will initiate an individualized support plan of action focusing specifically on the student’s immediate and long-term health needs. Services may include counselling within the school or referral to appropriate outside services. Intervention and counselling procedures may include the following:
@@ -1296,13 +1296,13 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             ii) short term counselling procedures; and
 
                             iii) referral procedures.
-                            """),
+                            """, imageName: "Parley"),
                             
                         LifeGuide(name: "How to Request a Parley", description: """
                             A student requests a Parley with a trusted adult staff member. The adult staff member is required to inform one of the following staff members; Assistant Head: School Life, or any Health and Well-being Centre staff, who will arrange to meet with the student and ensure that a supportive care plan is created.
 
                             All staff members who have engaged in a Parley are required to inform at least one of the supportive care team in order to ensure the student has the appropriate care and support to best address the issue of concern.
-                            """),
+                            """, imageName: "Parley"),
                             
                             
                         LifeGuide(name: "Disciplinary Action", description: """
@@ -1311,7 +1311,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             Students who are caught contravening the substance use policy will be offered support in addition to being held accountable in accordance with the policies cited below.
 
                             Continued refusal to uphold school policies on substance use will jeopardize the student’s future at the school.
-                            """),
+                            """, imageName: "DisciplinaryAction"),
                             
                             
                         LifeGuide(name: "Nicotine, Tobacco Products and Electronic Nicotine Delivery Systems (ENDS, i.e. Vaporizers, E-cigarettes, etc.)", description: """
@@ -1538,7 +1538,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                 a. A student who contravenes the official warning status will be required to attend a meeting of the Standards Committee.
 
                 b. A student who receives more than two (2) Official Warnings will be placed on Directed Probation for Persistent Inability to Abide by the Expectations of the School.
-                """, warning: "Warning"),
+                """, imageName: "Warning"),
             
             
             LifeGuide(name: "Parley", description: "A conversation that discloses a potential breach of school standards with the understanding that there will not be any disciplinary action taken. A parley can be requested by a student who wishes to have a supportive conversation for themselves or a friend who may be in need of help. A parley will be granted to any student who has not yet been caught contravening a school policy and most commonly refers to those instances which involve the use of tobacco, tobacco like products, ENDS, alcohol, cannabis or other drugs. In all instances when a parley is requested, confidentiality will be upheld and sanctuary from discipline will be invoked. A supportive care plan will be created and required to be followed. If the terms of a parley are breached the student will be held accountable through the school’s standards process.", imageName: "Parley"),

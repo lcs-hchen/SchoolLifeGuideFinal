@@ -12,7 +12,7 @@ struct LifeGuide: Identifiable, Comparable {
     let id = UUID()
     var name: String
     let description: String
-    var warning: String?
+    var systemImageName: String?
     var imageName: String?
     
     var subTopics: [LifeGuide] = []
@@ -173,6 +173,8 @@ struct LifeGuide: Identifiable, Comparable {
             return "Behavioural Policies"
         case "Values, Standards and Expectations":
             return "Values"
+        case "What is a Poisoned Environment?":
+            return "Poisoned Environment"
         default:
             return name
         }
