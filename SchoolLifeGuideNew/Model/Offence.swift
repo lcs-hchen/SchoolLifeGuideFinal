@@ -6,13 +6,14 @@
 //
 
 import Foundation
-
+// Each class object is used to determine the case for each violation, the class contains properties defined in other places such as offenceType and timesOfViolation
 class Offence: Identifiable, Codable, Hashable {
+    // Allow the class to conform to identifiable protocol
     static func == (lhs: Offence, rhs: Offence) -> Bool {
         return lhs.id == rhs.id
        
     }
-    
+    // Allow the class to conform to hashable protocol
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
         hasher.combine(areaOfViolation)
@@ -43,7 +44,7 @@ class Offence: Identifiable, Codable, Hashable {
         self.levelOfCompliance = levelOfCompliance
         self.offenceType = offenceType
     }
-    
+    // Allows the class to conform to decodable protocol
     required init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: TaskCodingKeys.self)
         
@@ -56,7 +57,7 @@ class Offence: Identifiable, Codable, Hashable {
         // Decode "offenceType" property into an instance of OffenceType type
         self.offenceType = try container.decode(OffenceType.self, forKey: .offenceType)
     }
-    
+    // Allows the class to conform to encodable protocol
     func encode(to encoder: Encoder) throws {
         
         var container = encoder.container(keyedBy: TaskCodingKeys.self)

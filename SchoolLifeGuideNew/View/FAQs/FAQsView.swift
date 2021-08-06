@@ -11,8 +11,9 @@ struct FAQsView: View {
     //Change Navigation Bar Text color
     
    
-    
+    // Determine if the sheet is open
     @State private var showingAssessmentView = false
+    // Refer to the offences type, which contains the list of offence
     @ObservedObject var store: Offences
     var body: some View {
         
@@ -22,6 +23,7 @@ struct FAQsView: View {
         UITableViewCell.appearance().backgroundColor = .clear
         
         return  ZStack {
+            // Set Background
             GradientBackground().edgesIgnoringSafeArea(.all)
             
             Form {
@@ -50,10 +52,12 @@ struct FAQsView: View {
             
             
         }.toolbar {
+            // Entering self assessment view with top right button
             ToolbarItem(placement: .primaryAction) {
                 
                 Text("My Status")
                     .foregroundColor(.white)
+                    // Uses onTapGesture because button does not work well in this situation
                     .onTapGesture {
                         print("pressed")
                         showingAssessmentView = true
@@ -82,7 +86,9 @@ struct FAQsView: View {
             }
         }.sheet(isPresented: $showingAssessmentView) {
             AssessmentView(showing: $showingAssessmentView, store: store)
-        }.onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
+            
+        }
+        .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
             
             // Save the list of tasks
             let encoder = JSONEncoder()

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+// OffenceType is created for the sliders to display each violation of the school guide
 enum OffenceType: String, CaseIterable, Decodable {
     case InappropriateDress = "Inappropriate Dress"
     case LateForClass = "Late For Class"
@@ -41,8 +42,10 @@ enum OffenceType: String, CaseIterable, Decodable {
 
 var incident: [OffenceType] = []
 func getIncidents() -> [OffenceType] {
+    // Collect all the cases in this type
     for a in OffenceType.allCases {
         incident.append(a)
     }
+    // Return a list of offence type
     return incident
 }

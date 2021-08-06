@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+// This class is used to determine the outcome of the self assessment
 
 class AssessmentViewModel: ObservableObject {
     @Published var description: String = ""
@@ -18,7 +19,7 @@ class AssessmentViewModel: ObservableObject {
     @Published var textToPresent: String = "aa"
     @Published var violationTimes = TimesOfViolation.First
 
-    
+    // Color of the slider
     func getColor() -> Color { // This function just returns a color to where it is called
            switch complianceLevel {
            case 0...33: return Color.green
@@ -29,7 +30,7 @@ class AssessmentViewModel: ObservableObject {
        }
     
     
-    
+    // The return message on the alert when clicking submit
     func getAlertMessage() -> String {
         var returnMessage = ""
         

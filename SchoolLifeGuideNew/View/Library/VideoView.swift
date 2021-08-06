@@ -15,7 +15,7 @@ struct VideoView: View {
         
         
         VStack {
-            
+            // A detail view containing the video that is accessed by using the video type
             VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource: video.name, withExtension: video.extensions)!))
             
         }.background(GradientBackground())

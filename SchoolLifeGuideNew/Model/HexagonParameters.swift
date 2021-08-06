@@ -5,7 +5,7 @@
 //  Created by Chen, Sihan on 2021-02-03.
 //
 import CoreGraphics
-
+// The background in the home view
 struct HexagonParameters {
     
     struct Segment {

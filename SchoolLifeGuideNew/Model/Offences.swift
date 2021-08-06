@@ -9,6 +9,7 @@ import Foundation
 
 
 // If Operating JSON files, code goes here
+// A collection of offences
 class Offences: ObservableObject {
     
     @Published var offences: [Offence] {

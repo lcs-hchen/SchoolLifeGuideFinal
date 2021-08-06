@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeView: View {
     
     init() {
+        // Change navigation title to white
                 let navBarAppearance = UINavigationBar.appearance()
                 navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
                 navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
@@ -53,7 +54,7 @@ struct HomeView: View {
                 Divider()
                 
                 HStack {
-                    Image("LCSCampus").scaledToFill()
+                    Image("LCSCampus").resizable().scaledToFit()
                     
                     VStack {
                         
@@ -70,7 +71,7 @@ struct HomeView: View {
                             .foregroundColor(.white)
                         
                     }
-                }
+                }.padding()
             }
             
         }.preferredColorScheme(.light)

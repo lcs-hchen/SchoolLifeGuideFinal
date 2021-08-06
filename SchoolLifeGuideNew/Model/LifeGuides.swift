@@ -13,6 +13,7 @@ import Foundation
 struct LifeGuides {
     
     var list: [LifeGuide] = []
+    // Example used by the previews
     static var example = LifeGuide(name: "test 1", description: "", imageName: "system1", subTopics: [
         
         LifeGuide(name: "sub 1", description: "This is sub 1 content", imageName: "SchoolDailySchedule")
@@ -20,7 +21,7 @@ struct LifeGuides {
     ])
     
    
-    
+    // Terms and definitions of the school life guide goes here
     init() {
         
         list.append(LifeGuide(name: "The School Program", description: "Daily Schedule", imageName: "SchoolProgramIcon", subTopics: [

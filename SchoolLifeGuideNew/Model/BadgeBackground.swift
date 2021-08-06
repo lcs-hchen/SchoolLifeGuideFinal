@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+// The background in the home view
 struct BadgeBackground: View {
     var body: some View {
         

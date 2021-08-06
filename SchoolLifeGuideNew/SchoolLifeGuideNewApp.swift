@@ -12,6 +12,7 @@ struct SchoolLifeGuideNew: App {
     @StateObject private var store = Offences(offences: testOffence)
     var body: some Scene {
         WindowGroup {
+            // Tabs
             TabView() {
                 
                 NavigationView {
@@ -23,16 +24,16 @@ struct SchoolLifeGuideNew: App {
                     Image(systemName: "house.fill")
                     Text("Home")
                 }
-                
-                NavigationView {
-                    ZStack {
-                        GradientBackground()
-                        LibraryView()
-                    }
-                }.tabItem {
-                    Image(systemName: "folder.fill")
-                    Text("Library")
-                }
+                // Temporarily remove the video library as we dont have any yet
+//                NavigationView {
+//                    ZStack {
+//                        GradientBackground()
+//                        LibraryView()
+//                    }
+//                }.tabItem {
+//                    Image(systemName: "folder.fill")
+//                    Text("Library")
+//                }
                 
                 NavigationView {
                     ZStack {

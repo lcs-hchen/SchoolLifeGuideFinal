@@ -7,7 +7,7 @@
 
 
 import SwiftUI
-
+// This file gives a method of modifying the systemic settings for colors of navigation titles
 struct NavigationBarModifier: ViewModifier {
         
     var backgroundColor: UIColor?

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+// Determines the positioning of each hexagonal display
 struct MessageFunction: View {
     var firstLineTitle: String
     var secondLineTitle: String?
@@ -30,6 +30,7 @@ struct MessageFunction: View {
                     .foregroundColor(.white)
                     .lineLimit(nil)
                     .allowsTightening(true)
+                // For longer titles, split one string into two
                 if let secondLine = secondLineTitle {
                     Text(secondLine)
                         .font(Font.custom("Comic Sans MS", size: titleFontSize))

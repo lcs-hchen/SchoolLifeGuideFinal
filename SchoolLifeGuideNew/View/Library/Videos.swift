@@ -11,6 +11,7 @@ struct Videos {
     var list: [Video] = []
     
     init() {
+        // Test Video
         list.append(Video(name: "mod_05_aie_demand-video", extensions: ".mp4"))
     }
 }

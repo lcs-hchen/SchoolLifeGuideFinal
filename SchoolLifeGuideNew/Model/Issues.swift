@@ -7,7 +7,7 @@
 
 import Foundation
 
-
+// This type is created to display potential questions in the FAQ view
 struct Issues {
     var list: [Issue] = []
     let systemName = "arrow.clockwise"

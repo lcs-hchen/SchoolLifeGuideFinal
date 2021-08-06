@@ -30,6 +30,7 @@ struct LibraryView: View {
 //                }
       return  ZStack {
             GradientBackground()
+            // Loop thru the list of videos and present a navigation link to the video in this view
             List(urlList.list) { Video in
                 
                

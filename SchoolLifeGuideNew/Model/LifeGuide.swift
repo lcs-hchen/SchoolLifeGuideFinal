@@ -14,17 +14,15 @@ struct LifeGuide: Identifiable, Comparable {
     let description: String
     var systemImageName: String?
     var imageName: String?
-    
+    // Subtopics to recursively store a list of life guides
     var subTopics: [LifeGuide] = []
-    
+    // Conform to Comparable Protocol
     static func <(lhs: LifeGuide, rhs: LifeGuide) -> Bool {
            return lhs.name < rhs.name
        }
     
     func findNavigationTitle() -> String {
-        
-        
-        
+        // Overflow control in detail views titles
         switch name {
         case "Standard Headwear and Scarves":
             return "Headwear"

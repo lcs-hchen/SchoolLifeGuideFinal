@@ -9,24 +9,19 @@ import SwiftUI
 
 struct FAQsDetailView: View {
     
-    let question: Issue
+    var question: Issue
     
     var body: some View {
-        ScrollView {
-            
-            
-               
-            VStack {
-                Text(question.answerText)
-                        .foregroundColor(.white)
-                        .font(.title3)
-                        .bold()
-                    .padding(.horizontal)
-            }
-            
-        }.background(GradientBackground().ignoresSafeArea())
+
+            ZStack {
+                GradientBackground()
+                FAQScrollView(question: question)
+            }.navigationTitle(question.detailViewTitle)
+        // Issue: background sometimes does not cover the full view
         
-        .navigationTitle(question.detailViewTitle)
+        
+        
+        
         
         
     }
@@ -37,6 +32,28 @@ struct FAQsDetailView_Previews: PreviewProvider {
         NavigationView{
             FAQsDetailView(question: sampleIssue)
         }
-       
+        
+    }
+}
+
+struct FAQScrollView: View {
+    var question: Issue
+    var body: some View {
+        
+        ScrollView(.vertical) {
+            
+            VStack {
+                
+                Text(question.answerText)
+                    .foregroundColor(.white)
+                    .font(.title3)
+                    .bold()
+                    .padding(.horizontal)
+                
+                
+            }
+            
+        }
+        
     }
 }
