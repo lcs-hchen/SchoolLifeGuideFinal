@@ -22,12 +22,23 @@ struct HistoryView: View {
                       
                             if offence.levelOfCompliance <= 33 {
                                 
+                                
+                                
                                 HStack {
                                     VStack {
                                         Text(String(store.offences.firstIndex(of: offence)!+1)+".")
                                         Spacer()
                                     }
-                                    Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is very forthright about their actions.\n\n\(accountabilityText)")
+                                    
+                                    VStack {
+                                        
+                                        if !offence.areaOfViolation.isEmpty {
+                                            Text("\(Text(offence.areaOfViolation).bold().font(.title2))\n\n\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is very forthright about their actions.\n\n\(accountabilityText)")
+                                        } else {
+                                            Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is very forthright about their actions.\n\n\(accountabilityText)")
+                                        }
+                                       
+                                    }
                                 }
                             } else if offence.levelOfCompliance <= 66 {
                                 HStack {
@@ -35,7 +46,7 @@ struct HistoryView: View {
                                         Text(String(store.offences.firstIndex(of: offence)!+1)+".")
                                         Spacer()
                                     }
-                                    Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is willing to cooperate to a degree.\n\(accountabilityText)")
+                                    Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is willing to cooperate to a degree.\n\n\(accountabilityText)")
                                 }
                                
                             } else if offence.levelOfCompliance <= 101 {

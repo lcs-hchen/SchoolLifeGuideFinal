@@ -71,6 +71,7 @@ struct LifeGuideDetailView: View {
                         
                         .foregroundColor(Color(red: 43.0 / 255, green: 104.0 / 255, blue: 78.0 / 255))
                         // Prevent double scroll view for list in a scroll view
+                        // Better value than 53.5 that will satisfy long text?
                         .frame(minHeight: CGFloat(Double(lifeGuide.subTopics.count) * 53.5))
                         .padding(.bottom)
                         
