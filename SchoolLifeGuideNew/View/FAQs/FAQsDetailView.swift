@@ -16,7 +16,7 @@ struct FAQsDetailView: View {
             ZStack {
                 GradientBackground()
                 FAQScrollView(question: question)
-            }.navigationTitle(question.detailViewTitle)
+            }
         // Issue: background sometimes does not cover the full view
         
         
@@ -48,8 +48,8 @@ struct FAQScrollView: View {
                     .foregroundColor(.white)
                     .font(.title3)
                     .bold()
-                    .padding(.horizontal)
-                
+                    .padding()
+                    .navigationTitle(question.detailViewTitle)
                 
             }
             

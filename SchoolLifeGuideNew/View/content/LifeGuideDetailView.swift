@@ -24,15 +24,10 @@ struct LifeGuideDetailView: View {
                     // First 1 contains multiple images
                     if let imageName = lifeGuide.imageName {
                         Image(imageName).resizable()
-                            .aspectRatio(contentMode: zoomed ? .fill : .fit)
                             .scaledToFit()
                             .padding(.horizontal)
-                            
-                            .onTapGesture {
-                                withAnimation {
-                                    zoomed.toggle()
-                                }
-                            }
+                            .padding(.bottom)
+                        
                         
                         if imageName == "SchoolDailySchedule" {
                             Image("SchoolDailySchedule2")
@@ -48,6 +43,7 @@ struct LifeGuideDetailView: View {
                     Text(lifeGuide.description).padding([.leading, .bottom, .trailing])
                         .fixedSize(horizontal: false, vertical: true).foregroundColor(.white)
                         .lineSpacing(12.0)
+                        .font(.body)
                     
                     
                     // If there are any related things, show them
@@ -65,16 +61,18 @@ struct LifeGuideDetailView: View {
                                             Image(systemName: imageName)
                                         }
                                         
-                                        Text(thing.name)
+                                        Text(thing.name).font(.body).bold()
                                     }
                                 }
                                 
                             }
                             
                         }
-                        .font(Font.body.bold())
+                        
                         .foregroundColor(Color(red: 43.0 / 255, green: 104.0 / 255, blue: 78.0 / 255))
-                        .frame(width: 430, height: CGFloat(lifeGuide.subTopics.count * 53))
+                        // Prevent double scroll view for list in a scroll view
+                        .frame(minHeight: CGFloat(Double(lifeGuide.subTopics.count) * 53.5))
+                        .padding(.bottom)
                         
                     }
                     
@@ -87,9 +85,11 @@ struct LifeGuideDetailView: View {
                 Living and learning through relationships is a cornerstone of our community. Students and staff worked together to create a dress code that minimizes negative interactions, promotes healthy and positive relationships and enables students to feel comfortable and confident in their learning environment. In fact, staff are expected to adhere to the same standard of dress as students. Should a student have questions, concerns or ideas about the school dress code they are encouraged to engage in dialogue with any staff member to have their voice heard.
                 """)
                             .padding(.horizontal)
+                            .padding(.bottom)
                             .foregroundColor(.white)
                             .fixedSize(horizontal: false, vertical: true)
                             .lineSpacing(12.0)
+                            .font(.body)
                     }
                     
                     
