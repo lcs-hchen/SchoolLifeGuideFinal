@@ -94,9 +94,14 @@ struct HistoryView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     
-                    Text("Cancel").foregroundColor(.white).onTapGesture {
+                    Button {
                         showing = false
+                    } label: {
+                        Text("Cancel").foregroundColor(.white)
                     }
+//                    Text("Cancel").foregroundColor(.white).onTapGesture {
+//                        showing = false
+//                    }
                 }
             }
         }

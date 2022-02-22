@@ -73,22 +73,43 @@ struct AssessmentView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     
-                    Text("Cancel").foregroundColor(.white).onTapGesture {
+                    Button {
                         saveTask()
+                    } label: {
+                        Text("Cancel").foregroundColor(.white)
                     }
+
+                    
+                    
+//                    Text("Cancel").foregroundColor(.white).onTapGesture {
+//                        saveTask()
+//                    }
                 }
                 
                 ToolbarItem(placement: .primaryAction) {
                     
-                    HStack {
-                        
-                        
-                        Image(systemName: "clock.fill")
-                        Text("History")
-                    }.foregroundColor(.white)
-                    .onTapGesture {
-                        showingHistoryView = true
+                    
+                    Button {
+                        showingHistoryView.toggle()
+                    } label: {
+                        HStack {
+                            
+                            
+                            Image(systemName: "clock.fill")
+                            Text("History")
+                        }.foregroundColor(.white)
                     }
+                    
+                    
+//                    HStack {
+//
+//
+//                        Image(systemName: "clock.fill")
+//                        Text("History")
+//                    }.foregroundColor(.white)
+//                    .onTapGesture {
+//                        showingHistoryView = true
+//                    }
                     
                 }
                 

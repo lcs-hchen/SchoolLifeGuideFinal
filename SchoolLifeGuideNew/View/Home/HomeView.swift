@@ -33,21 +33,23 @@ struct HomeView: View {
                     .lineLimit(nil)
                 
                 Group {
-                    MessageFunction(firstLineTitle: "Trust", description: "A shared belief in the moral strength, character and reliability of each member of our community that results in feelings of mutual confidence and mutual respect.", titleFontSize: 33, textFontSize: 15, firstTitleTopPadding: 125, descriptionBottomPadding: 143, descriptionHorizontalPadding: 77)
+                    MessageFunction(firstLineTitle: "Trust", description: "We believe in the moral strength, character andreliability of each member of our community, resulting in feelings of mutual confidence and mutual respect.", titleFontSize: 33, textFontSize: 15, firstTitleTopPadding: 125, descriptionBottomPadding: 143, descriptionHorizontalPadding: 77)
                     
                     
                     
-                    MessageFunction(firstLineTitle: "Individuality", description: "By celebrating the unique gifts and qualities brought by the individual to the community, we encourage the development of personal values in the context of responsibility to the community and to oneself.", titleFontSize: 29.5, textFontSize: 15, firstTitleTopPadding: 120, descriptionBottomPadding: 130, descriptionHorizontalPadding: 77)
+                    MessageFunction(firstLineTitle: "Individuality", description: "We value each individual’s unique gifts and strengths, and we support and celebrate them in becoming their authentic selves.", titleFontSize: 29.5, textFontSize: 15, firstTitleTopPadding: 120, descriptionBottomPadding: 130, descriptionHorizontalPadding: 77)
                     
-                    MessageFunction(firstLineTitle: "Learning", description: "By engaging in a variety of meaningful learning experiences, LCS encourages curiosity, promotes collaborative problem solving, and instills an enduring passion for life-long learning.", titleFontSize: 30, textFontSize: 15, firstTitleTopPadding: 120, descriptionBottomPadding: 130, descriptionHorizontalPadding: 77)
+                    MessageFunction(firstLineTitle: "Learning", description: "We believe in creating learning experiences that cultivate curiosity, build resilience, foster a global perspective and instill a passion for lifelong learning.", titleFontSize: 30, textFontSize: 15, firstTitleTopPadding: 120, descriptionBottomPadding: 130, descriptionHorizontalPadding: 77)
                     
-                    MessageFunction(firstLineTitle: "Citizenship", description: "Through service to others and the development of leadership skills we encourage our students to become thoughtful, constructive and contributing members of the local and global community.", titleFontSize: 30, textFontSize: 15, firstTitleTopPadding: 125, descriptionBottomPadding: 125, descriptionHorizontalPadding: 77)
+                    MessageFunction(firstLineTitle: "Joy", description: "We believe in the power of joy. We intentionally craft opportunities that promote vitality and deep contentment.", titleFontSize: 30, textFontSize: 15, firstTitleTopPadding: 125, descriptionBottomPadding: 125, descriptionHorizontalPadding: 77)
                     
-                    MessageFunction(firstLineTitle: "Environmental", secondLineTitle: "Stewardship", description: "Through our unique campus and programs, our students are inspired to become leaders with a commitment to global environmental stewardship.", titleFontSize: 30, textFontSize: 15, firstTitleTopPadding: 115, descriptionBottomPadding: 120, descriptionHorizontalPadding: 77)
+                    MessageFunction(firstLineTitle: "Environmental", secondLineTitle: "Responsibility", description: "We believe teaching respect for the Earth and respect for people go hand-in-hand. Our campus ecosystems and programs inspire us to be committed to environmental responsibility.", titleFontSize: 27, textFontSize: 15, firstTitleTopPadding: 115, descriptionBottomPadding: 120, descriptionHorizontalPadding: 77)
                     
-                    MessageFunction(firstLineTitle: "Healthy Caring", secondLineTitle: "Community", description: "The belief in the dignity and worth of all individuals. We embrace diversity; we encourage empathy, acceptance and a balanced lifestyle.", titleFontSize: 30, textFontSize: 15, firstTitleTopPadding: 115, descriptionBottomPadding: 135, descriptionHorizontalPadding: 77)
+                    MessageFunction(firstLineTitle: "Inclusive, Caring", secondLineTitle: "Community", description: "We believe in the dignity and worth of all individuals. We embrace diversity, practise equity and foster connection. We lead with empathy to create a sense of belonging for all.", titleFontSize: 27, textFontSize: 15, firstTitleTopPadding: 115, descriptionBottomPadding: 135, descriptionHorizontalPadding: 77)
                     
-                    MessageFunction(firstLineTitle: "Education of the", secondLineTitle: "Whole Person", description: "A commitment to the broad development of the intellectual, social, emotional, spiritual, and physical qualities needed to lead a fulfilling life.", titleFontSize: 30, textFontSize: 15, firstTitleTopPadding: 125, descriptionBottomPadding: 125, descriptionHorizontalPadding: 70)
+                    MessageFunction(firstLineTitle: "Development of the", secondLineTitle: "Whole Person", description: "We commit to strengthening the behaviours and practices needed to thrive and lead a healthy, meaningful and fulfilling life.", titleFontSize: 27, textFontSize: 15, firstTitleTopPadding: 125, descriptionBottomPadding: 125, descriptionHorizontalPadding: 70)
+                    
+                    MessageFunction(firstLineTitle: "Service", description: "We believe that leaders serve others. We have a responsibility to our local, national and global communities.", titleFontSize: 33, textFontSize: 15, firstTitleTopPadding: 120, descriptionBottomPadding: 130, descriptionHorizontalPadding: 77)
                 }
                
                 Spacer()

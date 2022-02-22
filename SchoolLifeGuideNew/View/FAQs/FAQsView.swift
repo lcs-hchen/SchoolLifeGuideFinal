@@ -55,28 +55,28 @@ struct FAQsView: View {
             // Entering self assessment view with top right button
             ToolbarItem(placement: .primaryAction) {
                 
-                Text("My Status")
-                    .foregroundColor(.white)
-                    // Uses onTapGesture because button does not work well in this situation
-                    .onTapGesture {
-                        print("pressed")
-                        showingAssessmentView = true
-                    }
+//                Text("My Status")
+//                    .foregroundColor(.white)
+//                    // Uses onTapGesture because button does not work well in this situation
+//                    .onTapGesture {
+//                        print("pressed")
+//                        showingAssessmentView = true
+//                    }
                 
                 
                 
                 
                 
                 
-//                Button(action: {
-//                    print("pressed")
-//                    showingAssessmentView = true
-//                }, label: {
-//                    Text("My Status")
-//                        .foregroundColor(.white)
-//                        .font(Font.system(size: 30))
-//                }).foregroundColor(.white)
-//
+                Button(action: {
+                    print("pressed")
+                    showingAssessmentView.toggle()
+                }, label: {
+                    Text("My Status")
+                        .foregroundColor(.white)
+                        .font(Font.system(size: 20))
+                }).foregroundColor(.white)
+
                 
                 
 //                Button("My Status") {

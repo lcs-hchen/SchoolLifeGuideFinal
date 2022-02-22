@@ -130,8 +130,12 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                     A student is considered late if he or she arrives to class after instruction has begun. Attendance will be taken within the first 10 minutes of class. A student who has been marked absent must go to the Attendance Administrator to have the absence changed to a late for class.
 
                     If a student arrives late to class but before the teacher has taken attendance (i.e. within the first 10 minutes of class) teachers will note the name of any student who arrives late and have a brief discussion with the student at some point during the class about the reason for the late arrival.
+                    
                     If the teacher does not deem the reason legitimate, the teacher will remind the student of expectations about punctuality, and the student will be marked as late in the attendance system.
+                    
                     Students will not be marked as late during the first full week of classes to give new students time to learn the layout of the academic block.
+                    
+                    Students who arrive to class with 15 minutes or less remaining in the class will be held accountable for unexcused absence.
                     """, systemImageName: "calendar.badge.minus"),
 
 
