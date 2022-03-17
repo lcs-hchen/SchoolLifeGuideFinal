@@ -17,7 +17,7 @@ struct SchoolLifeGuideNew: App {
                 
                 NavigationView {
                     ZStack {
-                        GradientBackground()
+                        GradientBackground().edgesIgnoringSafeArea(.top)
                         HomeView()
                     }
                 }.tabItem {
@@ -37,7 +37,7 @@ struct SchoolLifeGuideNew: App {
                 
                 NavigationView {
                     ZStack {
-                        GradientBackground()
+                        GradientBackground().edgesIgnoringSafeArea(.top)
                         FAQsView(store: store)
                     }
                 }.tabItem {
@@ -47,13 +47,27 @@ struct SchoolLifeGuideNew: App {
                 
                 NavigationView {
                     ZStack {
-                        GradientBackground()
+                        GradientBackground().edgesIgnoringSafeArea(.top)
                         SearchBarDetailView()
                     }
                 }.tabItem {
                     VStack {
+                        Image(systemName: "magnifyingglass")
+                        Text("Guide")
+                    }
+                    
+                    
+                }
+                
+                NavigationView {
+                    ZStack {
+                        GradientBackground().edgesIgnoringSafeArea(.top)
+                        AssessmentView(store: store)
+                    }
+                }.tabItem {
+                    VStack {
                         Image(systemName: "tortoise.fill")
-                        Text("Content")
+                        Text("Assess")
                     }
                     
                     
@@ -62,9 +76,12 @@ struct SchoolLifeGuideNew: App {
             }.onTapGesture(count: 2) {
                 // Double Click code goes here
             }
+//            .preferredColorScheme(.dark)
             
             
         }
+        
     }
 }
+
 

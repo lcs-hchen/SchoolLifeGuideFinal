@@ -12,8 +12,8 @@ struct HomeView: View {
     init() {
         // Change navigation title to white
                 let navBarAppearance = UINavigationBar.appearance()
-                navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-                navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+                navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.label]
+                navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.label]
         
               }
    
@@ -27,7 +27,7 @@ struct HomeView: View {
                 Text("You will soon realize that being a member of Lakefield College School is to be a part of a close and caring family. Make the most of your time at the school. Before you know it, you will be graduating and bidding farewell to your Grove.")
                     .font(.custom("Comic Sans MS", size: 22))
                     .bold()
-                    .foregroundColor(.white)
+                    .foregroundColor(Color("RegularText"))
                     .padding()
                     .multilineTextAlignment(.leading)
                     .lineLimit(nil)
@@ -61,22 +61,23 @@ struct HomeView: View {
                     VStack {
                         
                         Text("The Rev’d")
-                            .foregroundColor(.white)
+                            .foregroundColor(Color("RegularText"))
                         Text("John G. Runza, BA (Hons), M.Div").font(.system(size: 23)).bold()
                             .multilineTextAlignment(.center)
-                            .foregroundColor(.white)
-                        Text("Assistant Head, Safety").foregroundColor(.secondary)
-                            .font(.system(size: 20))
+                            .foregroundColor(Color("RegularText"))
+                        Text("Assistant Head, Safety").foregroundColor(Color("RegularText"))
+                            .font(.system(size: 14))
                             .multilineTextAlignment(.center)
                         Text("Email: jrunza@lcs.on.ca")
                             .multilineTextAlignment(.center)
-                            .foregroundColor(.white)
+                            .foregroundColor(Color("RegularText"))
+                            .accentColor(.green)
                         
                     }
                 }.padding()
             }
             
-        }.preferredColorScheme(.light)
+        }
         .navigationTitle("Core Values")
         
         

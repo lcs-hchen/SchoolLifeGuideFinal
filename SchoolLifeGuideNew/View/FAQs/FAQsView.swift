@@ -22,10 +22,9 @@ struct FAQsView: View {
         UITableView.appearance().backgroundColor = .clear
         UITableViewCell.appearance().backgroundColor = .clear
         
-        return  ZStack {
-            // Set Background
-            GradientBackground().edgesIgnoringSafeArea(.all)
-            
+        return
+        VStack{
+            Spacer()
             Form {
                 List(questions.list) { question in
                     
@@ -40,65 +39,36 @@ struct FAQsView: View {
                         
                        
                        
-    //                    Image(systemName: question.systemImageName)
-    //                    Text(question.question)
                         
                     }
                 
                 
-                }.foregroundColor(Color(red: 43.0 / 255, green: 104.0 / 255, blue: 78.0 / 255))
+                }.foregroundColor(Color("ListText"))
+                    .listRowBackground(Color("ListBackground"))
             }.navigationTitle(Text("FAQs"))
+        }
+           
             
             
             
-        }.toolbar {
+        .toolbar {
             // Entering self assessment view with top right button
             ToolbarItem(placement: .primaryAction) {
                 
-//                Text("My Status")
-//                    .foregroundColor(.white)
-//                    // Uses onTapGesture because button does not work well in this situation
-//                    .onTapGesture {
-//                        print("pressed")
-//                        showingAssessmentView = true
-//                    }
                 
                 
                 
                 
                 
+               
                 
-                Button(action: {
-                    print("pressed")
-                    showingAssessmentView.toggle()
-                }, label: {
-                    Text("My Status")
-                        .foregroundColor(.white)
-                        .font(Font.system(size: 20))
-                }).foregroundColor(.white)
 
-                
-                
-//                Button("My Status") {
-//                    print("pressed")
-//                }.font(Font.system(size: 40))
-//                .foregroundColor(.white)
             }
         }.sheet(isPresented: $showingAssessmentView) {
-            AssessmentView(showing: $showingAssessmentView, store: store)
+            AssessmentView(store: store)
             
         }
-        .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
-            
-            // Save the list of tasks
-            let encoder = JSONEncoder()
-            if let encoded = try? encoder.encode(store.offences) {
-                print("Saving tasks list now, app has been backgrounded or quit...")
-                // Actually save the tasks to UserDefaults
-                UserDefaults.standard.setValue(encoded, forKey: "offences")
-            }
-
-        }
+        
     }
        
                 

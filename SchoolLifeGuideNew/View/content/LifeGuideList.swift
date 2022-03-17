@@ -23,60 +23,40 @@ struct LifeGuideList: View {
         
         
         return
-            NavigationView {
-                VStack{
-                    
-                    SearchBarView(text: $searchText)
-                        .padding(.horizontal, 20)
-                    
-//                        HStack {
-//
-//                            SearchBar(text: $searchText, placeholderText: "Search").onTapGesture {
-//                                self.isEditing = true
-//                            }
-//
-//                            if isEditing == true {
-//                                Button("Cancel", action: {
-//                                    self.searchText = ""
-//                                    self.isEditing = false
-//
-//                                    UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
-//
-//                            })
-//
-//
-//                        }
-//
-//
-//                            }
-                    
-                    
-                    
-                    Form {
-                        List(lifeGuide.list){
-                            
-                            data in
-                            
-                            NavigationLink(destination: LifeGuideDetailView(lifeGuide: data)) {
-                                Text(data.name)
-                            }
-                            
-                            
-                        }.navigationTitle("School Life Guide")
-                        .font(Font.body.bold())
-                        .foregroundColor(Color(red: 43.0 / 255, green: 104.0 / 255, blue: 78.0 / 255))
+        
+            VStack{
+                
+                SearchBarView(text: $searchText)
+                    .padding(.horizontal, 20)
+                
+                
+                
+                Form {
+                    List(lifeGuide.list){
+                        
+                        data in
+                        
+                        NavigationLink(destination: LifeGuideDetailView(lifeGuide: data)) {
+                            Text(data.name)
+                        }
                         
                         
                     }
+                        .font(Font.body.bold())
+                        .foregroundColor(Color("ListText"))
+                        .listRowBackground(Color("ListBackground"))
                     
                     
-                    
-                    
-                    
-                    
-                }
-                .background(GradientBackground())
+                }.navigationTitle("School Life Guide")
+                
+                
+                
+                
+                
+                
             }
+            
+    
         
     }
     

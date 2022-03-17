@@ -22,19 +22,19 @@ struct MessageFunction: View {
     var body: some View {
         
         ZStack {
-            BadgeBackground().scaledToFit()
+            BadgeBackground(gradientStart: Color("Gradient1"), gradientEnd: Color("Gradient2")).scaledToFit()
             VStack {
                 Text(firstLineTitle)
                     .padding(.top, firstTitleTopPadding)
                     .font(Font.custom("Comic Sans MS", size: titleFontSize))
-                    .foregroundColor(.white)
+                    .foregroundColor(Color("RegularText"))
                     .lineLimit(nil)
                     .allowsTightening(true)
                 // For longer titles, split one string into two
                 if let secondLine = secondLineTitle {
                     Text(secondLine)
                         .font(Font.custom("Comic Sans MS", size: titleFontSize))
-                        .foregroundColor(.white)
+                        .foregroundColor(Color("RegularText"))
                         .lineLimit(nil)
                         .allowsTightening(true)
                 }
@@ -42,8 +42,7 @@ struct MessageFunction: View {
                 Text(description).padding(.bottom,descriptionBottomPadding)
                     .padding(.horizontal, descriptionHorizontalPadding)
                     .font(Font.custom("Comic Sans MS", size: textFontSize))
-                    .foregroundColor(.white)
-                    
+                    .foregroundColor(Color("RegularText"))
                     .allowsTightening(true)
                     .lineLimit(nil)
             }

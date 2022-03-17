@@ -50,7 +50,7 @@ struct SearchBarView: View {
                 .padding(.bottom, -2)
                 .transition(.move(edge: .trailing))
                 .animation(.default)
-                .foregroundColor(.white)
+                .foregroundColor(Color("ListText"))
             }
             
         }.padding(.horizontal, 20)

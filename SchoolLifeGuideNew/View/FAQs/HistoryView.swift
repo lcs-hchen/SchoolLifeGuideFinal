@@ -14,7 +14,8 @@ struct HistoryView: View {
     @State var accountabilityText: String
     @Binding var showing: Bool
     var body: some View {
-        NavigationView {
+        
+            Text("My Search History")
             Form {
                 List {
                     ForEach(store.offences, id: \.self) { offence in
@@ -89,22 +90,10 @@ struct HistoryView: View {
                 }
 
                 
-            }.navigationTitle("My Search History")
-            .background(GradientBackground())
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    
-                    Button {
-                        showing = false
-                    } label: {
-                        Text("Cancel").foregroundColor(.white)
-                    }
-//                    Text("Cancel").foregroundColor(.white).onTapGesture {
-//                        showing = false
-//                    }
-                }
             }
-        }
+                .background(GradientBackground().edgesIgnoringSafeArea(.top))
+            
+        
        
         
     }

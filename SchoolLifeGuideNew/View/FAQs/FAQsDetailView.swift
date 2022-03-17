@@ -14,7 +14,7 @@ struct FAQsDetailView: View {
     var body: some View {
 
             ZStack {
-                GradientBackground()
+                GradientBackground().edgesIgnoringSafeArea(.top)
                 FAQScrollView(question: question)
             }
         // Issue: background sometimes does not cover the full view

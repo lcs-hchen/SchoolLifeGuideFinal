@@ -16,7 +16,7 @@ struct LifeGuideDetailView: View {
     var body: some View {
        
         ZStack {
-            GradientBackground()
+            GradientBackground().edgesIgnoringSafeArea(.top)
             VStack {
                 Divider()
                 ScrollView{
@@ -68,8 +68,8 @@ struct LifeGuideDetailView: View {
                             }
                             
                         }
-                        
-                        .foregroundColor(Color(red: 43.0 / 255, green: 104.0 / 255, blue: 78.0 / 255))
+                        .listRowBackground(Color("ListBackground"))
+                        .foregroundColor(Color("ListText"))
                         // Prevent double scroll view for list in a scroll view
                         // Better value than 53.5 that will satisfy long text?
                         .frame(minHeight: CGFloat(Double(lifeGuide.subTopics.count) * 53.5))
