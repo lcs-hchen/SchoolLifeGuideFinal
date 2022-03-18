@@ -21,11 +21,10 @@ struct MessageFunction: View {
     var descriptionHorizontalPadding: CGFloat
     var body: some View {
         
-        ZStack {
+        ZStack(alignment: .center) {
             BadgeBackground(gradientStart: Color("Gradient1"), gradientEnd: Color("Gradient2")).scaledToFit()
             VStack {
                 Text(firstLineTitle)
-                    .padding(.top, firstTitleTopPadding)
                     .font(Font.custom("Comic Sans MS", size: titleFontSize))
                     .foregroundColor(Color("RegularText"))
                     .lineLimit(nil)
@@ -38,13 +37,13 @@ struct MessageFunction: View {
                         .lineLimit(nil)
                         .allowsTightening(true)
                 }
-                Spacer()
+                Spacer().frame(maxHeight: 15)
                 Text(description).padding(.bottom,descriptionBottomPadding)
                     .padding(.horizontal, descriptionHorizontalPadding)
                     .font(Font.custom("Comic Sans MS", size: textFontSize))
                     .foregroundColor(Color("RegularText"))
                     .allowsTightening(true)
-                    .lineLimit(nil)
+                    
             }
             
                 
@@ -55,6 +54,6 @@ struct MessageFunction: View {
 
 struct MessageFunction_Previews: PreviewProvider {
     static var previews: some View {
-        MessageFunction(firstLineTitle: "Trust", description: "A shared belief in the moral strength, character and reliability of each member of our community that results in feelings of mutual confidence and mutual respect.", titleFontSize: 33, textFontSize: 15, firstTitleTopPadding: 130, descriptionBottomPadding: 147, descriptionHorizontalPadding: 47)
+        MessageFunction(firstLineTitle: "Trust", description: "A shared belief in the moral strength, character and reliability of each member of our community that results in feelings of mutual confidence and mutual respect.", titleFontSize: 33, textFontSize: 15, firstTitleTopPadding: 130, descriptionBottomPadding: 30, descriptionHorizontalPadding: 50)
     }
 }

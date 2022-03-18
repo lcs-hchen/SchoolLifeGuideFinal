@@ -18,7 +18,7 @@ class AssessmentViewModel: ObservableObject {
 //    @Published var myColor: Color = Color(red: 255, green: 0, blue: 0)
     @Published var textToPresent: String = "aa"
     @Published var violationTimes = TimesOfViolation.First
-
+   
     // Color of the slider
     func getColor() -> Color { // This function just returns a color to where it is called
            switch complianceLevel {

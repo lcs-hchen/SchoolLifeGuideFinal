@@ -45,7 +45,7 @@ struct FAQScrollView: View {
             VStack {
                 
                 Text(question.answerText)
-                    .foregroundColor(.white)
+                    .foregroundColor(Color("FAQText"))
                     .font(.title3)
                     .bold()
                     .padding()
