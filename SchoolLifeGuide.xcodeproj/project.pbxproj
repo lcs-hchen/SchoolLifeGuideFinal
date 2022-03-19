@@ -258,7 +258,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C39ED2125A8EA0100DB7C73 /* Build configuration list for PBXProject "SchoolLifeGuideNew" */;
+			buildConfigurationList = 9C39ED2125A8EA0100DB7C73 /* Build configuration list for PBXProject "SchoolLifeGuide" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -468,7 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ca.chen.sihan.FavouriteThingsSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -490,14 +490,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ca.chen.sihan.FavouriteThingsSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C39ED2125A8EA0100DB7C73 /* Build configuration list for PBXProject "SchoolLifeGuideNew" */ = {
+		9C39ED2125A8EA0100DB7C73 /* Build configuration list for PBXProject "SchoolLifeGuide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C39ED3325A8EA0700DB7C73 /* Debug */,

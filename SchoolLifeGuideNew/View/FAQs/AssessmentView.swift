@@ -71,7 +71,7 @@ struct AssessmentView: View {
                         
                         accountabilityTexts.append(viewModel.getAlertMessage())
                     }.alert(isPresented: $showAlert) {
-                        Alert(title: Text("Accountability"), message:   Text(accountabilityText), dismissButton: .default(Text("Cancel")))
+                        Alert(title: Text("Accountability"), message:   Text(accountabilityText), dismissButton: .default(Text("OK")))
                         
                         
                         
@@ -92,7 +92,7 @@ struct AssessmentView: View {
                     ForEach(store.offences, id: \.self) { offence in
                         
                         
-                        if offence.levelOfCompliance <= 33 {
+                        if offence.levelOfCompliance >= 66 {
                             
                             
                             
@@ -112,22 +112,33 @@ struct AssessmentView: View {
                                     
                                 }
                             }
-                        } else if offence.levelOfCompliance <= 66 {
+                        } else if offence.levelOfCompliance >= 33 {
                             HStack {
                                 VStack {
                                     Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.yellow)
                                     Spacer()
                                 }
-                                Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is willing to cooperate to a degree.\n\n\(offence.getAlertMessage())").foregroundColor(.yellow)
+                                
+                                if !offence.areaOfViolation.isEmpty {
+                                    Text("\(Text(offence.areaOfViolation).bold().font(.title2))\n\n\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is willing to cooperate to a degree.\n\n\(offence.getAlertMessage())").foregroundColor(.yellow)
+                                } else {
+                                    Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is willing to cooperate to a degree.\n\n\(offence.getAlertMessage())").foregroundColor(.yellow)
+                                }
+                               
                             }
                             
-                        } else if offence.levelOfCompliance <= 101 {
+                        } else if offence.levelOfCompliance >= 0 {
                             HStack {
                                 VStack {
                                     Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.red)
                                     Spacer()
                                 }
-                                Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent demonstrates a passive attitude toward the incident.\n\n\(offence.getAlertMessage())").foregroundColor(.red)
+                                if !offence.areaOfViolation.isEmpty {
+                                    Text("\(Text(offence.areaOfViolation).bold().font(.title2))\n\n\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent demonstrates a passive attitude toward the incident.\n\n\(offence.getAlertMessage())").foregroundColor(.red)
+                                } else  {
+                                    Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent demonstrates a passive attitude toward the incident.\n\n\(offence.getAlertMessage())").foregroundColor(.red)
+                                }
+                               
                             }
                             
                         } else {
@@ -137,8 +148,13 @@ struct AssessmentView: View {
                                     Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.red)
                                     Spacer()
                                 }
-                                // accountability text redo
-                                Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent demonstrates a passive attitude toward the incident.\n\n\(offence.getAlertMessage())").foregroundColor(.red)
+                                
+                                if !offence.areaOfViolation.isEmpty {
+                                    Text("\(Text(offence.areaOfViolation).bold().font(.title2))\n\n\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent demonstrates a passive attitude toward the incident.\n\n\(offence.getAlertMessage())").foregroundColor(.red)
+                                } else {
+                                    Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent demonstrates a passive attitude toward the incident.\n\n\(offence.getAlertMessage())").foregroundColor(.red)
+                                }
+                               
                             }
                             
                         }
@@ -153,7 +169,7 @@ struct AssessmentView: View {
                             showingHistoryView = false
                         }
                     }
-                }
+                }.textCase(nil)
                 
                 
                 

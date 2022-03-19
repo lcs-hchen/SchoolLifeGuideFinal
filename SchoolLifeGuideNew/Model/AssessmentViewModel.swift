@@ -22,9 +22,9 @@ class AssessmentViewModel: ObservableObject {
     // Color of the slider
     func getColor() -> Color { // This function just returns a color to where it is called
            switch complianceLevel {
-           case 0...33: return Color.green
+           case 0...33: return Color.red
            case 33...66: return Color.orange
-           case 66...100: return Color.red
+           case 66...100: return Color.green
            default: return Color.blue
            }
        }

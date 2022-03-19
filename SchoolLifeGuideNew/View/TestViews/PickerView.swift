@@ -19,12 +19,11 @@ struct WheelPickerView: View {
         Picker(selection: $viewModel.theChosenOffence, label: Text("Offence").foregroundColor(.blue)) {
             
             
-            ForEach(self.incident.indices) { index in
-                Text(self.incident[index].rawValue).tag(incident[index])
+            ForEach(OffenceType.allCases) { offence in
+                Text(offence.rawValue).tag(offence)
             }
             
         }
-        
         
         
         
