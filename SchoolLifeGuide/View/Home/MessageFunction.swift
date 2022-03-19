@@ -63,7 +63,7 @@ struct MessageFunction: View {
                         // For longer titles, split one string into two
                         Spacer().frame(maxHeight: 12)
                         Text(description)
-                            .padding(.horizontal, geometry.size.width/6)
+                            .padding(.horizontal, geometry.size.width * 0.1674)
                             .font(Font.custom("Comic Sans MS", size: geometry.size.width/36*1.33))
                             .foregroundColor(Color("RegularText"))
                             .allowsTightening(true)
