@@ -57,7 +57,7 @@
 		9C28FAA125CB87CE007E82F4 /* MessageFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageFunction.swift; sourceTree = "<group>"; };
 		9C346AA025CA673500F42AEE /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		9C346AA325CA68C900F42AEE /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
-		9C39ED2625A8EA0100DB7C73 /* SchoolLifeGuideNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolLifeGuideNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C39ED2625A8EA0100DB7C73 /* SchoolLifeGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolLifeGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C39ED2925A8EA0100DB7C73 /* SchoolLifeGuideNewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolLifeGuideNewApp.swift; sourceTree = "<group>"; };
 		9C39ED2B25A8EA0100DB7C73 /* LifeGuideList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGuideList.swift; sourceTree = "<group>"; };
 		9C39ED2D25A8EA0700DB7C73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		9C39ED1D25A8EA0100DB7C73 = {
 			isa = PBXGroup;
 			children = (
-				9C39ED2825A8EA0100DB7C73 /* SchoolLifeGuideNew */,
+				9C39ED2825A8EA0100DB7C73 /* SchoolLifeGuide */,
 				9C39ED2725A8EA0100DB7C73 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,12 +118,12 @@
 		9C39ED2725A8EA0100DB7C73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C39ED2625A8EA0100DB7C73 /* SchoolLifeGuideNew.app */,
+				9C39ED2625A8EA0100DB7C73 /* SchoolLifeGuide.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C39ED2825A8EA0100DB7C73 /* SchoolLifeGuideNew */ = {
+		9C39ED2825A8EA0100DB7C73 /* SchoolLifeGuide */ = {
 			isa = PBXGroup;
 			children = (
 				9C39ED2925A8EA0100DB7C73 /* SchoolLifeGuideNewApp.swift */,
@@ -135,7 +135,7 @@
 				9C8BE7B525E18BA000ADD980 /* times-new-roman.ttf */,
 				9C28FA9E25CB61B6007E82F4 /* Comic Sans MS.ttf */,
 			);
-			path = SchoolLifeGuideNew;
+			path = SchoolLifeGuide;
 			sourceTree = "<group>";
 		};
 		9C39ED2F25A8EA0700DB7C73 /* Preview Content */ = {
@@ -227,9 +227,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C39ED2525A8EA0100DB7C73 /* SchoolLifeGuideNew */ = {
+		9C39ED2525A8EA0100DB7C73 /* SchoolLifeGuide */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C39ED3525A8EA0700DB7C73 /* Build configuration list for PBXNativeTarget "SchoolLifeGuideNew" */;
+			buildConfigurationList = 9C39ED3525A8EA0700DB7C73 /* Build configuration list for PBXNativeTarget "SchoolLifeGuide" */;
 			buildPhases = (
 				9C39ED2225A8EA0100DB7C73 /* Sources */,
 				9C39ED2325A8EA0100DB7C73 /* Frameworks */,
@@ -239,9 +239,9 @@
 			);
 			dependencies = (
 			);
-			name = SchoolLifeGuideNew;
+			name = SchoolLifeGuide;
 			productName = FavouriteThingsSwiftUI;
-			productReference = 9C39ED2625A8EA0100DB7C73 /* SchoolLifeGuideNew.app */;
+			productReference = 9C39ED2625A8EA0100DB7C73 /* SchoolLifeGuide.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -271,7 +271,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C39ED2525A8EA0100DB7C73 /* SchoolLifeGuideNew */,
+				9C39ED2525A8EA0100DB7C73 /* SchoolLifeGuide */,
 			);
 		};
 /* End PBXProject section */
@@ -456,10 +456,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SchoolLifeGuideNew/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SchoolLifeGuide/Preview Content\"";
 				DEVELOPMENT_TEAM = L68HFVA6QB;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SchoolLifeGuideNew/Info.plist;
+				INFOPLIST_FILE = SchoolLifeGuide/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -478,10 +478,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SchoolLifeGuideNew/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SchoolLifeGuide/Preview Content\"";
 				DEVELOPMENT_TEAM = L68HFVA6QB;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SchoolLifeGuideNew/Info.plist;
+				INFOPLIST_FILE = SchoolLifeGuide/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -506,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C39ED3525A8EA0700DB7C73 /* Build configuration list for PBXNativeTarget "SchoolLifeGuideNew" */ = {
+		9C39ED3525A8EA0700DB7C73 /* Build configuration list for PBXNativeTarget "SchoolLifeGuide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C39ED3625A8EA0700DB7C73 /* Debug */,
