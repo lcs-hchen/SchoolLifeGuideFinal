@@ -35,12 +35,12 @@
 	<true/>
 	<key>UILaunchScreen</key>
 	<dict>
+		<key>UIImageRespectsSafeAreaInsets</key>
+		<true/>
+		<key>UIImageName</key>
+		<string>LaunchImage</string>
 		<key>UIColorName</key>
 		<string>ListText</string>
-		<key>UIImageName</key>
-		<string>SchoolLifeGuideCover2021-2022</string>
-		<key>UIImageRespectsSafeAreaInsets</key>
-		<false/>
 	</dict>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
