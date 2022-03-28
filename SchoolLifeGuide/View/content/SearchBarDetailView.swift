@@ -34,7 +34,7 @@ struct SearchBarDetailView: View {
                         }
                         
                         if searchText != "" {
-                            Section(header: Text("SubTopics").foregroundColor(.white)) {
+                            Section(header: Text("SubTopics").foregroundColor(Color("RegularText"))) {
                                 
                                 ForEach(filter(searchText: searchText, list: fullList()), id: \.id) { input in
                                     NavigationLink(destination: LifeGuideDetailView(lifeGuide: input)) {
