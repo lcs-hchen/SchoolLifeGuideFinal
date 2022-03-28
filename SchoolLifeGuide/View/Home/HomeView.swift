@@ -68,7 +68,11 @@ struct HomeView: View {
                         Text("Assistant Head, Safety").foregroundColor(Color("RegularText"))
                             .font(.system(size: 14))
                             .multilineTextAlignment(.center)
-                        Text("Email: jrunza@lcs.on.ca")
+                        Group {
+                            Text("Email:")
+                            Text("*jrunza@lcs.on.ca*")
+                        }
+                       
                             .multilineTextAlignment(.center)
                             .foregroundColor(Color("RegularText"))
                             .accentColor(Color("Hyperlink"))
