@@ -71,7 +71,7 @@ struct HomeView: View {
                         Text("Email: jrunza@lcs.on.ca")
                             .multilineTextAlignment(.center)
                             .foregroundColor(Color("RegularText"))
-                            .accentColor(.green)
+                            .accentColor(Color("Hyperlink"))
                         
                     }
                 }.padding()
