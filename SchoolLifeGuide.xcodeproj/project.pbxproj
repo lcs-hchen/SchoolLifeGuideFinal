@@ -458,7 +458,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SchoolLifeGuide/Preview Content\"";
-				DEVELOPMENT_TEAM = L68HFVA6QB;
+				DEVELOPMENT_TEAM = 4UG443984D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SchoolLifeGuide/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -466,7 +466,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ca.chen.sihan.FavouriteThingsSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.on.lcs.SchoolLifeGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -481,7 +481,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SchoolLifeGuide/Preview Content\"";
-				DEVELOPMENT_TEAM = L68HFVA6QB;
+				DEVELOPMENT_TEAM = 4UG443984D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SchoolLifeGuide/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -489,7 +489,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ca.chen.sihan.FavouriteThingsSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.on.lcs.SchoolLifeGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
