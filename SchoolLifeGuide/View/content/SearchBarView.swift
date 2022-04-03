@@ -25,7 +25,7 @@ struct SearchBarView: View {
                 .onTapGesture {
                     self.isEditing = true
             }
-
+                .animation(.default)
                 .cornerRadius(10)
                 .overlay(
                     HStack {

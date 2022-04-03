@@ -1294,7 +1294,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
                             iii) encourage prevention through education.
                             """, systemImageName: "person.3.fill", imageName: "Support"),
                             
-                        LifeGuide(name: "Parley Policy", description: """
+                        LifeGuide(name: "Parley", description: """
                             One of the school’s primary responsibilities is to foster a community that allows for open and honest communication between all of its members. In order to do this the school embraces a “Parley Policy” which allows students to come forward voluntarily or to report their concern for another student who may need help. When a Parley is requested a student can rightly assume that no disciplinary measures will be invoked. The school, through the Health and Well-being Centre and other counselling support as required, will provide non-judgmental and unbiased support to the student in need. The Health and Well-being Centre staff will initiate an individualized support plan of action focusing specifically on the student’s immediate and long-term health needs. Services may include counselling within the school or referral to appropriate outside services. Intervention and counselling procedures may include the following:
                             i) intervention support strategies at the school level and local community level;
 

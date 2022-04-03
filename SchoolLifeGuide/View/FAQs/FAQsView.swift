@@ -22,8 +22,7 @@ struct FAQsView: View {
         UITableView.appearance().backgroundColor = .clear
         UITableViewCell.appearance().backgroundColor = .clear
         
-        return
-        VStack{
+        return VStack{
             Spacer()
             Form {
                 List(questions.list) { question in

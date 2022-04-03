@@ -7,14 +7,20 @@
 
 import SwiftUI
 
+
+
+
 struct LifeGuideDetailView: View {
     
-    let lifeGuide : LifeGuide
+    
+    
+    @State var lifeGuide : LifeGuide
     @State private var zoomed = false
     
     
+    
     var body: some View {
-       
+        
         ZStack {
             GradientBackground().edgesIgnoringSafeArea(.top)
             VStack {
@@ -42,7 +48,7 @@ struct LifeGuideDetailView: View {
                     
                     Text(lifeGuide.description).padding()
                         .fixedSize(horizontal: false, vertical: true).foregroundColor(Color("FAQText"))
-                        .lineSpacing(12.0)
+                        .lineSpacing(8)
                         .font(.body)
                     
                     
@@ -82,12 +88,12 @@ struct LifeGuideDetailView: View {
                     if lifeGuide.name == "Dress" {
                         Text("""
                 Community First and Student Voice
-
+                
                 Living and learning through relationships is a cornerstone of our community. Students and staff worked together to create a dress code that minimizes negative interactions, promotes healthy and positive relationships and enables students to feel comfortable and confident in their learning environment. In fact, staff are expected to adhere to the same standard of dress as students. Should a student have questions, concerns or ideas about the school dress code they are encouraged to engage in dialogue with any staff member to have their voice heard.
                 """)
                             .padding(.horizontal)
                             .padding(.bottom)
-                            .foregroundColor(.white)
+                            .foregroundColor(Color("FAQ Text"))
                             .fixedSize(horizontal: false, vertical: true)
                             .lineSpacing(12.0)
                             .font(.body)
@@ -100,11 +106,11 @@ struct LifeGuideDetailView: View {
                 
             }
         }
-                
-          
-           
-            
-            
+        
+        
+        
+        
+        
         
     }
     
@@ -120,5 +126,16 @@ struct LifeGuideDetailView_Previews: PreviewProvider {
             LifeGuideDetailView(lifeGuide: LifeGuides.example)
         }
         
+    }
+}
+
+
+
+extension View {
+    
+    func hasScrollEnabled(_ value: Bool) -> some View {
+        self.onAppear {
+            UITableView.appearance().isScrollEnabled = value
+        }
     }
 }

@@ -16,8 +16,7 @@ struct SearchBarDetailView: View {
         UITableView.appearance().backgroundColor = .clear
         UITableViewCell.appearance().backgroundColor = .clear
         
-        return
-        VStack {
+        return VStack {
             SearchBarView(text: $searchText)
             Form {
                 List {

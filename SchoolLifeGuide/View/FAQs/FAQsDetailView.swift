@@ -42,18 +42,16 @@ struct FAQScrollView: View {
         
         ScrollView(.vertical) {
             
-            VStack {
                 
                 Text(question.answerText)
                     .foregroundColor(Color("FAQText"))
-                    .font(.title3)
-                    .bold()
                     .padding()
                     .navigationTitle(question.detailViewTitle)
+                    .lineSpacing(8)
                 
-            }
             
-        }
+            
+        }.textSelection(.enabled)
         
     }
 }
