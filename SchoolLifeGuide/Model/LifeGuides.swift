@@ -24,7 +24,7 @@ struct LifeGuides {
     // Terms and definitions of the school life guide goes here
     init() {
         
-        list.append(LifeGuide(name: "The School Program", description: "Daily Schedule", imageName: "SchoolProgramIcon", subTopics: [
+        list.append(LifeGuide(name: "The School Program", description: "", imageName: "SchoolProgramIcon", subTopics: [
             
             LifeGuide(name: "Daily Schedule", description: "* Breakfast — Students must sign in before the following times (no entry into the Dining Hall after 8:25 a.m.):\n\nMonday, Tuesday, Thursday, Friday:\n     Grades 9 and 10 — before 8:00 a.m.\n     Grade 11 — before 8:10 a.m. \n     Grade 12 — before 8:20 a.m.\n\nWednesdays & Saturdays:\n     Grades 9 and 10 — before 9:10 a.m.\n     Grades 11 and 12 — before 9:30 a.m.\n\n**Grade 12 students may study in their residence or in the library with permission. All students must obtain permission from their respective residential staff on duty in order to study in another residence. If on campus during study, day students must remain in the library. Day students may study in a residence only if permission has been granted by the residential staff on duty in that residence. Friday Study ends at 9:00 p.m. Day students should be off campus by 8:00 p.m. on Sundays.\n\n† The Classroom block is cleared and becomes out of bounds on 9:45 p.m. on weekdays, 7:00 p.m. on Saturday evenings and 8:00 p.m. Sunday evenings.\n\n†† Grade 12 students who have had leave and returned to campus prior to 12:00 a.m. must check in with their residential staff on duty immediately upon their return to campus.",systemImageName: "calendar", imageName: "SchoolDailySchedule"),
             
@@ -234,7 +234,7 @@ On Clean Casual days, students make a donation to a school-selected charity in r
 
 ]))
     
-        list.append(LifeGuide(name: "Student Life", description: "", imageName: "LakefieldSigil", subTopics: [
+        list.append(LifeGuide(name: "Student Life", description: "", imageName: "StudentLife", subTopics: [
         
             LifeGuide(name: "Dining Hall", description: """
                 The Dining Hall may be open for student and staff use during the day and evening.

@@ -37,9 +37,9 @@ struct LifeGuide: Identifiable, Comparable {
         case "Accountability for being Late for Class":
             return "Late Accountability"
         case "Accountability for Unexcused Absences for Class":
-            return "Absence Accountability"
+            return "Accountabilities"
         case "Unexcused Absence from Co-curriculars":
-            return "Co-curricular Absences"
+            return "CoCurricular Absence"
         case "Off Campus Food Ordering":
             return "Food Ordering"
         case "Overnight Stays on Campus":
@@ -104,11 +104,11 @@ struct LifeGuide: Identifiable, Comparable {
         case "Closed House Violations":
             return "Closed House"
         case "Inappropriate Visitation in Common/Public Areas":
-            return "Inappropriate Visitation"
+            return "Inappropriate Visit"
         case "What is Sexual Harassment?":
             return "Sexual Harassment"
         case "What is not Sexual Harassment?":
-            return "Not Sexual Harassment"
+            return "Not Harassment"
         case "Reporting Bullying, Cyberbullying and Harassment":
             return "Reporting Harassment"
         case "Reporting Sexual Misconduct":
@@ -173,6 +173,12 @@ struct LifeGuide: Identifiable, Comparable {
             return "Values"
         case "What is a Poisoned Environment?":
             return "Poisoned Environment"
+        case "Chapel for Day Students":
+            return "Day Student Chapel"
+        case "What is Sexual Assault?":
+            return "Sexual Assault"
+        case "How to Request a Parley":
+            return "Requesting Parley"
         default:
             return name
         }
