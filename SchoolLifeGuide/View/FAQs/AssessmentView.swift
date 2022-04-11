@@ -98,7 +98,7 @@ struct AssessmentView: View {
                             
                             HStack {
                                 VStack {
-                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.green).bold()
+                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.green).bold().font(.title2)
                                     Spacer()
                                 }
                                 
@@ -115,7 +115,7 @@ struct AssessmentView: View {
                         } else if offence.levelOfCompliance >= 33 {
                             HStack {
                                 VStack {
-                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.yellow).bold()
+                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.yellow).bold().font(.title2)
                                     Spacer()
                                 }
                                 
@@ -130,7 +130,7 @@ struct AssessmentView: View {
                         } else if offence.levelOfCompliance >= 0 {
                             HStack {
                                 VStack {
-                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.red).bold()
+                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.red).bold().font(.title2)
                                     Spacer()
                                 }
                                 if !offence.areaOfViolation.isEmpty {
@@ -145,7 +145,7 @@ struct AssessmentView: View {
                             HStack {
                                 
                                 VStack {
-                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.red).bold()
+                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.red).bold().font(.title2)
                                     Spacer()
                                 }
                                 
