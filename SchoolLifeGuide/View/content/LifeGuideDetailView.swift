@@ -93,7 +93,7 @@ struct LifeGuideDetailView: View {
                 """)
                             .padding(.horizontal)
                             .padding(.bottom)
-                            .foregroundColor(Color("FAQ Text"))
+                            .foregroundColor(Color("FAQText"))
                             .fixedSize(horizontal: false, vertical: true)
                             .lineSpacing(12.0)
                             .font(.body)
