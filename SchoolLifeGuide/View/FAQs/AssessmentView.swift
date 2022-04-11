@@ -98,7 +98,7 @@ struct AssessmentView: View {
                             
                             HStack {
                                 VStack {
-                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.green)
+                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.green).bold()
                                     Spacer()
                                 }
                                 
@@ -107,7 +107,7 @@ struct AssessmentView: View {
                                     if !offence.areaOfViolation.isEmpty {
                                         Text("\(Text(offence.areaOfViolation).bold().font(.title2))\n\n\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is very forthright about their actions.\n\n\(offence.getAlertMessage())").foregroundColor(.green)
                                     } else {
-                                        Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is very forthright about their actions.\n\n\(offence.getAlertMessage())").foregroundColor(.green)
+                                        Text("\(Text("No description given").bold().font(.title2))\n\n\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is very forthright about their actions.\n\n\(offence.getAlertMessage())").foregroundColor(.green)
                                     }
                                     
                                 }
@@ -115,14 +115,14 @@ struct AssessmentView: View {
                         } else if offence.levelOfCompliance >= 33 {
                             HStack {
                                 VStack {
-                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.yellow)
+                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.yellow).bold()
                                     Spacer()
                                 }
                                 
                                 if !offence.areaOfViolation.isEmpty {
                                     Text("\(Text(offence.areaOfViolation).bold().font(.title2))\n\n\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is willing to cooperate to a degree.\n\n\(offence.getAlertMessage())").foregroundColor(.yellow)
                                 } else {
-                                    Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is willing to cooperate to a degree.\n\n\(offence.getAlertMessage())").foregroundColor(.yellow)
+                                    Text("\(Text("No description given").bold().font(.title2))\n\n\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent is willing to cooperate to a degree.\n\n\(offence.getAlertMessage())").foregroundColor(.yellow)
                                 }
                                
                             }
@@ -130,13 +130,13 @@ struct AssessmentView: View {
                         } else if offence.levelOfCompliance >= 0 {
                             HStack {
                                 VStack {
-                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.red)
+                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.red).bold()
                                     Spacer()
                                 }
                                 if !offence.areaOfViolation.isEmpty {
                                     Text("\(Text(offence.areaOfViolation).bold().font(.title2))\n\n\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent demonstrates a passive attitude toward the incident.\n\n\(offence.getAlertMessage())").foregroundColor(.red)
                                 } else  {
-                                    Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent demonstrates a passive attitude toward the incident.\n\n\(offence.getAlertMessage())").foregroundColor(.red)
+                                    Text("\(Text("No description given").bold().font(.title2))\n\n\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent demonstrates a passive attitude toward the incident.\n\n\(offence.getAlertMessage())").foregroundColor(.red)
                                 }
                                
                             }
@@ -145,14 +145,14 @@ struct AssessmentView: View {
                             HStack {
                                 
                                 VStack {
-                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.red)
+                                    Text(String(store.offences.firstIndex(of: offence)!+1)+".").foregroundColor(.red).bold()
                                     Spacer()
                                 }
                                 
                                 if !offence.areaOfViolation.isEmpty {
                                     Text("\(Text(offence.areaOfViolation).bold().font(.title2))\n\n\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent demonstrates a passive attitude toward the incident.\n\n\(offence.getAlertMessage())").foregroundColor(.red)
                                 } else {
-                                    Text("\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent demonstrates a passive attitude toward the incident.\n\n\(offence.getAlertMessage())").foregroundColor(.red)
+                                    Text("\(Text("No description given").bold().font(.title2))\n\n\(offence.timesOfViolation.rawValue) time \(offence.offenceType.rawValue) \n\nStudent demonstrates a passive attitude toward the incident.\n\n\(offence.getAlertMessage())").foregroundColor(.red)
                                 }
                                
                             }
