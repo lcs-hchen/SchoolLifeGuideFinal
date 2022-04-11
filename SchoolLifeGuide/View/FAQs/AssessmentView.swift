@@ -70,7 +70,9 @@ struct AssessmentView: View {
                         
                         
                         accountabilityTexts.append(viewModel.getAlertMessage())
-                    }.alert(isPresented: $showAlert) {
+                    }
+                    .disabled(viewModel.complianceLevel == 0)
+                    .alert(isPresented: $showAlert) {
                         Alert(title: Text("Accountability"), message:   Text(accountabilityText), dismissButton: .default(Text("OK")))
                         
                         
