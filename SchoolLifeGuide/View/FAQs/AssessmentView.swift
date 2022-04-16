@@ -17,7 +17,7 @@ struct AssessmentView: View {
     @ObservedObject var store: Offences
     @State var delete: [Offence] = []
     @State var accountabilityTexts: [String] = []
-    
+    @FocusState private var descriptionIsFocused: Bool
     var body: some View {
         UITableView.appearance().backgroundColor = .clear
         UITableViewCell.appearance().backgroundColor = .clear
@@ -27,7 +27,7 @@ struct AssessmentView: View {
                 Group {
                     Section {
                         
-                        TextField("Description", text: $viewModel.description)
+                        TextField("Description", text: $viewModel.description).focused($descriptionIsFocused)
                         WheelPickerView(viewModel: viewModel)
                         
                         Picker("Violation Times", selection: $viewModel.violationTimes) {
@@ -179,6 +179,9 @@ struct AssessmentView: View {
                 
             }
         }
+        .onTapGesture(perform: {
+            descriptionIsFocused = false
+        })
         
         
         
