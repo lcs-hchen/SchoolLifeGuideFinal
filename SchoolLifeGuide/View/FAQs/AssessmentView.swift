@@ -62,8 +62,10 @@ struct AssessmentView: View {
                 
                 
                 
+                
                 Group {
                     Button("Get Result") {
+                        descriptionIsFocused = false
                         accountabilityText = viewModel.getAlertMessage()
                         showAlert = true
                         store.offences.append(Offence(areaOfViolation: viewModel.description, offenceType: viewModel.theChosenOffence, timesOfViolation: viewModel.violationTimes, levelOfCompliance: viewModel.complianceLevel))
@@ -179,9 +181,7 @@ struct AssessmentView: View {
                 
             }
         }
-        .onTapGesture(perform: {
-            descriptionIsFocused = false
-        })
+
         
         
         
