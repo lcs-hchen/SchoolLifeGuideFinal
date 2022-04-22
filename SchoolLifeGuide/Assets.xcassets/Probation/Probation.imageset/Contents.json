@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "Probation@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Probation@3x.png",
+      "filename" : "Probation.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

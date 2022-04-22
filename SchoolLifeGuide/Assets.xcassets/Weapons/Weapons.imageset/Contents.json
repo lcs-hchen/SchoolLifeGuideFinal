@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "Weapons@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Weapons@3x.png",
+      "filename" : "Weapons.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

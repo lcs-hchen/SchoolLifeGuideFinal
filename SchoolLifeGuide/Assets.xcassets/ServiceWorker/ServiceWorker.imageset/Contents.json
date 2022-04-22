@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "ServiceWorker@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "ServiceWorker@3x.png",
+      "filename" : "ServiceWorker.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

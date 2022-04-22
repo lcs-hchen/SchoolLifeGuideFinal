@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "SearchHouseIcon@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "SearchHouseIcon@3x.png",
+      "filename" : "SearchHouseIcon.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

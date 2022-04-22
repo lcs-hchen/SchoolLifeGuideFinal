@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "RollerBlade@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "RollerBlade@3x.png",
+      "filename" : "RollerBlade.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

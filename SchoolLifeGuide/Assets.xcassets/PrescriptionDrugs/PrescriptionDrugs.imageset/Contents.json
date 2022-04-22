@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "PrescriptionDrugs@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "PrescriptionDrugs@3x.png",
+      "filename" : "PrescriptionDrugs.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

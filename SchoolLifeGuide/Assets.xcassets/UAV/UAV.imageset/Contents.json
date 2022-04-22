@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "UAV@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "UAV@3x.png",
+      "filename" : "UAV.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
