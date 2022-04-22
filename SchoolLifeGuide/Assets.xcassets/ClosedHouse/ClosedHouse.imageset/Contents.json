@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "ClosedHouse@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "ClosedHouse@3x.png",
+      "filename" : "ClosedHouse.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

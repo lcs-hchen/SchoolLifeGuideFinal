@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "CurfewIcon@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "CurfewIcon@3x.png",
+      "filename" : "CurfewIcon.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

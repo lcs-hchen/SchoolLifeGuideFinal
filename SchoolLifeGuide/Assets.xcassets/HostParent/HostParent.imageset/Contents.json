@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "HostParent@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "HostParent@3x.png",
+      "filename" : "HostParent.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

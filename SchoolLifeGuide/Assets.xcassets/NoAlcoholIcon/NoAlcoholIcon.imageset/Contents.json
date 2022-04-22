@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "NoAlcoholIcon@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "NoAlcoholIcon@3x.png",
+      "filename" : "NoAlcoholIcon.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

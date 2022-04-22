@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "Harassment@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Harassment@3x.png",
+      "filename" : "Harassment.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

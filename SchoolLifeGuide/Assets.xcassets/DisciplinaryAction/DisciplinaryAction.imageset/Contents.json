@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "DisciplinaryAction@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "DisciplinaryAction@3x.png",
+      "filename" : "DisciplinaryAction.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

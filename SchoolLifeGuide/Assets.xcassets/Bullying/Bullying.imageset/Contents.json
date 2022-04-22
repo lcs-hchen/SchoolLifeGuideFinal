@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "Bullying@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Bullying@3x.png",
+      "filename" : "Bullying.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

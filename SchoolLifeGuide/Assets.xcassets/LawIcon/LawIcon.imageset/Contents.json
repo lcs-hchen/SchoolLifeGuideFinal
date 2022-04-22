@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "LawIcon@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "LawIcon@3x.png",
+      "filename" : "LawIcon.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

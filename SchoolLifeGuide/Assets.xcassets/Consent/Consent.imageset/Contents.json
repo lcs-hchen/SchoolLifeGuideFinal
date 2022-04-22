@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "Consent@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Consent@3x.png",
+      "filename" : "Consent.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

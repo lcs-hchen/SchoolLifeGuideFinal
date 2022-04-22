@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "DamagedProperty@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "DamagedProperty@3x.png",
+      "filename" : "DamagedProperty.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

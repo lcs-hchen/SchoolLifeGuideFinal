@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "Leadership@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Leadership@3x.png",
+      "filename" : "Leadership.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

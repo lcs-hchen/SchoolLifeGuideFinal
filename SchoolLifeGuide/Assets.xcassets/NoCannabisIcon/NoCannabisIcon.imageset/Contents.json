@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "NoCannabisIcon@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "NoCannabisIcon@3x.png",
+      "filename" : "NoCannabisIcon.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

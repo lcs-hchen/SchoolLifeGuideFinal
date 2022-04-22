@@ -5,12 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "IncidentReporting@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "IncidentReporting@3x.png",
+      "filename" : "IncidentReporting.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
